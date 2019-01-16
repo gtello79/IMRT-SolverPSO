@@ -38,7 +38,12 @@ namespace imrt{
         void calculateFitness();
         //Function for update Pbest
         void updatePosition();
+
         void updatePbest(Plan& New);
+
+        Plan GetPbest();
+
+        Plan GetPCurrent();
 
 
   };

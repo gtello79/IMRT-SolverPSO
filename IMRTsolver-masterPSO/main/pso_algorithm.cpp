@@ -19,13 +19,13 @@ void calculateFitness(vector <Particle> solution, Particle *best){
 
 }
 */
-void searchGlobal(vector<Particle*> &solution, int size){
+void searchGlobal(vector<Particle> &solution, int size){
 	int i = 0;
-	Particle *aux = solution.begin();
-	BGlobal->newCopy(solution[0]->PBest);
+	Particle aux = solution[0];
+	BGlobal->newCopy(aux.GetPCurrent());
 	for (int i = 0 ; i < size;i++){
 		if ((solution[i])->PBest.eval() < BGlobal->eval()){
-			BGlobal->newCopy(solution[i]->PBest)
+			BGlobal->newCopy(solution[i].GetPbest())
 		}
 	}
 }
@@ -35,7 +35,7 @@ int main(){
 	int size;
 	int max_iter = 3;
 	int _type_ = 1;
-	vector <Particle*> solution[size] ;//inicializar con parametro sizeB
+	vector <Particle> solution[size] ;//inicializar con parametro sizeB
 
 	//Formation of the particle set
 	for(i = 0; i < 5; i++){

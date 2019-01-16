@@ -8,8 +8,6 @@ namespace imrt{
 
 	Particle::Particle(Plan& P){
         Pcurrent.newCopy(P);
-	    
-
 		w = 1;
 		c1 = 1;
 		c2 = 1;
@@ -41,5 +39,10 @@ namespace imrt{
 	void Particle::updatePosition(){
 		Pcurrent.updatePosition();
 	}
-
+	Plan Particle::GetPCurrent(){
+		return Pcurrent;
+	};
+	Plan Particle::GetPbest(){
+		return PBest;
+	};
 }
