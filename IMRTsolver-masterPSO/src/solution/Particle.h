@@ -41,9 +41,9 @@ namespace imrt{
 
         void updatePbest(Plan& New);
 
-        Plan GetPbest();
+        Plan& GetPbest();
 
-        Plan GetPCurrent();
+        Plan& GetPCurrent();
 
 
   };

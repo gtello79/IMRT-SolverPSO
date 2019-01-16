@@ -1,5 +1,5 @@
-#include "iostream"
-#include "vector"
+#include <iostream>
+#include <vector>
 #include "Particle.h"
 #include "Plan.h"
 
@@ -21,11 +21,11 @@ void calculateFitness(vector <Particle> solution, Particle *best){
 */
 void searchGlobal(vector<Particle> &solution, int size){
 	int i = 0;
-	Particle aux = solution[0];
-	BGlobal->newCopy(aux.GetPCurrent());
+	Particle* aux = &solution[0];
+	BGlobal->newCopy(aux->GetPCurrent());
 	for (int i = 0 ; i < size;i++){
-		if ((solution[i])->PBest.eval() < BGlobal->eval()){
-			BGlobal->newCopy(solution[i].GetPbest())
+		if ((solution[i]).PBest.eval() < BGlobal->eval()){
+			BGlobal->newCopy(aux->GetPbest())
 		}
 	}
 }

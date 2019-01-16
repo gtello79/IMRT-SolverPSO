@@ -39,10 +39,10 @@ namespace imrt{
 	void Particle::updatePosition(){
 		Pcurrent.updatePosition();
 	}
-	Plan Particle::GetPCurrent(){
+	Plan& Particle::GetPCurrent(){
 		return Pcurrent;
 	};
-	Plan Particle::GetPbest(){
+	Plan& Particle::GetPbest(){
 		return PBest;
 	};
 }
