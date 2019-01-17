@@ -15,19 +15,7 @@
 using namespace std;
 using namespace imrt;
 
-Plan *BGlobal; //No se si esta correcto...
 
-/*
-void calculateFitness(vector <Particle> solution, Particle *best){
-	for (int i = 0; i < 5; i++)
-	{
-		Particle P = solution[i];
-		P.calculateVelocityUpdate();
-
-	Plan }
-
-}
-*/
 set<int> get_angles(string file, int n){
   ifstream _file(file.c_str(), ios::in);
   string line;
@@ -80,21 +68,23 @@ vector<Volume> createVolumes (string organ_filename, Collimator& collimator){
     volumes.push_back(Volume(collimator, organ_files[i]));
 
   return(volumes);
-}
+};
 
-void searchGlobal(vector<Particle> &solution, int size){
+
+void searchGlobal(vector<Particle> &solution, int size, Plan &BGlobal){
 	int i = 0;
-	Particle* aux = &solution[0];
-	BGlobal->newCopy(aux->GetPCurrent());
-	for (int i = 0 ; i < size;i++){
-		if ((solution[i].GetPbest()).eval() < BGlobal->eval()){
-			BGlobal->newCopy(aux->GetPbest());
+
+	BGlobal.newCopy(solution[0].GetPCurrent());
+	for (int i = 1 ; i < size;i++){
+		if ((solution[i].GetPbest()).eval() < BGlobal.eval()){
+			BGlobal.newCopy(solution[i].GetPbest());
 		};
 	}
 }
 
 int main(){
 	int i; 
+	int n = 1;
 	int size=5;
 	int max_iter = 3;
 	int _type_ = 1;
@@ -125,34 +115,40 @@ int main(){
 	Collimator collimator(file2, get_angles(file, 5));
   	vector<Volume> volumes= createVolumes (file, collimator);
 	
+	Plan *BGlobal; //No se si esta correcto...
+	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 4);
+	
 	//Formation of the particle set
-	for(i = 0; i < 5; i++){
-		//Agregar condiciones nueva para generar un plan
+	for(i = 0; i < 5; i++)
+	{	//Agregar condiciones nueva para generar un plan
 		Plan ADD(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 4);
-cout << 1 << endl;
+		cout << n << endl;
         solution.push_back(Particle(ADD));
-cout << 2 << endl;
-		if(solution[i].GetPCurrent().eval() < solution[i].GetPbest().eval()){
+		if(solution[i].GetPCurrent().eval() < solution[i].GetPbest().eval())
+		{
 			solution[i].setbfitness(solution[i].Getfitness());
-			solution[i].updatePbest(solution[i].GetPCurrent()); // nueva.bestglobal
-			//BGlobal = newCopy(nueva.solucion);
+			solution[i].updatePbest(solution[i].GetPCurrent()); 
 		};
+		n++;
 	}
-	searchGlobal(solution, size);
+	cout << "###Particles Created" <<endl;
+	searchGlobal(solution, size, *BGlobal);
 
 	//for e iteracionces
-	for(i=0 ; i!= max_iter; i++){
-		for(i = 0; i<5; i++){
-
+	for(i=0 ; i!= max_iter; i++)
+	{
+		for(i = 0; i<5; i++)
+		{
+			cout<<"ITERACION DE CONTROL #####################" << endl;
 			(solution[i]).Velocityupdate(*BGlobal, _type_,1,1,1,1,1);
 			solution[i].updatePosition();
 			solution[i].calculateFitness(); 	//Una funcion que calcule los fitness y lo asigna
-			if(solution[i].Getfitness() < solution[i].GetPbest().eval()){
+			if(solution[i].Getfitness() < solution[i].GetPbest().eval())
+			{
 				solution[i].setbfitness(solution[i].Getfitness());
-				//Que es nueva?
 				solution[i].updatePbest(solution[i].GetPCurrent());
 			}
-			searchGlobal(solution, size);
+			searchGlobal(solution, size, *BGlobal);
 		}
 	}
 	return 0;
