@@ -273,8 +273,7 @@ int main(int argc, char** argv){
   vector<Volume> volumes= createVolumes (file, collimator);
 
   Plan P(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
-
-  double best_eval = P.gPlan P(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);etEvaluation();
+  double best_eval=P.getEvaluation();
 
   cout << "##" << endl << "##**************************************************************************"<< endl;
   cout << "##*********************************** INFO *********************************"<< endl;

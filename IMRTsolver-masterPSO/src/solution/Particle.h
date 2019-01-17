@@ -22,8 +22,8 @@ namespace imrt{
       int w;
       int c1; //FACTOR PERSONAL POR AHORA FIJO, DESPUES POR PARAMETRO
       int c2; //FACTOR GLOBAL, POR AHORA FIJO LUEGO POR PARAMETRO
-      int fitness;
-      int bfitness;
+      int fitness; //EVALUATION OF PCURRENT
+      int bfitness; //EVALUATION OF PBEST;
       int r1;
       int r2;
       Plan PBest; //BEST GLOBAL VALUE
@@ -32,6 +32,8 @@ namespace imrt{
     public:
   	    //Builder of Particle class
   	    Particle(Plan& P);
+
+        Particle();
   	    //Function with the process for calculate the velocity of the particle using the stations
         void Velocityupdate(Plan &GBest, int type, int w, int c1, int c2, int r1, int r2);
         //Function for calculate the position of the solution using PSO
@@ -44,6 +46,10 @@ namespace imrt{
         Plan& GetPbest();
 
         Plan& GetPCurrent();
+
+        int Getfitness();
+
+        void setbfitness(int insert);
 
 
   };
