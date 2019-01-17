@@ -135,12 +135,12 @@ int main(){
 	searchGlobal(solution, size, *BGlobal);
 
 	//for e iteracionces
-	for(i=0 ; i!= max_iter; i++)
+	for(int j=0 ; j!= max_iter; j++)
 	{
 		for(i = 0; i<5; i++)
 		{
-			cout<<"ITERACION DE CONTROL #####################" << endl;
 			(solution[i]).Velocityupdate(*BGlobal, _type_,1,1,1,1,1);
+			cout<<"ITERACION DE CONTROL #####################" << endl;
 			solution[i].updatePosition();
 			solution[i].calculateFitness(); 	//Una funcion que calcule los fitness y lo asigna
 			if(solution[i].Getfitness() < solution[i].GetPbest().eval())

@@ -175,34 +175,22 @@ namespace imrt {
   	}
 
   }
-  /*void calculateVelocityupdate(plan &global, plan PBest){
-    int i=0, j=0, index = 0;
-    List aux;
-    stations pivote;
-    aux = this.get_stations();
-    for (list<Station*>::const_iterator it=aux.begin();it!=aux.end();it++) {
-      MatrixI = get_intensity();
-      MatrixV = getVelocity();
-      Matrix NuevaVel, NuevaPos;
-      for(i=0;i<MatrixI.length;i++){
-        for(j=0;j<MatrixI.length;j++){
-            NuevaVel[i][j] = w*MatrixV[i][j] + ((P.c1 * P.r1)*(PBest[i][j]-MatrixI[i][j])) + ((P.c2 * P.r2)*(GBest[i][j] - MatrixI[i][j]))
-        }
-      }
-      index++;
-      setVelocity(NuevaVel);
-    }
-  }*/
+  
   void Plan::updatePosition(){
+    
     list <Station*> aux;
     aux = get_stations();
     Matrix MatrixI, MatrixV, NuevaPos;
+    
     for (list<Station*>::const_iterator it=aux.begin(); it!=aux.end() ;it++) {
       MatrixI = (*it)->get_Intensity();
       MatrixV = (*it)->get_Velocity();
+      Matrix NuevaPos(MatrixI.nb_rows(),MatrixI.nb_cols());
       NuevaPos = MatrixI + MatrixV;
+      cout<<"here it's ok"<<endl;
       (*it)->set_Intensity(NuevaPos);
-    }
+      
+    };
   }
 
   void Plan::updateVelocity(Plan *Bglobal, Plan *Pbest, Plan *current, int w, int c1, int c2, int r1, int r2){
@@ -218,13 +206,9 @@ namespace imrt {
       VCurrent = &auxCurrent->get_Velocity();
 
       IGlobal = &auxGlobal->get_Intensity();
-      //VGlobal = auxGlobal->get_Velocity();
-
       IBest = &auxBest->get_Intensity();
-      //VBest = auxBest->get_Velocity();
-
+      
       *VCurrent = w* *VCurrent + c1*r1*(*IBest - *ICurrent) + c2*r2*(*IGlobal - *ICurrent);
-      //auxCurrent->set_Velocity(NuevaVel);
     }
   }
 }
