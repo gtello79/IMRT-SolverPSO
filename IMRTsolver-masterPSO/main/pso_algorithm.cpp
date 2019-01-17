@@ -1,11 +1,16 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <iterator>
+#include <set>
+#include <unistd.h>
+
 #include "Particle.h"
 #include "Plan.h"
 #include "Collimator.h"
 #include "Volume.h"
 #include "EvaluationFunction.h"
+#include "args.hxx"
 
 using namespace std;
 using namespace imrt;

@@ -129,7 +129,7 @@ int main(int argc, char** argv){
   args::ValueFlag<string> _strategy(parser, "string", "Strategy  (dao_ls|ibo_ls)", {'s', "strategy"});
 	args::ValueFlag<int> _bsize(parser, "int", "Number of considered beamlets for selection ("+to_string(bsize)+")", {"bsize"});
 	args::ValueFlag<int> _vsize(parser, "int", "Number of considered worst voxels ("+to_string(vsize)+")", {"vsize"});
- // args::ValueFlag<int> _int0(parser, "int", "Initial intensity for beams  ("+to_string(int0)+")", {"int0"});
+  // args::ValueFlag<int> _int0(parser, "int", "Initial intensity for beams  ("+to_string(int0)+")", {"int0"});
   args::ValueFlag<int> _maxdelta(parser, "int", "Max delta  ("+to_string(maxdelta)+")", {"maxdelta"});
   args::ValueFlag<int> _maxratio(parser, "int", "Max ratio  ("+to_string(maxratio)+")", {"maxratio"});
   args::ValueFlag<double> _alpha(parser, "double", "Initial temperature for intensities  ("+to_string(alpha)+")", {"alpha"});
@@ -215,8 +215,8 @@ int main(int argc, char** argv){
   if(_prob_intensity) prob_intensity=_prob_intensity.Get();
   if(_temperature) temperature=initial_temperature=_temperature.Get();
   if(_alphaT) alphaT=_alphaT.Get();
-  if (ls_aperture) search_aperture=true;
-  if (ls_intensity) search_intensity=true;
+  if(ls_aperture) search_aperture=true;
+  if(ls_intensity) search_intensity=true;
   if(!ls_aperture && !ls_intensity){
     search_aperture=true;
     search_intensity=true;
@@ -273,6 +273,7 @@ int main(int argc, char** argv){
   vector<Volume> volumes= createVolumes (file, collimator);
 
   Plan P(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
+
   double best_eval=P.getEvaluation();
 
   cout << "##" << endl << "##**************************************************************************"<< endl;
@@ -352,7 +353,7 @@ int main(int argc, char** argv){
   cout << "## Best solution found: " <<  P.getEvaluation() << endl;
   cout <<  P.getEvaluation() << " ";
 
-  const list<Station*> stations = P.get_stations();
+  const list<Station*> stations=P.get_stations();
 
   int tot_alpha=0;
   for(auto s:stations){
