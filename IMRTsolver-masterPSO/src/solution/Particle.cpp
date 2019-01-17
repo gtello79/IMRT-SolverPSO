@@ -6,8 +6,7 @@ using namespace std;
 
 namespace imrt{
 
-	Particle::Particle(Plan& P){
-        Pcurrent.newCopy(P);
+	Particle::Particle(Plan& P) : Pcurrent(P), PBest(P) {
 		w = 1;
 		c1 = 1;
 		c2 = 1;
@@ -15,7 +14,6 @@ namespace imrt{
 		r2 = 1;
 		calculateFitness();
 		bfitness = 99999999;
-		PBest.newCopy(P);; //colocar new o no?
 	};
 	void Particle::Velocityupdate(Plan &GBest, int type, int w, int c1, int c2, int r1, int r2){
 		if(type == 1){

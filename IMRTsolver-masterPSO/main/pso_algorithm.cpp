@@ -90,7 +90,7 @@ void searchGlobal(vector<Particle> &solution, int size){
 
 int main(){
 	int i; 
-	int size;
+	int size=5;
 	int max_iter = 3;
 	int _type_ = 1;
 	int vsize=50;
@@ -113,7 +113,7 @@ int main(){
   	int initial_setup;
 
 
-	vector <Particle> solution[size] ;//inicializar con parametro sizeB
+	vector <Particle> solution ;//inicializar con parametro sizeB
 	vector<double> w={1,1,1};
   	vector<double> Zmin={0,0,76};
   	vector<double> Zmax={65,60,1000};
@@ -124,30 +124,30 @@ int main(){
 	for(i = 0; i < 5; i++){
 		//Agregar condiciones nueva para generar un plan
 		Plan ADD(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 4);
-
-		Particle* nueva_part = new Particle(ADD);
-		if(nueva_part->GetPCurrent().eval() < nueva_part->GetPbest().eval()){
-			nueva_part->setbfitness(nueva_part->Getfitness());
-			nueva_part->updatePbest(nueva_part->GetPCurrent()); // nueva.bestglobal
+cout << 1 << endl;
+        solution.push_back(Particle(ADD));
+cout << 2 << endl;
+		if(solution[i].GetPCurrent().eval() < solution[i].GetPbest().eval()){
+			solution[i].setbfitness(solution[i].Getfitness());
+			solution[i].updatePbest(solution[i].GetPCurrent()); // nueva.bestglobal
 			//BGlobal = newCopy(nueva.solucion);
 		};
-		solution->insert(nueva_part);
 	}
-	searchGlobal(solution);
+	searchGlobal(solution, size);
 
 	//for e iteracionces
 	for(i=0 ; i!= max_iter; i++){
 		for(i = 0; i<5; i++){
 
-			(solution[i])->Velocityupdate(&BGlobal, _type_,1,1,1,1,1);
-			solution[i]->updatePosition();
-			solution[i]->calculateFitness(); 	//Una funcion que calcule los fitness y lo asigna
-			if(solution[i]->Getfitness() < solution[i]->GetPbest().eval()){
-				solucion[i]->setbfitness(solucion[i].Getfitness());
+			(solution[i]).Velocityupdate(*BGlobal, _type_,1,1,1,1,1);
+			solution[i].updatePosition();
+			solution[i].calculateFitness(); 	//Una funcion que calcule los fitness y lo asigna
+			if(solution[i].Getfitness() < solution[i].GetPbest().eval()){
+				solution[i].setbfitness(solution[i].Getfitness());
 				//Que es nueva?
-				nueva->updatePbest(nueva.solucion());
+				solution[i].updatePbest(solution[i].GetPCurrent());
 			}
-			searchGlobal(solution);
+			searchGlobal(solution, size);
 		}
 	}
 	return 0;

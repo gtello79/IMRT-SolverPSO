@@ -33,7 +33,6 @@ namespace imrt{
   	    //Builder of Particle class
   	    Particle(Plan& P);
 
-        Particle();
   	    //Function with the process for calculate the velocity of the particle using the stations
         void Velocityupdate(Plan &GBest, int type, int w, int c1, int c2, int r1, int r2);
         //Function for calculate the position of the solution using PSO
