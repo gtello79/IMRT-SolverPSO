@@ -190,6 +190,8 @@ namespace imrt {
       cout << MatrixV << endl;
       NuevaPos = MatrixI + MatrixV;
       (*it)->set_Intensity(NuevaPos);
+      cout << "=============== NUEVAPOS======="<<endl;
+      cout<< NuevaPos << endl;
       cout<<"here it's ok"<<endl;
 
       

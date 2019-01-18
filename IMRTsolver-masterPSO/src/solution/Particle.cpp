@@ -27,6 +27,7 @@ namespace imrt{
 	}
 
 	void Particle::calculateFitness(){
+		cout <<"en el fitness"<<Pcurrent.eval() <<endl;
 		fitness = Pcurrent.eval();
 	}
 

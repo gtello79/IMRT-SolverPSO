@@ -80,10 +80,11 @@ void searchGlobal(vector<Particle> &solution, int size, Plan &BGlobal){
 	for (int i = 1 ; i < size;i++){
 		cout << "IMpresion 1 : " << BGlobal.eval() << endl;
 		cout << "IMpresion 2 : " << (solution[i].GetPbest()).eval() << endl;
-
-
 		if ((solution[i].GetPbest()).eval() <= BGlobal.eval()){
+			cout << "It works 1" << endl;
+			cout << "It works 1.5 " << solution[i].GetPCurrent().eval() << endl;
 			BGlobal.newCopy(solution[i].GetPCurrent());
+			cout << "It works 2" << endl;
 		};
 	}
 
@@ -143,26 +144,29 @@ int main(){
 	searchGlobal(solution, size, *BGlobal);
 
 	//for e iteracionces
-	for(int j=0 ; j!= max_iter; j++)
+	for(int j=0 ; j< max_iter; j++)
 	{
-		for(i = 0; i<5; i++)
+		for(int i = 0; i<5; i++)
 		{	
 			cout << "Particula N° : " << i+1 << endl;
 
-			(solution[i]).Velocityupdate(*BGlobal, _type_,1,1,1,1,1);
+			solution[i].Velocityupdate(*BGlobal, _type_,1,1,1,1,1);
 			solution[i].updatePosition();
+			cout <<"antes del fitness"<<endl;
 			solution[i].calculateFitness(); 
-
-			if(solution[i].Getfitness() < solution[i].GetPbest().eval())
+			cout <<"despues del fitness"<<endl;
+			if(solution[i].Getfitness() <= solution[i].GetPbest().eval())
 			{	
-
+				cout <<"dentro del if"<<endl;
 				solution[i].setbfitness(solution[i].Getfitness());
+				cout <<"set fitness"<<endl;
 				solution[i].updatePbest(solution[i].GetPCurrent());
+				cout <<"update PBEST"<<endl;
 			}
 			searchGlobal(solution, size, *BGlobal);
 			
 
-		}
+		}cout <<"==========fin iteracion===================="<<endl;
 
 	}
 	return 0;
