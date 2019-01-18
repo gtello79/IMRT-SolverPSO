@@ -38,7 +38,7 @@ namespace imrt {
     veloc = Matrix (collimator.getXdim(), collimator.getYdim());
     for (int i=0; i<collimator.getXdim(); i++) {
       for (int j=0; j<collimator.getYdim(); j++) {
-          veloc(i,j)=1;
+          veloc(i,j)=0;
       }
     }
 
@@ -62,6 +62,7 @@ namespace imrt {
     }
     //I=s.I;
     I= Matrix (s.I);
+    veloc = Matrix (s.veloc);
     intensity=s.intensity;
     A=s.A;
     last_mem=s.last_mem;

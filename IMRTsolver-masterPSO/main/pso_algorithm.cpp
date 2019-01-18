@@ -142,7 +142,7 @@ int main(){
 			(solution[i]).Velocityupdate(*BGlobal, _type_,1,1,1,1,1);
 			cout<<"ITERACION DE CONTROL #####################" << endl;
 			solution[i].updatePosition();
-			solution[i].calculateFitness(); 	//Una funcion que calcule los fitness y lo asigna
+			solution[i].calculateFitness(); 
 			if(solution[i].Getfitness() < solution[i].GetPbest().eval())
 			{
 				solution[i].setbfitness(solution[i].Getfitness());

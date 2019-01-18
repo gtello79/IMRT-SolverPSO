@@ -184,11 +184,14 @@ namespace imrt {
     
     for (list<Station*>::const_iterator it=aux.begin(); it!=aux.end() ;it++) {
       MatrixI = (*it)->get_Intensity();
-      MatrixV = (*it)->get_Velocity();
+      MatrixV = (*it)->get_Velocity();  
       Matrix NuevaPos(MatrixI.nb_rows(),MatrixI.nb_cols());
+      cout << MatrixI << endl;
+      cout << MatrixV << endl;
       NuevaPos = MatrixI + MatrixV;
-      cout<<"here it's ok"<<endl;
       (*it)->set_Intensity(NuevaPos);
+      cout<<"here it's ok"<<endl;
+
       
     };
   }
@@ -209,6 +212,8 @@ namespace imrt {
       IBest = &auxBest->get_Intensity();
       
       *VCurrent = w* *VCurrent + c1*r1*(*IBest - *ICurrent) + c2*r2*(*IGlobal - *ICurrent);
+      cout<< "change velocity"<<endl;
+
     }
   }
 }
