@@ -73,13 +73,20 @@ vector<Volume> createVolumes (string organ_filename, Collimator& collimator){
 
 void searchGlobal(vector<Particle> &solution, int size, Plan &BGlobal){
 	int i = 0;
+	cout << "Plan" << BGlobal.eval() << endl;
+	cout<<"size"<< size << endl;
+	cout << "Plan2" << BGlobal.eval() << endl;
 
-	BGlobal.newCopy(solution[0].GetPCurrent());
 	for (int i = 1 ; i < size;i++){
-		if ((solution[i].GetPbest()).eval() < BGlobal.eval()){
-			BGlobal.newCopy(solution[i].GetPbest());
+		cout << "IMpresion 1 : " << BGlobal.eval() << endl;
+		cout << "IMpresion 2 : " << (solution[i].GetPbest()).eval() << endl;
+
+
+		if ((solution[i].GetPbest()).eval() <= BGlobal.eval()){
+			BGlobal.newCopy(solution[i].GetPCurrent());
 		};
 	}
+
 }
 
 int main(){
@@ -121,6 +128,7 @@ int main(){
 	//Formation of the particle set
 	for(i = 0; i < 5; i++)
 	{	//Agregar condiciones nueva para generar un plan
+		cout << "Particula N° : " << i << endl;
 		Plan ADD(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 4);
 		cout << n << endl;
         solution.push_back(Particle(ADD));
@@ -138,18 +146,24 @@ int main(){
 	for(int j=0 ; j!= max_iter; j++)
 	{
 		for(i = 0; i<5; i++)
-		{
+		{	
+			cout << "Particula N° : " << i+1 << endl;
+
 			(solution[i]).Velocityupdate(*BGlobal, _type_,1,1,1,1,1);
-			cout<<"ITERACION DE CONTROL #####################" << endl;
 			solution[i].updatePosition();
 			solution[i].calculateFitness(); 
+
 			if(solution[i].Getfitness() < solution[i].GetPbest().eval())
-			{
+			{	
+
 				solution[i].setbfitness(solution[i].Getfitness());
 				solution[i].updatePbest(solution[i].GetPCurrent());
 			}
 			searchGlobal(solution, size, *BGlobal);
+			
+
 		}
+
 	}
 	return 0;
 }
