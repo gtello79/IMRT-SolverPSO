@@ -22,8 +22,8 @@ namespace imrt{
       int w;
       int c1; //FACTOR PERSONAL POR AHORA FIJO, DESPUES POR PARAMETRO
       int c2; //FACTOR GLOBAL, POR AHORA FIJO LUEGO POR PARAMETRO
-      int fitness; //EVALUATION OF PCURRENT
-      int bfitness; //EVALUATION OF PBEST;
+      double fitness; //EVALUATION OF PCURRENT
+      double bfitness; //EVALUATION OF PBEST;
       int r1;
       int r2;
       Plan PBest; //BEST GLOBAL VALUE
@@ -40,15 +40,15 @@ namespace imrt{
         //Function for update Pbest
         void updatePosition();
 
-        void updatePbest(Plan& New);
+        void updatePbest();
 
         Plan& GetPbest();
 
         Plan& GetPCurrent();
 
-        int Getfitness();
+        double Getfitness();
 
-        void setbfitness(int insert);
+        void setbfitness();
 
 
   };

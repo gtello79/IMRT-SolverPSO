@@ -73,25 +73,23 @@ vector<Volume> createVolumes (string organ_filename, Collimator& collimator){
 
 void searchGlobal(vector<Particle> &solution, int size, Plan &BGlobal){
 	int i = 0;
-	cout << "Plan" << BGlobal.eval() << endl;
-	cout<<"size"<< size << endl;
+	cout << "Plan"  << BGlobal.eval() << endl;
+	cout<<"size "<< size << endl;
 	cout << "Plan2" << BGlobal.eval() << endl;
 
 	for (int i = 1 ; i < size;i++){
-		cout << "IMpresion 1 : " << BGlobal.eval() << endl;
-		cout << "IMpresion 2 : " << (solution[i].GetPbest()).eval() << endl;
+		cout << "Impresion 1 : " << BGlobal.eval() << endl;
+		cout << "Impresion 2 : " << (solution[i].GetPbest()).eval() << endl;
 		if ((solution[i].GetPbest()).eval() <= BGlobal.eval()){
-			cout << "It works 1" << endl;
-			cout << "It works 1.5 " << solution[i].GetPCurrent().eval() << endl;
+			cout << "Step 1: " << solution[i].GetPCurrent().eval() << endl;
 			BGlobal.newCopy(solution[i].GetPCurrent());
-			cout << "It works 2" << endl;
+			cout << "Step 2 \n " << endl;
 		};
 	}
-
 }
 
 int main(){
-	int i; 
+	int i,j; 
 	int n = 1;
 	int size=5;
 	int max_iter = 3;
@@ -131,43 +129,38 @@ int main(){
 	{	//Agregar condiciones nueva para generar un plan
 		cout << "Particula N° : " << i << endl;
 		Plan ADD(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 4);
-		cout << n << endl;
-        solution.push_back(Particle(ADD));
+		solution.push_back(Particle(ADD));
 		if(solution[i].GetPCurrent().eval() < solution[i].GetPbest().eval())
 		{
-			solution[i].setbfitness(solution[i].Getfitness());
-			solution[i].updatePbest(solution[i].GetPCurrent()); 
+			solution[i].updatePbest();
+			solution[i].setbfitness();
 		};
-		n++;
 	}
 	cout << "###Particles Created" <<endl;
 	searchGlobal(solution, size, *BGlobal);
 
-	//for e iteracionces
-	for(int j=0 ; j< max_iter; j++)
+	for(j = 0; j < 3;j++)
 	{
 		for(int i = 0; i<5; i++)
 		{	
 			cout << "Particula N° : " << i+1 << endl;
-
 			solution[i].Velocityupdate(*BGlobal, _type_,1,1,1,1,1);
-			solution[i].updatePosition();
-			cout <<"antes del fitness"<<endl;
 			solution[i].calculateFitness(); 
-			cout <<"despues del fitness"<<endl;
+			solution[i].updatePbest();
 			if(solution[i].Getfitness() <= solution[i].GetPbest().eval())
 			{	
-				cout <<"dentro del if"<<endl;
-				solution[i].setbfitness(solution[i].Getfitness());
-				cout <<"set fitness"<<endl;
-				solution[i].updatePbest(solution[i].GetPCurrent());
-				cout <<"update PBEST"<<endl;
+				solution[i].updatePosition();
+				solution[i].setbfitness();
+			};
+			cout <<"==========fin iteracion===================="<<endl;
+		} 
+		for(int i = 0; i <5 ; i++){
+			if(BGlobal->eval() > solution[i].Getfitness() ){
+				BGlobal->newCopy(solution[i].GetPCurrent());
 			}
-			searchGlobal(solution, size, *BGlobal);
-			
-
-		}cout <<"==========fin iteracion===================="<<endl;
-
+		}
 	}
+	//for e iteracionces
+	
 	return 0;
 }

@@ -31,8 +31,8 @@ namespace imrt{
 		fitness = Pcurrent.eval();
 	}
 
-	void Particle::updatePbest(Plan &New){
-		PBest.newCopy(New);
+	void Particle::updatePbest(){
+		PBest.newCopy(Pcurrent);
 	}
 
 	void Particle::updatePosition(){
@@ -44,10 +44,10 @@ namespace imrt{
 	Plan& Particle::GetPbest(){
 		return PBest;
 	};
-	int Particle::Getfitness(){
+	double Particle::Getfitness(){
 		return fitness;
 	};
-	void Particle::setbfitness(int insert){
-		bfitness = insert;
+	void Particle::setbfitness(){
+		bfitness = PBest.eval();
 	}
 }

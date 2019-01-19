@@ -177,24 +177,16 @@ namespace imrt {
   }
   
   void Plan::updatePosition(){
-    
-    list <Station*> aux;
-    aux = get_stations();
-    Matrix MatrixI, MatrixV, NuevaPos;
-    
-    for (list<Station*>::const_iterator it=aux.begin(); it!=aux.end() ;it++) {
-      MatrixI = (*it)->get_Intensity();
-      MatrixV = (*it)->get_Velocity();  
-      Matrix NuevaPos(MatrixI.nb_rows(),MatrixI.nb_cols());
-      cout << MatrixI << endl;
-      cout << MatrixV << endl;
-      NuevaPos = MatrixI + MatrixV;
-      (*it)->set_Intensity(NuevaPos);
+    Station *auxCurrent;
+    Matrix *MatrixI, *MatrixV;
+    for (int i = 0; i < 5 ; i++) {
+      auxCurrent = get_station(i);
+      MatrixI = &auxCurrent->get_Intensity();
+      MatrixV = &auxCurrent->get_Velocity();  
+      *MatrixI = *MatrixI + *MatrixV;
+      /*(*it)->set_Intensity(NuevaPos);*/
       cout << "=============== NUEVAPOS======="<<endl;
-      cout<< NuevaPos << endl;
-      cout<<"here it's ok"<<endl;
-
-      
+      cout<< *MatrixI << endl;
     };
   }
 
@@ -214,8 +206,6 @@ namespace imrt {
       IBest = &auxBest->get_Intensity();
       
       *VCurrent = w* *VCurrent + c1*r1*(*IBest - *ICurrent) + c2*r2*(*IGlobal - *ICurrent);
-      cout<< "change velocity"<<endl;
-
     }
   }
 }
