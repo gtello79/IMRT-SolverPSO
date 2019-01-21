@@ -14,10 +14,10 @@ namespace imrt{
 		r1 = rand();
 		r2 = rand();
 		calculateFitness();
-		bfitness = 99999999;
+		bfitness = Pcurrent.getEvaluation();
 	};
 
-	void Particle::Velocityupdate(Plan &GBest, int type, int w, int c1, int c2, double r1, double r2)
+	void Particle::Velocityupdate(Plan &GBest, int type, int w, int c1, int c2)
 	{
 		if(type == 1)
 		{
@@ -30,11 +30,10 @@ namespace imrt{
 			*/
 		}
 	}
-
 	void Particle::calculateFitness()
 	{
-		fitness = Pcurrent.eval();
-	}
+		fitness = Pcurrent.getEvaluation();
+	};
 
 	void Particle::updatePbest()
 	{
@@ -63,6 +62,6 @@ namespace imrt{
 
 	void Particle::setbfitness()
 	{
-		bfitness = PBest.eval();
+		bfitness = PBest.getEvaluation();
 	};
 }

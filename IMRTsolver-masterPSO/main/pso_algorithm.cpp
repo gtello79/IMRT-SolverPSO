@@ -74,7 +74,7 @@ vector<Volume> createVolumes (string organ_filename, Collimator& collimator){
 void searchGlobal(vector<Particle> &solution, int size, Plan &BGlobal){
 	int i = 0;
 	for (int i = 1 ; i < size;i++){
-		if ((solution[i].GetPbest()).eval() <= BGlobal.eval()){
+		if ((solution[i].GetPbest()).getEvaluation() <= BGlobal.getEvaluation()){
 			BGlobal.newCopy(solution[i].GetPCurrent());
 		};
 	}
@@ -98,13 +98,15 @@ int main(){
   double maxratio=3.0;
   bool search_aperture=false;
   bool search_intensity=false;
+	int initial_intensity=2;
+  int max_intensity=10;
+  int step_intensity=2;
+  int initial_setup;
+
 	string strategy="dao_ls";
 	string file="data/testinstance_0_70_140_210_280.txt";
   string file2="data/test_instance_coordinates.txt";
-	int initial_intensity=2;
-  int max_intensity=28;
-  int step_intensity=2;
-  int initial_setup;
+	
 
 
 	vector <Particle> solution ;//inicializar con parametro sizeB
@@ -115,22 +117,30 @@ int main(){
   	vector<Volume> volumes= createVolumes (file, collimator);
 	
 	Plan *BGlobal;
-	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 4);
+	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 5);
 	
 	//Formation of the particle set
-	for(i = 0; i < 6; i++)
+	Plan *Opc;
+	cout<<"\n \n"<<endl;
+	for(i = 0; i < 5; i++)
 	{	//Agregar condiciones nueva para generar un plan
 		cout << "Particula N° : " << i+1 << endl;
-		Plan ADD(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 4);
-		solution.push_back(Particle(ADD));
-		if(solution[i].GetPCurrent().eval() < solution[i].GetPbest().eval())
+		Opc = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 5);
+		solution.push_back(Particle(*Opc));
+		if(solution[i].GetPCurrent().getEvaluation() < solution[i].GetPbest().getEvaluation())
 		{
 			solution[i].updatePbest();
 			solution[i].setbfitness();
 		};
+		delete(Opc);
 	}
+	for(int i = 0; i <5 ; i++){
+			if(BGlobal->getEvaluation() > solution[i].Getfitness() ){
+				BGlobal->newCopy(solution[i].GetPCurrent());
+			}
+		}
 	cout << "###Particles Created" <<endl;
-	searchGlobal(solution, size, *BGlobal);
+	/*searchGlobal(solution, size, *BGlobal);*/
 
 	for(j = 0; j < 3;j++)
 	{	
@@ -138,33 +148,35 @@ int main(){
 		for(int i = 0; i<5; i++)
 		{	
 			cout << "Particula N°: " << i+1 ;
-			solution[i].Velocityupdate(*BGlobal, _type_,1,1,1,1,1);
+			solution[i].Velocityupdate(*BGlobal, _type_,1,1,1);
 			solution[i].calculateFitness(); 
 			solution[i].updatePbest();
-			if(solution[i].Getfitness() <= solution[i].GetPbest().eval())
+			if(solution[i].Getfitness() <= solution[i].GetPbest().getEvaluation())
 			{	
-				solution[i].updatePosition();
 				solution[i].setbfitness();
+				solution[i].updatePosition();
+				
 			};
 			cout << solution[i].Getfitness() <<"\n"<<endl;
 		};
 		for(int i = 0; i <5 ; i++){
-			if(BGlobal->eval() > solution[i].Getfitness() ){
+			if(BGlobal->getEvaluation() > solution[i].Getfitness() ){
 				BGlobal->newCopy(solution[i].GetPCurrent());
 			}
 		}
-		cout<<"Best Global Iteration n:"<<j<<": " << BGlobal->eval()<<endl;
+		cout<<"Best Global Iteration n:"<<j<<": " << BGlobal->getEvaluation()<<endl;
 	};
 	cout << "##**************************************************************************"<< endl;
   cout << "##******************************* RESULTS **********************************"<< endl;
   cout << "##**************************************************************************"<< endl;
 
   cout << "##"<<endl;
-  cout << "## Best solution found: " <<  BGlobal->getEvaluation() << endl;
+  cout << "## Best solution found: " <<  BGlobal->getEvaluation() << "  " <<BGlobal->eval()<< endl;
   cout <<  BGlobal->getEvaluation() << " ";
+	cout << BGlobal->eval();
 	const list<Station*> stations= BGlobal->get_stations();
 
-	int tot_alpha=0;
+  int tot_alpha=0;
   for(auto s:stations){
     int alpha=s->get_sum_alpha(strategy);
     cout << alpha << " " ;
@@ -180,6 +192,5 @@ int main(){
   };
   cout << nb_apertures << endl;
 	for (int i = 0; i <5 ; i++) BGlobal->printIntensity(i);
-
 	return 0;
 }
