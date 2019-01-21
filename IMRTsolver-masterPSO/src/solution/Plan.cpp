@@ -208,4 +208,18 @@ namespace imrt {
       *VCurrent = w* *VCurrent + c1*r1*(*IBest - *ICurrent) + c2*r2*(*IGlobal - *ICurrent);
     }
   }
+  
+  void Plan::printVelocities() {
+    Matrix *aux;
+    for (int i=0; i< 5; i++) {
+      aux=&get_station(i)->get_Velocity();
+      cout << *aux << endl;
+    }
+  }
+  
+  void Plan::printIntensities() {
+    for(int i=0;i< 5; i++) {
+      printIntensity(i);
+    }
+  }
 }

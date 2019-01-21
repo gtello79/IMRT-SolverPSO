@@ -116,8 +116,6 @@ int main(){
 	Collimator collimator(file2, get_angles(file, 5));
   	vector<Volume> volumes= createVolumes (file, collimator);
 	
-	Plan *BGlobal;
-	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 5);
 	
 	//Formation of the particle set
 	Plan *Opc;
@@ -125,7 +123,7 @@ int main(){
 	for(i = 0; i < 5; i++)
 	{	//Agregar condiciones nueva para generar un plan
 		cout << "Particula N° : " << i+1 << endl;
-		Opc = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 5);
+		Opc = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 4);
 		solution.push_back(Particle(*Opc));
 		if(solution[i].GetPCurrent().getEvaluation() < solution[i].GetPbest().getEvaluation())
 		{
@@ -134,12 +132,16 @@ int main(){
 		};
 		delete(Opc);
 	}
-	for(int i = 0; i <5 ; i++){
+	
+	Plan *BGlobal;
+	BGlobal = new Plan(solution[0].GetPCurrent());
+	for(int i = 1; i <5 ; i++){
 			if(BGlobal->getEvaluation() > solution[i].Getfitness() ){
 				BGlobal->newCopy(solution[i].GetPCurrent());
 			}
-		}
-	cout << "###Particles Created" <<endl;
+	}
+	
+	cout << "###Particles Created, initial best: " << BGlobal->getEvaluation() <<endl;
 	/*searchGlobal(solution, size, *BGlobal);*/
 
 	for(j = 0; j < 3;j++)
@@ -148,15 +150,14 @@ int main(){
 		for(int i = 0; i<5; i++)
 		{	
 			cout << "Particula N°: " << i+1 ;
+		  solution[i].printVelocities();
 			solution[i].Velocityupdate(*BGlobal, _type_,1,1,1);
+      solution[i].printVelocities();
+      solution[i].printIntensities();
+			solution[i].updatePosition();
+			solution[i].printIntensities();
 			solution[i].calculateFitness(); 
 			solution[i].updatePbest();
-			if(solution[i].Getfitness() <= solution[i].GetPbest().getEvaluation())
-			{	
-				solution[i].setbfitness();
-				solution[i].updatePosition();
-				
-			};
 			cout << solution[i].Getfitness() <<"\n"<<endl;
 		};
 		for(int i = 0; i <5 ; i++){
