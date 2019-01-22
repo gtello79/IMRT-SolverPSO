@@ -28,6 +28,7 @@ namespace imrt{
       double r2;
       Plan PBest; //BEST GLOBAL VALUE
       Plan Pcurrent; //BEST PERSONAL VALUE
+      Plan *aux;
 
     public:
   	    //Builder of Particle class
@@ -49,6 +50,10 @@ namespace imrt{
         double Getfitness();
 
         void setbfitness();
+
+        void printIntensities();
+
+        void printVelocities();
 
 
   };

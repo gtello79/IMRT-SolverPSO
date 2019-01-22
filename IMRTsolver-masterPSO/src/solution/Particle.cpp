@@ -1,5 +1,3 @@
-
-
 #include "Particle.h"
 #include "Plan.h"
 using namespace std;
@@ -11,10 +9,11 @@ namespace imrt{
 		w = 1;
 		c1 = 1;
 		c2 = 1;
-		r1 = rand();
-		r2 = rand();
+		r1 = ((double)rand()/(RAND_MAX));
+		r2 = ((double)rand()/(RAND_MAX));
 		calculateFitness();
-		bfitness = Pcurrent.getEvaluation();
+		PBest.newCopy(Pcurrent);
+		bfitness = Pcurrent.eval();
 	};
 
 	void Particle::Velocityupdate(Plan &GBest, int type, int w, int c1, int c2)
@@ -32,12 +31,18 @@ namespace imrt{
 	}
 	void Particle::calculateFitness()
 	{
-		fitness = Pcurrent.getEvaluation();
+		fitness = Pcurrent.eval();
 	};
 
 	void Particle::updatePbest()
 	{
-		PBest.newCopy(Pcurrent);
+		/*if(fitness <= PBest.getEvaluation())
+		{
+			PBest.newCopy(Pcurrent);
+			bfitness = PBest.eval();
+		}*/
+		Pcurrent.newCopy(PBest);
+		bfitness = Pcurrent.eval();
 	}
 
 	void Particle::updatePosition()
@@ -62,6 +67,12 @@ namespace imrt{
 
 	void Particle::setbfitness()
 	{
-		bfitness = PBest.getEvaluation();
+		bfitness = PBest.eval();
 	};
+	void Particle::printIntensities(){
+		Pcurrent.printIntensities();
+	};
+	void Particle::printVelocities(){
+		Pcurrent.printVelocities();
+	}
 }

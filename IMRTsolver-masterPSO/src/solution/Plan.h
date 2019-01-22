@@ -86,6 +86,10 @@ public:
 
 	void updatePosition();
 
+	void printIntensities();
+
+	void printVelocities();
+
 
 private:
 	//The list of stations
