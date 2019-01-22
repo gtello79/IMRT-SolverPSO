@@ -84,7 +84,7 @@ int main(){
 	int i,j; 
 	int n = 1;
 	int size  = 5;
-	int max_iter = 20;
+	int max_iter = 4;
 	int _type_ = 1;
 	int initial_setup = 5;
 
@@ -159,7 +159,7 @@ int main(){
 			solution[i].Velocityupdate(*BGlobal, _type_,1,1,1);
 			solution[i].updatePosition();
       solution[i].calculateFitness();
-      if(solution[i].GetPCurrent().getEvaluation() < solution[i].GetPbest().getEvaluation())
+      if(solution[i].Getfitness() <= solution[i].GetPbest().getEvaluation())
       {
         solution[i].updatePbest();
       }
@@ -180,7 +180,7 @@ int main(){
   cout << "##"<<endl;
   cout << "## Best solution found: " <<  BGlobal->getEvaluation() << endl;
   cout<<"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"<<endl;
-  BGlobal->printVelocities();
+  BGlobal->printIntensities();
   delete(BGlobal);
   delete(Opc);
   return 0;

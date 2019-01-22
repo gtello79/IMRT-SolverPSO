@@ -178,7 +178,6 @@ namespace imrt {
   
   void Plan::updatePosition()
   { 
-    int i = 0;
     Station *auxCurrent;
     Matrix *MatrixI, *MatrixV;
     Matrix valor;
@@ -187,19 +186,19 @@ namespace imrt {
       auxCurrent = get_station(i);
       MatrixI = &(auxCurrent->get_Intensity());
       MatrixV = &(auxCurrent->get_Velocity());  
-      auxCurrent->get_Intensity() = auxCurrent->get_Intensity() + auxCurrent->get_Velocity();    
+      *MatrixI = *MatrixI + *MatrixV;
     };
   }
 
-  void Plan::updateVelocity(Plan *Bglobal, Plan *Pbest, Plan *current, int w, int c1, int c2, double r1, double r2)
+  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, int w, int c1, int c2, double r1, double r2)
   {
     Station *auxCurrent, *auxGlobal, *auxBest;
     Matrix *ICurrent, *VCurrent, *IGlobal, *VGlobal, *IBest, *VBest;
     for (int i = 0 ; i < 5 ; i++){
 
       auxCurrent = get_station(i);
-      auxGlobal = Bglobal->get_station(i);
-      auxBest = Pbest->get_station(i);
+      auxGlobal = Bglobal.get_station(i);
+      auxBest = Pbest.get_station(i);
 
       ICurrent = &auxCurrent->get_Intensity();
       VCurrent = &auxCurrent->get_Velocity();
@@ -208,6 +207,8 @@ namespace imrt {
       IBest = &auxBest->get_Intensity();
       
       *VCurrent = *VCurrent + c1*r1*(*IBest - *ICurrent) + c2*r2*(*IGlobal - *ICurrent);
+
+      auxCurrent->set_Velocity(*VCurrent);
     }
   }
 
@@ -224,4 +225,5 @@ namespace imrt {
       printIntensity(i);
     }
   };
+  
 }

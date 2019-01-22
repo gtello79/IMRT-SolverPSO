@@ -9,19 +9,20 @@ namespace imrt{
 		w = 1;
 		c1 = 1;
 		c2 = 1;
-		r1 = ((double)rand()/(RAND_MAX));
-		r2 = ((double)rand()/(RAND_MAX));
+		r1 = 1;//((double)rand()/(RAND_MAX));
+		r2 = 1;//((double)rand()/(RAND_MAX));
 		calculateFitness();
 		PBest.newCopy(Pcurrent);
-		bfitness = Pcurrent.eval();
+		bfitness = Pcurrent.getEvaluation();
 	};
 
 	void Particle::Velocityupdate(Plan &GBest, int type, int w, int c1, int c2)
 	{
 		if(type == 1)
-		{
-			Pcurrent.updateVelocity(&GBest, &PBest, &Pcurrent ,w, c1, c2, r1, r2);
-
+		{	
+			r1 = ((double)rand()/(RAND_MAX));
+			r2 = ((double)rand()/(RAND_MAX));
+			Pcurrent.updateVelocity(GBest, PBest, Pcurrent ,w, c1, c2, r1, r2);
 		}else if(type == 2)
 		{
 			/*
@@ -36,14 +37,11 @@ namespace imrt{
 
 	void Particle::updatePbest()
 	{
-		/*if(fitness <= PBest.getEvaluation())
-		{
-			PBest.newCopy(Pcurrent);
-			bfitness = PBest.eval();
-		}*/
-		Pcurrent.newCopy(PBest);
-		bfitness = Pcurrent.eval();
-	}
+	/*	if(fitness < PBest.getEvaluation())
+		{} */		
+		bfitness = Pcurrent.getEvaluation();	
+		PBest.newCopy(Pcurrent);
+	};
 
 	void Particle::updatePosition()
 	{

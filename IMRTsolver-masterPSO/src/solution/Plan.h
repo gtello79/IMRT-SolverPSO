@@ -82,13 +82,14 @@ public:
 	    return *s;
 	}
 
-	void updateVelocity(Plan *Bglobal, Plan *Pbest, Plan *current, int w, int c1, int c2, double r1, double r2);
+	void updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, int w, int c1, int c2, double r1, double r2);
 
 	void updatePosition();
-
+	
+	void printVelocities();
+	
 	void printIntensities();
 
-	void printVelocities();
 
 
 private:

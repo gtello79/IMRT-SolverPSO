@@ -50,11 +50,10 @@ namespace imrt{
         double Getfitness();
 
         void setbfitness();
-
-        void printIntensities();
-
+        
         void printVelocities();
-
+        
+        void printIntensities();
 
   };
 }
