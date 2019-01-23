@@ -16,6 +16,7 @@ using namespace std;
 using namespace imrt;
 
 
+
 set<int> get_angles(string file, int n){
   ifstream _file(file.c_str(), ios::in);
   string line;
@@ -110,6 +111,9 @@ int main(){
   double min_temperature=0;
   double alphaT=0.95;
   int perturbation=2;
+  
+  int seed=time(NULL);
+  srand(seed);
 
 	string strategy="dao_ls";
 	string file="data/testinstance_0_70_140_210_280.txt";
@@ -143,7 +147,8 @@ int main(){
   {
       if(solution[k].Getfitness() < BGlobal->getEvaluation())
       {
-        BGlobal = &solution[k].GetPCurrent();
+        //BGlobal = &solution[k].GetPCurrent();
+        BGlobal->newCopy(solution[k].GetPCurrent());
       }
   }
 
@@ -173,7 +178,7 @@ int main(){
     //Calculate the new Best Global of the particle
     for(int k = 0; k < size ; k++){
       if(solution[k].Getfitness() < BGlobal->eval()){
-        BGlobal = &solution[k].GetPCurrent();
+        BGlobal->newCopy(solution[k].GetPCurrent());
       }
     }
 		cout<<"Best Global Iteration n°"<<j<<": " << BGlobal->getEvaluation()<<endl;

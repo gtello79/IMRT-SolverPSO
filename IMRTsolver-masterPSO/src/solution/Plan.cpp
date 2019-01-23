@@ -232,5 +232,10 @@ namespace imrt {
       printIntensity(i);
     }
   };
+	
+	int Plan::getStationSize() {
+	  return(stations.size());
+	  
+	}
   
 }

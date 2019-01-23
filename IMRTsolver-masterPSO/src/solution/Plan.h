@@ -89,6 +89,8 @@ public:
 	void printVelocities();
 	
 	void printIntensities();
+	
+	int getStationSize(); 
 
 
 
