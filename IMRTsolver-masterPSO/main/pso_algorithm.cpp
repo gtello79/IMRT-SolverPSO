@@ -83,7 +83,7 @@ vector<Volume> createVolumes (string organ_filename, Collimator& collimator){
 int main(){
 	int i,j; 
 	int n = 1;
-	int size  = 20;
+	int size  = 5;
 	int max_iter = 10;
 	int _type_ = 1;
 	int initial_setup = 5;
@@ -161,7 +161,7 @@ int main(){
       //if(solution[i].Getfitness() != BGlobal->getEvaluation() )
       //{  
 			  solution[i].Velocityupdate(*BGlobal, _type_,1,1,1);
-			  solution[i].updatePosition();
+			  solution[i].updatePosition(max_intensity);
         solution[i].calculateFitness();
         if(solution[i].Getfitness()<solution[i].getbfitness())
         {

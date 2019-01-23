@@ -220,6 +220,9 @@ public:
   Matrix& get_Intensity();
   void set_Velocity(Matrix& newV);
   void set_Intensity(Matrix& newInten);
+  void calculateNewPosition(int max_intensity);
+  void calculateNewVelocity(Station &BestG, Station &BestP);
+
   };
 }
 

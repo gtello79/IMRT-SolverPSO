@@ -21,9 +21,7 @@ namespace imrt{
 	{
 		if(type == 1)
 		{	
-			r1 = ((double)rand()/(RAND_MAX));
-			r2 = ((double)rand()/(RAND_MAX));
-			Pcurrent.updateVelocity(GBest, PBest, Pcurrent ,w, c1, c2, r1, r2);
+			Pcurrent.updateVelocity(GBest, PBest, Pcurrent ,w, c1, c2);
 		}else if(type == 2)
 		{
 			/*
@@ -55,9 +53,9 @@ namespace imrt{
 		fitness = Pcurrent.eval();
 	};	
 
-	void Particle::updatePosition()
+	void Particle::updatePosition(int max_intensity)
 	{
-		Pcurrent.updatePosition();
+		Pcurrent.updatePosition(max_intensity);
 	}
 
 	Plan& Particle::GetPCurrent()

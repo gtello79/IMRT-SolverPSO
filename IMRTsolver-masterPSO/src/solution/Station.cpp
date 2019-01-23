@@ -38,7 +38,7 @@ namespace imrt {
     veloc = Matrix (collimator.getXdim(), collimator.getYdim());
     for (int i=0; i<collimator.getXdim(); i++) {
       for (int j=0; j<collimator.getYdim(); j++) {
-          veloc(i,j)=3;
+          veloc(i,j)=0;
       }
     }
 
@@ -658,9 +658,43 @@ namespace imrt {
     I = newInten;
   }
   void Station::calculateNewVelocity(Station &BestG, Station &BestP){
+    int x;
+    int y;
+    double r1 = ((double)rand()/(RAND_MAX));
+		double	r2 = ((double)rand()/(RAND_MAX));
     Matrix Bgm = BestG.get_Intensity();
     Matrix Bpm = BestP.get_Intensity();
-    veloc = veloc + (Bgm - I ) + (Bpm - I);
+    pair<x,y> nuevo = 
+    for(int i = 0, i < collimator.getXdim ; i++){
+      for(int j = 0, j < collimator.getYdim ; j++){
+        pair <int,int> restriccion = collimator.getActiveRange(j,angle);
+        if(restriccion.first <j< restriccion.second){
+          veloc[i][j] = veloc[i][j] + r1*(Bpm[i][j] - I[i][j]) + r2*(Bgm[i][j]-I[i][j];)
+        }     
+      }
+    }
   };
+
+  void Station::calculateNewPosition(int max_intensity)
+  {
+    for(int i = 0, i < collimator.getXdim ; i++)
+    {
+      for(int j = 0, j < collimator.getYdim ; j++)
+      {
+        pair <int,int> restriccion = collimator.getActiveRange(j,angle);
+        if(restriccion.first <j< restriccion.second)
+        {
+          I[i][j]=I[i][j]+veloc[i][j];
+          if(I[i][j]<0)
+          {
+            I[i][j] = 0;
+          }else if(I[i][j]>max_intensity)
+          {
+            I[i][j] = max_intensity;
+          }
+        }     
+      }
+    }
+  }
 
 }

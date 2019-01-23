@@ -315,7 +315,6 @@ namespace imrt {
 
   pair<int, int> Collimator::getActiveRange(int x, int angle) {
     return(angle_row_beam_active[angle][x]);
-
   }
 
   list<int>& Collimator::getAngles(){

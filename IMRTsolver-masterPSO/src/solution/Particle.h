@@ -40,7 +40,7 @@ namespace imrt{
         //Function for calculate the position of the solution using PSO
         void calculateFitness();
         //Function for update Pbest
-        void updatePosition();
+        void updatePosition(int max_intensity);
 
         void updatePbest();
 
