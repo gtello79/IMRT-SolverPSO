@@ -197,7 +197,6 @@ namespace imrt {
       for (int i=0; i<max_apertures; i++)
         intensity[i] = initial_intensity;
     }
-
     if(type==RAND_INTENSITIES)
       generate_random_intensities();
     else
@@ -664,12 +663,11 @@ namespace imrt {
 		double	r2 = ((double)rand()/(RAND_MAX));
     Matrix Bgm = BestG.get_Intensity();
     Matrix Bpm = BestP.get_Intensity();
-    pair<x,y> nuevo = 
-    for(int i = 0, i < collimator.getXdim ; i++){
-      for(int j = 0, j < collimator.getYdim ; j++){
+    for(int i = 0; i < collimator.getXdim() ; i++){
+      for(int j = 0; j < collimator.getYdim() ; j++){
         pair <int,int> restriccion = collimator.getActiveRange(j,angle);
         if(restriccion.first <j< restriccion.second){
-          veloc[i][j] = veloc[i][j] + r1*(Bpm[i][j] - I[i][j]) + r2*(Bgm[i][j]-I[i][j];)
+          veloc[i][j] = veloc[i][j] + r1*(Bpm[i][j] - I[i][j]) + r2*(Bgm[i][j]-I[i][j]);
         }     
       }
     }
@@ -677,9 +675,9 @@ namespace imrt {
 
   void Station::calculateNewPosition(int max_intensity)
   {
-    for(int i = 0, i < collimator.getXdim ; i++)
+    for(int i = 0; i < collimator.getXdim() ; i++)
     {
-      for(int j = 0, j < collimator.getYdim ; j++)
+      for(int j = 0; j < collimator.getYdim() ; j++)
       {
         pair <int,int> restriccion = collimator.getActiveRange(j,angle);
         if(restriccion.first <j< restriccion.second)
