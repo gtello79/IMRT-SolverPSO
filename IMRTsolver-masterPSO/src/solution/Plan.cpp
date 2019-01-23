@@ -67,6 +67,7 @@ namespace imrt {
   void Plan::add_station(Station& s){
     stations.push_back(&s);
   }
+  
 
   double Plan::eval(vector<double>& w, vector<double>& Zmin, vector<double>& Zmax) {
     double eval=ev.eval(*this,w,Zmin,Zmax);
@@ -110,7 +111,8 @@ namespace imrt {
     return stations;
   }
 
-  void Plan::write_open_beamlets(){
+  void Plan::write_open_beamlets()
+  {
     ofstream myfile;
     myfile.open ("openbeamlets.txt");
 
@@ -143,7 +145,8 @@ namespace imrt {
 
   set < pair< pair<double,bool>, pair<Station*, int> >,
         std::greater < pair< pair<double,bool>, pair<Station*, int> > > >
-    Plan::best_beamlets(int n, int nv, int mode) {
+    Plan::best_beamlets(int n, int nv, int mode) 
+  {
 
     return(ev.best_beamlets(*this, n, nv));
   }
@@ -181,6 +184,7 @@ namespace imrt {
     Station *auxCurrent;
     Matrix *MatrixI, *MatrixV;
     Matrix valor;
+    //
     for (int i = 0; i < 5 ; i++) 
     {
       auxCurrent = get_station(i);
@@ -192,35 +196,40 @@ namespace imrt {
 
   void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, int w, int c1, int c2, double r1, double r2)
   {
+      
     Station *auxCurrent, *auxGlobal, *auxBest;
     Matrix *ICurrent, *VCurrent, *IGlobal, *VGlobal, *IBest, *VBest;
-    for (int i = 0 ; i < 5 ; i++){
-
+    for (int i = 0 ; i < 5 ; i++)
+    {
       auxCurrent = get_station(i);
       auxGlobal = Bglobal.get_station(i);
       auxBest = Pbest.get_station(i);
+      
+      auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest);
 
-      ICurrent = &auxCurrent->get_Intensity();
+      /*ICurrent = &auxCurrent->get_Intensity();
       VCurrent = &auxCurrent->get_Velocity();
 
       IGlobal = &auxGlobal->get_Intensity();
       IBest = &auxBest->get_Intensity();
       
       *VCurrent = *VCurrent + c1*r1*(*IBest - *ICurrent) + c2*r2*(*IGlobal - *ICurrent);
-
-      auxCurrent->set_Velocity(*VCurrent);
+      auxCurrent->set_Velocity(*VCurrent);*/
+      
     }
   }
 
-  void Plan::printVelocities(){
+  void Plan::printVelocities()
+  {
     Matrix *aux;
-    for(int i = 0; i < 5; i++){
+    for(int i = 0; i < n_stations; i++){
       aux = &get_station(i)->get_Velocity();
       cout << *aux << endl;
     }
   };
 
-	void Plan::printIntensities(){
+	void Plan::printIntensities()
+  {
     for(int i = 0;i < 5; i++){
       printIntensity(i);
     }

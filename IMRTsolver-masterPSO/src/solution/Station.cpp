@@ -38,7 +38,7 @@ namespace imrt {
     veloc = Matrix (collimator.getXdim(), collimator.getYdim());
     for (int i=0; i<collimator.getXdim(); i++) {
       for (int j=0; j<collimator.getYdim(); j++) {
-          veloc(i,j)=0;
+          veloc(i,j)=3;
       }
     }
 
@@ -657,4 +657,10 @@ namespace imrt {
   void Station::set_Intensity(Matrix& newInten){
     I = newInten;
   }
+  void Station::calculateNewVelocity(Station &BestG, Station &BestP){
+    Matrix Bgm = BestG.get_Intensity();
+    Matrix Bpm = BestP.get_Intensity();
+    veloc = veloc + (Bgm - I ) + (Bpm - I);
+  };
+
 }

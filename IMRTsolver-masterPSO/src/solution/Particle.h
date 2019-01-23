@@ -28,7 +28,8 @@ namespace imrt{
       double r2;
       Plan PBest; //BEST GLOBAL VALUE
       Plan Pcurrent; //BEST PERSONAL VALUE
-      Plan *aux;
+      Plan *mejor;
+      
 
     public:
   	    //Builder of Particle class
@@ -43,11 +44,15 @@ namespace imrt{
 
         void updatePbest();
 
+        void updateMejor();
+
         Plan& GetPbest();
 
         Plan& GetPCurrent();
 
         double Getfitness();
+
+        double getbfitness();
 
         void setbfitness();
         

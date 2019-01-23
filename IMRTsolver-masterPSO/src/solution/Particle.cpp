@@ -12,8 +12,9 @@ namespace imrt{
 		r1 = 1;//((double)rand()/(RAND_MAX));
 		r2 = 1;//((double)rand()/(RAND_MAX));
 		calculateFitness();
+		//mejor = new Plan(Pcurrent);
 		PBest.newCopy(Pcurrent);
-		bfitness = Pcurrent.getEvaluation();
+		bfitness = Pcurrent.eval();
 	};
 
 	void Particle::Velocityupdate(Plan &GBest, int type, int w, int c1, int c2)
@@ -26,22 +27,33 @@ namespace imrt{
 		}else if(type == 2)
 		{
 			/*
-			*	Segunda implementacion de velocidad
-			*/
+			*	Segunda implementacion de velocidad*/
 		}
-	}
-	void Particle::calculateFitness()
-	{
-		fitness = Pcurrent.eval();
 	};
-
 	void Particle::updatePbest()
-	{
-	/*	if(fitness < PBest.getEvaluation())
-		{} */		
+	{		
 		bfitness = Pcurrent.getEvaluation();	
 		PBest.newCopy(Pcurrent);
 	};
+
+//USO DE PUNTERO A PBEST
+	/*void Particle::Velocityupdate(Plan &GBest, int type, int w, int c1, int c2){
+		r1 = ((double)rand())/(RAND_MAX);
+		r2 = ((double)rand())/(RAND_MAX);
+		Pcurrent.updateVelocity(GBest, *mejor, Pcurrent,w,c1,c2,r1,r2);
+	};
+	void Particle::updateMejor()
+	{
+		if(fitness < mejor->getEvaluation()){
+			mejor = &Pcurrent;
+			bfitness = mejor->eval();
+		};
+	}
+*/
+	void Particle::calculateFitness()
+	{
+		fitness = Pcurrent.eval();
+	};	
 
 	void Particle::updatePosition()
 	{
@@ -63,14 +75,24 @@ namespace imrt{
 		return fitness;
 	};
 
+	double Particle::getbfitness()
+	{
+		return bfitness;
+	}
+
 	void Particle::setbfitness()
 	{
 		bfitness = PBest.eval();
 	};
-	void Particle::printIntensities(){
+
+	void Particle::printIntensities()
+	{
 		Pcurrent.printIntensities();
 	};
-	void Particle::printVelocities(){
+	
+	void Particle::printVelocities()
+	{
 		Pcurrent.printVelocities();
 	}
+
 }

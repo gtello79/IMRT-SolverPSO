@@ -71,20 +71,20 @@ vector<Volume> createVolumes (string organ_filename, Collimator& collimator){
 };
 
 
-void searchGlobal(vector<Particle> &solution, int size, Plan &BGlobal){
+/*void searchGlobal(vector<Particle> &solution, int size, Plan &BGlobal){
 	int i = 0;
 	for (int i = 1 ; i < size;i++){
-		if ((solution[i].GetPbest()).getEvaluation() <= BGlobal.getEvaluation()){
-			BGlobal.newCopy(solution[i].GetPCurrent());
+		if (solution[i].Getfitness() <= BGlobal.getEvaluation()){
+			BGlobal = (solution[i].GetPCurrent());
 		};
 	}
-}
+}*/
 
 int main(){
 	int i,j; 
 	int n = 1;
-	int size  = 5;
-	int max_iter = 4;
+	int size  = 20;
+	int max_iter = 10;
 	int _type_ = 1;
 	int initial_setup = 5;
 
@@ -125,8 +125,6 @@ int main(){
 	Plan *BGlobal;
 	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
 
-
-
 	//Formation of the particle set
 	Plan *Opc;
 	cout<<"\n "<<endl;
@@ -136,14 +134,18 @@ int main(){
 		cout << "Particula N° " << i+1 << endl;
 		Opc = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
 		solution.push_back(Particle(*Opc));
-		if(solution[i].Getfitness() < solution[i].GetPbest().getEvaluation())
-		{
+		if(solution[i].Getfitness()<solution[i].getbfitness()){
       solution[i].updatePbest();
-			solution[i].setbfitness();
-		};
+    }
 	}
-  searchGlobal(solution, size, *BGlobal);
-
+  //searchGlobal(solution, size, *BGlobal);
+  for(int k = 0; k < size ; k++)
+  {
+      if(solution[k].Getfitness() < BGlobal->getEvaluation())
+      {
+        BGlobal = &solution[k].GetPCurrent();
+      }
+  }
 
   cout << "###############################################################################" << endl;
 	cout << "#########################Particles Created#####################################" << endl;
@@ -155,20 +157,23 @@ int main(){
 		//We calculate the Intensity and the Velocity using PSO
     for(int i = 0; i < size ; i++)
 		{	
-			cout << "Particula N°" << i+1 <<" " ;
-			solution[i].Velocityupdate(*BGlobal, _type_,1,1,1);
-			solution[i].updatePosition();
-      solution[i].calculateFitness();
-      if(solution[i].Getfitness() <= solution[i].GetPbest().getEvaluation())
-      {
-        solution[i].updatePbest();
-      }
+      cout << "Particula N°" << i+1 <<" " ;
+      //if(solution[i].Getfitness() != BGlobal->getEvaluation() )
+      //{  
+			  solution[i].Velocityupdate(*BGlobal, _type_,1,1,1);
+			  solution[i].updatePosition();
+        solution[i].calculateFitness();
+        if(solution[i].Getfitness()<solution[i].getbfitness())
+        {
+          solution[i].updatePbest();
+        }
+      //}
       cout << solution[i].Getfitness() <<"\n"<<endl;
 		};
     //Calculate the new Best Global of the particle
     for(int k = 0; k < size ; k++){
-      if(solution[k].GetPCurrent().getEvaluation() < BGlobal->getEvaluation()){
-        BGlobal->newCopy(solution[k].GetPCurrent());
+      if(solution[k].Getfitness() < BGlobal->eval()){
+        BGlobal = &solution[k].GetPCurrent();
       }
     }
 		cout<<"Best Global Iteration n°"<<j<<": " << BGlobal->getEvaluation()<<endl;
@@ -179,9 +184,6 @@ int main(){
 
   cout << "##"<<endl;
   cout << "## Best solution found: " <<  BGlobal->getEvaluation() << endl;
-  cout<<"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"<<endl;
   BGlobal->printIntensities();
-  delete(BGlobal);
-  delete(Opc);
   return 0;
 }
