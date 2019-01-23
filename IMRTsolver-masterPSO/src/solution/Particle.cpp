@@ -17,17 +17,10 @@ namespace imrt{
 		bfitness = Pcurrent.eval();
 	};
 
-	void Particle::Velocityupdate(Plan &GBest, int type, int w, int c1, int c2)
-	{
-		if(type == 1)
-		{	
-			Pcurrent.updateVelocity(GBest, PBest, Pcurrent ,w, c1, c2);
-		}else if(type == 2)
-		{
-			/*
-			*	Segunda implementacion de velocidad*/
-		}
+	void Particle::Velocityupdate(Plan &GBest,int w, int c1, int c2){
+		Pcurrent.updateVelocity(GBest, PBest, Pcurrent ,w, c1, c2);
 	};
+	
 	void Particle::updatePbest()
 	{		
 		bfitness = Pcurrent.getEvaluation();	

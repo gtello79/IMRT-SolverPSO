@@ -185,7 +185,7 @@ namespace imrt {
     Matrix *MatrixI, *MatrixV;
     Matrix valor;
     //
-    for (int i = 0; i < 5 ; i++) 
+    for (int i = 0; i < getStationSize() ; i++) 
     {
       auxCurrent = get_station(i);
       MatrixI = &(auxCurrent->get_Intensity());
@@ -198,7 +198,7 @@ namespace imrt {
   {
       
     Station *auxCurrent, *auxGlobal, *auxBest;
-    for (int i = 0 ; i < 5 ; i++)
+    for (int i = 0 ; i < getStationSize() ; i++)
     {
       auxCurrent = get_station(i);
       auxGlobal = Bglobal.get_station(i);
@@ -220,7 +220,7 @@ namespace imrt {
   void Plan::printVelocities()
   {
     Matrix *aux;
-    for(int i = 0; i < n_stations; i++){
+    for(int i = 0; i < getStationSize(); i++){
       aux = &get_station(i)->get_Velocity();
       cout << *aux << endl;
     }
@@ -228,7 +228,7 @@ namespace imrt {
 
 	void Plan::printIntensities()
   {
-    for(int i = 0;i < 5; i++){
+    for(int i = 0;i < getStationSize(); i++){
       printIntensity(i);
     }
   };

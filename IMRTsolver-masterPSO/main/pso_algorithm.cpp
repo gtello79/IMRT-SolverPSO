@@ -81,29 +81,33 @@ vector<Volume> createVolumes (string organ_filename, Collimator& collimator){
 	}
 }*/
 
-int main(){
+int main(int argc, char** argv){
+  //Belong to the PSO-ALGORITHM
 	int i,j; 
-	int n = 1;
-	int size  = 5;
-	int max_iter = 10;
-	int _type_ = 1;
+	int size  = 10;
+	int max_iter = 100;
 	int initial_setup = 5;
 
-	int vsize=50;
- 	int bsize=20;   
+//Belong to the other algorithms.
+	int bsize=20;  
+ 	int vsize=50;
+  double maxdelta=5.0;
+  double maxratio=3.0;
+  double alpha=1.0;
+  double beta=1.0;
   int maxiter=5000;
   int maxtime=0;
   int max_apertures=5;
   int open_apertures=-1;
-  double alpha=1.0;
-  double beta=1.0;
-  double maxdelta=5.0;
-  double maxratio=3.0;
-  bool search_aperture=false;
-  bool search_intensity=false;
-	int initial_intensity=2;
+  int initial_intensity=2;
   int max_intensity=28;
   int step_intensity=2;
+
+  bool search_aperture=false;
+  bool search_intensity=false;
+	
+  
+  
   
   // ls params
   double prob_intensity=0.2;
@@ -118,6 +122,7 @@ int main(){
 	string strategy="dao_ls";
 	string file="data/testinstance_0_70_140_210_280.txt";
   string file2="data/test_instance_coordinates.txt";
+  string path=".";
 
 	vector <Particle> solution ;//inicializar con parametro sizeB
 	vector<double> w={1,1,1};
@@ -126,6 +131,88 @@ int main(){
 	Collimator collimator(file2, get_angles(file, 5));
   vector<Volume> volumes= createVolumes (file, collimator);
 	
+  args::ArgumentParser parser("********* IMRT-Solver (PSO-Algorithm) *********", "Example.\n./PSO  --maxiter=400 --maxdelta=8 --maxratio=6 --alpha=0.999 --beta=0.999 --bsize=5 --vsize=20 --max-apertures=4 --seed=0 --open-apertures=1 --initial-intensity=4 --step-intensity=1 --file-dep=data/Equidistantes/equidist00.txt --file-coord=data/Equidistantes/equidist-coord.txt");
+	args::HelpFlag help(parser, "help", "Display this help menu", {'h', "help"});
+  
+  args::ValueFlag<int> _size(parser, "int", "Number of particles for the swarm("+to_string(size)+")", {"size"});
+  args::ValueFlag<int> _max_iter(parser, "int", "Number of iterations that the program will run ("+to_string(max_iter)+")", {"max_iter"});
+  args::ValueFlag<int> _initial_setup(parser, "int", "Type of creation for the particles ("+to_string(initial_setup)+")", {"initial_setup"});
+
+  args::ValueFlag<int> _bsize(parser, "int", "Number of considered beamlets for selection ("+to_string(bsize)+")", {"bsize"});
+	args::ValueFlag<int> _vsize(parser, "int", "Number of considered worst voxels ("+to_string(vsize)+")", {"vsize"});
+  args::ValueFlag<int> _maxdelta(parser, "int", "Max delta  ("+to_string(maxdelta)+")", {"maxdelta"});
+  args::ValueFlag<int> _maxratio(parser, "int", "Max ratio  ("+to_string(maxratio)+")", {"maxratio"});
+  args::ValueFlag<double> _alpha(parser, "double", "Initial temperature for intensities  ("+to_string(alpha)+")", {"alpha"});
+  args::ValueFlag<double> _beta(parser, "double", "Initial temperature for ratio  ("+to_string(beta)+")", {"beta"});
+  args::ValueFlag<int> _maxiter(parser, "int", "Number of iterations ("+to_string(maxiter)+")", {"maxiter"});
+  args::ValueFlag<int> _maxtime(parser, "int", "Maximum time in seconds ("+to_string(maxtime)+")", {"maxtime"});
+  args::ValueFlag<int> _seed(parser, "int", "Seed  ("+to_string(seed)+")", {"seed"});
+  args::ValueFlag<int> _max_apertures(parser, "int", "Initial intensity for the station  ("+to_string(max_apertures)+")", {"max-apertures"});
+  args::ValueFlag<int> _open_apertures(parser, "int", "Number of initialized open apertures (-1: all, default:"+to_string(open_apertures)+")", {"open-apertures"});
+  args::ValueFlag<int> _initial_intensity(parser, "int", "Initial value aperture intensity  ("+to_string(initial_intensity)+")", {"initial-intensity"});
+  args::ValueFlag<int> _max_intensity(parser, "int", "Max value aperture intensity  ("+to_string(max_intensity)+")", {"max-intensity"});
+  args::ValueFlag<int> _step_intensity(parser, "int", "Step size for aperture intensity  ("+to_string(step_intensity)+")", {"step-intensity"});
+
+  args::Group setup (parser, "Initial solution setup (these override all provided configurations):", args::Group::Validators::DontCare);
+  args::Flag open_max(setup, "open_max", "Open aperture setup with max intensity", {"open-max-setup"});
+  args::Flag open_min(setup, "open_min", "Open aperture setup with min intensity", {"open-min-setup"});
+  args::Flag closed_min(setup, "closed_min", "Closed aperture setup with min intensity", {"closed-min-setup"});
+  args::Flag closed_max(setup, "closed_max", "Closed aperture setup with max intensity", {"closed-max-setup"});
+  args::Flag all_rand(setup, "all_rand", "Random aperture setup with random intensity", {"rand-setup"});
+
+ // args::ValueFlag<double> _temperature(parser, "double", "Temperature for acceptance criterion  ("+to_string(temperature)+")", {"temperature"});
+ // args::ValueFlag<double> _alphaT(parser, "double", "Reduction rate of the temperature  ("+to_string(alphaT)+")", {"alphaT"});
+ // args::ValueFlag<int> _perturbation(parser, "int", "Perturbation size  ("+to_string(perturbation)+")", {"perturbation-size"});
+
+  args::Flag _plot(parser, "bool", "Generate plot and save in file", {"plot"});
+
+	//args::Flag trace(parser, "trace", "Trace", {"trace"});
+  args::ValueFlag<string> _file(parser, "string", "File with the deposition matrix", {"file-dep"});
+  args::ValueFlag<string> _file2(parser, "string", "File with the beam coordinates", {"file-coord"});
+  args::ValueFlag<string> _path(parser, "string", "Absolute path of the executable (if it is executed from other directory)", {"path"});
+
+ 	try
+	{
+		parser.ParseCLI(argc, argv);
+
+	}
+	catch (args::Help&)
+	{
+		std::cout << parser;
+		return 0;
+	}
+	catch (args::ParseError& e)
+	{
+		std::cerr << e.what() << std::endl;
+		std::cerr << parser;
+		return 1;
+	}
+	catch (args::ValidationError& e)
+	{
+		std::cerr << e.what() << std::endl;
+		std::cerr << parser;
+		return 1;
+	}
+
+  if(_size)  size = _size.Get();
+  if(_max_iter) max_iter = _max_iter.Get();
+  if(_initial_setup) initial_setup =_initial_setup.Get(); 
+ 
+  if(_bsize) bsize=_bsize.Get();
+  if(_vsize) vsize=_vsize.Get();
+  if(_maxdelta) maxdelta=_maxdelta.Get();
+  if(_maxratio) maxratio=_maxratio.Get();
+  if(_alpha) alpha=_alpha.Get();
+  if(_beta) beta=_beta.Get();
+  if(_maxiter) maxiter=_maxiter.Get();
+  if(_maxtime) maxtime=_maxtime.Get();
+  if(_max_apertures) max_apertures=_max_apertures.Get();
+  if(_open_apertures) open_apertures=_open_apertures.Get();
+  if(_seed) seed=_seed.Get();
+  if(_initial_intensity) initial_intensity=_initial_intensity.Get();
+  if(_max_intensity) max_intensity=_max_intensity.Get();
+  if(_step_intensity) step_intensity=_step_intensity.Get();
+
 	Plan *BGlobal;
 	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
 
@@ -165,7 +252,7 @@ int main(){
       cout << "Particula N°" << i+1 <<" " ;
       //if(solution[i].Getfitness() != BGlobal->getEvaluation() )
       //{  
-			  solution[i].Velocityupdate(*BGlobal, _type_,1,1,1);
+			  solution[i].Velocityupdate(*BGlobal,1,1,1);
 			  solution[i].updatePosition(max_intensity);
         solution[i].calculateFitness();
         if(solution[i].Getfitness()<solution[i].getbfitness())
