@@ -667,7 +667,7 @@ namespace imrt {
       for(int j = 0; j < collimator.getYdim() ; j++){
         pair <int,int> restriccion = collimator.getActiveRange(j,angle);
         if(restriccion.first <j< restriccion.second){
-          veloc[i][j] = veloc[i][j] + r1*(Bpm[i][j] - I[i][j]) + r2*(Bgm[i][j]-I[i][j]);
+          veloc(i,j) = veloc(i,j) + r1*(Bpm(i,j) - I(i,j)) + r2*(Bgm(i,j)-I(i,j));
         }     
       }
     }
@@ -682,13 +682,13 @@ namespace imrt {
         pair <int,int> restriccion = collimator.getActiveRange(j,angle);
         if(restriccion.first <j< restriccion.second)
         {
-          I[i][j]=I[i][j]+veloc[i][j];
-          if(I[i][j]<0)
+          I(i,j)=I(i,j)+veloc(i,j);
+          if(I(i,j)<0)
           {
-            I[i][j] = 0;
-          }else if(I[i][j]>max_intensity)
+            I(i,j) = 0;
+          }else if(I(i,j)>max_intensity)
           {
-            I[i][j] = max_intensity;
+            I(i,j) = max_intensity;
           }
         }     
       }
