@@ -71,16 +71,6 @@ vector<Volume> createVolumes (string organ_filename, Collimator& collimator){
   return(volumes);
 };
 
-
-/*void searchGlobal(vector<Particle> &solution, int size, Plan &BGlobal){
-	int i = 0;
-	for (int i = 1 ; i < size;i++){
-		if (solution[i].Getfitness() <= BGlobal.getEvaluation()){
-			BGlobal = (solution[i].GetPCurrent());
-		};
-	}
-}*/
-
 int main(int argc, char** argv){
   //Belong to the PSO-ALGORITHM
 	int i,j; 
@@ -105,9 +95,6 @@ int main(int argc, char** argv){
 
   bool search_aperture=false;
   bool search_intensity=false;
-	
-  
-  
   
   // ls params
   double prob_intensity=0.2;
@@ -124,12 +111,6 @@ int main(int argc, char** argv){
   string file2="data/test_instance_coordinates.txt";
   string path=".";
 
-	vector <Particle> solution ;//inicializar con parametro sizeB
-	vector<double> w={1,1,1};
-  vector<double> Zmin={0,0,76};
-  vector<double> Zmax={65,60,1000};
-	Collimator collimator(file2, get_angles(file, 5));
-  vector<Volume> volumes= createVolumes (file, collimator);
 	
   args::ArgumentParser parser("********* IMRT-Solver (PSO-Algorithm) *********", "Example.\n./PSO  --maxiter=400 --maxdelta=8 --maxratio=6 --alpha=0.999 --beta=0.999 --bsize=5 --vsize=20 --max-apertures=4 --seed=0 --open-apertures=1 --initial-intensity=4 --step-intensity=1 --file-dep=data/Equidistantes/equidist00.txt --file-coord=data/Equidistantes/equidist-coord.txt");
 	args::HelpFlag help(parser, "help", "Display this help menu", {'h', "help"});
@@ -212,6 +193,13 @@ int main(int argc, char** argv){
   if(_initial_intensity) initial_intensity=_initial_intensity.Get();
   if(_max_intensity) max_intensity=_max_intensity.Get();
   if(_step_intensity) step_intensity=_step_intensity.Get();
+
+  vector <Particle> solution ;//inicializar con parametro sizeB
+	vector<double> w={1,1,1};
+  vector<double> Zmin={0,0,76};
+  vector<double> Zmax={65,60,1000};
+	Collimator collimator(file2, get_angles(file, 5));
+  vector<Volume> volumes= createVolumes (file, collimator);
 
 	Plan *BGlobal;
 	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
