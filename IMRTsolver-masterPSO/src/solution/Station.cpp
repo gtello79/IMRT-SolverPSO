@@ -656,7 +656,7 @@ namespace imrt {
   void Station::set_Intensity(Matrix& newInten){
     I = newInten;
   }
-  void Station::calculateNewVelocity(Station &BestG, Station &BestP){
+  void Station::calculateNewVelocity(Station &BestG, Station &BestP,int w,int c1,int c2){
     int x;
     int y;
     double r1 = ((double)rand()/(RAND_MAX));
@@ -669,7 +669,7 @@ namespace imrt {
       if(aux.first<0) continue;
       
       for (int j=aux.first; j<=aux.second; j++) {
-        veloc(i,j) = veloc(i,j) + r1*(Bpm(i,j) - I(i,j)) + r2*(Bgm(i,j)-I(i,j));
+        veloc(i,j) = w*veloc(i,j) + r1*c1*(Bpm(i,j) - I(i,j)) + r2*c2*(Bgm(i,j)-I(i,j));
       }
     }
   };
