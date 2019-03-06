@@ -77,7 +77,7 @@ int main(int argc, char** argv){
 	int size  = 10;
 	int max_iter = 100;
 	int initial_setup = 5;
-  int iner,c1,c2 = 1;
+  int iner=1, c1=1 ,c2 = 1;
 
 //Belong to the other algorithms.
 	int bsize=20;  

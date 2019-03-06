@@ -203,7 +203,7 @@ namespace imrt {
       auxCurrent = get_station(i);
       auxGlobal = Bglobal.get_station(i);
       auxBest = Pbest.get_station(i);  
-      auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest);
+      auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
 
       /*ICurrent = &auxCurrent->get_Intensity();
       VCurrent = &auxCurrent->get_Velocity();
