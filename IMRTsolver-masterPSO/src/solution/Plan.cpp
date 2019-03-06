@@ -196,7 +196,6 @@ namespace imrt {
 
   void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, int w, int c1, int c2)
   {
-      
     Station *auxCurrent, *auxGlobal, *auxBest;
     for (int i = 0 ; i < getStationSize() ; i++)
     {
@@ -204,16 +203,6 @@ namespace imrt {
       auxGlobal = Bglobal.get_station(i);
       auxBest = Pbest.get_station(i);  
       auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
-
-      /*ICurrent = &auxCurrent->get_Intensity();
-      VCurrent = &auxCurrent->get_Velocity();
-
-      IGlobal = &auxGlobal->get_Intensity();
-      IBest = &auxBest->get_Intensity();
-      
-      *VCurrent = *VCurrent + c1*r1*(*IBest - *ICurrent) + c2*r2*(*IGlobal - *ICurrent);
-      auxCurrent->set_Velocity(*VCurrent);*/
-      
     }
   }
 
