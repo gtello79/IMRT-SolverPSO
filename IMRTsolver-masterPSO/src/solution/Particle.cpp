@@ -17,7 +17,7 @@ namespace imrt{
 		bfitness = Pcurrent.eval();
 	};
 
-	void Particle::Velocityupdate(Plan &GBest,int w, int c1, int c2){
+	void Particle::Velocityupdate(Plan &GBest,float w, float c1, float c2){
 		Pcurrent.updateVelocity(GBest, PBest, Pcurrent ,w, c1, c2);
 	};
 	

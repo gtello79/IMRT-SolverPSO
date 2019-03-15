@@ -36,7 +36,7 @@ namespace imrt{
   	    Particle(Plan& P);
 
   	    //Function with the process for calculate the velocity of the particle using the stations
-        void Velocityupdate(Plan &GBest, int w, int c1, int c2);
+        void Velocityupdate(Plan &GBest, float w, float c1, float c2);
         //Function for calculate the position of the solution using PSO
         void calculateFitness();
         //Function for update Pbest

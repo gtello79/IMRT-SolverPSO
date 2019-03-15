@@ -77,7 +77,7 @@ int main(int argc, char** argv){
 	int size  = 10;
 	int max_iter = 100;
 	int initial_setup = 5;
-  int iner=1, c1=1 ,c2 = 1;
+  float iner=1, c1=1 ,c2 = 1;
 
 //Belong to the other algorithms.
 	int bsize=20;  
@@ -119,9 +119,9 @@ int main(int argc, char** argv){
   args::ValueFlag<int> _size(parser, "int", "Number of particles for the swarm("+to_string(size)+")", {"size"});
   args::ValueFlag<int> _max_iter(parser, "int", "Number of iterations that the program will run ("+to_string(max_iter)+")", {"max_iter"});
   args::ValueFlag<int> _initial_setup(parser, "int", "Type of creation for the particles ("+to_string(initial_setup)+")", {"initial_setup"});
-  args::ValueFlag<int> _iner(parser, "int", "Inertia Parameter ("+to_string(iner)+")", {"iner"});
-  args::ValueFlag<int> _c1(parser, "int", "Social Factor Parameter ("+to_string(c1)+")", {"c1"});
-  args::ValueFlag<int> _c2(parser, "int", "Personal Factor Parameter ("+to_string(c2)+")", {"c2"});
+  args::ValueFlag<float> _iner(parser, "int", "Inertia Parameter ("+to_string(iner)+")", {"iner"});
+  args::ValueFlag<float> _c1(parser, "int", "Social Factor Parameter ("+to_string(c1)+")", {"c1"});
+  args::ValueFlag<float> _c2(parser, "int", "Personal Factor Parameter ("+to_string(c2)+")", {"c2"});
 
   args::ValueFlag<int> _bsize(parser, "int", "Number of considered beamlets for selection ("+to_string(bsize)+")", {"bsize"});
 	args::ValueFlag<int> _vsize(parser, "int", "Number of considered worst voxels ("+to_string(vsize)+")", {"vsize"});

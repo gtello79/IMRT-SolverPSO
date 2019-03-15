@@ -1,0 +1,5 @@
+## Best solution found: 275.926
+## Best solution found: 445.735
+## Best solution found: 764.722
+## Best solution found: 534.511
+## Best solution found: 434.233

@@ -656,7 +656,7 @@ namespace imrt {
   void Station::set_Intensity(Matrix& newInten){
     I = newInten;
   }
-  void Station::calculateNewVelocity(Station &BestG, Station &BestP,int w,int c1,int c2){
+  void Station::calculateNewVelocity(Station &BestG, Station &BestP,float w,float c1,float c2){
     int x;
     int y;
     double r1 = ((double)rand()/(RAND_MAX));

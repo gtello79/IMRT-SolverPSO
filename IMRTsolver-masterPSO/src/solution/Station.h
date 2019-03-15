@@ -221,7 +221,7 @@ public:
   void set_Velocity(Matrix& newV);
   void set_Intensity(Matrix& newInten);
   void calculateNewPosition(int max_intensity);
-  void calculateNewVelocity(Station &BestG, Station &BestP,int w,int c1,int c2);
+  void calculateNewVelocity(Station &BestG, Station &BestP,float w,float c1,float c2);
 
   };
 }

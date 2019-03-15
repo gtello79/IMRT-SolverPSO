@@ -194,7 +194,7 @@ namespace imrt {
     };
   }
 
-  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, int w, int c1, int c2)
+  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2)
   {
     Station *auxCurrent, *auxGlobal, *auxBest;
     for (int i = 0 ; i < getStationSize() ; i++)
