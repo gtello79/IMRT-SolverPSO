@@ -1,5 +1,61 @@
-## Best solution found: 275.926
-## Best solution found: 445.735
-## Best solution found: 764.722
-## Best solution found: 534.511
-## Best solution found: 434.233
+##3 iteraciones - 100 iteraciones - 100 particulas - w: 0.5 - c1: 0.5 - c2:0.8
+## Best solution found: 230.08
+## Best solution found: 190.728
+## Best solution found: 171.773
+##x iteraciones - 100 iteraciones - 100 particulas - w:0.1 - c1:0.3 -c2:0.5
+## Best solution found: 408.355
+## Best solution found: 347.966
+## Best solution found: 273.27
+## Best solution found: 374.664
+##x iteraciones - 100 iteraciones - 100 particulas - w:0.9 - c1:0.3 - c2:0.8
+## Best solution found: 121.142
+## Best solution found: 134.351
+## Best solution found: 102.016
+## Best solution found: 106.173
+## Best solution found: 87.5427
+##x iteraciones - 100 iteraciones - 100 particulas - w:0.9 - c1:0.8 - c2:0.3
+## Best solution found: 80.9325
+## Best solution found: 90.9291
+## Best solution found: 98.3765
+## Best solution found: 101.423
+## Best solution found: 94.7894
+##x iteraciones - 100 iteraciones - 100 particulas - w:0.9 - c1:0.9 - c:0.2
+## Best solution found: 86.8614
+## Best solution found: 101.676
+## Best solution found: 81.9727
+## Best solution found: 102.634
+## Best solution found: 100.027
+##x iteraciones - 100 iteraciones - 100 particulas - w:0.9 - c1:0.9 - c2:0.1
+## Best solution found: 141.585
+## Best solution found: 137.957
+## Best solution found: 85.5479
+## Best solution found: 123.271
+## Best solution found: 106.646
+##x iteraciones - 100 iteraciones - 100 particulas - w:0.1 - c1:0.9 - c2:0.1
+## Best solution found: 442.279
+## Best solution found: 376.689
+## Best solution found: 444.23
+## Best solution found: 370.158
+## Best solution found: 505.524
+##x iteraciones - 100 iteraciones - 100 particulas - w:0.956 - c1:0.856 - c2:0.356
+## Best solution found: 94.5235
+## Best solution found: 110.964
+## Best solution found: 76.2211
+## Best solution found: 89.0779
+## Best solution found: 91.9551
+##x iteraciones - 100 iteraciones - 100 particulas - w:0.95678321 - c1:0.856789321 - c2:0.356789321
+## Best solution found: 111.074
+## Best solution found: 100.437
+## Best solution found: 92.7029
+## Best solution found: 100.898
+## Best solution found: 82.5696
+## Best solution found: 92.418
+## Best solution found: 99.3755
+## Best solution found: 97.479
+## Best solution found: 93.8369
+## Best solution found: 102.519
+## Best solution found: 88.6904
+## Best solution found: 90.5667
+## Best solution found: 109.227
+## Best solution found: 83.3509
+## Best solution found: 79.5059
