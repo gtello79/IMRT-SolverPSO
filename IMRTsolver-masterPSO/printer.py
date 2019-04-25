@@ -48,7 +48,7 @@ seed = 0
 write_report = False
 pso_iter = 10
 
-# Aquí procesamos lo que se tiene que hacer con cada argumento
+# Aqui procesamos lo que se tiene que hacer con cada argumento
 if args.size:
     size = args.size 
 if args.max_iter:
@@ -90,5 +90,5 @@ if args.pso_iter:
 
 os.system("mkdir Values")
 for i in range(0,pso_iter):
-    os.system("./PSO --max_iter "+str(max_iter)+"--size "+str(size)+"--initial_setup "+str(initial_setup)+"--iner "+str(iner)" --c1 "+str(c1)+" --c2 "+str(c2)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --maxtime "+str(maxtime)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity) +" --step_intensity "+str(step_intensity)+ " --seed "+str(seed) +" >>Values/resultado"+str(i)+".txt")
+    os.system("./PSO --max_iter "+str(max_iter)+"--size "+str(size)+"--initial_setup "+str(initial_setup)+"--iner "+str(iner)" --c1 "+str(c1)+" --c2 "+str(c2)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --maxtime "+str(maxtime)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity) +" --seed "+str(seed) +" >>Values/resultado"+str(i)+".txt")
     seed = seed + 1
