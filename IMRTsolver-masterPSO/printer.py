@@ -12,11 +12,11 @@ parser.add_argument("-c1", "--c1",type=int, help="Social Factor Parameter")
 parser.add_argument("-c2", "--c2",type=int, help="Personal Factor Parameter")
 parser.add_argument("-bsize", "--bsize" , type=int, help = "Type of creation for the particles")
 parser.add_argument("-vsize","--vsize",type=int, help = "Number of considered worst voxels")
-parser.add_argument("-maxdelta","--maxdelta",type=float, help = "Max delta")
-parser.add_argument("-maxratio","--maxratio",type=float, help = "Max Ratio")
-parser.add_argument("-alpha","--alpha",type=float, help = "Initial temperature for intensities")
-parser.add_argument("-beta","--beta",type=float, help = "Initial temperature for ratio ")
-parser.add_argument("-maxtime","--maxtime",type=int , help = "Maximum time in seconds")
+parser.add_argument("-maxdelta","--maxdelta",type = int, help = "Max delta")
+parser.add_argument("-maxratio","--maxratio",type = int, help = "Max Ratio")
+parser.add_argument("-alpha","--alpha",type = float, help = "Initial temperature for intensities")
+parser.add_argument("-beta","--beta",type = float, help = "Initial temperature for ratio ")
+parser.add_argument("-maxtime","--maxtime", type=int , help = "Maximum time in seconds")
 parser.add_argument("-seed","--seed",type=int ,help = "Seed")
 parser.add_argument("-max_apertures","--max_apertures",type=int, help = "Initial intensity for the station ")
 parser.add_argument("-open_apertures","--open_apertures",type=int , help = "Number of initialized open apertures")
@@ -26,7 +26,7 @@ parser.add_argument("-pso_iter", "--pso_iter", type=int, help = "Number of itera
 
 args = parser.parse_args()
 
-size  = 10
+size = 10
 max_iter = 100
 initial_setup = 5
 iner=1 
@@ -34,12 +34,12 @@ c1=1
 c2 = 1
 bsize=20  
 vsize=50
-maxdelta=5.0
-maxratio=3.0
+maxdelta=5
+maxratio=3
 alpha=1.0
 beta=1.0
 maxtime=0
-max_apertures=5
+max_apertures = 5
 open_apertures=-1
 initial_intensity=2
 max_intensity=28
@@ -88,7 +88,15 @@ if args.max_intensity:
 if args.pso_iter:
     pso_iter = args.pso_iter
 
-os.system("mkdir Values")
+##It's the call to the function
 for i in range(0,pso_iter):
-    os.system("./PSO --max_iter "+str(max_iter)+"--size "+str(size)+"--initial_setup "+str(initial_setup)+"--iner "+str(iner)" --c1 "+str(c1)+" --c2 "+str(c2)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --maxtime "+str(maxtime)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity) +" --seed "+str(seed) +" >>Values/resultado"+str(i)+".txt")
+    os.system("./PSO --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" >> Values/resultado"+str(i)+".txt")
     seed = seed + 1
+##Now we try to show only the final line with the best solution of the iteration
+for i in range(pso_iter):
+    archivo = file("Values/resultado"+str(i)+".txt",'r')
+    archivo1 = archivo.split("\n")
+	for linea in archivo:
+      reading = linea.strip().split("\n")
+      print(reading[-1])
+    archivo.close()  
