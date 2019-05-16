@@ -27,20 +27,6 @@ namespace imrt{
 		PBest.newCopy(Pcurrent);
 	};
 
-//USO DE PUNTERO A PBEST
-	/*void Particle::Velocityupdate(Plan &GBest, int type, int w, int c1, int c2){
-		r1 = ((double)rand())/(RAND_MAX);
-		r2 = ((double)rand())/(RAND_MAX);
-		Pcurrent.updateVelocity(GBest, *mejor, Pcurrent,w,c1,c2,r1,r2);
-	};
-	void Particle::updateMejor()
-	{
-		if(fitness < mejor->getEvaluation()){
-			mejor = &Pcurrent;
-			bfitness = mejor->eval();
-		};
-	}
-*/
 	void Particle::calculateFitness()
 	{
 		fitness = Pcurrent.eval();

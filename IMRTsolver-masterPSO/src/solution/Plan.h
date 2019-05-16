@@ -24,12 +24,11 @@ class Plan {
 public:
 	Plan(EvaluationFunction &ev);
 
-  	Plan(EvaluationFunction &ev, vector<double> w, vector<double> Zmin, vector<double> Zmax);
+  Plan(EvaluationFunction &ev, vector<double> w, vector<double> Zmin, vector<double> Zmax);
 
-  	Plan(vector<double> w, vector<double> Zmin, vector<double> Zmax, Collimator& collimator, vector<Volume>& volumes,
-       int max_apertures, int max_intensity, int initial_intensity, int step_intensity=2, int open_apertures=-1, int setup=6);
+  Plan(vector<double> w, vector<double> Zmin, vector<double> Zmax, Collimator& collimator, vector<Volume>& volumes, int max_apertures, int max_intensity, int initial_intensity, int step_intensity=2, int open_apertures=-1, int setup=6);
 
-  	Plan(const Plan &p);
+  Plan(const Plan &p);
 
 	virtual ~Plan() {};
 
@@ -89,6 +88,8 @@ public:
 	void printVelocities();
 	
 	void printIntensities();
+ 
+  void initializeVectorStations();
 	
 	int getStationSize(); 
 
@@ -99,9 +100,9 @@ private:
 	//list<Station> real_stations;
 	list<Station*> stations;
 
-  	int n_stations;
+  int n_stations;
 
-  	Station* last_changed;
+  Station* last_changed;
 	list< pair< int, double > > last_diff;
 
 	EvaluationFunction ev;
@@ -109,7 +110,7 @@ private:
 	vector<double> w;
 	vector<double> Zmin;
 	vector<double> Zmax;
-
+  int accept_value[5];
 	double evaluation_fx;
 };
 

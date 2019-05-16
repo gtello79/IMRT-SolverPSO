@@ -32,11 +32,13 @@ namespace imrt {
     eval();
     cout << "##  Initial evaluation: " << evaluation_fx << "."<< endl;
     last_changed=NULL;
+    
   };
 
   Plan::Plan(const Plan &p): ev(p.ev), w(p.w), Zmin(p.Zmin), Zmax(p.Zmax), last_changed(NULL) {
     //EvaluationFunction aux_ev(p.ev);
     //ev=aux_ev;
+    
     for (list<Station*>::const_iterator it=p.stations.begin();it!=p.stations.end();it++) {
       Station* aux = new Station(**it);
       if (p.last_changed && p.last_changed->getAngle()==aux->getAngle()) last_changed=aux;
@@ -62,13 +64,13 @@ namespace imrt {
       //real_stations.push_back(*aux);
     }
     evaluation_fx=p.evaluation_fx;
+
   }
 
   void Plan::add_station(Station& s){
     stations.push_back(&s);
   }
   
-
   double Plan::eval(vector<double>& w, vector<double>& Zmin, vector<double>& Zmax) {
     double eval=ev.eval(*this,w,Zmin,Zmax);
     ev.generate_voxel_dose_functions ();
@@ -187,10 +189,12 @@ namespace imrt {
     //
     for (int i = 0; i < getStationSize() ; i++) 
     {
-      auxCurrent = get_station(i);
-      MatrixI = &(auxCurrent->get_Intensity());
-      MatrixV = &(auxCurrent->get_Velocity());  
-      auxCurrent->calculateNewPosition(max_intensity);
+      if(accept_value[i]==1){
+        auxCurrent = get_station(i);
+        MatrixI = &(auxCurrent->get_Intensity());
+        MatrixV = &(auxCurrent->get_Velocity());  
+        auxCurrent->calculateNewPosition(max_intensity);
+      }
     };
   }
 
@@ -199,13 +203,15 @@ namespace imrt {
     Station *auxCurrent, *auxGlobal, *auxBest;
     for (int i = 0 ; i < getStationSize() ; i++)
     {
-      auxCurrent = get_station(i);
-      auxGlobal = Bglobal.get_station(i);
-      auxBest = Pbest.get_station(i);  
-      auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
+      if(accept_value[i]==1){
+        auxCurrent = get_station(i);
+        auxGlobal = Bglobal.get_station(i);
+        auxBest = Pbest.get_station(i);
+        auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
+      }
     }
   }
-
+  
   void Plan::printVelocities()
   {
     Matrix *aux;
@@ -225,6 +231,13 @@ namespace imrt {
 	int Plan::getStationSize() {
 	  return(stations.size());
 	  
-	}
+	};
+   //In this vector we can see how get the best STATIONS
+  void Plan::initializeVectorStations(){
+    for(int i = 0; i < 5; i++){
+      accept_value[i] = 1;
+    }
+  };
+  
   
 }

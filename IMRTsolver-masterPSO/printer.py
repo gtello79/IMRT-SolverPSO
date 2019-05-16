@@ -87,16 +87,20 @@ if args.max_intensity:
     max_intensity = args.max_intensity
 if args.pso_iter:
     pso_iter = args.pso_iter
-
+##Erasing the files of the last iteration
+os.system("rm -r Values")
+os.system("mkdir Values")
 ##It's the call to the function
 for i in range(0,pso_iter):
     os.system("./PSO --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" >> Values/resultado"+str(i)+".txt")
     seed = seed + 1
 ##Now we try to show only the final line with the best solution of the iteration
 for i in range(pso_iter):
-    archivo = file("Values/resultado"+str(i)+".txt",'r')
-    archivo1 = archivo.split("\n")
+	archivo = file("Values/resultado"+str(i)+".txt",'r')
 	for linea in archivo:
-      reading = linea.strip().split("\n")
-      print(reading[-1])
-    archivo.close()  
+		reading = linea.strip().split(" ")
+      		if(reading[0] == "##"):
+			if(len(reading) > 1):
+				if(reading[1]=="Best"):
+					print(linea)
+   	archivo.close()

@@ -1,0 +1,105 @@
+##Reading collimator coordinates info.
+##  data/CERR_Prostate/CoordinatesBeam_0.txt a:0
+##  data/CERR_Prostate/CoordinatesBeam_70.txt a:70
+##  data/CERR_Prostate/CoordinatesBeam_140.txt a:140
+##  data/CERR_Prostate/CoordinatesBeam_210.txt a:210
+##  data/CERR_Prostate/CoordinatesBeam_280.txt a:280
+##  Read 5 files.
+##Reading volume files.
+##  data/CERR_Prostate/DAO_DDM_BLADDER.dat
+##  data/CERR_Prostate/DAO_DDM_RECTUM.dat
+##  data/CERR_Prostate/DAO_DDM_PTVHD.dat
+##  Read 3 files
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1250.81.
+
+ 
+Particula N° 1
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1208.9.
+Particula N° 2
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1119.34.
+Particula N° 3
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 701.781.
+Particula N° 4
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1428.64.
+Particula N° 5
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 770.202.
+Particula N° 6
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1230.71.
+Particula N° 7
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1006.7.
+Particula N° 8
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1133.87.
+Particula N° 9
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1158.64.
+Particula N° 10
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 571.695.
+Particula N° 11
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1332.52.
+Particula N° 12
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1154.19.
+Particula N° 13
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 973.562.
+Particula N° 14
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1315.05.
+Particula N° 15
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1098.03.
+Particula N° 16
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1096.04.
+Particula N° 17
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 973.53.
+Particula N° 18
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 523.885.
+Particula N° 19
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 692.753.
+Particula N° 20
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1343.25.
+Particula N° 21
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 677.553.
+Particula N° 22
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1374.67.

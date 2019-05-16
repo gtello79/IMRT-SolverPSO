@@ -59,3 +59,8 @@
 ## Best solution found: 109.227
 ## Best solution found: 83.3509
 ## Best solution found: 79.5059
+## Best solution found: 210.747
+## Best solution found: 279.717
+## Best solution found: 350.601
+## Best solution found: 253.286
+## Best solution found: 246.916
