@@ -32,6 +32,7 @@ namespace imrt {
     eval();
     cout << "##  Initial evaluation: " << evaluation_fx << "."<< endl;
     last_changed=NULL;
+    accept_value[n_stations];
     
   };
 
@@ -46,6 +47,7 @@ namespace imrt {
       //real_stations.push_back(*aux);
     }
     evaluation_fx=p.evaluation_fx;
+    accept_value[n_stations];
   }
 
   void Plan::newCopy(Plan& p) {
@@ -64,7 +66,7 @@ namespace imrt {
       //real_stations.push_back(*aux);
     }
     evaluation_fx=p.evaluation_fx;
-
+    accept_value[n_stations];
   }
 
   void Plan::add_station(Station& s){
@@ -199,22 +201,18 @@ namespace imrt {
 
   void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2)
   {
-    int change = rand()%getStationSize();
+    int numero = rand();
+    int change2 = numero%(1+getStationSize());
     Station *auxCurrent, *auxGlobal, *auxBest;
     for (int i = 0 ; i < getStationSize() ; i++)
     {
-      if(accept_value[i]==1){
+      //if(accept_value[i]==1){}
         auxCurrent = get_station(i);
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
-        auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
-      }
-      print <<i<<endl; 
-   };
-   
-	cout<<getStationSize()<<endl;
-	cout<<rand()%getStationSize()<<endl;
-   
+        auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2); 
+     };
+     cout << "\n" << change2 << endl;
   }
   
   void Plan::printVelocities()
