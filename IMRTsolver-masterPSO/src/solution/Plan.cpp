@@ -186,7 +186,6 @@ namespace imrt {
     Station *auxCurrent;
     Matrix *MatrixI, *MatrixV;
     Matrix valor;
-    //
     for (int i = 0; i < getStationSize() ; i++) 
     {
       if(accept_value[i]==1){
@@ -200,6 +199,7 @@ namespace imrt {
 
   void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2)
   {
+    int change = rand()%getStationSize();
     Station *auxCurrent, *auxGlobal, *auxBest;
     for (int i = 0 ; i < getStationSize() ; i++)
     {
@@ -209,7 +209,12 @@ namespace imrt {
         auxBest = Pbest.get_station(i);
         auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
       }
-    }
+      print <<i<<endl; 
+   };
+   
+	cout<<getStationSize()<<endl;
+	cout<<rand()%getStationSize()<<endl;
+   
   }
   
   void Plan::printVelocities()

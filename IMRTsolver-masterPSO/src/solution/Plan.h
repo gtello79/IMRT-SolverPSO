@@ -110,7 +110,7 @@ private:
 	vector<double> w;
 	vector<double> Zmin;
 	vector<double> Zmax;
-  int accept_value[5];
+  int accept_value[this.n_stations];
 	double evaluation_fx;
 };
 

@@ -660,7 +660,7 @@ namespace imrt {
     int x;
     int y;
     double r1 = ((double)rand()/(RAND_MAX));
-		double	r2 = ((double)rand()/(RAND_MAX));
+    double r2 = ((double)rand()/(RAND_MAX));
     Matrix Bgm = BestG.get_Intensity();
     Matrix Bpm = BestP.get_Intensity();
     for(int i = 0; i < collimator.getXdim() ; i++){

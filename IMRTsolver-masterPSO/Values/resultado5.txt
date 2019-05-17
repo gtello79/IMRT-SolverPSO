@@ -1,0 +1,3667 @@
+##Reading collimator coordinates info.
+##  data/CERR_Prostate/CoordinatesBeam_0.txt a:0
+##  data/CERR_Prostate/CoordinatesBeam_70.txt a:70
+##  data/CERR_Prostate/CoordinatesBeam_140.txt a:140
+##  data/CERR_Prostate/CoordinatesBeam_210.txt a:210
+##  data/CERR_Prostate/CoordinatesBeam_280.txt a:280
+##  Read 5 files.
+##Reading volume files.
+##  data/CERR_Prostate/DAO_DDM_BLADDER.dat
+##  data/CERR_Prostate/DAO_DDM_RECTUM.dat
+##  data/CERR_Prostate/DAO_DDM_PTVHD.dat
+##  Read 3 files
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 714.883.
+
+ 
+Particula N° 1
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 392.376.
+Particula N° 2
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1056.44.
+Particula N° 3
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1192.89.
+Particula N° 4
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1304.76.
+Particula N° 5
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 842.774.
+Particula N° 6
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1164.8.
+Particula N° 7
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 889.923.
+Particula N° 8
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1475.82.
+Particula N° 9
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 507.41.
+Particula N° 10
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1515.73.
+Particula N° 11
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 616.17.
+Particula N° 12
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 670.949.
+Particula N° 13
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1317.63.
+Particula N° 14
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 873.699.
+Particula N° 15
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1440.95.
+Particula N° 16
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1216.97.
+Particula N° 17
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1261.46.
+Particula N° 18
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 819.43.
+Particula N° 19
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1275.09.
+Particula N° 20
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 783.732.
+Particula N° 21
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 986.95.
+Particula N° 22
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 738.725.
+Particula N° 23
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1189.63.
+Particula N° 24
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 842.346.
+Particula N° 25
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 718.28.
+Particula N° 26
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 888.27.
+Particula N° 27
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1134.72.
+Particula N° 28
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1185.37.
+Particula N° 29
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 881.566.
+Particula N° 30
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1595.28.
+Particula N° 31
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1253.94.
+Particula N° 32
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 663.037.
+Particula N° 33
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 944.15.
+Particula N° 34
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 993.243.
+Particula N° 35
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1085.75.
+Particula N° 36
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 958.636.
+Particula N° 37
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1245.96.
+Particula N° 38
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1190.8.
+Particula N° 39
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1597.39.
+Particula N° 40
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 577.438.
+Particula N° 41
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 484.362.
+Particula N° 42
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1393.57.
+Particula N° 43
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 907.119.
+Particula N° 44
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 457.69.
+Particula N° 45
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 551.386.
+Particula N° 46
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1316.09.
+Particula N° 47
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 669.188.
+Particula N° 48
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1312.07.
+Particula N° 49
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 972.354.
+Particula N° 50
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1575.27.
+Particula N° 51
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1107.72.
+Particula N° 52
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1638.18.
+Particula N° 53
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 758.698.
+Particula N° 54
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 925.33.
+Particula N° 55
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 828.11.
+Particula N° 56
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 720.553.
+Particula N° 57
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 472.877.
+Particula N° 58
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 454.608.
+Particula N° 59
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1031.61.
+Particula N° 60
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 650.277.
+Particula N° 61
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1047.23.
+Particula N° 62
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1134.08.
+Particula N° 63
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1237.32.
+Particula N° 64
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 896.008.
+Particula N° 65
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1506.16.
+Particula N° 66
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 836.006.
+Particula N° 67
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1213.87.
+Particula N° 68
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1192.77.
+Particula N° 69
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1025.21.
+Particula N° 70
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 937.711.
+Particula N° 71
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1021.79.
+Particula N° 72
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 859.878.
+Particula N° 73
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1582.78.
+Particula N° 74
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 495.568.
+Particula N° 75
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 869.249.
+Particula N° 76
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1015.23.
+Particula N° 77
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1340.81.
+Particula N° 78
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1272.47.
+Particula N° 79
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 484.038.
+Particula N° 80
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 770.041.
+Particula N° 81
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 712.013.
+Particula N° 82
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 787.706.
+Particula N° 83
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1696.93.
+Particula N° 84
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 831.04.
+Particula N° 85
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1045.05.
+Particula N° 86
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 877.925.
+Particula N° 87
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 707.917.
+Particula N° 88
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 568.464.
+Particula N° 89
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 841.468.
+Particula N° 90
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1293.77.
+Particula N° 91
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1034.11.
+Particula N° 92
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1097.71.
+Particula N° 93
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 803.393.
+Particula N° 94
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1189.06.
+Particula N° 95
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 850.866.
+Particula N° 96
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1545.5.
+Particula N° 97
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 708.258.
+Particula N° 98
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 865.932.
+Particula N° 99
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1054.77.
+Particula N° 100
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 969.494.
+###############################################################################
+#########################Particles Created#####################################
+###############################################################################
+
+ Iteracion: 1
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°0: 392.376
+
+ Iteracion: 2
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°1: 392.376
+
+ Iteracion: 3
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°2: 392.376
+
+ Iteracion: 4
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°3: 392.376
+
+ Iteracion: 5
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°4: 392.376
+
+ Iteracion: 6
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°5: 392.376
+
+ Iteracion: 7
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°6: 392.376
+
+ Iteracion: 8
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°7: 392.376
+
+ Iteracion: 9
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°8: 392.376
+
+ Iteracion: 10
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°9: 392.376
+
+ Iteracion: 11
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°10: 392.376
+
+ Iteracion: 12
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°11: 392.376
+
+ Iteracion: 13
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°12: 392.376
+
+ Iteracion: 14
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°13: 392.376
+
+ Iteracion: 15
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
+Best Global Iteration n°14: 392.376
+
+ Iteracion: 16
+Particula N°1 392.376
+
+Particula N°2 1056.44
+
+Particula N°3 1192.89
+
+Particula N°4 1304.76
+
+Particula N°5 842.774
+
+Particula N°6 1164.8
+
+Particula N°7 889.923
+
+Particula N°8 1475.82
+
+Particula N°9 507.41
+
+Particula N°10 1515.73
+
+Particula N°11 616.17
+
+Particula N°12 670.949
+
+Particula N°13 1317.63
+
+Particula N°14 873.699
+
+Particula N°15 1440.95
+
+Particula N°16 1216.97
+
+Particula N°17 1261.46
+
+Particula N°18 819.43
+
+Particula N°19 1275.09
+
+Particula N°20 783.732
+
+Particula N°21 986.95
+
+Particula N°22 738.725
+
+Particula N°23 1189.63
+
+Particula N°24 842.346
+
+Particula N°25 718.28
+
+Particula N°26 888.27
+
+Particula N°27 1134.72
+
+Particula N°28 1185.37
+
+Particula N°29 881.566
+
+Particula N°30 1595.28
+
+Particula N°31 1253.94
+
+Particula N°32 663.037
+
+Particula N°33 944.15
+
+Particula N°34 993.243
+
+Particula N°35 1085.75
+
+Particula N°36 958.636
+
+Particula N°37 1245.96
+
+Particula N°38 1190.8
+
+Particula N°39 1597.39
+
+Particula N°40 577.438
+
+Particula N°41 484.362
+
+Particula N°42 1393.57
+
+Particula N°43 907.119
+
+Particula N°44 457.69
+
+Particula N°45 551.386
+
+Particula N°46 1316.09
+
+Particula N°47 669.188
+
+Particula N°48 1312.07
+
+Particula N°49 972.354
+
+Particula N°50 1575.27
+
+Particula N°51 1107.72
+
+Particula N°52 1638.18
+
+Particula N°53 758.698
+
+Particula N°54 925.33
+
+Particula N°55 828.11
+
+Particula N°56 720.553
+
+Particula N°57 472.877
+
+Particula N°58 454.608
+
+Particula N°59 1031.61
+
+Particula N°60 650.277
+
+Particula N°61 1047.23
+
+Particula N°62 1134.08
+
+Particula N°63 1237.32
+
+Particula N°64 896.008
+
+Particula N°65 1506.16
+
+Particula N°66 836.006
+
+Particula N°67 1213.87
+
+Particula N°68 1192.77
+
+Particula N°69 1025.21
+
+Particula N°70 937.711
+
+Particula N°71 1021.79
+
+Particula N°72 859.878
+
+Particula N°73 1582.78
+
+Particula N°74 495.568
+
+Particula N°75 869.249
+
+Particula N°76 1015.23
+
+Particula N°77 1340.81
+
+Particula N°78 1272.47
+
+Particula N°79 484.038
+
+Particula N°80 770.041
+
+Particula N°81 712.013
+
+Particula N°82 787.706
+
+Particula N°83 1696.93
+
+Particula N°84 831.04
+
+Particula N°85 1045.05
+
+Particula N°86 877.925
+
+Particula N°87 707.917
+
+Particula N°88 568.464
+
+Particula N°89 841.468
+
+Particula N°90 1293.77
+
+Particula N°91 1034.11
+
+Particula N°92 1097.71
+
+Particula N°93 803.393
+
+Particula N°94 1189.06
+
+Particula N°95 850.866
+
+Particula N°96 1545.5
+
+Particula N°97 708.258
+
+Particula N°98 865.932
+
+Particula N°99 1054.77
+
+Particula N°100 969.494
+
