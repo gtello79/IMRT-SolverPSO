@@ -656,18 +656,14 @@ namespace imrt {
   void Station::set_Intensity(Matrix& newInten){
     I = newInten;
   }
-  void Station::calculateNewVelocity(Station &BestG, Station &BestP,float w,float c1,float c2){
-    int x;
-    int y;
+  void Station::calculateNewVelocity(Station &BestG, Station &BestP, float w, float c1, float c2){
     double r1 = ((double)rand()/(RAND_MAX));
     double r2 = ((double)rand()/(RAND_MAX));
     Matrix Bgm = BestG.get_Intensity();
     Matrix Bpm = BestP.get_Intensity();
-    for(int i = 0; i < collimator.getXdim() ; i++){
-      
+    for(int i = 0; i < collimator.getXdim() ; i++){  
       pair <int,int> aux = collimator.getActiveRange(i,angle);
       if(aux.first<0) continue;
-      
       for (int j=aux.first; j<=aux.second; j++) {
         veloc(i,j) = w*veloc(i,j) + r1*c1*(Bpm(i,j) - I(i,j)) + r2*c2*(Bgm(i,j)-I(i,j));
       }

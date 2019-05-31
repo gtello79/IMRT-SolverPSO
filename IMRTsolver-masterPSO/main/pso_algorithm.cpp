@@ -77,7 +77,12 @@ int main(int argc, char** argv){
 	int size  = 10;
 	int max_iter = 100;
 	int initial_setup = 5;
+  //Best parametres values
   float iner=1, c1=1 ,c2 = 1;
+  
+  //Marks of Best Global
+  double actual_global = 0;
+  int Best_iteration = 0;
 
 //Belong to the other algorithms.
 	int bsize=20;  
@@ -93,7 +98,8 @@ int main(int argc, char** argv){
   int initial_intensity=2;
   int max_intensity=28;
   int step_intensity=2;
-
+  int changes_beam = 1; //number of beam to change
+  
   bool search_aperture=false;
   bool search_intensity=false;
   
@@ -122,7 +128,8 @@ int main(int argc, char** argv){
   args::ValueFlag<float> _iner(parser, "int", "Inertia Parameter ("+to_string(iner)+")", {"iner"});
   args::ValueFlag<float> _c1(parser, "int", "Social Factor Parameter ("+to_string(c1)+")", {"c1"});
   args::ValueFlag<float> _c2(parser, "int", "Personal Factor Parameter ("+to_string(c2)+")", {"c2"});
-
+  args::ValueFlag<int> _changes_beam(parser, "int","Size of beam to change("+to_string(changes_beam)+")",{"changes_beam"});
+  
   args::ValueFlag<int> _bsize(parser, "int", "Number of considered beamlets for selection ("+to_string(bsize)+")", {"bsize"});
 	args::ValueFlag<int> _vsize(parser, "int", "Number of considered worst voxels ("+to_string(vsize)+")", {"vsize"});
   args::ValueFlag<int> _maxdelta(parser, "int", "Max delta  ("+to_string(maxdelta)+")", {"maxdelta"});
@@ -137,17 +144,13 @@ int main(int argc, char** argv){
   args::ValueFlag<int> _initial_intensity(parser, "int", "Initial value aperture intensity  ("+to_string(initial_intensity)+")", {"initial_intensity"});
   args::ValueFlag<int> _max_intensity(parser, "int", "Max value aperture intensity  ("+to_string(max_intensity)+")", {"max_intensity"});
   args::ValueFlag<int> _step_intensity(parser, "int", "Step size for aperture intensity  ("+to_string(step_intensity)+")", {"step_intensity"});
-
+  
   args::Group setup (parser, "Initial solution setup (these override all provided configurations):", args::Group::Validators::DontCare);
   args::Flag open_max(setup, "open_max", "Open aperture setup with max intensity", {"open-max-setup"});
   args::Flag open_min(setup, "open_min", "Open aperture setup with min intensity", {"open-min-setup"});
   args::Flag closed_min(setup, "closed_min", "Closed aperture setup with min intensity", {"closed-min-setup"});
   args::Flag closed_max(setup, "closed_max", "Closed aperture setup with max intensity", {"closed-max-setup"});
   args::Flag all_rand(setup, "all_rand", "Random aperture setup with random intensity", {"rand-setup"});
-
- // args::ValueFlag<double> _temperature(parser, "double", "Temperature for acceptance criterion  ("+to_string(temperature)+")", {"temperature"});
- // args::ValueFlag<double> _alphaT(parser, "double", "Reduction rate of the temperature  ("+to_string(alphaT)+")", {"alphaT"});
- // args::ValueFlag<int> _perturbation(parser, "int", "Perturbation size  ("+to_string(perturbation)+")", {"perturbation-size"});
 
   args::Flag _plot(parser, "bool", "Generate plot and save in file", {"plot"});
 
@@ -185,7 +188,7 @@ int main(int argc, char** argv){
   if(_iner) iner =_iner.Get(); 
   if(_c1) c1 =_c1.Get(); 
   if(_c2) c2 =_c2.Get(); 
-
+  if(_changes_beam) changes_beam = _changes_beam.Get();
   if(_bsize) bsize=_bsize.Get();
   if(_vsize) vsize=_vsize.Get();
   if(_maxdelta) maxdelta=_maxdelta.Get();
@@ -210,28 +213,27 @@ int main(int argc, char** argv){
 
 	Plan *BGlobal;
 	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
-
+  actual_global = BGlobal->getEvaluation();
 	//Formation of the particle set
 	Plan *Opc;
 	cout<<"\n "<<endl;
 	for(i = 0; i < size; i++)
 	{	
-    //Agregar condiciones nueva para generar un plan
-		cout << "Particula N° " << i+1 << endl;
+    cout << "Particula N° " << i+1 << endl;
 		Opc = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
-		solution.push_back(Particle(*Opc));
-		if(solution[i].Getfitness()<solution[i].getbfitness()){
+		solution.push_back(Particle(*Opc,c1,c2,iner));
+		if(solution[i].getFitness() < solution[i].getBfitness()){
       solution[i].updatePbest();
     }
 	}
-  //searchGlobal(solution, size, *BGlobal);
+  
   for(int k = 0; k < size ; k++)
   {
-      if(solution[k].Getfitness() < BGlobal->getEvaluation())
-      {
-        //BGlobal = &solution[k].GetPCurrent();
-        BGlobal->newCopy(solution[k].GetPCurrent());
-      }
+    if(solution[k].getFitness() < actual_global )
+    {  
+      BGlobal->newCopy(solution[k].GetPCurrent());
+      actual_global = BGlobal->eval();
+    }
   }
 
   cout << "###############################################################################" << endl;
@@ -245,32 +247,34 @@ int main(int argc, char** argv){
     for(int i = 0; i < size ; i++)
 		{	
       cout << "Particula N°" << i+1 <<" " ;
-      //if(solution[i].Getfitness() != BGlobal->getEvaluation() )
-      //{  
-			  solution[i].Velocityupdate(*BGlobal,iner,c1,c2);
-			  solution[i].updatePosition(max_intensity);
-        solution[i].calculateFitness();
-        if(solution[i].Getfitness()<solution[i].getbfitness())
-        {
-          solution[i].updatePbest();
-        }
-      //}
-      cout << solution[i].Getfitness() <<"\n"<<endl;
+      solution[i].Velocityupdate(*BGlobal, changes_beam);
+	solution[i].updatePosition(max_intensity);
+      solution[i].calculateFitness();
+      if(solution[i].getFitness()<solution[i].getBfitness())
+      {
+        solution[i].updatePbest();
+      }
+      cout << solution[i].getFitness() <<"\n"<<endl;
 		};
-    //Calculate the new Best Global of the particle
-    for(int k = 0; k < size ; k++){
-      if(solution[k].Getfitness() < BGlobal->eval()){
+   
+  //Calculate the new Best Global of the particle
+    for(int k = 0; k < size ; k++)
+    {
+      if(solution[k].getFitness() < actual_global)
+      {
         BGlobal->newCopy(solution[k].GetPCurrent());
+        actual_global = BGlobal->eval();
+        Best_iteration = j;
       }
     }
-		cout<<"Best Global Iteration n°"<<j<<": " << BGlobal->getEvaluation()<<endl;
+		cout<<"Best Global Iteration n°"<<j<<": " << actual_global << " at the iteration " <<Best_iteration <<endl ;
 	};
 	cout << "##**************************************************************************"<< endl;
   cout << "##******************************* RESULTS **********************************"<< endl;
   cout << "##**************************************************************************"<< endl;
 
   cout << "##"<<endl;
-  cout << "## Best solution found: " <<  BGlobal->getEvaluation() << endl;
- // BGlobal->printIntensities();
+  cout << "## Best solution found: " <<  actual_global << endl;
+  // BGlobal->printIntensities();
   return 0;
 }

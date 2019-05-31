@@ -28,12 +28,11 @@ namespace imrt {
       add_station(*station);
       //station->printIntensity();
     }
+    
     cout << "##  Created " << stations.size() << " stations."<< endl;
     eval();
     cout << "##  Initial evaluation: " << evaluation_fx << "."<< endl;
-    last_changed=NULL;
-    accept_value[n_stations];
-    
+    last_changed=NULL;   
   };
 
   Plan::Plan(const Plan &p): ev(p.ev), w(p.w), Zmin(p.Zmin), Zmax(p.Zmax), last_changed(NULL) {
@@ -47,7 +46,7 @@ namespace imrt {
       //real_stations.push_back(*aux);
     }
     evaluation_fx=p.evaluation_fx;
-    accept_value[n_stations];
+    
   }
 
   void Plan::newCopy(Plan& p) {
@@ -65,12 +64,11 @@ namespace imrt {
       stations.push_back(aux);
       //real_stations.push_back(*aux);
     }
-    evaluation_fx=p.evaluation_fx;
-    accept_value[n_stations];
   }
 
   void Plan::add_station(Station& s){
     stations.push_back(&s);
+    accept_value.push_back(0);
   }
   
   double Plan::eval(vector<double>& w, vector<double>& Zmin, vector<double>& Zmax) {
@@ -185,34 +183,53 @@ namespace imrt {
   
   void Plan::updatePosition(int max_intensity)
   { 
+    cout<<endl;
     Station *auxCurrent;
-    Matrix *MatrixI, *MatrixV;
-    Matrix valor;
     for (int i = 0; i < getStationSize() ; i++) 
     {
-      if(accept_value[i]==1){
+      //cout << accept_value[i]<<endl;
+      if(accept_value[i]!=0){
         auxCurrent = get_station(i);
-        MatrixI = &(auxCurrent->get_Intensity());
-        MatrixV = &(auxCurrent->get_Velocity());  
         auxCurrent->calculateNewPosition(max_intensity);
+        //cout<<"Se mueve el Beam "<<i<<endl;
       }
+      cout<<accept_value[i];
     };
+    cout<<endl;
+    for(int i = 0; i < getStationSize(); i++) accept_value[i]=0;
   }
 
-  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2)
+  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, int change)
   {
-    int numero = rand();
-    int change2 = numero%(1+getStationSize());
     Station *auxCurrent, *auxGlobal, *auxBest;
+    int random = (rand())%(getStationSize());
+    bool access = false;
+    if(change == getStationSize()) access = true;
+    
+    //Here we find the able beam to change in the next iteration
+    for(int j = 0; j < change ; j++){
+      while(accept_value[random] == 1){
+        random = (rand())%(getStationSize());
+      }
+      accept_value[random] = 1;  
+    }
+    
+    //Giving access to all the beam for the change
+    if(access){
+      for(int i = 0; i < getStationSize(); i++) accept_value[1]=1;
+    }
+     
+    //Calculate the value of the new evaluation
     for (int i = 0 ; i < getStationSize() ; i++)
     {
-      //if(accept_value[i]==1){}
+      if(accept_value[i]!=0)
+      {
         auxCurrent = get_station(i);
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
-        auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2); 
-     };
-     cout << "\n" << change2 << endl;
+        auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
+      }
+    } 
   }
   
   void Plan::printVelocities()
@@ -238,7 +255,7 @@ namespace imrt {
    //In this vector we can see how get the best STATIONS
   void Plan::initializeVectorStations(){
     for(int i = 0; i < 5; i++){
-      accept_value[i] = 1;
+      accept_value[i] = 0;
     }
   };
   

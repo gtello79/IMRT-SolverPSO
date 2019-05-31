@@ -4,21 +4,18 @@ using namespace std;
 
 namespace imrt{
 
-	Particle::Particle(Plan& P) : Pcurrent(P), PBest(P) 
+	Particle::Particle(Plan& P, float c_1, float c_2, float iner) : Pcurrent(P), PBest(P) 
 	{
-		w = 1;
-		c1 = 1;
-		c2 = 1;
-		r1 = 1;//((double)rand()/(RAND_MAX));
-		r2 = 1;//((double)rand()/(RAND_MAX));
+		w = iner;
+		c1 = c_1;
+		c2 = c_2;
 		calculateFitness();
-		//mejor = new Plan(Pcurrent);
 		PBest.newCopy(Pcurrent);
 		bfitness = Pcurrent.eval();
-	};
+  };
 
-	void Particle::Velocityupdate(Plan &GBest,float w, float c1, float c2){
-		Pcurrent.updateVelocity(GBest, PBest, Pcurrent ,w, c1, c2);
+	void Particle::Velocityupdate(Plan &GBest, int change){
+    Pcurrent.updateVelocity(GBest, PBest, Pcurrent, w, c1, c2, change);
 	};
 	
 	void Particle::updatePbest()
@@ -35,6 +32,7 @@ namespace imrt{
 	void Particle::updatePosition(int max_intensity)
 	{
 		Pcurrent.updatePosition(max_intensity);
+		cout << "Best Personal: " << bfitness<<endl;
 	}
 
 	Plan& Particle::GetPCurrent()
@@ -47,12 +45,12 @@ namespace imrt{
 		return PBest;
 	};
 
-	double Particle::Getfitness()
+	double Particle::getFitness()
 	{
 		return fitness;
 	};
 
-	double Particle::getbfitness()
+	double Particle::getBfitness()
 	{
 		return bfitness;
 	}
@@ -61,7 +59,7 @@ namespace imrt{
 	{
 		bfitness = PBest.eval();
 	};
-
+  
 	void Particle::printIntensities()
 	{
 		Pcurrent.printIntensities();

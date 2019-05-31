@@ -1,0 +1,2715 @@
+##Reading collimator coordinates info.
+##  data/CERR_Prostate/CoordinatesBeam_0.txt a:0
+##  data/CERR_Prostate/CoordinatesBeam_70.txt a:70
+##  data/CERR_Prostate/CoordinatesBeam_140.txt a:140
+##  data/CERR_Prostate/CoordinatesBeam_210.txt a:210
+##  data/CERR_Prostate/CoordinatesBeam_280.txt a:280
+##  Read 5 files.
+##Reading volume files.
+##  data/CERR_Prostate/DAO_DDM_BLADDER.dat
+##  data/CERR_Prostate/DAO_DDM_RECTUM.dat
+##  data/CERR_Prostate/DAO_DDM_PTVHD.dat
+##  Read 3 files
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 879.938.
+
+ 
+Particula N° 1
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1195.34.
+Particula N° 2
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1780.21.
+Particula N° 3
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1401.24.
+Particula N° 4
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 471.139.
+Particula N° 5
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 410.088.
+Particula N° 6
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1235.6.
+Particula N° 7
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1151.21.
+Particula N° 8
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1145.15.
+Particula N° 9
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1128.21.
+Particula N° 10
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1347.47.
+###############################################################################
+#########################Particles Created#####################################
+###############################################################################
+
+ Iteracion: 1
+Particula N°1 
+10000
+Best Personal: 1195.34
+918.778
+
+Particula N°2 
+01000
+Best Personal: 1780.21
+1348.8
+
+Particula N°3 
+00100
+Best Personal: 1401.24
+1379.65
+
+Particula N°4 
+00100
+Best Personal: 471.139
+490.536
+
+Particula N°5 
+00100
+Best Personal: 410.088
+410.088
+
+Particula N°6 
+10000
+Best Personal: 1235.6
+705.344
+
+Particula N°7 
+00010
+Best Personal: 1151.21
+1015.8
+
+Particula N°8 
+00001
+Best Personal: 1145.15
+1203.46
+
+Particula N°9 
+10000
+Best Personal: 1128.21
+724.445
+
+Particula N°10 
+00001
+Best Personal: 1347.47
+1386.88
+
+Best Global Iteration n°0: 410.088 at the iteration 0
+
+ Iteracion: 2
+Particula N°1 
+01000
+Best Personal: 918.778
+939.254
+
+Particula N°2 
+00001
+Best Personal: 1348.8
+1284.4
+
+Particula N°3 
+00001
+Best Personal: 1379.65
+1458.79
+
+Particula N°4 
+01000
+Best Personal: 471.139
+510.047
+
+Particula N°5 
+00100
+Best Personal: 410.088
+410.088
+
+Particula N°6 
+10000
+Best Personal: 705.344
+345.675
+
+Particula N°7 
+00001
+Best Personal: 1015.8
+1105.3
+
+Particula N°8 
+00001
+Best Personal: 1145.15
+1226.84
+
+Particula N°9 
+00001
+Best Personal: 724.445
+740.605
+
+Particula N°10 
+00100
+Best Personal: 1347.47
+1289.76
+
+Best Global Iteration n°1: 345.675 at the iteration 1
+
+ Iteracion: 3
+Particula N°1 
+00001
+Best Personal: 918.778
+967.273
+
+Particula N°2 
+00100
+Best Personal: 1284.4
+1233.99
+
+Particula N°3 
+00010
+Best Personal: 1379.65
+1650.14
+
+Particula N°4 
+01000
+Best Personal: 471.139
+610.865
+
+Particula N°5 
+10000
+Best Personal: 410.088
+342.764
+
+Particula N°6 
+10000
+Best Personal: 345.675
+197.85
+
+Particula N°7 
+00100
+Best Personal: 1015.8
+956.601
+
+Particula N°8 
+10000
+Best Personal: 1145.15
+1171.33
+
+Particula N°9 
+00010
+Best Personal: 724.445
+774.581
+
+Particula N°10 
+00010
+Best Personal: 1289.76
+1259.69
+
+Best Global Iteration n°2: 197.85 at the iteration 2
+
+ Iteracion: 4
+Particula N°1 
+01000
+Best Personal: 918.778
+1023.11
+
+Particula N°2 
+00100
+Best Personal: 1233.99
+1064.5
+
+Particula N°3 
+00100
+Best Personal: 1379.65
+1426.29
+
+Particula N°4 
+00001
+Best Personal: 471.139
+687.416
+
+Particula N°5 
+01000
+Best Personal: 342.764
+371.094
+
+Particula N°6 
+00010
+Best Personal: 197.85
+197.85
+
+Particula N°7 
+01000
+Best Personal: 956.601
+948.152
+
+Particula N°8 
+00001
+Best Personal: 1145.15
+1208.57
+
+Particula N°9 
+10000
+Best Personal: 724.445
+370.4
+
+Particula N°10 
+10000
+Best Personal: 1259.69
+417.183
+
+Best Global Iteration n°3: 197.85 at the iteration 2
+
+ Iteracion: 5
+Particula N°1 
+00100
+Best Personal: 918.778
+850.249
+
+Particula N°2 
+00010
+Best Personal: 1064.5
+1146.14
+
+Particula N°3 
+00010
+Best Personal: 1379.65
+1477.73
+
+Particula N°4 
+01000
+Best Personal: 471.139
+733.329
+
+Particula N°5 
+00001
+Best Personal: 342.764
+422.033
+
+Particula N°6 
+10000
+Best Personal: 197.85
+191.202
+
+Particula N°7 
+00010
+Best Personal: 948.152
+810.105
+
+Particula N°8 
+10000
+Best Personal: 1145.15
+1050.49
+
+Particula N°9 
+00100
+Best Personal: 370.4
+373.83
+
+Particula N°10 
+10000
+Best Personal: 417.183
+170.085
+
+Best Global Iteration n°4: 170.085 at the iteration 4
+
+ Iteracion: 6
+Particula N°1 
+10000
+Best Personal: 850.249
+242.169
+
+Particula N°2 
+01000
+Best Personal: 1064.5
+854.921
+
+Particula N°3 
+10000
+Best Personal: 1379.65
+1193.84
+
+Particula N°4 
+00001
+Best Personal: 471.139
+664.069
+
+Particula N°5 
+00010
+Best Personal: 342.764
+473.405
+
+Particula N°6 
+10000
+Best Personal: 191.202
+217.531
+
+Particula N°7 
+01000
+Best Personal: 810.105
+726.885
+
+Particula N°8 
+00001
+Best Personal: 1050.49
+1071.62
+
+Particula N°9 
+00010
+Best Personal: 370.4
+451.066
+
+Particula N°10 
+00010
+Best Personal: 170.085
+171.403
+
+Best Global Iteration n°5: 170.085 at the iteration 4
+
+ Iteracion: 7
+Particula N°1 
+00100
+Best Personal: 242.169
+249.74
+
+Particula N°2 
+10000
+Best Personal: 854.921
+255.986
+
+Particula N°3 
+01000
+Best Personal: 1193.84
+1155.79
+
+Particula N°4 
+01000
+Best Personal: 471.139
+648.726
+
+Particula N°5 
+00001
+Best Personal: 342.764
+465.509
+
+Particula N°6 
+00001
+Best Personal: 191.202
+219.991
+
+Particula N°7 
+01000
+Best Personal: 726.885
+698.794
+
+Particula N°8 
+10000
+Best Personal: 1050.49
+548.399
+
+Particula N°9 
+10000
+Best Personal: 370.4
+176.835
+
+Particula N°10 
+00010
+Best Personal: 170.085
+170.818
+
+Best Global Iteration n°6: 170.085 at the iteration 4
+
+ Iteracion: 8
+Particula N°1 
+00010
+Best Personal: 242.169
+300.332
+
+Particula N°2 
+00100
+Best Personal: 255.986
+239.971
+
+Particula N°3 
+00010
+Best Personal: 1155.79
+1321.86
+
+Particula N°4 
+00010
+Best Personal: 471.139
+992.135
+
+Particula N°5 
+00100
+Best Personal: 342.764
+497.805
+
+Particula N°6 
+01000
+Best Personal: 191.202
+209.355
+
+Particula N°7 
+00001
+Best Personal: 698.794
+746.647
+
+Particula N°8 
+00100
+Best Personal: 548.399
+547.247
+
+Particula N°9 
+10000
+Best Personal: 176.835
+175.473
+
+Particula N°10 
+10000
+Best Personal: 170.085
+184.067
+
+Best Global Iteration n°7: 170.085 at the iteration 4
+
+ Iteracion: 9
+Particula N°1 
+01000
+Best Personal: 242.169
+320.281
+
+Particula N°2 
+00100
+Best Personal: 239.971
+268.363
+
+Particula N°3 
+00001
+Best Personal: 1155.79
+1373.55
+
+Particula N°4 
+00100
+Best Personal: 471.139
+1067.75
+
+Particula N°5 
+10000
+Best Personal: 342.764
+347.659
+
+Particula N°6 
+10000
+Best Personal: 191.202
+224.057
+
+Particula N°7 
+00100
+Best Personal: 698.794
+635.232
+
+Particula N°8 
+10000
+Best Personal: 547.247
+219.17
+
+Particula N°9 
+00010
+Best Personal: 175.473
+166.963
+
+Particula N°10 
+01000
+Best Personal: 170.085
+184.067
+
+Best Global Iteration n°8: 166.963 at the iteration 8
+
+ Iteracion: 10
+Particula N°1 
+00001
+Best Personal: 242.169
+308.002
+
+Particula N°2 
+10000
+Best Personal: 239.971
+474.237
+
+Particula N°3 
+10000
+Best Personal: 1155.79
+956.719
+
+Particula N°4 
+10000
+Best Personal: 471.139
+183.699
+
+Particula N°5 
+00001
+Best Personal: 342.764
+331.362
+
+Particula N°6 
+00100
+Best Personal: 191.202
+183.916
+
+Particula N°7 
+00010
+Best Personal: 635.232
+712.327
+
+Particula N°8 
+00100
+Best Personal: 219.17
+205.722
+
+Particula N°9 
+10000
+Best Personal: 166.963
+168.133
+
+Particula N°10 
+00100
+Best Personal: 170.085
+195.895
+
+Best Global Iteration n°9: 166.963 at the iteration 8
+
+ Iteracion: 11
+Particula N°1 
+00010
+Best Personal: 242.169
+363.063
+
+Particula N°2 
+10000
+Best Personal: 239.971
+480.401
+
+Particula N°3 
+00100
+Best Personal: 956.719
+928.459
+
+Particula N°4 
+00100
+Best Personal: 183.699
+189.649
+
+Particula N°5 
+00100
+Best Personal: 331.362
+377.336
+
+Particula N°6 
+10000
+Best Personal: 183.916
+195.015
+
+Particula N°7 
+00010
+Best Personal: 635.232
+887.45
+
+Particula N°8 
+10000
+Best Personal: 205.722
+240.524
+
+Particula N°9 
+00100
+Best Personal: 166.963
+166.634
+
+Particula N°10 
+00010
+Best Personal: 170.085
+189.292
+
+Best Global Iteration n°10: 166.634 at the iteration 10
+
+ Iteracion: 12
+Particula N°1 
+00100
+Best Personal: 242.169
+378.669
+
+Particula N°2 
+00010
+Best Personal: 239.971
+331.694
+
+Particula N°3 
+00100
+Best Personal: 928.459
+1179.14
+
+Particula N°4 
+01000
+Best Personal: 183.699
+182.57
+
+Particula N°5 
+00001
+Best Personal: 331.362
+367.763
+
+Particula N°6 
+00010
+Best Personal: 183.916
+182.504
+
+Particula N°7 
+00010
+Best Personal: 635.232
+942.824
+
+Particula N°8 
+10000
+Best Personal: 205.722
+246.452
+
+Particula N°9 
+10000
+Best Personal: 166.634
+166.122
+
+Particula N°10 
+10000
+Best Personal: 170.085
+193.988
+
+Best Global Iteration n°11: 166.122 at the iteration 11
+
+ Iteracion: 13
+Particula N°1 
+01000
+Best Personal: 242.169
+338.61
+
+Particula N°2 
+00001
+Best Personal: 239.971
+366.413
+
+Particula N°3 
+00001
+Best Personal: 928.459
+1211.45
+
+Particula N°4 
+00010
+Best Personal: 182.57
+224.976
+
+Particula N°5 
+01000
+Best Personal: 331.362
+362.183
+
+Particula N°6 
+00010
+Best Personal: 182.504
+187.215
+
+Particula N°7 
+00010
+Best Personal: 635.232
+790.22
+
+Particula N°8 
+00010
+Best Personal: 205.722
+179.84
+
+Particula N°9 
+00001
+Best Personal: 166.122
+163.793
+
+Particula N°10 
+01000
+Best Personal: 170.085
+190.27
+
+Best Global Iteration n°12: 163.793 at the iteration 12
+
+ Iteracion: 14
+Particula N°1 
+00001
+Best Personal: 242.169
+303.532
+
+Particula N°2 
+00100
+Best Personal: 239.971
+223.036
+
+Particula N°3 
+00010
+Best Personal: 928.459
+1393.25
+
+Particula N°4 
+01000
+Best Personal: 182.57
+197.442
+
+Particula N°5 
+01000
+Best Personal: 331.362
+375.37
+
+Particula N°6 
+00010
+Best Personal: 182.504
+194.227
+
+Particula N°7 
+00010
+Best Personal: 635.232
+571.486
+
+Particula N°8 
+00100
+Best Personal: 179.84
+180.914
+
+Particula N°9 
+00001
+Best Personal: 163.793
+162.879
+
+Particula N°10 
+10000
+Best Personal: 170.085
+190.117
+
+Best Global Iteration n°13: 162.879 at the iteration 13
+
+ Iteracion: 15
+Particula N°1 
+00010
+Best Personal: 242.169
+255.396
+
+Particula N°2 
+01000
+Best Personal: 223.036
+222.045
+
+Particula N°3 
+01000
+Best Personal: 928.459
+1091.71
+
+Particula N°4 
+01000
+Best Personal: 182.57
+199.232
+
+Particula N°5 
+00001
+Best Personal: 331.362
+391.339
+
+Particula N°6 
+00100
+Best Personal: 182.504
+223.705
+
+Particula N°7 
+00001
+Best Personal: 571.486
+592.554
+
+Particula N°8 
+00001
+Best Personal: 179.84
+186.123
+
+Particula N°9 
+10000
+Best Personal: 162.879
+163.188
+
+Particula N°10 
+00010
+Best Personal: 170.085
+179.053
+
+Best Global Iteration n°14: 162.879 at the iteration 13
+
+ Iteracion: 16
+Particula N°1 
+01000
+Best Personal: 242.169
+234.207
+
+Particula N°2 
+01000
+Best Personal: 222.045
+194.343
+
+Particula N°3 
+00010
+Best Personal: 928.459
+1133.11
+
+Particula N°4 
+00010
+Best Personal: 182.57
+191.256
+
+Particula N°5 
+01000
+Best Personal: 331.362
+412.738
+
+Particula N°6 
+01000
+Best Personal: 182.504
+202.634
+
+Particula N°7 
+00010
+Best Personal: 571.486
+609.799
+
+Particula N°8 
+00100
+Best Personal: 179.84
+185.444
+
+Particula N°9 
+10000
+Best Personal: 162.879
+163.188
+
+Particula N°10 
+00010
+Best Personal: 170.085
+182.946
+
+Best Global Iteration n°15: 162.879 at the iteration 13
+
+ Iteracion: 17
+Particula N°1 
+00100
+Best Personal: 234.207
+338.973
+
+Particula N°2 
+00001
+Best Personal: 194.343
+207.24
+
+Particula N°3 
+00100
+Best Personal: 928.459
+1226.01
+
+Particula N°4 
+01000
+Best Personal: 182.57
+195.283
+
+Particula N°5 
+00010
+Best Personal: 331.362
+520.054
+
+Particula N°6 
+10000
+Best Personal: 182.504
+198.737
+
+Particula N°7 
+01000
+Best Personal: 571.486
+587.197
+
+Particula N°8 
+00010
+Best Personal: 179.84
+186.055
+
+Particula N°9 
+00010
+Best Personal: 162.879
+169.312
+
+Particula N°10 
+00001
+Best Personal: 170.085
+182.102
+
+Best Global Iteration n°16: 162.879 at the iteration 13
+
+ Iteracion: 18
+Particula N°1 
+00001
+Best Personal: 234.207
+309.725
+
+Particula N°2 
+10000
+Best Personal: 194.343
+208.968
+
+Particula N°3 
+00001
+Best Personal: 928.459
+1269.7
+
+Particula N°4 
+01000
+Best Personal: 182.57
+201.843
+
+Particula N°5 
+00010
+Best Personal: 331.362
+523.485
+
+Particula N°6 
+00010
+Best Personal: 182.504
+202.99
+
+Particula N°7 
+01000
+Best Personal: 571.486
+592.859
+
+Particula N°8 
+00010
+Best Personal: 179.84
+190.276
+
+Particula N°9 
+01000
+Best Personal: 162.879
+169.312
+
+Particula N°10 
+10000
+Best Personal: 170.085
+175.457
+
+Best Global Iteration n°17: 162.879 at the iteration 13
+
+ Iteracion: 19
+Particula N°1 
+01000
+Best Personal: 234.207
+283.106
+
+Particula N°2 
+00100
+Best Personal: 194.343
+186.803
+
+Particula N°3 
+00001
+Best Personal: 928.459
+1257.36
+
+Particula N°4 
+00010
+Best Personal: 182.57
+180.291
+
+Particula N°5 
+00001
+Best Personal: 331.362
+554.884
+
+Particula N°6 
+00100
+Best Personal: 182.504
+202.694
+
+Particula N°7 
+00001
+Best Personal: 571.486
+617.279
+
+Particula N°8 
+00100
+Best Personal: 179.84
+191.116
+
+Particula N°9 
+00010
+Best Personal: 162.879
+169.067
+
+Particula N°10 
+00010
+Best Personal: 170.085
+178.449
+
+Best Global Iteration n°18: 162.879 at the iteration 13
+
+ Iteracion: 20
+Particula N°1 
+00100
+Best Personal: 234.207
+311.022
+
+Particula N°2 
+01000
+Best Personal: 186.803
+183.912
+
+Particula N°3 
+00100
+Best Personal: 928.459
+1077.08
+
+Particula N°4 
+00100
+Best Personal: 180.291
+189.48
+
+Particula N°5 
+00100
+Best Personal: 331.362
+639.304
+
+Particula N°6 
+00100
+Best Personal: 182.504
+199.708
+
+Particula N°7 
+00001
+Best Personal: 571.486
+607.525
+
+Particula N°8 
+00100
+Best Personal: 179.84
+191.859
+
+Particula N°9 
+01000
+Best Personal: 162.879
+169.067
+
+Particula N°10 
+00100
+Best Personal: 170.085
+166.453
+
+Best Global Iteration n°19: 162.879 at the iteration 13
+
+ Iteracion: 21
+Particula N°1 
+01000
+Best Personal: 234.207
+293.724
+
+Particula N°2 
+00010
+Best Personal: 183.912
+194.252
+
+Particula N°3 
+00100
+Best Personal: 928.459
+873.005
+
+Particula N°4 
+00001
+Best Personal: 180.291
+176.987
+
+Particula N°5 
+10000
+Best Personal: 331.362
+158.542
+
+Particula N°6 
+00100
+Best Personal: 182.504
+189.673
+
+Particula N°7 
+00001
+Best Personal: 571.486
+583.27
+
+Particula N°8 
+01000
+Best Personal: 179.84
+183.346
+
+Particula N°9 
+00100
+Best Personal: 162.879
+169.02
+
+Particula N°10 
+01000
+Best Personal: 166.453
+195.278
+
+Best Global Iteration n°20: 158.542 at the iteration 20
+
+ Iteracion: 22
+Particula N°1 
+10000
+Best Personal: 234.207
+261.877
+
+Particula N°2 
+00001
+Best Personal: 183.912
+194.897
+
+Particula N°3 
+00100
+Best Personal: 873.005
+771.81
+
+Particula N°4 
+00001
+Best Personal: 176.987
+178.079
+
+Particula N°5 
+10000
+Best Personal: 158.542
+160.022
+
+Particula N°6 
+10000
+Best Personal: 182.504
+189.064
+
+Particula N°7 
+01000
+Best Personal: 571.486
+631.012
+
+Particula N°8 
+00010
+Best Personal: 179.84
+185.303
+
+Particula N°9 
+01000
+Best Personal: 162.879
+170.392
+
+Particula N°10 
+00100
+Best Personal: 166.453
+167.325
+
+Best Global Iteration n°21: 158.542 at the iteration 20
+
+ Iteracion: 23
+Particula N°1 
+00010
+Best Personal: 234.207
+266.986
+
+Particula N°2 
+01000
+Best Personal: 183.912
+197.286
+
+Particula N°3 
+00010
+Best Personal: 771.81
+744.591
+
+Particula N°4 
+00010
+Best Personal: 176.987
+171.328
+
+Particula N°5 
+00001
+Best Personal: 158.542
+163.626
+
+Particula N°6 
+01000
+Best Personal: 182.504
+177.721
+
+Particula N°7 
+01000
+Best Personal: 571.486
+624.634
+
+Particula N°8 
+10000
+Best Personal: 179.84
+185.547
+
+Particula N°9 
+10000
+Best Personal: 162.879
+168.667
+
+Particula N°10 
+00001
+Best Personal: 166.453
+173.915
+
+Best Global Iteration n°22: 158.542 at the iteration 20
+
+ Iteracion: 24
+Particula N°1 
+00100
+Best Personal: 234.207
+357.503
+
+Particula N°2 
+00100
+Best Personal: 183.912
+189.94
+
+Particula N°3 
+00100
+Best Personal: 744.591
+1114.76
+
+Particula N°4 
+01000
+Best Personal: 171.328
+170.112
+
+Particula N°5 
+00010
+Best Personal: 158.542
+163.742
+
+Particula N°6 
+00001
+Best Personal: 177.721
+169.333
+
+Particula N°7 
+10000
+Best Personal: 571.486
+500.63
+
+Particula N°8 
+00100
+Best Personal: 179.84
+184.391
+
+Particula N°9 
+00010
+Best Personal: 162.879
+160.912
+
+Particula N°10 
+00010
+Best Personal: 166.453
+173.717
+
+Best Global Iteration n°23: 158.542 at the iteration 20
+
+ Iteracion: 25
+Particula N°1 
+00010
+Best Personal: 234.207
+266.24
+
+Particula N°2 
+00001
+Best Personal: 183.912
+182.052
+
+Particula N°3 
+10000
+Best Personal: 744.591
+373.166
+
+Particula N°4 
+10000
+Best Personal: 170.112
+180.073
+
+Particula N°5 
+00100
+Best Personal: 158.542
+164.67
+
+Particula N°6 
+00010
+Best Personal: 169.333
+168.524
+
+Particula N°7 
+00001
+Best Personal: 500.63
+486.499
+
+Particula N°8 
+01000
+Best Personal: 179.84
+175.099
+
+Particula N°9 
+00100
+Best Personal: 160.912
+155.886
+
+Particula N°10 
+00001
+Best Personal: 166.453
+173.082
+
+Best Global Iteration n°24: 155.886 at the iteration 24
+
+ Iteracion: 26
+Particula N°1 
+00001
+Best Personal: 234.207
+275.023
+
+Particula N°2 
+00010
+Best Personal: 182.052
+190.577
+
+Particula N°3 
+00010
+Best Personal: 373.166
+356.226
+
+Particula N°4 
+00100
+Best Personal: 170.112
+177.66
+
+Particula N°5 
+01000
+Best Personal: 158.542
+168.083
+
+Particula N°6 
+00010
+Best Personal: 168.524
+168.102
+
+Particula N°7 
+10000
+Best Personal: 486.499
+273.993
+
+Particula N°8 
+00100
+Best Personal: 175.099
+179.462
+
+Particula N°9 
+00010
+Best Personal: 155.886
+155.295
+
+Particula N°10 
+00010
+Best Personal: 166.453
+170.779
+
+Best Global Iteration n°25: 155.295 at the iteration 25
+
+ Iteracion: 27
+Particula N°1 
+00010
+Best Personal: 234.207
+262.278
+
+Particula N°2 
+01000
+Best Personal: 182.052
+199.926
+
+Particula N°3 
+00001
+Best Personal: 356.226
+336.245
+
+Particula N°4 
+00010
+Best Personal: 170.112
+173.523
+
+Particula N°5 
+00010
+Best Personal: 158.542
+168.719
+
+Particula N°6 
+01000
+Best Personal: 168.102
+174.654
+
+Particula N°7 
+00001
+Best Personal: 273.993
+276.616
+
+Particula N°8 
+00001
+Best Personal: 175.099
+181.692
+
+Particula N°9 
+00100
+Best Personal: 155.295
+152.549
+
+Particula N°10 
+01000
+Best Personal: 166.453
+172.28
+
+Best Global Iteration n°26: 152.549 at the iteration 26
+
+ Iteracion: 28
+Particula N°1 
+01000
+Best Personal: 234.207
+262.3
+
+Particula N°2 
+01000
+Best Personal: 182.052
+182.617
+
+Particula N°3 
+01000
+Best Personal: 336.245
+251.718
+
+Particula N°4 
+00100
+Best Personal: 170.112
+178.932
+
+Particula N°5 
+01000
+Best Personal: 158.542
+168.719
+
+Particula N°6 
+00100
+Best Personal: 168.102
+177.894
+
+Particula N°7 
+01000
+Best Personal: 273.993
+290.758
+
+Particula N°8 
+00010
+Best Personal: 175.099
+205.295
+
+Particula N°9 
+00100
+Best Personal: 152.549
+152.568
+
+Particula N°10 
+01000
+Best Personal: 166.453
+175.044
+
+Best Global Iteration n°27: 152.549 at the iteration 26
+
+ Iteracion: 29
+Particula N°1 
+01000
+Best Personal: 234.207
+217.126
+
+Particula N°2 
+00100
+Best Personal: 182.052
+178.375
+
+Particula N°3 
+10000
+Best Personal: 251.718
+193.332
+
+Particula N°4 
+00010
+Best Personal: 170.112
+170.786
+
+Particula N°5 
+00100
+Best Personal: 158.542
+168.204
+
+Particula N°6 
+00100
+Best Personal: 168.102
+179.695
+
+Particula N°7 
+00100
+Best Personal: 273.993
+285.939
+
+Particula N°8 
+00001
+Best Personal: 175.099
+208.349
+
+Particula N°9 
+10000
+Best Personal: 152.549
+150.759
+
+Particula N°10 
+01000
+Best Personal: 166.453
+193.996
+
+Best Global Iteration n°28: 150.759 at the iteration 28
+
+ Iteracion: 30
+Particula N°1 
+00010
+Best Personal: 217.126
+217.463
+
+Particula N°2 
+01000
+Best Personal: 178.375
+203.237
+
+Particula N°3 
+00010
+Best Personal: 193.332
+194.845
+
+Particula N°4 
+01000
+Best Personal: 170.112
+170.293
+
+Particula N°5 
+00100
+Best Personal: 158.542
+161.307
+
+Particula N°6 
+01000
+Best Personal: 168.102
+176.982
+
+Particula N°7 
+01000
+Best Personal: 273.993
+277.781
+
+Particula N°8 
+01000
+Best Personal: 175.099
+199.306
+
+Particula N°9 
+01000
+Best Personal: 150.759
+149.98
+
+Particula N°10 
+00001
+Best Personal: 166.453
+194.251
+
+Best Global Iteration n°29: 149.98 at the iteration 29
+
+ Iteracion: 31
+Particula N°1 
+00001
+Best Personal: 217.126
+214.268
+
+Particula N°2 
+00100
+Best Personal: 178.375
+202.266
+
+Particula N°3 
+00100
+Best Personal: 193.332
+154.947
+
+Particula N°4 
+00100
+Best Personal: 170.112
+177.864
+
+Particula N°5 
+00100
+Best Personal: 158.542
+163.425
+
+Particula N°6 
+00001
+Best Personal: 168.102
+186.82
+
+Particula N°7 
+00010
+Best Personal: 273.993
+258.686
+
+Particula N°8 
+01000
+Best Personal: 175.099
+207.347
+
+Particula N°9 
+01000
+Best Personal: 149.98
+150.556
+
+Particula N°10 
+00001
+Best Personal: 166.453
+190.327
+
+Best Global Iteration n°30: 149.98 at the iteration 29
+
+ Iteracion: 32
+Particula N°1 
+10000
+Best Personal: 214.268
+214.261
+
+Particula N°2 
+00001
+Best Personal: 178.375
+213.848
+
+Particula N°3 
+00100
+Best Personal: 154.947
+154.553
+
+Particula N°4 
+01000
+Best Personal: 170.112
+178.213
+
+Particula N°5 
+00010
+Best Personal: 158.542
+160.675
+
+Particula N°6 
+00001
+Best Personal: 168.102
+191.172
+
+Particula N°7 
+00001
+Best Personal: 258.686
+261.239
+
+Particula N°8 
+00001
+Best Personal: 175.099
+201.402
+
+Particula N°9 
+10000
+Best Personal: 149.98
+150.684
+
+Particula N°10 
+00100
+Best Personal: 166.453
+192.717
+
+Best Global Iteration n°31: 149.98 at the iteration 29
+
+ Iteracion: 33
+Particula N°1 
+00010
+Best Personal: 214.261
+215.403
+
+Particula N°2 
+00001
+Best Personal: 178.375
+208.412
+
+Particula N°3 
+10000
+Best Personal: 154.553
+147.264
+
+Particula N°4 
+00010
+Best Personal: 170.112
+175.443
+
+Particula N°5 
+01000
+Best Personal: 158.542
+164.299
+
+Particula N°6 
+00010
+Best Personal: 168.102
+192.743
+
+Particula N°7 
+10000
+Best Personal: 258.686
+370.65
+
+Particula N°8 
+01000
+Best Personal: 175.099
+193.204
+
+Particula N°9 
+00010
+Best Personal: 149.98
+155.698
+
+Particula N°10 
+00100
+Best Personal: 166.453
+189.641
+
+Best Global Iteration n°32: 147.264 at the iteration 32
+
+ Iteracion: 34
+Particula N°1 
+10000
+Best Personal: 214.261
+219.322
+
+Particula N°2 
+10000
+Best Personal: 178.375
+195.802
+
+Particula N°3 
+01000
+Best Personal: 147.264
+179.686
+
+Particula N°4 
+10000
+Best Personal: 170.112
+176.536
+
+Particula N°5 
+00100
+Best Personal: 158.542
+163.074
+
+Particula N°6 
+01000
+Best Personal: 168.102
+196.82
+
+Particula N°7 
+00010
+Best Personal: 258.686
+208.441
+
+Particula N°8 
+01000
+Best Personal: 175.099
+199.182
+
+Particula N°9 
+00010
+Best Personal: 149.98
+153.469
+
+Particula N°10 
+10000
+Best Personal: 166.453
+170.259
+
+Best Global Iteration n°33: 147.264 at the iteration 32
+
+ Iteracion: 35
+Particula N°1 
+01000
+Best Personal: 214.261
+192.233
+
+Particula N°2 
+00001
+Best Personal: 178.375
+187.701
+
+Particula N°3 
+00100
+Best Personal: 147.264
+184.735
+
+Particula N°4 
+00010
+Best Personal: 170.112
+187.067
+
+Particula N°5 
+00010
+Best Personal: 158.542
+163.701
+
+Particula N°6 
+00010
+Best Personal: 168.102
+204.955
+
+Particula N°7 
+01000
+Best Personal: 208.441
+264.358
+
+Particula N°8 
+10000
+Best Personal: 175.099
+199.959
+
+Particula N°9 
+01000
+Best Personal: 149.98
+154.434
+
+Particula N°10 
+00100
+Best Personal: 166.453
+175.883
+
+Best Global Iteration n°34: 147.264 at the iteration 32
+
+ Iteracion: 36
+Particula N°1 
+10000
+Best Personal: 192.233
+196.172
+
+Particula N°2 
+10000
+Best Personal: 178.375
+179.282
+
+Particula N°3 
+00010
+Best Personal: 147.264
+185.816
+
+Particula N°4 
+01000
+Best Personal: 170.112
+196.903
+
+Particula N°5 
+00001
+Best Personal: 158.542
+158.412
+
+Particula N°6 
+01000
+Best Personal: 168.102
+218.667
+
+Particula N°7 
+00001
+Best Personal: 208.441
+243.229
+
+Particula N°8 
+01000
+Best Personal: 175.099
+208.658
+
+Particula N°9 
+10000
+Best Personal: 149.98
+152.951
+
+Particula N°10 
+00001
+Best Personal: 166.453
+173.11
+
+Best Global Iteration n°35: 147.264 at the iteration 32
+
+ Iteracion: 37
+Particula N°1 
+00100
+Best Personal: 192.233
+247.603
+
+Particula N°2 
+00100
+Best Personal: 178.375
+178.934
+
+Particula N°3 
+00001
+Best Personal: 147.264
+198.27
+
+Particula N°4 
+01000
+Best Personal: 170.112
+199.208
+
+Particula N°5 
+10000
+Best Personal: 158.412
+152.895
+
+Particula N°6 
+00001
+Best Personal: 168.102
+204.935
+
+Particula N°7 
+01000
+Best Personal: 208.441
+259.338
+
+Particula N°8 
+00100
+Best Personal: 175.099
+189.462
+
+Particula N°9 
+10000
+Best Personal: 149.98
+150.877
+
+Particula N°10 
+00001
+Best Personal: 166.453
+172.186
+
+Best Global Iteration n°36: 147.264 at the iteration 32
+
+ Iteracion: 38
+Particula N°1 
+10000
+Best Personal: 192.233
+241.562
+
+Particula N°2 
+00001
+Best Personal: 178.375
+174.184
+
+Particula N°3 
+10000
+Best Personal: 147.264
+204.361
+
+Particula N°4 
+00001
+Best Personal: 170.112
+177.784
+
+Particula N°5 
+10000
+Best Personal: 152.895
+153.005
+
+Particula N°6 
+10000
+Best Personal: 168.102
+205.708
+
+Particula N°7 
+01000
+Best Personal: 208.441
+237.785
+
+Particula N°8 
+01000
+Best Personal: 175.099
+199.973
+
+Particula N°9 
+00010
+Best Personal: 149.98
+175.232
+
+Particula N°10 
+00001
+Best Personal: 166.453
+174.431
+
+Best Global Iteration n°37: 147.264 at the iteration 32
+
+ Iteracion: 39
+Particula N°1 
+00100
+Best Personal: 192.233
+148.806
+
+Particula N°2 
+01000
+Best Personal: 174.184
+196.191
+
+Particula N°3 
+00010
+Best Personal: 147.264
+202.776
+
+Particula N°4 
+10000
+Best Personal: 170.112
+173.686
+
+Particula N°5 
+00001
+Best Personal: 152.895
+149.022
+
+Particula N°6 
+00100
+Best Personal: 168.102
+187.49
+
+Particula N°7 
+00100
+Best Personal: 208.441
+181.362
+
+Particula N°8 
+00100
+Best Personal: 175.099
+179.715
+
+Particula N°9 
+00010
+Best Personal: 149.98
+159.163
+
+Particula N°10 
+01000
+Best Personal: 166.453
+135.281
+
+Best Global Iteration n°38: 135.281 at the iteration 38
+
+ Iteracion: 40
+Particula N°1 
+00010
+Best Personal: 148.806
+144.595
+
+Particula N°2 
+00010
+Best Personal: 174.184
+198.003
+
+Particula N°3 
+01000
+Best Personal: 147.264
+225.102
+
+Particula N°4 
+00010
+Best Personal: 170.112
+198.005
+
+Particula N°5 
+00100
+Best Personal: 149.022
+139.63
+
+Particula N°6 
+00010
+Best Personal: 168.102
+188.692
+
+Particula N°7 
+01000
+Best Personal: 181.362
+169.97
+
+Particula N°8 
+00010
+Best Personal: 175.099
+172.442
+
+Particula N°9 
+10000
+Best Personal: 149.98
+160.641
+
+Particula N°10 
+00100
+Best Personal: 135.281
+135.681
+
+Best Global Iteration n°39: 135.281 at the iteration 38
+
+ Iteracion: 41
+Particula N°1 
+10000
+Best Personal: 144.595
+142.144
+
+Particula N°2 
+10000
+Best Personal: 174.184
+191.867
+
+Particula N°3 
+00100
+Best Personal: 147.264
+225.133
+
+Particula N°4 
+10000
+Best Personal: 170.112
+203.79
+
+Particula N°5 
+00100
+Best Personal: 139.63
+137.028
+
+Particula N°6 
+00010
+Best Personal: 168.102
+179.972
+
+Particula N°7 
+00100
+Best Personal: 169.97
+151.913
+
+Particula N°8 
+10000
+Best Personal: 172.442
+171.123
+
+Particula N°9 
+00100
+Best Personal: 149.98
+151.052
+
+Particula N°10 
+00100
+Best Personal: 135.281
+135.142
+
+Best Global Iteration n°40: 135.142 at the iteration 40
+
+ Iteracion: 42
+Particula N°1 
+00100
+Best Personal: 142.144
+133.877
+
+Particula N°2 
+10000
+Best Personal: 174.184
+192.247
+
+Particula N°3 
+10000
+Best Personal: 147.264
+224.127
+
+Particula N°4 
+10000
+Best Personal: 170.112
+202.579
+
+Particula N°5 
+00001
+Best Personal: 137.028
+137.693
+
+Particula N°6 
+00001
+Best Personal: 168.102
+170.263
+
+Particula N°7 
+00001
+Best Personal: 151.913
+154.703
+
+Particula N°8 
+10000
+Best Personal: 171.123
+172.582
+
+Particula N°9 
+00010
+Best Personal: 149.98
+139.426
+
+Particula N°10 
+00100
+Best Personal: 135.142
+135.577
+
+Best Global Iteration n°41: 133.877 at the iteration 41
+
+ Iteracion: 43
+Particula N°1 
+00100
+Best Personal: 133.877
+135.982
+
+Particula N°2 
+00100
+Best Personal: 174.184
+190.447
+
+Particula N°3 
+10000
+Best Personal: 147.264
+220.015
+
+Particula N°4 
+10000
+Best Personal: 170.112
+198.682
+
+Particula N°5 
+01000
+Best Personal: 137.028
+137.86
+
+Particula N°6 
+00100
+Best Personal: 168.102
+147.675
+
+Particula N°7 
+01000
+Best Personal: 151.913
+171.904
+
+Particula N°8 
+01000
+Best Personal: 171.123
+162.117
+
+Particula N°9 
+01000
+Best Personal: 139.426
+140.985
+
+Particula N°10 
+00100
+Best Personal: 135.142
+133.019
+
+Best Global Iteration n°42: 133.019 at the iteration 42
+
+ Iteracion: 44
+Particula N°1 
+10000
+Best Personal: 133.877
+136.236
+
+Particula N°2 
+00100
+Best Personal: 174.184
+190.436
+
+Particula N°3 
+10000
+Best Personal: 147.264
+215.849
+
+Particula N°4 
+00001
+Best Personal: 170.112
+192.883
+
+Particula N°5 
+01000
+Best Personal: 137.028
+148.726
+
+Particula N°6 
+10000
+Best Personal: 147.675
+144.532
+
+Particula N°7 
+01000
+Best Personal: 151.913
+158.851
+
+Particula N°8 
+00001
+Best Personal: 162.117
+151.052
+
+Particula N°9 
+00001
+Best Personal: 139.426
+139.241
+
+Particula N°10 
+00100
+Best Personal: 133.019
+132.001
+
+Best Global Iteration n°43: 132.001 at the iteration 43
+
+ Iteracion: 45
+Particula N°1 
+01000
+Best Personal: 133.877
+141.434
+
+Particula N°2 
+00001
+Best Personal: 174.184
+184.573
+
+Particula N°3 
+10000
+Best Personal: 147.264
+215.475
+
+Particula N°4 
+10000
+Best Personal: 170.112
+194.765
+
+Particula N°5 
+00010
+Best Personal: 137.028
+152.311
+
+Particula N°6 
+10000
+Best Personal: 144.532
+143.813
+
+Particula N°7 
+01000
+Best Personal: 151.913
+150.258
+
+Particula N°8 
+00100
+Best Personal: 151.052
+141.109
+
+Particula N°9 
+00001
+Best Personal: 139.241
+136.489
+
+Particula N°10 
+00001
+Best Personal: 132.001
+134.202
+
+Best Global Iteration n°44: 132.001 at the iteration 43
+
+ Iteracion: 46
+Particula N°1 
+10000
+Best Personal: 133.877
+141.646
+
+Particula N°2 
+00010
+Best Personal: 174.184
+176.996
+
+Particula N°3 
+01000
+Best Personal: 147.264
+166.645
+
+Particula N°4 
+00010
+Best Personal: 170.112
+175.319
+
+Particula N°5 
+00100
+Best Personal: 137.028
+143.672
+
+Particula N°6 
+01000
+Best Personal: 143.813
+147.967
+
+Particula N°7 
+01000
+Best Personal: 150.258
+152.312
+
+Particula N°8 
+01000
+Best Personal: 141.109
+141.844
+
+Particula N°9 
+01000
+Best Personal: 136.489
+140.919
+
+Particula N°10 
+00100
+Best Personal: 132.001
+133.061
+
+Best Global Iteration n°45: 132.001 at the iteration 43
+
+ Iteracion: 47
+Particula N°1 
+00001
+Best Personal: 133.877
+139.077
+
+Particula N°2 
+00100
+Best Personal: 174.184
+178.006
+
+Particula N°3 
+00100
+Best Personal: 147.264
+167.86
+
+Particula N°4 
+00010
+Best Personal: 170.112
+162.324
+
+Particula N°5 
+00010
+Best Personal: 137.028
+142.204
+
+Particula N°6 
+01000
+Best Personal: 143.813
+140.133
+
+Particula N°7 
+00010
+Best Personal: 150.258
+162.089
+
+Particula N°8 
+10000
+Best Personal: 141.109
+139.148
+
+Particula N°9 
+00100
+Best Personal: 136.489
+135.863
+
+Particula N°10 
+00010
+Best Personal: 132.001
+133.064
+
+Best Global Iteration n°46: 132.001 at the iteration 43
+
+ Iteracion: 48
+Particula N°1 
+10000
+Best Personal: 133.877
+138.177
+
+Particula N°2 
+01000
+Best Personal: 174.184
+194.246
+
+Particula N°3 
+00001
+Best Personal: 147.264
+177.515
+
+Particula N°4 
+01000
+Best Personal: 162.324
+165.641
+
+Particula N°5 
+00100
+Best Personal: 137.028
+143.547
+
+Particula N°6 
+00001
+Best Personal: 140.133
+136.214
+
+Particula N°7 
+00001
+Best Personal: 150.258
+161.847
+
+Particula N°8 
+10000
+Best Personal: 139.148
+136.464
+
+Particula N°9 
+00001
+Best Personal: 135.863
+134.934
+
+Particula N°10 
+00001
+Best Personal: 132.001
+134.635
+
+Best Global Iteration n°47: 132.001 at the iteration 43
+
+ Iteracion: 49
+Particula N°1 
+01000
+Best Personal: 133.877
+135.847
+
+Particula N°2 
+10000
+Best Personal: 174.184
+208.001
+
+Particula N°3 
+01000
+Best Personal: 147.264
+155.715
+
+Particula N°4 
+10000
+Best Personal: 162.324
+171.618
+
+Particula N°5 
+00010
+Best Personal: 137.028
+141.835
+
+Particula N°6 
+01000
+Best Personal: 136.214
+134.091
+
+Particula N°7 
+00001
+Best Personal: 150.258
+158.973
+
+Particula N°8 
+00010
+Best Personal: 136.464
+127.836
+
+Particula N°9 
+00010
+Best Personal: 134.934
+135.18
+
+Particula N°10 
+00001
+Best Personal: 132.001
+132.632
+
+Best Global Iteration n°48: 127.836 at the iteration 48
+
+ Iteracion: 50
+Particula N°1 
+00100
+Best Personal: 133.877
+134.709
+
+Particula N°2 
+00010
+Best Personal: 174.184
+209.843
+
+Particula N°3 
+00010
+Best Personal: 147.264
+155.733
+
+Particula N°4 
+00001
+Best Personal: 162.324
+159.508
+
+Particula N°5 
+00001
+Best Personal: 137.028
+146.996
+
+Particula N°6 
+00001
+Best Personal: 134.091
+133.901
+
+Particula N°7 
+00001
+Best Personal: 150.258
+159.984
+
+Particula N°8 
+01000
+Best Personal: 127.836
+128.753
+
+Particula N°9 
+00100
+Best Personal: 134.934
+133.713
+
+Particula N°10 
+00010
+Best Personal: 132.001
+131.872
+
+Best Global Iteration n°49: 127.836 at the iteration 48
+##**************************************************************************
+##******************************* RESULTS **********************************
+##**************************************************************************
+##
+## Best solution found: 127.836

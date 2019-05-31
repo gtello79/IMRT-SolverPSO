@@ -81,7 +81,7 @@ public:
 	    return *s;
 	}
 
-	void updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2);
+	void updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, int change);
 
 	void updatePosition(int max_intensity);
 	
@@ -110,7 +110,7 @@ private:
 	vector<double> w;
 	vector<double> Zmin;
 	vector<double> Zmax;
-  int accept_value[];
+  vector<int> accept_value;
 	double evaluation_fx;
 };
 

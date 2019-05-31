@@ -19,24 +19,20 @@ namespace imrt{
   class Particle{ //Swarm
 
     private:
-      int w;
-      int c1; //FACTOR PERSONAL POR AHORA FIJO, DESPUES POR PARAMETRO
-      int c2; //FACTOR GLOBAL, POR AHORA FIJO LUEGO POR PARAMETRO
+      float w;
+      float c1; //FACTOR PERSONAL POR AHORA FIJO, DESPUES POR PARAMETRO
+      float c2; //FACTOR GLOBAL, POR AHORA FIJO LUEGO POR PARAMETRO      
       double fitness; //EVALUATION OF PCURRENT
       double bfitness; //EVALUATION OF PBEST;
-      double r1;
-      double r2;
       Plan PBest; //BEST GLOBAL VALUE
       Plan Pcurrent; //BEST PERSONAL VALUE
-      Plan *mejor;
       
 
     public:
   	    //Builder of Particle class
-  	    Particle(Plan& P);
-
+  	    Particle(Plan& P, float c_1 , float c_2 , float iner);
   	    //Function with the process for calculate the velocity of the particle using the stations
-        void Velocityupdate(Plan &GBest, float w, float c1, float c2);
+        void Velocityupdate(Plan &GBest, int change);
         //Function for calculate the position of the solution using PSO
         void calculateFitness();
         //Function for update Pbest
@@ -50,9 +46,9 @@ namespace imrt{
 
         Plan& GetPCurrent();
 
-        double Getfitness();
+        double getFitness();
 
-        double getbfitness();
+        double getBfitness();
 
         void setbfitness();
         

@@ -1,0 +1,495 @@
+##Reading collimator coordinates info.
+##  data/CERR_Prostate/CoordinatesBeam_0.txt a:0
+##  data/CERR_Prostate/CoordinatesBeam_70.txt a:70
+##  data/CERR_Prostate/CoordinatesBeam_140.txt a:140
+##  data/CERR_Prostate/CoordinatesBeam_210.txt a:210
+##  data/CERR_Prostate/CoordinatesBeam_280.txt a:280
+##  Read 5 files.
+##Reading volume files.
+##  data/CERR_Prostate/DAO_DDM_BLADDER.dat
+##  data/CERR_Prostate/DAO_DDM_RECTUM.dat
+##  data/CERR_Prostate/DAO_DDM_PTVHD.dat
+##  Read 3 files
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 796.423.
+
+ 
+Particula N° 1
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 828.607.
+Particula N° 2
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1260.16.
+Particula N° 3
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1266.81.
+Particula N° 4
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 885.632.
+Particula N° 5
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1648.13.
+Particula N° 6
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1148.69.
+Particula N° 7
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 959.241.
+Particula N° 8
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1184.89.
+Particula N° 9
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1574.14.
+Particula N° 10
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 923.307.
+###############################################################################
+#########################Particles Created#####################################
+###############################################################################
+
+ Iteracion: 1
+Particula N°1 
+11111
+924.023
+
+Particula N°2 
+11111
+1329.65
+
+Particula N°3 
+11111
+1325.91
+
+Particula N°4 
+11111
+1167.39
+
+Particula N°5 
+11111
+1683.17
+
+Particula N°6 
+11111
+1204.37
+
+Particula N°7 
+11111
+1074.54
+
+Particula N°8 
+11111
+1340.67
+
+Particula N°9 
+11111
+1519.34
+
+Particula N°10 
+11111
+1076.57
+
+Best Global Iteration n°0: 796.423 at the iteration 0
+
+ Iteracion: 2
+Particula N°1 
+11111
+910.045
+
+Particula N°2 
+11111
+1197.74
+
+Particula N°3 
+11111
+1055.46
+
+Particula N°4 
+11111
+1218.88
+
+Particula N°5 
+11111
+1295.45
+
+Particula N°6 
+11111
+958.396
+
+Particula N°7 
+11111
+983.874
+
+Particula N°8 
+11111
+1360.13
+
+Particula N°9 
+11111
+1050.11
+
+Particula N°10 
+11111
+1110.84
+
+Best Global Iteration n°1: 796.423 at the iteration 0
+
+ Iteracion: 3
+Particula N°1 
+11111
+923.577
+
+Particula N°2 
+11111
+829.336
+
+Particula N°3 
+11111
+643.826
+
+Particula N°4 
+11111
+994.025
+
+Particula N°5 
+11111
+799.129
+
+Particula N°6 
+11111
+769.613
+
+Particula N°7 
+11111
+826.973
+
+Particula N°8 
+11111
+1001.37
+
+Particula N°9 
+11111
+712.888
+
+Particula N°10 
+11111
+999.198
+
+Best Global Iteration n°2: 643.826 at the iteration 2
+
+ Iteracion: 4
+Particula N°1 
+11111
+854.555
+
+Particula N°2 
+11111
+565.55
+
+Particula N°3 
+11111
+497.973
+
+Particula N°4 
+11111
+842.898
+
+Particula N°5 
+11111
+564.915
+
+Particula N°6 
+11111
+647.803
+
+Particula N°7 
+11111
+608.739
+
+Particula N°8 
+11111
+613.208
+
+Particula N°9 
+11111
+539.396
+
+Particula N°10 
+11111
+810.55
+
+Best Global Iteration n°3: 497.973 at the iteration 2
+
+ Iteracion: 5
+Particula N°1 
+11111
+742.266
+
+Particula N°2 
+11111
+558.706
+
+Particula N°3 
+11111
+595.622
+
+Particula N°4 
+11111
+594.315
+
+Particula N°5 
+11111
+650.728
+
+Particula N°6 
+11111
+637.428
+
+Particula N°7 
+11111
+544.397
+
+Particula N°8 
+11111
+546.208
+
+Particula N°9 
+11111
+644.262
+
+Particula N°10 
+11111
+553.771
+
+Best Global Iteration n°4: 497.973 at the iteration 2
+
+ Iteracion: 6
+Particula N°1 
+11111
+615.525
+
+Particula N°2 
+11111
+653.856
+
+Particula N°3 
+11111
+649.333
+
+Particula N°4 
+11111
+528.056
+
+Particula N°5 
+11111
+817.32
+
+Particula N°6 
+11111
+656.705
+
+Particula N°7 
+11111
+657.149
+
+Particula N°8 
+11111
+652.06
+
+Particula N°9 
+11111
+698.851
+
+Particula N°10 
+11111
+526.295
+
+Best Global Iteration n°5: 497.973 at the iteration 2
+
+ Iteracion: 7
+Particula N°1 
+11111
+569.617
+
+Particula N°2 
+11111
+625.479
+
+Particula N°3 
+11111
+604.973
+
+Particula N°4 
+11111
+589.121
+
+Particula N°5 
+11111
+713.585
+
+Particula N°6 
+11111
+686.962
+
+Particula N°7 
+11111
+702.493
+
+Particula N°8 
+11111
+670.177
+
+Particula N°9 
+11111
+605.261
+
+Particula N°10 
+11111
+647.181
+
+Best Global Iteration n°6: 497.973 at the iteration 2
+
+ Iteracion: 8
+Particula N°1 
+11111
+645.69
+
+Particula N°2 
+11111
+551.477
+
+Particula N°3 
+11111
+533.213
+
+Particula N°4 
+11111
+577.579
+
+Particula N°5 
+11111
+514.691
+
+Particula N°6 
+11111
+650.158
+
+Particula N°7 
+11111
+615.9
+
+Particula N°8 
+11111
+575.666
+
+Particula N°9 
+11111
+545.621
+
+Particula N°10 
+11111
+647.021
+
+Best Global Iteration n°7: 497.973 at the iteration 2
+
+ Iteracion: 9
+Particula N°1 
+11111
+666.566
+
+Particula N°2 
+11111
+599.672
+
+Particula N°3 
+11111
+595.684
+
+Particula N°4 
+11111
+551.404
+
+Particula N°5 
+11111
+614.239
+
+Particula N°6 
+11111
+544.056
+
+Particula N°7 
+11111
+560.56
+
+Particula N°8 
+11111
+592.064
+
+Particula N°9 
+11111
+625.572
+
+Particula N°10 
+11111
+548.295
+
+Best Global Iteration n°8: 497.973 at the iteration 2
+
+ Iteracion: 10
+Particula N°1 
+11111
+603.124
+
+Particula N°2 
+11111
+705.348
+
+Particula N°3 
+11111
+713.629
+
+Particula N°4 
+11111
+570.962
+
+Particula N°5 
+11111
+875.77
+
+Particula N°6 
+11111
+533.969
+
+Particula N°7 
+11111
+625.956
+
+Particula N°8 
+11111
+678.97
+
+Particula N°9 
+11111
+837.702
+
+Particula N°10 
+11111
+522.42
+
+Best Global Iteration n°9: 497.973 at the iteration 2
+##**************************************************************************
+##******************************* RESULTS **********************************
+##**************************************************************************
+##
+## Best solution found: 497.973

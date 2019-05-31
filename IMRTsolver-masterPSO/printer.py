@@ -7,9 +7,9 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-size", "--size",type=int ,help=" Number of particles for the swarm")
 parser.add_argument("-max_iter", "--max_iter",type=int, help = " Number of iterations that the program will run")
 parser.add_argument("-initial_setup", "--initial_setup", help = "Type of creation for the particles")
-parser.add_argument("-iner", "--iner", type=int , help = "Inertia Parameter")
-parser.add_argument("-c1", "--c1",type=int, help="Social Factor Parameter")
-parser.add_argument("-c2", "--c2",type=int, help="Personal Factor Parameter")
+parser.add_argument("-iner", "--iner", type=float , help = "Inertia Parameter")
+parser.add_argument("-c1", "--c1",type=float, help="Social Factor Parameter")
+parser.add_argument("-c2", "--c2",type=float, help="Personal Factor Parameter")
 parser.add_argument("-bsize", "--bsize" , type=int, help = "Type of creation for the particles")
 parser.add_argument("-vsize","--vsize",type=int, help = "Number of considered worst voxels")
 parser.add_argument("-maxdelta","--maxdelta",type = int, help = "Max delta")
@@ -23,15 +23,16 @@ parser.add_argument("-open_apertures","--open_apertures",type=int , help = "Numb
 parser.add_argument("-initial_intensity", "--initial_intensity",type=int , help = "Initial value aperture")
 parser.add_argument("-max_intensity","--max_intensity",type=int , help = "Step size for aperture intensity")
 parser.add_argument("-pso_iter", "--pso_iter", type=int, help = "Number of iteration that the pso will run")
-
+parser.add_argument("-exp","--exp",type=int,help= "Experiment number for this iteration")
+parser.add_argument("-changes_beam","--changes_beam", type= int, help= "Choose the beam number to operate")
 args = parser.parse_args()
 
 size = 10
 max_iter = 100
 initial_setup = 5
-iner=1 
-c1=1 
-c2 = 1
+iner=1.0 
+c1=1.0
+c2 = 1.0
 bsize=20  
 vsize=50
 maxdelta=5
@@ -47,7 +48,9 @@ step_intensity=2
 seed = 0
 write_report = False
 pso_iter = 10
-
+exp = -1
+changes_beam = 1
+nombre = "/ExperimentoAlternativo"
 # Aqui procesamos lo que se tiene que hacer con cada argumento
 if args.size:
     size = args.size 
@@ -85,22 +88,32 @@ if args.initial_intensity:
     initial_intensity = args.initial_intensity
 if args.max_intensity:
     max_intensity = args.max_intensity
+if args.changes_beam:
+	changes_beam = args.changes_beam
 if args.pso_iter:
     pso_iter = args.pso_iter
+if args.exp:
+    exp = args.exp
+    nombre = "/Experimento"+str(exp)
+    
 ##Erasing the files of the last iteration
-os.system("rm -r Values")
 os.system("mkdir Values")
+os.system("mkdir Values"+nombre)
 ##It's the call to the function
+
 for i in range(0,pso_iter):
-    os.system("./PSO --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" >> Values/resultado"+str(i)+".txt")
+    os.system("./PSO --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)+" >> Values"+nombre+"/resultado"+str(i)+".txt")
     seed = seed + 1
 ##Now we try to show only the final line with the best solution of the iteration
+Best = file("Values"+nombre+"/BestSolutions.txt",'w')
 for i in range(pso_iter):
-	archivo = file("Values/resultado"+str(i)+".txt",'r')
+	archivo = file("Values"+nombre+"/resultado"+str(i)+".txt",'r')
 	for linea in archivo:
 		reading = linea.strip().split(" ")
-      		if(reading[0] == "##"):
-			if(len(reading) > 1):
+		if(reading[0] == "##"):
+      			if(len(reading) > 1):
 				if(reading[1]=="Best"):
 					print(linea)
-   	archivo.close()
+ 				  	Best.write(linea+"\n")
+ 	archivo.close()
+Best.close()
