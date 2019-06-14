@@ -9,7 +9,7 @@ par = []
 x = []
 y = []
 if os.path.exists(archivo):
-    lectura = open("Values/"+archivo,"r")
+    lectura = open(archivo,"r")
     
     for linea in lectura:
         nuevo = linea.strip().split(" ")

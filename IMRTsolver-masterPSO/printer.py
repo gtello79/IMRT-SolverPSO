@@ -47,11 +47,10 @@ step_intensity=2
 seed = 0
 write_report = False
 pso_iter = 1
-exp = -1
 changes_beam = 1
 # Aqui procesamos lo que se tiene que hacer con cada argumento
 if args.size:
-    size = args.size 
+    size = args.size
 if args.max_iter:
     max_iter = args.max_iter
 if args.initial_setup:
@@ -90,10 +89,7 @@ if args.changes_beam:
 	changes_beam = args.changes_beam
 if args.pso_iter:
     pso_iter = args.pso_iter
-if args.exp:
-    exp = args.exp
-    nombre = "/Experimento"+str(exp)
-    
+ 
 ##Erasing the files of the last iteration
 os.system("rm -r Values")
 os.system("mkdir Values")
