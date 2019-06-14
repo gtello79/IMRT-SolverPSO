@@ -94,6 +94,7 @@ if args.pso_iter:
 os.system("rm -r Values")
 os.system("mkdir Values")
 ##It's the call to the function
+descripcion = "PSO --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)
 
 for i in range(0,pso_iter):
     os.system("./PSO --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)+" >> Values/resultado"+str(i)+".txt")
@@ -108,6 +109,7 @@ for i in range(pso_iter):
       			if(len(reading) > 1):
 				if(reading[1]=="Best"):
 					print(linea)
- 				  	Best.write(linea+"\n")
+ 				  Best.write(descripcion+"\n")
+          Best.write(linea+"\n")
  	archivo.close()
 Best.close()
