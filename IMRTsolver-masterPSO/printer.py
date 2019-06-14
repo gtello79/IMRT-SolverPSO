@@ -23,7 +23,6 @@ parser.add_argument("-open_apertures","--open_apertures",type=int , help = "Numb
 parser.add_argument("-initial_intensity", "--initial_intensity",type=int , help = "Initial value aperture")
 parser.add_argument("-max_intensity","--max_intensity",type=int , help = "Step size for aperture intensity")
 parser.add_argument("-pso_iter", "--pso_iter", type=int, help = "Number of iteration that the pso will run")
-parser.add_argument("-exp","--exp",type=int,help= "Experiment number for this iteration")
 parser.add_argument("-changes_beam","--changes_beam", type= int, help= "Choose the beam number to operate")
 args = parser.parse_args()
 
@@ -47,10 +46,9 @@ max_intensity=28
 step_intensity=2
 seed = 0
 write_report = False
-pso_iter = 10
+pso_iter = 1
 exp = -1
 changes_beam = 1
-nombre = "/ExperimentoAlternativo"
 # Aqui procesamos lo que se tiene que hacer con cada argumento
 if args.size:
     size = args.size 
