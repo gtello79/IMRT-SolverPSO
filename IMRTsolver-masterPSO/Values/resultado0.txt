@@ -12,12864 +12,2154 @@
 ##  Read 3 files
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 919.164.
+##  Initial evaluation: 837.962.
 
  
 Particula N° 1
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 999.91.
+##  Initial evaluation: 656.799.
 Particula N° 2
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 954.997.
+##  Initial evaluation: 1210.41.
 Particula N° 3
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1508.49.
+##  Initial evaluation: 874.96.
 Particula N° 4
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1092.88.
+##  Initial evaluation: 707.837.
 Particula N° 5
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 740.907.
+##  Initial evaluation: 755.777.
 Particula N° 6
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1618.18.
+##  Initial evaluation: 545.987.
 Particula N° 7
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1710.17.
+##  Initial evaluation: 1636.05.
 Particula N° 8
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1311.4.
+##  Initial evaluation: 871.534.
 Particula N° 9
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 639.424.
+##  Initial evaluation: 685.507.
 Particula N° 10
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 852.669.
+##  Initial evaluation: 1242.95.
 Particula N° 11
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 809.67.
+##  Initial evaluation: 893.505.
 Particula N° 12
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 611.518.
+##  Initial evaluation: 558.937.
 Particula N° 13
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 668.994.
+##  Initial evaluation: 1347.18.
 Particula N° 14
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1207.4.
+##  Initial evaluation: 1201.95.
 Particula N° 15
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1552.56.
+##  Initial evaluation: 753.42.
 Particula N° 16
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 848.355.
+##  Initial evaluation: 1228.03.
 Particula N° 17
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 526.201.
+##  Initial evaluation: 1029.71.
 Particula N° 18
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1595.99.
+##  Initial evaluation: 1504.12.
 Particula N° 19
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1101.63.
+##  Initial evaluation: 1834.72.
 Particula N° 20
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1001.45.
-Particula N° 21
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 612.808.
-Particula N° 22
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1060.64.
-Particula N° 23
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1539.07.
-Particula N° 24
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1036.71.
-Particula N° 25
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 463.661.
-Particula N° 26
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1742.58.
-Particula N° 27
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1174.5.
-Particula N° 28
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1214.43.
-Particula N° 29
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 876.271.
-Particula N° 30
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 613.994.
-Particula N° 31
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 971.461.
-Particula N° 32
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 664.499.
-Particula N° 33
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 897.061.
-Particula N° 34
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1416.93.
-Particula N° 35
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 927.705.
-Particula N° 36
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1033.72.
-Particula N° 37
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1408.66.
-Particula N° 38
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1499.76.
-Particula N° 39
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1352.02.
-Particula N° 40
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 593.103.
-Particula N° 41
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1112.78.
-Particula N° 42
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 682.252.
-Particula N° 43
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 669.275.
-Particula N° 44
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 865.193.
-Particula N° 45
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1289.84.
-Particula N° 46
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 726.051.
-Particula N° 47
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1077.61.
-Particula N° 48
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1216.72.
-Particula N° 49
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1451.14.
-Particula N° 50
-##Initilizing plan.
-##  Created 5 stations.
-##  Initial evaluation: 1045.71.
+##  Initial evaluation: 1008.78.
 ###############################################################################
 #########################Particles Created#####################################
 ###############################################################################
 
  Iteracion: 1
 Particula N°1 
-00100
-Best Personal: 999.91
-1005.57
+00001
+Best Personal: 656.799
+675.229
 
 Particula N°2 
 00100
-Best Personal: 954.997
-990.665
+Best Personal: 1210.41
+1225.38
 
 Particula N°3 
-01000
-Best Personal: 1508.49
-1232.01
+00010
+Best Personal: 874.96
+894.543
 
 Particula N°4 
-00010
-Best Personal: 1092.88
-1161.91
+01000
+Best Personal: 707.837
+676.914
 
 Particula N°5 
-00100
-Best Personal: 740.907
-845.301
+00010
+Best Personal: 755.777
+816.039
 
 Particula N°6 
-00100
-Best Personal: 1618.18
-1692.45
+01000
+Best Personal: 545.987
+545.987
 
 Particula N°7 
-00010
-Best Personal: 1710.17
-1275.97
+00100
+Best Personal: 1636.05
+1590.85
 
 Particula N°8 
-10000
-Best Personal: 1311.4
-1200.78
+00001
+Best Personal: 871.534
+906.095
 
 Particula N°9 
-00010
-Best Personal: 639.424
-607.265
+00001
+Best Personal: 685.507
+778.14
 
 Particula N°10 
 10000
-Best Personal: 852.669
-598.751
+Best Personal: 1242.95
+1238.61
 
 Particula N°11 
-00001
-Best Personal: 809.67
-892.807
+00100
+Best Personal: 893.505
+926.545
 
 Particula N°12 
 00010
-Best Personal: 611.518
-597.018
+Best Personal: 558.937
+612.985
 
 Particula N°13 
-00001
-Best Personal: 668.994
-650.429
+01000
+Best Personal: 1347.18
+1201.85
 
 Particula N°14 
-00001
-Best Personal: 1207.4
-1191.58
+01000
+Best Personal: 1201.95
+1170.76
 
 Particula N°15 
 00001
-Best Personal: 1552.56
-1568.69
+Best Personal: 753.42
+790.287
 
 Particula N°16 
 00010
-Best Personal: 848.355
-865.087
+Best Personal: 1228.03
+1239.94
 
 Particula N°17 
 00010
-Best Personal: 526.201
-542.249
+Best Personal: 1029.71
+1024.59
 
 Particula N°18 
-10000
-Best Personal: 1595.99
-1061.74
+00100
+Best Personal: 1504.12
+1497.97
 
 Particula N°19 
-01000
-Best Personal: 1101.63
-1017.22
+00001
+Best Personal: 1834.72
+1778.29
 
 Particula N°20 
 00001
-Best Personal: 1001.45
-915.147
+Best Personal: 1008.78
+1065.15
 
-Particula N°21 
-10000
-Best Personal: 612.808
-448.06
-
-Particula N°22 
-00100
-Best Personal: 1060.64
-1149.2
-
-Particula N°23 
-00010
-Best Personal: 1539.07
-1232.47
-
-Particula N°24 
-00100
-Best Personal: 1036.71
-1106.52
-
-Particula N°25 
-00001
-Best Personal: 463.661
-463.661
-
-Particula N°26 
-10000
-Best Personal: 1742.58
-1667.15
-
-Particula N°27 
-01000
-Best Personal: 1174.5
-1125.94
-
-Particula N°28 
-10000
-Best Personal: 1214.43
-1064.24
-
-Particula N°29 
-00001
-Best Personal: 876.271
-830.863
-
-Particula N°30 
-00100
-Best Personal: 613.994
-708.895
-
-Particula N°31 
-01000
-Best Personal: 971.461
-989.575
-
-Particula N°32 
-00001
-Best Personal: 664.499
-748.414
-
-Particula N°33 
-10000
-Best Personal: 897.061
-740.237
-
-Particula N°34 
-00001
-Best Personal: 1416.93
-1333.25
-
-Particula N°35 
-10000
-Best Personal: 927.705
-726.734
-
-Particula N°36 
-00001
-Best Personal: 1033.72
-1055.4
-
-Particula N°37 
-01000
-Best Personal: 1408.66
-1337.69
-
-Particula N°38 
-01000
-Best Personal: 1499.76
-1301.83
-
-Particula N°39 
-00010
-Best Personal: 1352.02
-1142.05
-
-Particula N°40 
-00001
-Best Personal: 593.103
-609.263
-
-Particula N°41 
-00100
-Best Personal: 1112.78
-1271.22
-
-Particula N°42 
-00010
-Best Personal: 682.252
-702.222
-
-Particula N°43 
-00100
-Best Personal: 669.275
-810.611
-
-Particula N°44 
-10000
-Best Personal: 865.193
-743.784
-
-Particula N°45 
-01000
-Best Personal: 1289.84
-1214.6
-
-Particula N°46 
-01000
-Best Personal: 726.051
-803.98
-
-Particula N°47 
-00100
-Best Personal: 1077.61
-1103.99
-
-Particula N°48 
-00001
-Best Personal: 1216.72
-1140.99
-
-Particula N°49 
-00100
-Best Personal: 1451.14
-1540.48
-
-Particula N°50 
-10000
-Best Personal: 1045.71
-814.414
-
-Best Global Iteration n°0: 448.06 at the iteration 0
+Best Global Iteration n°0: 545.987 at the iteration 0
 
  Iteracion: 2
 Particula N°1 
-01000
-Best Personal: 999.91
-816.334
+00001
+Best Personal: 656.799
+684.135
 
 Particula N°2 
-00100
-Best Personal: 954.997
-974.972
+00010
+Best Personal: 1210.41
+1214.64
 
 Particula N°3 
-00010
-Best Personal: 1232.01
-1167.26
+00001
+Best Personal: 874.96
+1042.04
 
 Particula N°4 
-00001
-Best Personal: 1092.88
-1057.4
+01000
+Best Personal: 676.914
+599.923
 
 Particula N°5 
 00100
-Best Personal: 740.907
-765.334
+Best Personal: 755.777
+846.19
 
 Particula N°6 
-00100
-Best Personal: 1618.18
-1633.61
+01000
+Best Personal: 545.987
+545.987
 
 Particula N°7 
-00010
-Best Personal: 1275.97
-1167.01
+10000
+Best Personal: 1590.85
+1487.06
 
 Particula N°8 
-00100
-Best Personal: 1200.78
-1094.5
+10000
+Best Personal: 871.534
+915.353
 
 Particula N°9 
-10000
-Best Personal: 607.265
-620.186
+00010
+Best Personal: 685.507
+832.681
 
 Particula N°10 
-00010
-Best Personal: 598.751
-625.818
+01000
+Best Personal: 1238.61
+1215.45
 
 Particula N°11 
-00001
-Best Personal: 809.67
-858.805
+00010
+Best Personal: 893.505
+967.396
 
 Particula N°12 
-00100
-Best Personal: 597.018
-608.173
+10000
+Best Personal: 558.937
+657.644
 
 Particula N°13 
-00001
-Best Personal: 650.429
-628.328
+10000
+Best Personal: 1201.85
+1195.02
 
 Particula N°14 
-10000
-Best Personal: 1191.58
-1125.29
+00100
+Best Personal: 1170.76
+1204.87
 
 Particula N°15 
 00001
-Best Personal: 1552.56
-1580.68
+Best Personal: 753.42
+838.56
 
 Particula N°16 
-00010
-Best Personal: 848.355
-915.639
+00100
+Best Personal: 1228.03
+1254.38
 
 Particula N°17 
-01000
-Best Personal: 526.201
-530.63
+00100
+Best Personal: 1024.59
+1066.19
 
 Particula N°18 
-00001
-Best Personal: 1061.74
-1085.97
+00010
+Best Personal: 1497.97
+1422.56
 
 Particula N°19 
-00100
-Best Personal: 1017.22
-993.153
+01000
+Best Personal: 1778.29
+1565.32
 
 Particula N°20 
-00100
-Best Personal: 915.147
-927.383
-
-Particula N°21 
-00100
-Best Personal: 448.06
-448.06
-
-Particula N°22 
-00001
-Best Personal: 1060.64
-1155.05
-
-Particula N°23 
 00010
-Best Personal: 1232.47
-1155.98
+Best Personal: 1008.78
+1092.78
 
-Particula N°24 
-01000
-Best Personal: 1036.71
-925.803
-
-Particula N°25 
-00010
-Best Personal: 463.661
-508.221
-
-Particula N°26 
-10000
-Best Personal: 1667.15
-1591.45
-
-Particula N°27 
-00010
-Best Personal: 1125.94
-1105.69
-
-Particula N°28 
-00001
-Best Personal: 1064.24
-1063.06
-
-Particula N°29 
-00100
-Best Personal: 830.863
-829.859
-
-Particula N°30 
-00100
-Best Personal: 613.994
-694.478
-
-Particula N°31 
-01000
-Best Personal: 971.461
-974.128
-
-Particula N°32 
-01000
-Best Personal: 664.499
-708.544
-
-Particula N°33 
-01000
-Best Personal: 740.237
-717.487
-
-Particula N°34 
-01000
-Best Personal: 1333.25
-1272.62
-
-Particula N°35 
-01000
-Best Personal: 726.734
-787.848
-
-Particula N°36 
-00001
-Best Personal: 1033.72
-1034.22
-
-Particula N°37 
-01000
-Best Personal: 1337.69
-1273.18
-
-Particula N°38 
-00001
-Best Personal: 1301.83
-1352.16
-
-Particula N°39 
-00100
-Best Personal: 1142.05
-1145.61
-
-Particula N°40 
-01000
-Best Personal: 593.103
-660.48
-
-Particula N°41 
-00001
-Best Personal: 1112.78
-1281.85
-
-Particula N°42 
-10000
-Best Personal: 682.252
-612.834
-
-Particula N°43 
-10000
-Best Personal: 669.275
-679.432
-
-Particula N°44 
-00010
-Best Personal: 743.784
-772.403
-
-Particula N°45 
-00010
-Best Personal: 1214.6
-1215.13
-
-Particula N°46 
-01000
-Best Personal: 726.051
-799.793
-
-Particula N°47 
-00010
-Best Personal: 1077.61
-1236.59
-
-Particula N°48 
-00100
-Best Personal: 1140.99
-1082.65
-
-Particula N°49 
-00001
-Best Personal: 1451.14
-1507.09
-
-Particula N°50 
-01000
-Best Personal: 814.414
-854.631
-
-Best Global Iteration n°1: 448.06 at the iteration 0
+Best Global Iteration n°1: 545.987 at the iteration 0
 
  Iteracion: 3
 Particula N°1 
-10000
-Best Personal: 816.334
-585.669
+00100
+Best Personal: 656.799
+687.822
 
 Particula N°2 
-10000
-Best Personal: 954.997
-829.549
+00100
+Best Personal: 1210.41
+1196.08
 
 Particula N°3 
-01000
-Best Personal: 1167.26
-1082.88
+00010
+Best Personal: 874.96
+919.084
 
 Particula N°4 
-01000
-Best Personal: 1057.4
-1010.36
+10000
+Best Personal: 599.923
+558.108
 
 Particula N°5 
-00001
-Best Personal: 740.907
-687.874
+10000
+Best Personal: 755.777
+844.55
 
 Particula N°6 
-10000
-Best Personal: 1618.18
-1161.21
+01000
+Best Personal: 545.987
+545.987
 
 Particula N°7 
-00010
-Best Personal: 1167.01
-1155.58
+01000
+Best Personal: 1487.06
+1355.62
 
 Particula N°8 
-00001
-Best Personal: 1094.5
-1012.21
+01000
+Best Personal: 871.534
+695.187
 
 Particula N°9 
 00001
-Best Personal: 607.265
-613.887
+Best Personal: 685.507
+911.94
 
 Particula N°10 
-10000
-Best Personal: 598.751
-586.299
+00001
+Best Personal: 1215.45
+1195.66
 
 Particula N°11 
-00010
-Best Personal: 809.67
-789.53
+00100
+Best Personal: 893.505
+984.78
 
 Particula N°12 
-00001
-Best Personal: 597.018
-595.193
+10000
+Best Personal: 558.937
+693.55
 
 Particula N°13 
 01000
-Best Personal: 628.328
-659.379
+Best Personal: 1195.02
+874.131
 
 Particula N°14 
-01000
-Best Personal: 1125.29
-1118.37
+00010
+Best Personal: 1170.76
+1188.88
 
 Particula N°15 
-00010
-Best Personal: 1552.56
-1541.35
+01000
+Best Personal: 753.42
+737.303
 
 Particula N°16 
-01000
-Best Personal: 848.355
-880.376
+10000
+Best Personal: 1228.03
+1275.72
 
 Particula N°17 
-00001
-Best Personal: 526.201
-573.354
+00100
+Best Personal: 1024.59
+1101.91
 
 Particula N°18 
 01000
-Best Personal: 1061.74
-844.331
+Best Personal: 1422.56
+1328.89
 
 Particula N°19 
-01000
-Best Personal: 993.153
-971.135
+00100
+Best Personal: 1565.32
+1577.7
 
 Particula N°20 
-00010
-Best Personal: 915.147
-923.946
-
-Particula N°21 
-00010
-Best Personal: 448.06
-448.06
-
-Particula N°22 
-10000
-Best Personal: 1060.64
-974.75
-
-Particula N°23 
-01000
-Best Personal: 1155.98
-1211.54
-
-Particula N°24 
-00010
-Best Personal: 925.803
-824.225
-
-Particula N°25 
 00100
-Best Personal: 463.661
-436.407
+Best Personal: 1008.78
+1121.44
 
-Particula N°26 
-10000
-Best Personal: 1591.45
-1374.21
-
-Particula N°27 
-00100
-Best Personal: 1105.69
-1110.25
-
-Particula N°28 
-00100
-Best Personal: 1063.06
-1035.21
-
-Particula N°29 
-00001
-Best Personal: 829.859
-797.544
-
-Particula N°30 
-00100
-Best Personal: 613.994
-658.186
-
-Particula N°31 
-00100
-Best Personal: 971.461
-955.832
-
-Particula N°32 
-01000
-Best Personal: 664.499
-696.626
-
-Particula N°33 
-10000
-Best Personal: 717.487
-672.136
-
-Particula N°34 
-10000
-Best Personal: 1272.62
-1138.99
-
-Particula N°35 
-10000
-Best Personal: 726.734
-747.753
-
-Particula N°36 
-00001
-Best Personal: 1033.72
-1030.11
-
-Particula N°37 
-10000
-Best Personal: 1273.18
-1255.91
-
-Particula N°38 
-01000
-Best Personal: 1301.83
-1175
-
-Particula N°39 
-00100
-Best Personal: 1142.05
-1147.39
-
-Particula N°40 
-10000
-Best Personal: 593.103
-534.382
-
-Particula N°41 
-00001
-Best Personal: 1112.78
-1292.49
-
-Particula N°42 
-00100
-Best Personal: 612.834
-621.314
-
-Particula N°43 
-00010
-Best Personal: 669.275
-682.732
-
-Particula N°44 
-10000
-Best Personal: 743.784
-588.759
-
-Particula N°45 
-10000
-Best Personal: 1214.6
-1230.43
-
-Particula N°46 
-00010
-Best Personal: 726.051
-943.626
-
-Particula N°47 
-00100
-Best Personal: 1077.61
-1203.95
-
-Particula N°48 
-00100
-Best Personal: 1082.65
-1050.95
-
-Particula N°49 
-00100
-Best Personal: 1451.14
-1379.1
-
-Particula N°50 
-01000
-Best Personal: 814.414
-865.431
-
-Best Global Iteration n°2: 436.407 at the iteration 2
+Best Global Iteration n°2: 545.987 at the iteration 0
 
  Iteracion: 4
 Particula N°1 
 01000
-Best Personal: 585.669
-553.104
+Best Personal: 656.799
+665.568
 
 Particula N°2 
-00010
-Best Personal: 829.549
-860.957
+10000
+Best Personal: 1196.08
+1102.41
 
 Particula N°3 
-00001
-Best Personal: 1082.88
-944.489
+00010
+Best Personal: 874.96
+852.545
 
 Particula N°4 
-00100
-Best Personal: 1010.36
-922.656
+00010
+Best Personal: 558.108
+604.904
 
 Particula N°5 
-01000
-Best Personal: 687.874
-683.871
+00001
+Best Personal: 755.777
+872.371
 
 Particula N°6 
-00010
-Best Personal: 1161.21
-1190.77
+00001
+Best Personal: 545.987
+545.987
 
 Particula N°7 
-10000
-Best Personal: 1155.58
-1125.92
+00001
+Best Personal: 1355.62
+1357.27
 
 Particula N°8 
-00100
-Best Personal: 1012.21
-981.275
+10000
+Best Personal: 695.187
+594.409
 
 Particula N°9 
-00010
-Best Personal: 607.265
-629.71
+00001
+Best Personal: 685.507
+915.918
 
 Particula N°10 
-00001
-Best Personal: 586.299
-572.191
+00100
+Best Personal: 1195.66
+1175.15
 
 Particula N°11 
-10000
-Best Personal: 789.53
-644.748
+00010
+Best Personal: 893.505
+1023.14
 
 Particula N°12 
-00100
-Best Personal: 595.193
-597.268
+10000
+Best Personal: 558.937
+674.139
 
 Particula N°13 
-00100
-Best Personal: 628.328
-630.709
+00001
+Best Personal: 874.131
+898.242
 
 Particula N°14 
-01000
-Best Personal: 1118.37
-1078.03
+10000
+Best Personal: 1170.76
+1144.31
 
 Particula N°15 
-00001
-Best Personal: 1541.35
-1540.93
+00010
+Best Personal: 737.303
+771.204
 
 Particula N°16 
 10000
-Best Personal: 848.355
-816.298
+Best Personal: 1228.03
+1157.45
 
 Particula N°17 
-01000
-Best Personal: 526.201
-557.537
+00001
+Best Personal: 1024.59
+1107.44
 
 Particula N°18 
-01000
-Best Personal: 844.331
-785.742
+10000
+Best Personal: 1328.89
+1287.77
 
 Particula N°19 
-00010
-Best Personal: 971.135
-986.517
+00100
+Best Personal: 1565.32
+1519.92
 
 Particula N°20 
-00100
-Best Personal: 915.147
-932.075
-
-Particula N°21 
-01000
-Best Personal: 448.06
-452.309
-
-Particula N°22 
-10000
-Best Personal: 974.75
-778.177
-
-Particula N°23 
 00001
-Best Personal: 1155.98
-1152.13
+Best Personal: 1008.78
+1169.44
 
-Particula N°24 
-01000
-Best Personal: 824.225
-782.055
-
-Particula N°25 
-00100
-Best Personal: 436.407
-418.275
-
-Particula N°26 
-00001
-Best Personal: 1374.21
-1244.32
-
-Particula N°27 
-01000
-Best Personal: 1105.69
-1045.75
-
-Particula N°28 
-10000
-Best Personal: 1035.21
-805.181
-
-Particula N°29 
-00010
-Best Personal: 797.544
-812.077
-
-Particula N°30 
-01000
-Best Personal: 613.994
-541.895
-
-Particula N°31 
-00010
-Best Personal: 955.832
-952.102
-
-Particula N°32 
-00001
-Best Personal: 664.499
-715.491
-
-Particula N°33 
-00010
-Best Personal: 672.136
-614.739
-
-Particula N°34 
-00010
-Best Personal: 1138.99
-1189.91
-
-Particula N°35 
-00001
-Best Personal: 726.734
-706.627
-
-Particula N°36 
-00010
-Best Personal: 1030.11
-1014.97
-
-Particula N°37 
-00010
-Best Personal: 1255.91
-1297.87
-
-Particula N°38 
-10000
-Best Personal: 1175
-1113.07
-
-Particula N°39 
-00010
-Best Personal: 1142.05
-1093.97
-
-Particula N°40 
-10000
-Best Personal: 534.382
-374.725
-
-Particula N°41 
-10000
-Best Personal: 1112.78
-626.141
-
-Particula N°42 
-00100
-Best Personal: 612.834
-629.965
-
-Particula N°43 
-10000
-Best Personal: 669.275
-646.348
-
-Particula N°44 
-10000
-Best Personal: 588.759
-524.385
-
-Particula N°45 
-00100
-Best Personal: 1214.6
-1188.72
-
-Particula N°46 
-01000
-Best Personal: 726.051
-919.886
-
-Particula N°47 
-01000
-Best Personal: 1077.61
-1218.77
-
-Particula N°48 
-00100
-Best Personal: 1050.95
-1077.85
-
-Particula N°49 
-00001
-Best Personal: 1379.1
-1196.83
-
-Particula N°50 
-01000
-Best Personal: 814.414
-869.056
-
-Best Global Iteration n°3: 374.725 at the iteration 3
+Best Global Iteration n°3: 545.987 at the iteration 0
 
  Iteracion: 5
 Particula N°1 
-00001
-Best Personal: 553.104
-584.14
+10000
+Best Personal: 656.799
+741.507
 
 Particula N°2 
-00001
-Best Personal: 829.549
-882.085
+01000
+Best Personal: 1102.41
+974.718
 
 Particula N°3 
-00100
-Best Personal: 944.489
-975.789
+00001
+Best Personal: 852.545
+971.83
 
 Particula N°4 
 00001
-Best Personal: 922.656
-784.765
+Best Personal: 558.108
+699.573
 
 Particula N°5 
-10000
-Best Personal: 683.871
-482.617
+00010
+Best Personal: 755.777
+976.115
 
 Particula N°6 
-00010
-Best Personal: 1161.21
-1159.2
+01000
+Best Personal: 545.987
+545.987
 
 Particula N°7 
-00001
-Best Personal: 1125.92
-1149.19
+00010
+Best Personal: 1355.62
+1323.47
 
 Particula N°8 
 00001
-Best Personal: 981.275
-929.432
+Best Personal: 594.409
+594.409
 
 Particula N°9 
 10000
-Best Personal: 607.265
-543.155
+Best Personal: 685.507
+858.173
 
 Particula N°10 
 00100
-Best Personal: 572.191
-578.918
+Best Personal: 1175.15
+1102.22
 
 Particula N°11 
-01000
-Best Personal: 644.748
-638.283
+00001
+Best Personal: 893.505
+1045.01
 
 Particula N°12 
-01000
-Best Personal: 595.193
-594.638
+00001
+Best Personal: 558.937
+690.296
 
 Particula N°13 
 10000
-Best Personal: 628.328
-641.524
+Best Personal: 874.131
+760.422
 
 Particula N°14 
-10000
-Best Personal: 1078.03
-921.994
+00010
+Best Personal: 1144.31
+1091.72
 
 Particula N°15 
-01000
-Best Personal: 1540.93
-1357.08
+00010
+Best Personal: 737.303
+785.943
 
 Particula N°16 
 00010
-Best Personal: 816.298
-788.69
+Best Personal: 1157.45
+1090.58
 
 Particula N°17 
-00001
-Best Personal: 526.201
-639.836
+00100
+Best Personal: 1024.59
+1136.16
 
 Particula N°18 
-00010
-Best Personal: 785.742
-698.273
+00100
+Best Personal: 1287.77
+1128.79
 
 Particula N°19 
-00001
-Best Personal: 971.135
-995.92
+10000
+Best Personal: 1519.92
+1101.54
 
 Particula N°20 
-00010
-Best Personal: 915.147
-817.605
-
-Particula N°21 
-00001
-Best Personal: 448.06
-482.289
-
-Particula N°22 
-00010
-Best Personal: 778.177
-789.748
-
-Particula N°23 
-00001
-Best Personal: 1152.13
-1036.89
-
-Particula N°24 
-01000
-Best Personal: 782.055
-787.021
-
-Particula N°25 
-00010
-Best Personal: 418.275
-380.828
-
-Particula N°26 
-10000
-Best Personal: 1244.32
-1168.56
-
-Particula N°27 
-10000
-Best Personal: 1045.75
-1062.11
-
-Particula N°28 
-00001
-Best Personal: 805.181
-793.2
-
-Particula N°29 
 00100
-Best Personal: 797.544
-766.397
+Best Personal: 1008.78
+1152.06
 
-Particula N°30 
-01000
-Best Personal: 541.895
-484.037
-
-Particula N°31 
-01000
-Best Personal: 952.102
-943.111
-
-Particula N°32 
-00001
-Best Personal: 664.499
-705.652
-
-Particula N°33 
-00100
-Best Personal: 614.739
-635.247
-
-Particula N°34 
-10000
-Best Personal: 1138.99
-582.124
-
-Particula N°35 
-00010
-Best Personal: 706.627
-585.547
-
-Particula N°36 
-01000
-Best Personal: 1014.97
-958.779
-
-Particula N°37 
-01000
-Best Personal: 1255.91
-1283.67
-
-Particula N°38 
-10000
-Best Personal: 1113.07
-887.269
-
-Particula N°39 
-10000
-Best Personal: 1093.97
-876.004
-
-Particula N°40 
-00010
-Best Personal: 374.725
-374.725
-
-Particula N°41 
-10000
-Best Personal: 626.141
-501.931
-
-Particula N°42 
-10000
-Best Personal: 612.834
-587.496
-
-Particula N°43 
-00100
-Best Personal: 646.348
-622.958
-
-Particula N°44 
-00001
-Best Personal: 524.385
-508.973
-
-Particula N°45 
-10000
-Best Personal: 1188.72
-1037.06
-
-Particula N°46 
-01000
-Best Personal: 726.051
-870.381
-
-Particula N°47 
-01000
-Best Personal: 1077.61
-1185.34
-
-Particula N°48 
-10000
-Best Personal: 1050.95
-611.675
-
-Particula N°49 
-00001
-Best Personal: 1196.83
-1127.22
-
-Particula N°50 
-10000
-Best Personal: 814.414
-793.449
-
-Best Global Iteration n°4: 374.725 at the iteration 3
+Best Global Iteration n°4: 545.987 at the iteration 0
 
  Iteracion: 6
 Particula N°1 
-10000
-Best Personal: 553.104
-477.64
+00001
+Best Personal: 656.799
+738.278
 
 Particula N°2 
-00001
-Best Personal: 829.549
-842.276
+00010
+Best Personal: 974.718
+865.648
 
 Particula N°3 
 00010
-Best Personal: 944.489
-706.731
+Best Personal: 852.545
+891.681
 
 Particula N°4 
-10000
-Best Personal: 784.765
-563.293
+00010
+Best Personal: 558.108
+735.317
 
 Particula N°5 
-00001
-Best Personal: 482.617
-409.775
+01000
+Best Personal: 755.777
+942.715
 
 Particula N°6 
-00010
-Best Personal: 1159.2
-1110.55
+00100
+Best Personal: 545.987
+545.987
 
 Particula N°7 
-00001
-Best Personal: 1125.92
-1144.34
+10000
+Best Personal: 1323.47
+1143.08
 
 Particula N°8 
 00010
-Best Personal: 929.432
-835.961
+Best Personal: 594.409
+605.844
 
 Particula N°9 
-00010
-Best Personal: 543.155
-524.8
+00100
+Best Personal: 685.507
+971.856
 
 Particula N°10 
-00100
-Best Personal: 572.191
-566.707
+00001
+Best Personal: 1102.22
+1043.57
 
 Particula N°11 
-00010
-Best Personal: 638.283
-591.281
+10000
+Best Personal: 893.505
+1082.88
 
 Particula N°12 
-00001
-Best Personal: 594.638
-591.249
+00100
+Best Personal: 558.937
+709.11
 
 Particula N°13 
-00001
-Best Personal: 628.328
-630.538
+01000
+Best Personal: 760.422
+576.631
 
 Particula N°14 
-00100
-Best Personal: 921.994
-851.81
+01000
+Best Personal: 1091.72
+879.592
 
 Particula N°15 
-10000
-Best Personal: 1357.08
-807.701
+01000
+Best Personal: 737.303
+589.469
 
 Particula N°16 
 00001
-Best Personal: 788.69
-777.155
+Best Personal: 1090.58
+1105.16
 
 Particula N°17 
-00100
-Best Personal: 526.201
-669.557
+01000
+Best Personal: 1024.59
+931.842
 
 Particula N°18 
 10000
-Best Personal: 698.273
-576.509
+Best Personal: 1128.79
+929.842
 
 Particula N°19 
-00100
-Best Personal: 971.135
-890.838
+00010
+Best Personal: 1101.54
+1191.08
 
 Particula N°20 
-01000
-Best Personal: 817.605
-850.806
-
-Particula N°21 
-10000
-Best Personal: 448.06
-436.279
-
-Particula N°22 
-01000
-Best Personal: 778.177
-769.1
-
-Particula N°23 
-00010
-Best Personal: 1036.89
-973.232
-
-Particula N°24 
 00001
-Best Personal: 782.055
-946.485
+Best Personal: 1008.78
+1150.05
 
-Particula N°25 
-00010
-Best Personal: 380.828
-349.635
-
-Particula N°26 
-01000
-Best Personal: 1168.56
-791.749
-
-Particula N°27 
-10000
-Best Personal: 1045.75
-743.932
-
-Particula N°28 
-01000
-Best Personal: 793.2
-593.625
-
-Particula N°29 
-00010
-Best Personal: 766.397
-703.439
-
-Particula N°30 
-00010
-Best Personal: 484.037
-491.928
-
-Particula N°31 
-00010
-Best Personal: 943.111
-869.115
-
-Particula N°32 
-10000
-Best Personal: 664.499
-689.89
-
-Particula N°33 
-10000
-Best Personal: 614.739
-635.749
-
-Particula N°34 
-00100
-Best Personal: 582.124
-571.707
-
-Particula N°35 
-00010
-Best Personal: 585.547
-524.358
-
-Particula N°36 
-00001
-Best Personal: 958.779
-956.339
-
-Particula N°37 
-00010
-Best Personal: 1255.91
-1169.21
-
-Particula N°38 
-00100
-Best Personal: 887.269
-714.336
-
-Particula N°39 
-00010
-Best Personal: 876.004
-843.44
-
-Particula N°40 
-00001
-Best Personal: 374.725
-373.121
-
-Particula N°41 
-00100
-Best Personal: 501.931
-522.527
-
-Particula N°42 
-00100
-Best Personal: 587.496
-580.821
-
-Particula N°43 
-10000
-Best Personal: 622.958
-606.694
-
-Particula N°44 
-01000
-Best Personal: 508.973
-491.835
-
-Particula N°45 
-01000
-Best Personal: 1037.06
-953.377
-
-Particula N°46 
-00100
-Best Personal: 726.051
-851.643
-
-Particula N°47 
-00100
-Best Personal: 1077.61
-1066.65
-
-Particula N°48 
-01000
-Best Personal: 611.675
-601.917
-
-Particula N°49 
-01000
-Best Personal: 1127.22
-836.197
-
-Particula N°50 
-10000
-Best Personal: 793.449
-757.706
-
-Best Global Iteration n°5: 349.635 at the iteration 5
+Best Global Iteration n°5: 545.987 at the iteration 0
 
  Iteracion: 7
 Particula N°1 
 01000
-Best Personal: 477.64
-485.783
+Best Personal: 656.799
+682.496
 
 Particula N°2 
-00100
-Best Personal: 829.549
-790.794
+10000
+Best Personal: 865.648
+736.847
 
 Particula N°3 
-00100
-Best Personal: 706.731
-713.467
+01000
+Best Personal: 852.545
+837.702
 
 Particula N°4 
-00010
-Best Personal: 563.293
-527.565
+01000
+Best Personal: 558.108
+673.854
 
 Particula N°5 
-10000
-Best Personal: 409.775
-361.495
+00100
+Best Personal: 755.777
+979.653
 
 Particula N°6 
-00010
-Best Personal: 1110.55
-1026.72
+00001
+Best Personal: 545.987
+545.987
 
 Particula N°7 
-00100
-Best Personal: 1125.92
-1070.66
+00010
+Best Personal: 1143.08
+1081.49
 
 Particula N°8 
-00010
-Best Personal: 835.961
-810.52
+00100
+Best Personal: 594.409
+713.64
 
 Particula N°9 
 01000
-Best Personal: 524.8
-491.265
+Best Personal: 685.507
+771.663
 
 Particula N°10 
-10000
-Best Personal: 566.707
-569.902
+00100
+Best Personal: 1043.57
+994.011
 
 Particula N°11 
-00010
-Best Personal: 591.281
-523.614
+01000
+Best Personal: 893.505
+1041.61
 
 Particula N°12 
-00100
-Best Personal: 591.249
-589.353
+00010
+Best Personal: 558.937
+773.299
 
 Particula N°13 
-00001
-Best Personal: 628.328
-653.517
+10000
+Best Personal: 576.631
+471.742
 
 Particula N°14 
-00001
-Best Personal: 851.81
-844.329
+10000
+Best Personal: 879.592
+812.737
 
 Particula N°15 
-00010
-Best Personal: 807.701
-675.193
+00001
+Best Personal: 589.469
+589.491
 
 Particula N°16 
-01000
-Best Personal: 777.155
-779.463
+00100
+Best Personal: 1090.58
+1088.24
 
 Particula N°17 
-00010
-Best Personal: 526.201
-607.932
+01000
+Best Personal: 931.842
+681.124
 
 Particula N°18 
-01000
-Best Personal: 576.509
-598.482
+00100
+Best Personal: 929.842
+814.208
 
 Particula N°19 
-01000
-Best Personal: 890.838
-871.188
+10000
+Best Personal: 1101.54
+756.831
 
 Particula N°20 
-00001
-Best Personal: 817.605
-760.975
-
-Particula N°21 
-00010
-Best Personal: 436.279
-421.889
-
-Particula N°22 
-10000
-Best Personal: 769.1
-755.445
-
-Particula N°23 
-00100
-Best Personal: 973.232
-960.419
-
-Particula N°24 
-00100
-Best Personal: 782.055
-835.907
-
-Particula N°25 
-00010
-Best Personal: 349.635
-346.284
-
-Particula N°26 
-10000
-Best Personal: 791.749
-778.241
-
-Particula N°27 
-00100
-Best Personal: 743.932
-740.698
-
-Particula N°28 
-00100
-Best Personal: 593.625
-598.556
-
-Particula N°29 
-00100
-Best Personal: 703.439
-706.29
-
-Particula N°30 
 01000
-Best Personal: 484.037
-480.285
+Best Personal: 1008.78
+1024.45
 
-Particula N°31 
-00001
-Best Personal: 869.115
-975.37
-
-Particula N°32 
-00001
-Best Personal: 664.499
-657.335
-
-Particula N°33 
-10000
-Best Personal: 614.739
-640.194
-
-Particula N°34 
-10000
-Best Personal: 571.707
-476.913
-
-Particula N°35 
-00010
-Best Personal: 524.358
-493.931
-
-Particula N°36 
-00010
-Best Personal: 956.339
-874.22
-
-Particula N°37 
-00001
-Best Personal: 1169.21
-1014.95
-
-Particula N°38 
-00001
-Best Personal: 714.336
-771.078
-
-Particula N°39 
-00010
-Best Personal: 843.44
-820.8
-
-Particula N°40 
-00001
-Best Personal: 373.121
-364.575
-
-Particula N°41 
-10000
-Best Personal: 501.931
-518.062
-
-Particula N°42 
-00010
-Best Personal: 580.821
-537.941
-
-Particula N°43 
-10000
-Best Personal: 606.694
-576.329
-
-Particula N°44 
-10000
-Best Personal: 491.835
-487.772
-
-Particula N°45 
-10000
-Best Personal: 953.377
-865.938
-
-Particula N°46 
-10000
-Best Personal: 726.051
-476.798
-
-Particula N°47 
-01000
-Best Personal: 1066.65
-1073.73
-
-Particula N°48 
-00100
-Best Personal: 601.917
-601.917
-
-Particula N°49 
-01000
-Best Personal: 836.197
-780.182
-
-Particula N°50 
-10000
-Best Personal: 757.706
-733.331
-
-Best Global Iteration n°6: 346.284 at the iteration 6
+Best Global Iteration n°6: 471.742 at the iteration 6
 
  Iteracion: 8
 Particula N°1 
-01000
-Best Personal: 477.64
-491.169
+10000
+Best Personal: 656.799
+750.91
 
 Particula N°2 
-10000
-Best Personal: 790.794
-645.308
+00001
+Best Personal: 736.847
+797.007
 
 Particula N°3 
-00010
-Best Personal: 706.731
-666.219
+00100
+Best Personal: 837.702
+837.959
 
 Particula N°4 
-00100
-Best Personal: 527.565
-477.302
+10000
+Best Personal: 558.108
+602.187
 
 Particula N°5 
-00010
-Best Personal: 361.495
-389.258
+10000
+Best Personal: 755.777
+961.356
 
 Particula N°6 
-00010
-Best Personal: 1026.72
-1001.98
+00001
+Best Personal: 545.987
+564.55
 
 Particula N°7 
-00010
-Best Personal: 1070.66
-966.082
+10000
+Best Personal: 1081.49
+817.291
 
 Particula N°8 
-00100
-Best Personal: 810.52
-797.083
+10000
+Best Personal: 594.409
+664.326
 
 Particula N°9 
-01000
-Best Personal: 491.265
-469.686
+00001
+Best Personal: 685.507
+789.394
 
 Particula N°10 
-10000
-Best Personal: 566.707
-573.613
+00100
+Best Personal: 994.011
+961.04
 
 Particula N°11 
-10000
-Best Personal: 523.614
-393.25
+00100
+Best Personal: 893.505
+1020.58
 
 Particula N°12 
-01000
-Best Personal: 589.353
-583.959
+10000
+Best Personal: 558.937
+799.285
 
 Particula N°13 
-01000
-Best Personal: 628.328
-659.284
+10000
+Best Personal: 471.742
+400.238
 
 Particula N°14 
-00001
-Best Personal: 844.329
-844.738
+01000
+Best Personal: 812.737
+578.728
 
 Particula N°15 
 00100
-Best Personal: 675.193
-684.752
+Best Personal: 589.469
+659.288
 
 Particula N°16 
-00100
-Best Personal: 777.155
-797.679
+00001
+Best Personal: 1088.24
+1083.77
 
 Particula N°17 
-01000
-Best Personal: 526.201
-630.679
+00001
+Best Personal: 681.124
+668.128
 
 Particula N°18 
-10000
-Best Personal: 576.509
-545.87
+01000
+Best Personal: 814.208
+662.371
 
 Particula N°19 
-00001
-Best Personal: 871.188
-868.117
+00100
+Best Personal: 756.831
+676.111
 
 Particula N°20 
-10000
-Best Personal: 760.975
-785.962
-
-Particula N°21 
-10000
-Best Personal: 421.889
-425.511
-
-Particula N°22 
-00001
-Best Personal: 755.445
-706.624
-
-Particula N°23 
-00010
-Best Personal: 960.419
-932.655
-
-Particula N°24 
-00010
-Best Personal: 782.055
-745.412
-
-Particula N°25 
-00010
-Best Personal: 346.284
-345.954
-
-Particula N°26 
-00010
-Best Personal: 778.241
-671.978
-
-Particula N°27 
-10000
-Best Personal: 740.698
-670.061
-
-Particula N°28 
-00001
-Best Personal: 593.625
-563.304
-
-Particula N°29 
-00010
-Best Personal: 703.439
-659.721
-
-Particula N°30 
-10000
-Best Personal: 480.285
-450.333
-
-Particula N°31 
 00100
-Best Personal: 869.115
-931.406
+Best Personal: 1008.78
+951.372
 
-Particula N°32 
-10000
-Best Personal: 657.335
-574.515
-
-Particula N°33 
-00010
-Best Personal: 614.739
-510.762
-
-Particula N°34 
-10000
-Best Personal: 476.913
-461.306
-
-Particula N°35 
-01000
-Best Personal: 493.931
-558.573
-
-Particula N°36 
-10000
-Best Personal: 874.22
-627.405
-
-Particula N°37 
-01000
-Best Personal: 1014.95
-1026.65
-
-Particula N°38 
-01000
-Best Personal: 714.336
-754.987
-
-Particula N°39 
-10000
-Best Personal: 820.8
-764.475
-
-Particula N°40 
-10000
-Best Personal: 364.575
-344.46
-
-Particula N°41 
-01000
-Best Personal: 501.931
-465.8
-
-Particula N°42 
-00010
-Best Personal: 537.941
-517.453
-
-Particula N°43 
-10000
-Best Personal: 576.329
-570.291
-
-Particula N°44 
-10000
-Best Personal: 487.772
-493.624
-
-Particula N°45 
-00100
-Best Personal: 865.938
-827.47
-
-Particula N°46 
-00010
-Best Personal: 476.798
-439.609
-
-Particula N°47 
-00100
-Best Personal: 1066.65
-1051.18
-
-Particula N°48 
-00010
-Best Personal: 601.917
-508.996
-
-Particula N°49 
-00100
-Best Personal: 780.182
-729.603
-
-Particula N°50 
-00010
-Best Personal: 733.331
-547.34
-
-Best Global Iteration n°7: 344.46 at the iteration 7
+Best Global Iteration n°7: 400.238 at the iteration 7
 
  Iteracion: 9
 Particula N°1 
-01000
-Best Personal: 477.64
-494.756
+00100
+Best Personal: 656.799
+730.18
 
 Particula N°2 
-00100
-Best Personal: 645.308
-630.271
+01000
+Best Personal: 736.847
+510.309
 
 Particula N°3 
-10000
-Best Personal: 666.219
-443.21
+00001
+Best Personal: 837.702
+872
 
 Particula N°4 
 00010
-Best Personal: 477.302
-464.363
+Best Personal: 558.108
+640.344
 
 Particula N°5 
-00001
-Best Personal: 361.495
-374.131
+10000
+Best Personal: 755.777
+738.157
 
 Particula N°6 
-00100
-Best Personal: 1001.98
-945.384
+10000
+Best Personal: 545.987
+545.995
 
 Particula N°7 
-00001
-Best Personal: 966.082
-940.773
+00010
+Best Personal: 817.291
+761.842
 
 Particula N°8 
-01000
-Best Personal: 797.083
-798.911
+10000
+Best Personal: 594.409
+614.538
 
 Particula N°9 
-00100
-Best Personal: 469.686
-428.31
+01000
+Best Personal: 685.507
+598.228
 
 Particula N°10 
-00001
-Best Personal: 566.707
-552.517
+00010
+Best Personal: 961.04
+1036.49
 
 Particula N°11 
-00100
-Best Personal: 393.25
-409.442
+10000
+Best Personal: 893.505
+952.05
 
 Particula N°12 
-00001
-Best Personal: 583.959
-598.172
+00100
+Best Personal: 558.937
+802.625
 
 Particula N°13 
 00100
-Best Personal: 628.328
-659.503
+Best Personal: 400.238
+400.238
 
 Particula N°14 
-01000
-Best Personal: 844.329
-806.222
+10000
+Best Personal: 578.728
+451.287
 
 Particula N°15 
-00100
-Best Personal: 675.193
-539.12
+00001
+Best Personal: 589.469
+645.617
 
 Particula N°16 
-10000
-Best Personal: 777.155
-487.432
+00001
+Best Personal: 1083.77
+1085.38
 
 Particula N°17 
-01000
-Best Personal: 526.201
-638.648
+10000
+Best Personal: 668.128
+623.282
 
 Particula N°18 
-01000
-Best Personal: 545.87
-541.246
+00100
+Best Personal: 662.371
+596.403
 
 Particula N°19 
-01000
-Best Personal: 868.117
-784.412
+00001
+Best Personal: 676.111
+641.556
 
 Particula N°20 
-00010
-Best Personal: 760.975
-708.47
-
-Particula N°21 
-00010
-Best Personal: 421.889
-373.889
-
-Particula N°22 
-10000
-Best Personal: 706.624
-699.455
-
-Particula N°23 
-00100
-Best Personal: 932.655
-816.589
-
-Particula N°24 
-00010
-Best Personal: 745.412
-678.209
-
-Particula N°25 
-10000
-Best Personal: 345.954
-352.441
-
-Particula N°26 
 00001
-Best Personal: 671.978
-606.499
+Best Personal: 951.372
+953.09
 
-Particula N°27 
-00100
-Best Personal: 670.061
-622.342
-
-Particula N°28 
-10000
-Best Personal: 563.304
-494.6
-
-Particula N°29 
-00100
-Best Personal: 659.721
-650.895
-
-Particula N°30 
-00010
-Best Personal: 450.333
-392.809
-
-Particula N°31 
-01000
-Best Personal: 869.115
-741.452
-
-Particula N°32 
-10000
-Best Personal: 574.515
-487.273
-
-Particula N°33 
-10000
-Best Personal: 510.762
-483.756
-
-Particula N°34 
-00010
-Best Personal: 461.306
-431.508
-
-Particula N°35 
-01000
-Best Personal: 493.931
-554.026
-
-Particula N°36 
-00001
-Best Personal: 627.405
-626.137
-
-Particula N°37 
-00010
-Best Personal: 1014.95
-1000.09
-
-Particula N°38 
-10000
-Best Personal: 714.336
-710.611
-
-Particula N°39 
-01000
-Best Personal: 764.475
-733.893
-
-Particula N°40 
-00100
-Best Personal: 344.46
-344.46
-
-Particula N°41 
-10000
-Best Personal: 465.8
-512.542
-
-Particula N°42 
-01000
-Best Personal: 517.453
-530.725
-
-Particula N°43 
-01000
-Best Personal: 570.291
-614
-
-Particula N°44 
-01000
-Best Personal: 487.772
-489.439
-
-Particula N°45 
-00010
-Best Personal: 827.47
-715.359
-
-Particula N°46 
-00010
-Best Personal: 439.609
-427.29
-
-Particula N°47 
-00001
-Best Personal: 1051.18
-1004.88
-
-Particula N°48 
-00010
-Best Personal: 508.996
-478.749
-
-Particula N°49 
-00010
-Best Personal: 729.603
-717.471
-
-Particula N°50 
-00010
-Best Personal: 547.34
-462.481
-
-Best Global Iteration n°8: 344.46 at the iteration 7
+Best Global Iteration n°8: 400.238 at the iteration 7
 
  Iteracion: 10
 Particula N°1 
-00010
-Best Personal: 477.64
-510.073
+01000
+Best Personal: 656.799
+533.092
 
 Particula N°2 
 10000
-Best Personal: 630.271
-576.432
+Best Personal: 510.309
+454.623
 
 Particula N°3 
-00010
-Best Personal: 443.21
-441.013
+01000
+Best Personal: 837.702
+762.161
 
 Particula N°4 
-10000
-Best Personal: 464.363
-407.189
+00001
+Best Personal: 558.108
+686.312
 
 Particula N°5 
-00010
-Best Personal: 361.495
-384.045
+00001
+Best Personal: 738.157
+737.467
 
 Particula N°6 
-10000
-Best Personal: 945.384
-808.921
+00100
+Best Personal: 545.987
+554.346
 
 Particula N°7 
-01000
-Best Personal: 940.773
-762.257
+00010
+Best Personal: 761.842
+761.6
 
 Particula N°8 
 10000
-Best Personal: 797.083
-624.421
+Best Personal: 594.409
+588.551
 
 Particula N°9 
 00010
-Best Personal: 428.31
-389.63
+Best Personal: 598.228
+647.865
 
 Particula N°10 
-00010
-Best Personal: 552.517
-550.891
+10000
+Best Personal: 961.04
+787.828
 
 Particula N°11 
-00001
-Best Personal: 393.25
-445.802
+10000
+Best Personal: 893.505
+867.79
 
 Particula N°12 
-00100
-Best Personal: 583.959
-559.965
+10000
+Best Personal: 558.937
+768.298
 
 Particula N°13 
-00010
-Best Personal: 628.328
-564.574
+00100
+Best Personal: 400.238
+400.238
 
 Particula N°14 
-00100
-Best Personal: 806.222
-664.705
+00010
+Best Personal: 451.287
+455.829
 
 Particula N°15 
-00010
-Best Personal: 539.12
-514.932
+00001
+Best Personal: 589.469
+657.026
 
 Particula N°16 
 01000
-Best Personal: 487.432
-480.552
+Best Personal: 1083.77
+862.141
 
 Particula N°17 
 10000
-Best Personal: 526.201
-631.516
+Best Personal: 623.282
+561.288
 
 Particula N°18 
-10000
-Best Personal: 541.246
-519.251
+01000
+Best Personal: 596.403
+459.005
 
 Particula N°19 
-00001
-Best Personal: 784.412
-766.568
+00010
+Best Personal: 641.556
+692.268
 
 Particula N°20 
-00100
-Best Personal: 708.47
-702.885
-
-Particula N°21 
-00001
-Best Personal: 373.889
-383.364
-
-Particula N°22 
-00100
-Best Personal: 699.455
-678.878
-
-Particula N°23 
-01000
-Best Personal: 816.589
-824.931
-
-Particula N°24 
 00010
-Best Personal: 678.209
-668.899
+Best Personal: 951.372
+950.017
 
-Particula N°25 
-00001
-Best Personal: 345.954
-368.429
-
-Particula N°26 
-00010
-Best Personal: 606.499
-562.248
-
-Particula N°27 
-00010
-Best Personal: 622.342
-568.569
-
-Particula N°28 
-00100
-Best Personal: 494.6
-458.848
-
-Particula N°29 
-00010
-Best Personal: 650.895
-647.957
-
-Particula N°30 
-00100
-Best Personal: 392.809
-368.644
-
-Particula N°31 
-00001
-Best Personal: 741.452
-755.38
-
-Particula N°32 
-00001
-Best Personal: 487.273
-515.99
-
-Particula N°33 
-00100
-Best Personal: 483.756
-448.861
-
-Particula N°34 
-01000
-Best Personal: 431.508
-409.616
-
-Particula N°35 
-00010
-Best Personal: 493.931
-524.411
-
-Particula N°36 
-10000
-Best Personal: 626.137
-509.427
-
-Particula N°37 
-00100
-Best Personal: 1000.09
-864.112
-
-Particula N°38 
-10000
-Best Personal: 710.611
-634.313
-
-Particula N°39 
-00010
-Best Personal: 733.893
-713.273
-
-Particula N°40 
-00010
-Best Personal: 344.46
-344.46
-
-Particula N°41 
-00010
-Best Personal: 465.8
-454.782
-
-Particula N°42 
-00010
-Best Personal: 517.453
-528.158
-
-Particula N°43 
-00010
-Best Personal: 570.291
-568.491
-
-Particula N°44 
-10000
-Best Personal: 487.772
-465.183
-
-Particula N°45 
-00001
-Best Personal: 715.359
-594.45
-
-Particula N°46 
-10000
-Best Personal: 427.29
-354.193
-
-Particula N°47 
-01000
-Best Personal: 1004.88
-988.227
-
-Particula N°48 
-00100
-Best Personal: 478.749
-457.567
-
-Particula N°49 
-01000
-Best Personal: 717.471
-720.555
-
-Particula N°50 
-00010
-Best Personal: 462.481
-442.326
-
-Best Global Iteration n°9: 344.46 at the iteration 7
+Best Global Iteration n°9: 400.238 at the iteration 7
 
  Iteracion: 11
 Particula N°1 
-01000
-Best Personal: 477.64
-486.306
+00001
+Best Personal: 533.092
+547.621
 
 Particula N°2 
-10000
-Best Personal: 576.432
-552.868
+00100
+Best Personal: 454.623
+427.826
 
 Particula N°3 
-00010
-Best Personal: 441.013
-466.566
+01000
+Best Personal: 762.161
+627.628
 
 Particula N°4 
 00100
-Best Personal: 407.189
-397.385
+Best Personal: 558.108
+648.098
 
 Particula N°5 
-00100
-Best Personal: 361.495
-373.142
+00010
+Best Personal: 737.467
+856.453
 
 Particula N°6 
-00100
-Best Personal: 808.921
-801.42
+00010
+Best Personal: 545.987
+572.787
 
 Particula N°7 
-10000
-Best Personal: 762.257
-609.012
+01000
+Best Personal: 761.6
+585.604
 
 Particula N°8 
-00001
-Best Personal: 624.421
-612.503
+10000
+Best Personal: 588.551
+600.89
 
 Particula N°9 
 10000
-Best Personal: 389.63
-336.71
+Best Personal: 598.228
+574.481
 
 Particula N°10 
-10000
-Best Personal: 550.891
-522.571
+00010
+Best Personal: 787.828
+880.306
 
 Particula N°11 
 10000
-Best Personal: 393.25
-385.241
+Best Personal: 867.79
+816.736
 
 Particula N°12 
-00001
-Best Personal: 559.965
-572.097
+01000
+Best Personal: 558.937
+602.931
 
 Particula N°13 
-10000
-Best Personal: 564.574
-418.648
+01000
+Best Personal: 400.238
+319.52
 
 Particula N°14 
-00001
-Best Personal: 664.705
-667.708
+00100
+Best Personal: 451.287
+451.168
 
 Particula N°15 
-00100
-Best Personal: 514.932
-450.416
+01000
+Best Personal: 589.469
+508.463
 
 Particula N°16 
-10000
-Best Personal: 480.552
-434.653
+00001
+Best Personal: 862.141
+843.869
 
 Particula N°17 
-10000
-Best Personal: 526.201
-427.283
+00010
+Best Personal: 561.288
+539.425
 
 Particula N°18 
-00100
-Best Personal: 519.251
-514.03
+00001
+Best Personal: 459.005
+497.106
 
 Particula N°19 
-01000
-Best Personal: 766.568
-758.378
+10000
+Best Personal: 641.556
+518.449
 
 Particula N°20 
-01000
-Best Personal: 702.885
-712.717
-
-Particula N°21 
-10000
-Best Personal: 373.889
-363.597
-
-Particula N°22 
 00010
-Best Personal: 678.878
-665.344
+Best Personal: 950.017
+976.399
 
-Particula N°23 
-10000
-Best Personal: 816.589
-618.751
-
-Particula N°24 
-01000
-Best Personal: 668.899
-674.101
-
-Particula N°25 
-01000
-Best Personal: 345.954
-382.573
-
-Particula N°26 
-10000
-Best Personal: 562.248
-547.902
-
-Particula N°27 
-10000
-Best Personal: 568.569
-542.822
-
-Particula N°28 
-00010
-Best Personal: 458.848
-462.225
-
-Particula N°29 
-01000
-Best Personal: 647.957
-586.601
-
-Particula N°30 
-10000
-Best Personal: 368.644
-230.472
-
-Particula N°31 
-00100
-Best Personal: 741.452
-715.681
-
-Particula N°32 
-00010
-Best Personal: 487.273
-476.341
-
-Particula N°33 
-00010
-Best Personal: 448.861
-383.166
-
-Particula N°34 
-01000
-Best Personal: 409.616
-410.537
-
-Particula N°35 
-10000
-Best Personal: 493.931
-512.161
-
-Particula N°36 
-00010
-Best Personal: 509.427
-458.495
-
-Particula N°37 
-00100
-Best Personal: 864.112
-815.634
-
-Particula N°38 
-01000
-Best Personal: 634.313
-625.542
-
-Particula N°39 
-00010
-Best Personal: 713.273
-701.15
-
-Particula N°40 
-01000
-Best Personal: 344.46
-343.694
-
-Particula N°41 
-00100
-Best Personal: 454.782
-435.869
-
-Particula N°42 
-01000
-Best Personal: 517.453
-508.668
-
-Particula N°43 
-00001
-Best Personal: 568.491
-583.434
-
-Particula N°44 
-10000
-Best Personal: 465.183
-467.368
-
-Particula N°45 
-10000
-Best Personal: 594.45
-535.271
-
-Particula N°46 
-01000
-Best Personal: 354.193
-356.013
-
-Particula N°47 
-01000
-Best Personal: 988.227
-991.413
-
-Particula N°48 
-00100
-Best Personal: 457.567
-450.678
-
-Particula N°49 
-00001
-Best Personal: 717.471
-707.654
-
-Particula N°50 
-10000
-Best Personal: 442.326
-441.741
-
-Best Global Iteration n°10: 230.472 at the iteration 10
+Best Global Iteration n°10: 319.52 at the iteration 10
 
  Iteracion: 12
 Particula N°1 
-10000
-Best Personal: 477.64
-434.821
+00100
+Best Personal: 533.092
+517.456
 
 Particula N°2 
-00010
-Best Personal: 552.868
-522.392
+00001
+Best Personal: 427.826
+436.589
 
 Particula N°3 
-00001
-Best Personal: 441.013
-368.637
+00010
+Best Personal: 627.628
+615.348
 
 Particula N°4 
-00100
-Best Personal: 397.385
-407.708
+00010
+Best Personal: 558.108
+681.458
 
 Particula N°5 
-01000
-Best Personal: 361.495
-335.813
+00001
+Best Personal: 737.467
+843.934
 
 Particula N°6 
-00001
-Best Personal: 801.42
-516.633
+00100
+Best Personal: 545.987
+563.702
 
 Particula N°7 
-00001
-Best Personal: 609.012
-511.113
+10000
+Best Personal: 585.604
+457.987
 
 Particula N°8 
-00001
-Best Personal: 612.503
-476.15
+00100
+Best Personal: 588.551
+654.314
 
 Particula N°9 
-10000
-Best Personal: 336.71
-331.813
+01000
+Best Personal: 574.481
+308.645
 
 Particula N°10 
-10000
-Best Personal: 522.571
-518.437
+01000
+Best Personal: 787.828
+561.298
 
 Particula N°11 
 00001
-Best Personal: 385.241
-355.191
+Best Personal: 816.736
+811.197
 
 Particula N°12 
-10000
-Best Personal: 559.965
-546.82
+00001
+Best Personal: 558.937
+595.675
 
 Particula N°13 
-00001
-Best Personal: 418.648
-387.12
+01000
+Best Personal: 319.52
+270.643
 
 Particula N°14 
-01000
-Best Personal: 664.705
-617.651
+00100
+Best Personal: 451.168
+452.93
 
 Particula N°15 
-00001
-Best Personal: 450.416
-310.603
+10000
+Best Personal: 508.463
+525.675
 
 Particula N°16 
-10000
-Best Personal: 434.653
-414.352
+00010
+Best Personal: 843.869
+799.562
 
 Particula N°17 
-10000
-Best Personal: 427.283
-363.531
+01000
+Best Personal: 539.425
+374.635
 
 Particula N°18 
-00100
-Best Personal: 514.03
-510.167
+01000
+Best Personal: 459.005
+328.058
 
 Particula N°19 
-01000
-Best Personal: 758.378
-754.922
+00100
+Best Personal: 518.449
+504.876
 
 Particula N°20 
-00010
-Best Personal: 702.885
-706.65
-
-Particula N°21 
-00100
-Best Personal: 363.597
-373.614
-
-Particula N°22 
-01000
-Best Personal: 665.344
-433.343
-
-Particula N°23 
-00010
-Best Personal: 618.751
-635.838
-
-Particula N°24 
-01000
-Best Personal: 668.899
-660.633
-
-Particula N°25 
-00010
-Best Personal: 345.954
-407.092
-
-Particula N°26 
 00001
-Best Personal: 547.902
-524.448
+Best Personal: 950.017
+989.742
 
-Particula N°27 
-00001
-Best Personal: 542.822
-514.058
-
-Particula N°28 
-00100
-Best Personal: 458.848
-466.918
-
-Particula N°29 
-10000
-Best Personal: 586.601
-377.373
-
-Particula N°30 
-00001
-Best Personal: 230.472
-230.472
-
-Particula N°31 
-00001
-Best Personal: 715.681
-645.998
-
-Particula N°32 
-00001
-Best Personal: 476.341
-478.054
-
-Particula N°33 
-00010
-Best Personal: 383.166
-389.916
-
-Particula N°34 
-01000
-Best Personal: 409.616
-409.039
-
-Particula N°35 
-00010
-Best Personal: 493.931
-519.306
-
-Particula N°36 
-00001
-Best Personal: 458.495
-353.923
-
-Particula N°37 
-00001
-Best Personal: 815.634
-773.411
-
-Particula N°38 
-00001
-Best Personal: 625.542
-604.27
-
-Particula N°39 
-00010
-Best Personal: 701.15
-724.508
-
-Particula N°40 
-00100
-Best Personal: 343.694
-360.9
-
-Particula N°41 
-01000
-Best Personal: 435.869
-399.166
-
-Particula N°42 
-00010
-Best Personal: 508.668
-519.394
-
-Particula N°43 
-01000
-Best Personal: 568.491
-591.082
-
-Particula N°44 
-10000
-Best Personal: 465.183
-467.368
-
-Particula N°45 
-00010
-Best Personal: 535.271
-505.31
-
-Particula N°46 
-01000
-Best Personal: 354.193
-350.497
-
-Particula N°47 
-00001
-Best Personal: 988.227
-909.348
-
-Particula N°48 
-00100
-Best Personal: 450.678
-462.502
-
-Particula N°49 
-01000
-Best Personal: 707.654
-713.876
-
-Particula N°50 
-01000
-Best Personal: 441.741
-425.811
-
-Best Global Iteration n°11: 230.472 at the iteration 10
+Best Global Iteration n°11: 270.643 at the iteration 11
 
  Iteracion: 13
 Particula N°1 
 10000
-Best Personal: 434.821
-436.505
+Best Personal: 517.456
+548.955
 
 Particula N°2 
-00010
-Best Personal: 522.392
-521.054
+10000
+Best Personal: 427.826
+424.551
 
 Particula N°3 
-10000
-Best Personal: 368.637
-333.823
+00100
+Best Personal: 615.348
+589.64
 
 Particula N°4 
-00100
-Best Personal: 397.385
-403.918
+10000
+Best Personal: 558.108
+580.545
 
 Particula N°5 
 00100
-Best Personal: 335.813
-338.52
+Best Personal: 737.467
+880.023
 
 Particula N°6 
-00100
-Best Personal: 516.633
-532.547
+10000
+Best Personal: 545.987
+525.25
 
 Particula N°7 
 00100
-Best Personal: 511.113
-458.323
+Best Personal: 457.987
+430.968
 
 Particula N°8 
-10000
-Best Personal: 476.15
-352.791
+01000
+Best Personal: 588.551
+305.321
 
 Particula N°9 
-00010
-Best Personal: 331.813
-330.507
+00001
+Best Personal: 308.645
+311.393
 
 Particula N°10 
-01000
-Best Personal: 518.437
-477.169
+00001
+Best Personal: 561.298
+537.989
 
 Particula N°11 
-00100
-Best Personal: 355.191
-363.697
+00010
+Best Personal: 811.197
+854.499
 
 Particula N°12 
-10000
-Best Personal: 546.82
-472.769
+01000
+Best Personal: 558.937
+416.662
 
 Particula N°13 
-01000
-Best Personal: 387.12
-366.805
+00001
+Best Personal: 270.643
+266.497
 
 Particula N°14 
-00001
-Best Personal: 617.651
-468.621
+01000
+Best Personal: 451.168
+377.475
 
 Particula N°15 
-10000
-Best Personal: 310.603
-263.096
+00010
+Best Personal: 508.463
+602.44
 
 Particula N°16 
-00100
-Best Personal: 414.352
-423.004
+01000
+Best Personal: 799.562
+400.439
 
 Particula N°17 
-00100
-Best Personal: 363.531
-371.663
+10000
+Best Personal: 374.635
+354.292
 
 Particula N°18 
-01000
-Best Personal: 510.167
-507.334
+00001
+Best Personal: 328.058
+343.273
 
 Particula N°19 
 10000
-Best Personal: 754.922
-605.241
+Best Personal: 504.876
+496.876
 
 Particula N°20 
 00010
-Best Personal: 702.885
-713.694
+Best Personal: 950.017
+1031.21
 
-Particula N°21 
-01000
-Best Personal: 363.597
-371.298
-
-Particula N°22 
-00100
-Best Personal: 433.343
-429.779
-
-Particula N°23 
-10000
-Best Personal: 618.751
-487.767
-
-Particula N°24 
-00010
-Best Personal: 660.633
-667.839
-
-Particula N°25 
-10000
-Best Personal: 345.954
-403.789
-
-Particula N°26 
-01000
-Best Personal: 524.448
-443.652
-
-Particula N°27 
-00010
-Best Personal: 514.058
-485.854
-
-Particula N°28 
-00010
-Best Personal: 458.848
-487.431
-
-Particula N°29 
-00010
-Best Personal: 377.373
-382.977
-
-Particula N°30 
-00010
-Best Personal: 230.472
-229.245
-
-Particula N°31 
-10000
-Best Personal: 645.998
-415.61
-
-Particula N°32 
-01000
-Best Personal: 476.341
-445.388
-
-Particula N°33 
-10000
-Best Personal: 383.166
-385.196
-
-Particula N°34 
-00001
-Best Personal: 409.039
-306.936
-
-Particula N°35 
-00001
-Best Personal: 493.931
-397.561
-
-Particula N°36 
-00001
-Best Personal: 353.923
-329.16
-
-Particula N°37 
-00010
-Best Personal: 773.411
-788.046
-
-Particula N°38 
-00100
-Best Personal: 604.27
-561.782
-
-Particula N°39 
-00100
-Best Personal: 701.15
-719.513
-
-Particula N°40 
-10000
-Best Personal: 343.694
-353.279
-
-Particula N°41 
-01000
-Best Personal: 399.166
-388.583
-
-Particula N°42 
-00100
-Best Personal: 508.668
-510.891
-
-Particula N°43 
-10000
-Best Personal: 568.491
-524.856
-
-Particula N°44 
-01000
-Best Personal: 465.183
-451.293
-
-Particula N°45 
-00001
-Best Personal: 505.31
-390.727
-
-Particula N°46 
-00100
-Best Personal: 350.497
-353.877
-
-Particula N°47 
-10000
-Best Personal: 909.348
-679.275
-
-Particula N°48 
-01000
-Best Personal: 450.678
-437.264
-
-Particula N°49 
-00010
-Best Personal: 707.654
-724.721
-
-Particula N°50 
-00100
-Best Personal: 425.811
-447.713
-
-Best Global Iteration n°12: 229.245 at the iteration 12
+Best Global Iteration n°12: 266.497 at the iteration 12
 
  Iteracion: 14
 Particula N°1 
-01000
-Best Personal: 434.821
-428.611
+00001
+Best Personal: 517.456
+546.885
 
 Particula N°2 
-10000
-Best Personal: 521.054
-516.884
+00100
+Best Personal: 424.551
+422.916
 
 Particula N°3 
-10000
-Best Personal: 333.823
-323.358
+01000
+Best Personal: 589.64
+426.832
 
 Particula N°4 
-00100
-Best Personal: 397.385
-409.34
+00001
+Best Personal: 558.108
+593.163
 
 Particula N°5 
-01000
-Best Personal: 335.813
-332.487
+10000
+Best Personal: 737.467
+736.167
 
 Particula N°6 
-00100
-Best Personal: 516.633
-521.125
+10000
+Best Personal: 525.25
+508.741
 
 Particula N°7 
-00001
-Best Personal: 458.323
-371.407
+10000
+Best Personal: 430.968
+450.57
 
 Particula N°8 
-10000
-Best Personal: 352.791
-334.546
+01000
+Best Personal: 305.321
+257.213
 
 Particula N°9 
-00001
-Best Personal: 330.507
-214.495
+00010
+Best Personal: 308.645
+350.41
 
 Particula N°10 
 00001
-Best Personal: 477.169
-330.344
+Best Personal: 537.989
+521.57
 
 Particula N°11 
 10000
-Best Personal: 355.191
-354.188
+Best Personal: 811.197
+839.039
 
 Particula N°12 
-10000
-Best Personal: 472.769
-454.2
+01000
+Best Personal: 416.662
+281.794
 
 Particula N°13 
 00010
-Best Personal: 366.805
-359.783
+Best Personal: 266.497
+266.497
 
 Particula N°14 
 00001
-Best Personal: 468.621
-398.463
+Best Personal: 377.475
+375.832
 
 Particula N°15 
-00100
-Best Personal: 263.096
-266.952
+10000
+Best Personal: 508.463
+588.589
 
 Particula N°16 
-00100
-Best Personal: 414.352
-425.473
+10000
+Best Personal: 400.439
+322.199
 
 Particula N°17 
-00001
-Best Personal: 363.531
-301.416
+01000
+Best Personal: 354.292
+281.82
 
 Particula N°18 
-10000
-Best Personal: 507.334
-466.787
+01000
+Best Personal: 328.058
+268.237
 
 Particula N°19 
-00100
-Best Personal: 605.241
-575.289
+10000
+Best Personal: 496.876
+498.703
 
 Particula N°20 
-00010
-Best Personal: 702.885
-729.454
-
-Particula N°21 
-10000
-Best Personal: 363.597
-371.273
-
-Particula N°22 
-10000
-Best Personal: 429.779
-433.976
-
-Particula N°23 
-00100
-Best Personal: 487.767
-486.17
-
-Particula N°24 
 01000
-Best Personal: 660.633
-658.872
+Best Personal: 950.017
+698.788
 
-Particula N°25 
-01000
-Best Personal: 345.954
-403.757
-
-Particula N°26 
-00010
-Best Personal: 443.652
-424.413
-
-Particula N°27 
-10000
-Best Personal: 485.854
-461.387
-
-Particula N°28 
-00001
-Best Personal: 458.848
-406.457
-
-Particula N°29 
-00100
-Best Personal: 377.373
-396.289
-
-Particula N°30 
-01000
-Best Personal: 229.245
-229.387
-
-Particula N°31 
-00001
-Best Personal: 415.61
-326.333
-
-Particula N°32 
-01000
-Best Personal: 445.388
-442.665
-
-Particula N°33 
-00001
-Best Personal: 383.166
-372.981
-
-Particula N°34 
-00001
-Best Personal: 306.936
-283.436
-
-Particula N°35 
-00100
-Best Personal: 397.561
-425.535
-
-Particula N°36 
-01000
-Best Personal: 329.16
-314.59
-
-Particula N°37 
-00010
-Best Personal: 773.411
-780.295
-
-Particula N°38 
-00100
-Best Personal: 561.782
-587.436
-
-Particula N°39 
-10000
-Best Personal: 701.15
-698.249
-
-Particula N°40 
-10000
-Best Personal: 343.694
-359.189
-
-Particula N°41 
-00010
-Best Personal: 388.583
-357.289
-
-Particula N°42 
-00001
-Best Personal: 508.668
-463.253
-
-Particula N°43 
-00010
-Best Personal: 524.856
-400.934
-
-Particula N°44 
-00010
-Best Personal: 451.293
-411.57
-
-Particula N°45 
-10000
-Best Personal: 390.727
-380.861
-
-Particula N°46 
-10000
-Best Personal: 350.497
-344.442
-
-Particula N°47 
-01000
-Best Personal: 679.275
-653.737
-
-Particula N°48 
-00001
-Best Personal: 437.264
-332.412
-
-Particula N°49 
-00100
-Best Personal: 707.654
-727.091
-
-Particula N°50 
-01000
-Best Personal: 425.811
-442.388
-
-Best Global Iteration n°13: 214.495 at the iteration 13
+Best Global Iteration n°13: 257.213 at the iteration 13
 
  Iteracion: 15
 Particula N°1 
-00010
-Best Personal: 428.611
-425.447
+00001
+Best Personal: 517.456
+538.976
 
 Particula N°2 
-00010
-Best Personal: 516.884
-514.408
+01000
+Best Personal: 422.916
+360.673
 
 Particula N°3 
-00100
-Best Personal: 323.358
-328.508
+01000
+Best Personal: 426.832
+375.702
 
 Particula N°4 
-10000
-Best Personal: 397.385
-390.69
+01000
+Best Personal: 558.108
+387.176
 
 Particula N°5 
-00010
-Best Personal: 332.487
-338.306
+01000
+Best Personal: 736.167
+602.092
 
 Particula N°6 
-00010
-Best Personal: 516.633
-528.272
+01000
+Best Personal: 508.741
+348.668
 
 Particula N°7 
-00100
-Best Personal: 371.407
-350.638
+00010
+Best Personal: 430.968
+421.556
 
 Particula N°8 
-00100
-Best Personal: 334.546
-322.038
+00010
+Best Personal: 257.213
+292.779
 
 Particula N°9 
-01000
-Best Personal: 214.495
-210.703
+00100
+Best Personal: 308.645
+420.795
 
 Particula N°10 
 10000
-Best Personal: 330.344
-327.838
+Best Personal: 521.57
+436.729
 
 Particula N°11 
-00010
-Best Personal: 354.188
-346.532
+10000
+Best Personal: 811.197
+874.831
 
 Particula N°12 
 00010
-Best Personal: 454.2
-412.487
+Best Personal: 281.794
+291.666
 
 Particula N°13 
-00100
-Best Personal: 359.783
-351.378
+00010
+Best Personal: 266.497
+262.715
 
 Particula N°14 
 00010
-Best Personal: 398.463
-272.966
+Best Personal: 375.832
+378.466
 
 Particula N°15 
-01000
-Best Personal: 263.096
-249.783
+00001
+Best Personal: 508.463
+598.852
 
 Particula N°16 
-10000
-Best Personal: 414.352
-414.835
+00100
+Best Personal: 322.199
+309.932
 
 Particula N°17 
-00001
-Best Personal: 301.416
-278.755
+00100
+Best Personal: 281.82
+285.632
 
 Particula N°18 
-00010
-Best Personal: 466.787
-384.906
+00001
+Best Personal: 268.237
+250.591
 
 Particula N°19 
-00100
-Best Personal: 575.289
-562.746
+10000
+Best Personal: 496.876
+531.898
 
 Particula N°20 
 01000
-Best Personal: 702.885
-716.131
+Best Personal: 698.788
+384.866
 
-Particula N°21 
-00001
-Best Personal: 363.597
-348.002
-
-Particula N°22 
-00010
-Best Personal: 429.779
-443.008
-
-Particula N°23 
-01000
-Best Personal: 486.17
-478.647
-
-Particula N°24 
-10000
-Best Personal: 658.872
-408.019
-
-Particula N°25 
-10000
-Best Personal: 345.954
-384.618
-
-Particula N°26 
-00100
-Best Personal: 424.413
-340.137
-
-Particula N°27 
-00001
-Best Personal: 461.387
-340.934
-
-Particula N°28 
-00010
-Best Personal: 406.457
-404.213
-
-Particula N°29 
-00010
-Best Personal: 377.373
-398.874
-
-Particula N°30 
-01000
-Best Personal: 229.245
-228.594
-
-Particula N°31 
-10000
-Best Personal: 326.333
-287.571
-
-Particula N°32 
-00100
-Best Personal: 442.665
-441.527
-
-Particula N°33 
-01000
-Best Personal: 372.981
-343.982
-
-Particula N°34 
-00010
-Best Personal: 283.436
-283.433
-
-Particula N°35 
-00001
-Best Personal: 397.561
-314.254
-
-Particula N°36 
-00100
-Best Personal: 314.59
-303.634
-
-Particula N°37 
-10000
-Best Personal: 773.411
-358.296
-
-Particula N°38 
-00100
-Best Personal: 561.782
-575.051
-
-Particula N°39 
-10000
-Best Personal: 698.249
-673.552
-
-Particula N°40 
-10000
-Best Personal: 343.694
-363.536
-
-Particula N°41 
-00001
-Best Personal: 357.289
-340.138
-
-Particula N°42 
-01000
-Best Personal: 463.253
-417.206
-
-Particula N°43 
-00100
-Best Personal: 400.934
-385.891
-
-Particula N°44 
-01000
-Best Personal: 411.57
-410.643
-
-Particula N°45 
-00001
-Best Personal: 380.861
-337.242
-
-Particula N°46 
-00100
-Best Personal: 344.442
-343.414
-
-Particula N°47 
-00010
-Best Personal: 653.737
-649.065
-
-Particula N°48 
-10000
-Best Personal: 332.412
-278.096
-
-Particula N°49 
-00010
-Best Personal: 707.654
-722.972
-
-Particula N°50 
-00001
-Best Personal: 425.811
-302.283
-
-Best Global Iteration n°14: 210.703 at the iteration 14
+Best Global Iteration n°14: 250.591 at the iteration 14
 
  Iteracion: 16
 Particula N°1 
-00010
-Best Personal: 425.447
-425.393
+00001
+Best Personal: 517.456
+534.975
 
 Particula N°2 
 01000
-Best Personal: 514.408
-391.184
+Best Personal: 360.673
+419.686
 
 Particula N°3 
-01000
-Best Personal: 323.358
-313.874
+10000
+Best Personal: 375.702
+361.945
 
 Particula N°4 
 00010
-Best Personal: 390.69
-391.228
+Best Personal: 387.176
+407.367
 
 Particula N°5 
-01000
-Best Personal: 332.487
-332.577
+10000
+Best Personal: 602.092
+628.733
 
 Particula N°6 
-01000
-Best Personal: 516.633
-479.269
+00001
+Best Personal: 348.668
+341.993
 
 Particula N°7 
-00001
-Best Personal: 350.638
-327.061
+00100
+Best Personal: 421.556
+446.526
 
 Particula N°8 
-00010
-Best Personal: 322.038
-313.311
+01000
+Best Personal: 257.213
+354.839
 
 Particula N°9 
 01000
-Best Personal: 210.703
-210.283
+Best Personal: 308.645
+268.624
 
 Particula N°10 
-01000
-Best Personal: 327.838
-314.061
+00001
+Best Personal: 436.729
+437.958
 
 Particula N°11 
-01000
-Best Personal: 346.532
-323.243
+00010
+Best Personal: 811.197
+925.18
 
 Particula N°12 
-00001
-Best Personal: 412.487
-300.315
+00010
+Best Personal: 281.794
+306.447
 
 Particula N°13 
 10000
-Best Personal: 351.378
-325.426
+Best Personal: 262.715
+269.558
 
 Particula N°14 
-00010
-Best Personal: 272.966
-248.469
+10000
+Best Personal: 375.832
+386.047
 
 Particula N°15 
-01000
-Best Personal: 249.783
-222.161
+00010
+Best Personal: 508.463
+644.507
 
 Particula N°16 
-01000
-Best Personal: 414.352
-409.107
+10000
+Best Personal: 309.932
+310.636
 
 Particula N°17 
-01000
-Best Personal: 278.755
-250.212
+10000
+Best Personal: 281.82
+315.227
 
 Particula N°18 
-01000
-Best Personal: 384.906
-381.716
+00100
+Best Personal: 250.591
+285.371
 
 Particula N°19 
 00010
-Best Personal: 562.746
-506.034
+Best Personal: 496.876
+556.552
 
 Particula N°20 
 01000
-Best Personal: 702.885
-726.775
+Best Personal: 384.866
+248.501
 
-Particula N°21 
-00001
-Best Personal: 348.002
-344.686
-
-Particula N°22 
-01000
-Best Personal: 429.779
-398.189
-
-Particula N°23 
-01000
-Best Personal: 478.647
-467.114
-
-Particula N°24 
-01000
-Best Personal: 408.019
-413.745
-
-Particula N°25 
-01000
-Best Personal: 345.954
-359.311
-
-Particula N°26 
-10000
-Best Personal: 340.137
-325.766
-
-Particula N°27 
-01000
-Best Personal: 340.934
-334.45
-
-Particula N°28 
-00100
-Best Personal: 404.213
-406.017
-
-Particula N°29 
-10000
-Best Personal: 377.373
-348.144
-
-Particula N°30 
-10000
-Best Personal: 228.594
-212.766
-
-Particula N°31 
-00001
-Best Personal: 287.571
-267.802
-
-Particula N°32 
-00100
-Best Personal: 441.527
-391.002
-
-Particula N°33 
-00100
-Best Personal: 343.982
-343.513
-
-Particula N°34 
-01000
-Best Personal: 283.433
-268.273
-
-Particula N°35 
-00010
-Best Personal: 314.254
-311.551
-
-Particula N°36 
-01000
-Best Personal: 303.634
-276.345
-
-Particula N°37 
-01000
-Best Personal: 358.296
-355.644
-
-Particula N°38 
-00100
-Best Personal: 561.782
-563.206
-
-Particula N°39 
-00001
-Best Personal: 673.552
-673.552
-
-Particula N°40 
-00100
-Best Personal: 343.694
-364.96
-
-Particula N°41 
-00010
-Best Personal: 340.138
-315.053
-
-Particula N°42 
-00010
-Best Personal: 417.206
-423.316
-
-Particula N°43 
-10000
-Best Personal: 385.891
-374.044
-
-Particula N°44 
-00100
-Best Personal: 410.643
-410.725
-
-Particula N°45 
-00010
-Best Personal: 337.242
-330.033
-
-Particula N°46 
-00001
-Best Personal: 343.414
-278.085
-
-Particula N°47 
-00001
-Best Personal: 649.065
-509.685
-
-Particula N°48 
-00100
-Best Personal: 278.096
-278.486
-
-Particula N°49 
-00001
-Best Personal: 707.654
-530.024
-
-Particula N°50 
-10000
-Best Personal: 302.283
-278.794
-
-Best Global Iteration n°15: 210.283 at the iteration 15
+Best Global Iteration n°15: 248.501 at the iteration 15
 
  Iteracion: 17
 Particula N°1 
-01000
-Best Personal: 425.393
-428.106
+00100
+Best Personal: 517.456
+516.596
 
 Particula N°2 
-00100
-Best Personal: 391.184
-388.686
+00010
+Best Personal: 360.673
+523.269
 
 Particula N°3 
-00010
-Best Personal: 313.874
-324.626
+00100
+Best Personal: 361.945
+372.055
 
 Particula N°4 
-00001
-Best Personal: 390.69
-263.375
+01000
+Best Personal: 387.176
+296.527
 
 Particula N°5 
-00010
-Best Personal: 332.487
-331.834
+00001
+Best Personal: 602.092
+605.929
 
 Particula N°6 
-10000
-Best Personal: 479.269
-341.473
+00010
+Best Personal: 341.993
+350.378
 
 Particula N°7 
-00001
-Best Personal: 327.061
-336.529
+00010
+Best Personal: 421.556
+412.228
 
 Particula N°8 
 00100
-Best Personal: 313.311
-313.464
+Best Personal: 257.213
+356.45
 
 Particula N°9 
-00100
-Best Personal: 210.283
-203.824
+00010
+Best Personal: 268.624
+286.403
 
 Particula N°10 
 01000
-Best Personal: 314.061
-307.495
+Best Personal: 436.729
+308.127
 
 Particula N°11 
-01000
-Best Personal: 323.243
-281.097
+00100
+Best Personal: 811.197
+913.025
 
 Particula N°12 
-10000
-Best Personal: 300.315
-301.302
+00100
+Best Personal: 281.794
+318.101
 
 Particula N°13 
-00100
-Best Personal: 325.426
-314.966
+01000
+Best Personal: 262.715
+255.874
 
 Particula N°14 
-00100
-Best Personal: 248.469
-248.286
+01000
+Best Personal: 375.832
+386.787
 
 Particula N°15 
 00010
-Best Personal: 222.161
-223.828
+Best Personal: 508.463
+660.739
 
 Particula N°16 
-00010
-Best Personal: 409.107
-362.273
+00001
+Best Personal: 309.932
+312.1
 
 Particula N°17 
 10000
-Best Personal: 250.212
-246.758
+Best Personal: 281.82
+315.64
 
 Particula N°18 
-10000
-Best Personal: 381.716
-363.73
+01000
+Best Personal: 250.591
+318.832
 
 Particula N°19 
-00001
-Best Personal: 506.034
-456.876
+00010
+Best Personal: 496.876
+568.265
 
 Particula N°20 
-01000
-Best Personal: 702.885
-710.572
-
-Particula N°21 
-10000
-Best Personal: 344.686
-332.949
-
-Particula N°22 
-00001
-Best Personal: 398.189
-361.351
-
-Particula N°23 
-00010
-Best Personal: 467.114
-478.823
-
-Particula N°24 
 00100
-Best Personal: 408.019
-383.216
+Best Personal: 248.501
+245.072
 
-Particula N°25 
-10000
-Best Personal: 345.954
-366.561
-
-Particula N°26 
-00100
-Best Personal: 325.766
-304.12
-
-Particula N°27 
-00010
-Best Personal: 334.45
-324.382
-
-Particula N°28 
-00010
-Best Personal: 404.213
-404.288
-
-Particula N°29 
-01000
-Best Personal: 348.144
-340.659
-
-Particula N°30 
-00001
-Best Personal: 212.766
-218.01
-
-Particula N°31 
-00010
-Best Personal: 267.802
-256.736
-
-Particula N°32 
-10000
-Best Personal: 391.002
-324.405
-
-Particula N°33 
-00010
-Best Personal: 343.513
-349.563
-
-Particula N°34 
-10000
-Best Personal: 268.273
-269.242
-
-Particula N°35 
-10000
-Best Personal: 311.551
-282.921
-
-Particula N°36 
-01000
-Best Personal: 276.345
-267.577
-
-Particula N°37 
-00100
-Best Personal: 355.644
-361.506
-
-Particula N°38 
-10000
-Best Personal: 561.782
-491.178
-
-Particula N°39 
-00001
-Best Personal: 673.552
-413.187
-
-Particula N°40 
-00001
-Best Personal: 343.694
-267.848
-
-Particula N°41 
-10000
-Best Personal: 315.053
-315.685
-
-Particula N°42 
-00010
-Best Personal: 417.206
-425.39
-
-Particula N°43 
-10000
-Best Personal: 374.044
-368.009
-
-Particula N°44 
-10000
-Best Personal: 410.643
-391.26
-
-Particula N°45 
-00010
-Best Personal: 330.033
-326.894
-
-Particula N°46 
-01000
-Best Personal: 278.085
-267.609
-
-Particula N°47 
-10000
-Best Personal: 509.685
-469.131
-
-Particula N°48 
-00001
-Best Personal: 278.096
-236.109
-
-Particula N°49 
-00100
-Best Personal: 530.024
-526.338
-
-Particula N°50 
-01000
-Best Personal: 278.794
-280.855
-
-Best Global Iteration n°16: 203.824 at the iteration 16
+Best Global Iteration n°16: 245.072 at the iteration 16
 
  Iteracion: 18
 Particula N°1 
-10000
-Best Personal: 425.393
-426.963
+00010
+Best Personal: 516.596
+531.112
 
 Particula N°2 
-00100
-Best Personal: 388.686
-385.608
+00010
+Best Personal: 360.673
+580.491
 
 Particula N°3 
 00010
-Best Personal: 313.874
-325.947
+Best Personal: 361.945
+320.241
 
 Particula N°4 
-10000
-Best Personal: 263.375
-261.539
+00001
+Best Personal: 296.527
+294.364
 
 Particula N°5 
-10000
-Best Personal: 331.834
-316.143
+01000
+Best Personal: 602.092
+485.721
 
 Particula N°6 
-01000
-Best Personal: 341.473
-261.812
+10000
+Best Personal: 341.993
+344.727
 
 Particula N°7 
-10000
-Best Personal: 327.061
-316.199
+00010
+Best Personal: 412.228
+366.954
 
 Particula N°8 
-01000
-Best Personal: 313.311
-253.524
+00010
+Best Personal: 257.213
+361.842
 
 Particula N°9 
-00001
-Best Personal: 203.824
-192.233
+01000
+Best Personal: 268.624
+244.469
 
 Particula N°10 
-01000
-Best Personal: 307.495
-318.762
+00100
+Best Personal: 308.127
+322.054
 
 Particula N°11 
-01000
-Best Personal: 281.097
-263.298
+00001
+Best Personal: 811.197
+868.035
 
 Particula N°12 
 00100
-Best Personal: 300.315
-298.422
+Best Personal: 281.794
+317.23
 
 Particula N°13 
-00001
-Best Personal: 314.966
-230.61
+01000
+Best Personal: 255.874
+285.301
 
 Particula N°14 
-00100
-Best Personal: 248.286
-248.375
+10000
+Best Personal: 375.832
+338.262
 
 Particula N°15 
-01000
-Best Personal: 222.161
-209.284
+00100
+Best Personal: 508.463
+712.382
 
 Particula N°16 
-00100
-Best Personal: 362.273
-355.141
+00001
+Best Personal: 309.932
+308.081
 
 Particula N°17 
-00001
-Best Personal: 246.758
-237.683
+01000
+Best Personal: 281.82
+236.04
 
 Particula N°18 
-01000
-Best Personal: 363.73
-363.918
+00100
+Best Personal: 250.591
+274.5
 
 Particula N°19 
-01000
-Best Personal: 456.876
-460.063
+00001
+Best Personal: 496.876
+540.689
 
 Particula N°20 
-00010
-Best Personal: 702.885
-701.091
-
-Particula N°21 
-01000
-Best Personal: 332.949
-327.79
-
-Particula N°22 
-00010
-Best Personal: 361.351
-364.002
-
-Particula N°23 
-00010
-Best Personal: 467.114
-480.128
-
-Particula N°24 
-10000
-Best Personal: 383.216
-299.854
-
-Particula N°25 
-10000
-Best Personal: 345.954
-378.438
-
-Particula N°26 
-00001
-Best Personal: 304.12
-294.922
-
-Particula N°27 
-00010
-Best Personal: 324.382
-322.016
-
-Particula N°28 
-00001
-Best Personal: 404.213
-287.195
-
-Particula N°29 
 00100
-Best Personal: 340.659
-338.439
+Best Personal: 245.072
+249.582
 
-Particula N°30 
-01000
-Best Personal: 212.766
-216.398
-
-Particula N°31 
-01000
-Best Personal: 256.736
-236.152
-
-Particula N°32 
-00010
-Best Personal: 324.405
-318.84
-
-Particula N°33 
-01000
-Best Personal: 343.513
-346.029
-
-Particula N°34 
-01000
-Best Personal: 268.273
-259.14
-
-Particula N°35 
-10000
-Best Personal: 282.921
-279.483
-
-Particula N°36 
-00010
-Best Personal: 267.577
-259.927
-
-Particula N°37 
-10000
-Best Personal: 355.644
-297.885
-
-Particula N°38 
-01000
-Best Personal: 491.178
-502.103
-
-Particula N°39 
-01000
-Best Personal: 413.187
-402.657
-
-Particula N°40 
-00010
-Best Personal: 267.848
-275.24
-
-Particula N°41 
-01000
-Best Personal: 315.053
-308.547
-
-Particula N°42 
-01000
-Best Personal: 417.206
-398.722
-
-Particula N°43 
-00001
-Best Personal: 368.009
-333.294
-
-Particula N°44 
-00100
-Best Personal: 391.26
-387.983
-
-Particula N°45 
-01000
-Best Personal: 326.894
-305.798
-
-Particula N°46 
-00010
-Best Personal: 267.609
-271.434
-
-Particula N°47 
-01000
-Best Personal: 469.131
-467.911
-
-Particula N°48 
-01000
-Best Personal: 236.109
-220.343
-
-Particula N°49 
-00010
-Best Personal: 526.338
-525.56
-
-Particula N°50 
-10000
-Best Personal: 278.794
-277.608
-
-Best Global Iteration n°17: 192.233 at the iteration 17
+Best Global Iteration n°17: 236.04 at the iteration 17
 
  Iteracion: 19
 Particula N°1 
-00001
-Best Personal: 425.393
-364.112
+10000
+Best Personal: 516.596
+539.319
 
 Particula N°2 
 10000
-Best Personal: 385.608
-379.535
+Best Personal: 360.673
+583.951
 
 Particula N°3 
 01000
-Best Personal: 313.874
-320.788
+Best Personal: 320.241
+354.723
 
 Particula N°4 
-00010
-Best Personal: 261.539
-268.086
+00001
+Best Personal: 294.364
+289.958
 
 Particula N°5 
-00001
-Best Personal: 316.143
-253.475
+10000
+Best Personal: 485.721
+524.45
 
 Particula N°6 
-00001
-Best Personal: 261.812
-225.344
+10000
+Best Personal: 341.993
+348.629
 
 Particula N°7 
 00010
-Best Personal: 316.199
-313.983
+Best Personal: 366.954
+361.765
 
 Particula N°8 
-00100
-Best Personal: 253.524
-250.905
+00010
+Best Personal: 257.213
+333.282
 
 Particula N°9 
-00001
-Best Personal: 192.233
-189.895
+00010
+Best Personal: 244.469
+241.577
 
 Particula N°10 
-00001
-Best Personal: 307.495
-294.038
+10000
+Best Personal: 308.127
+399.789
 
 Particula N°11 
-01000
-Best Personal: 263.298
-261.827
+00100
+Best Personal: 811.197
+882.45
 
 Particula N°12 
-00001
-Best Personal: 298.422
-266.251
+10000
+Best Personal: 281.794
+309.784
 
 Particula N°13 
-10000
-Best Personal: 230.61
-228.407
+01000
+Best Personal: 255.874
+306.27
 
 Particula N°14 
-00001
-Best Personal: 248.286
-237.018
+01000
+Best Personal: 338.262
+354.755
 
 Particula N°15 
 00100
-Best Personal: 209.284
-209.305
+Best Personal: 508.463
+713.935
 
 Particula N°16 
-00001
-Best Personal: 355.141
-315.577
+00100
+Best Personal: 308.081
+301.476
 
 Particula N°17 
-01000
-Best Personal: 237.683
-225.231
+10000
+Best Personal: 236.04
+232.778
 
 Particula N°18 
-00001
-Best Personal: 363.73
-229.038
+00010
+Best Personal: 250.591
+321.441
 
 Particula N°19 
-10000
-Best Personal: 456.876
-389.312
+00100
+Best Personal: 496.876
+534.351
 
 Particula N°20 
-01000
-Best Personal: 701.091
-704.575
-
-Particula N°21 
-00001
-Best Personal: 327.79
-258.009
-
-Particula N°22 
 00010
-Best Personal: 361.351
-361.718
+Best Personal: 245.072
+271.73
 
-Particula N°23 
-10000
-Best Personal: 467.114
-380.002
-
-Particula N°24 
-00100
-Best Personal: 299.854
-295.855
-
-Particula N°25 
-00001
-Best Personal: 345.954
-231.631
-
-Particula N°26 
-00001
-Best Personal: 294.922
-257.117
-
-Particula N°27 
-01000
-Best Personal: 322.016
-320.173
-
-Particula N°28 
-01000
-Best Personal: 287.195
-246.828
-
-Particula N°29 
-01000
-Best Personal: 338.439
-329.905
-
-Particula N°30 
-10000
-Best Personal: 212.766
-223.86
-
-Particula N°31 
-01000
-Best Personal: 236.152
-214.985
-
-Particula N°32 
-00010
-Best Personal: 318.84
-323.241
-
-Particula N°33 
-00001
-Best Personal: 343.513
-239.578
-
-Particula N°34 
-00010
-Best Personal: 259.14
-262.398
-
-Particula N°35 
-00100
-Best Personal: 279.483
-277.485
-
-Particula N°36 
-00001
-Best Personal: 259.927
-236.488
-
-Particula N°37 
-01000
-Best Personal: 297.885
-287.937
-
-Particula N°38 
-00001
-Best Personal: 491.178
-498.39
-
-Particula N°39 
-00010
-Best Personal: 402.657
-400.762
-
-Particula N°40 
-00001
-Best Personal: 267.848
-253.812
-
-Particula N°41 
-01000
-Best Personal: 308.547
-308.671
-
-Particula N°42 
-00100
-Best Personal: 398.722
-387.035
-
-Particula N°43 
-10000
-Best Personal: 333.294
-326.651
-
-Particula N°44 
-10000
-Best Personal: 387.983
-387.098
-
-Particula N°45 
-00001
-Best Personal: 305.798
-278.002
-
-Particula N°46 
-01000
-Best Personal: 267.609
-248.871
-
-Particula N°47 
-00001
-Best Personal: 467.911
-384.548
-
-Particula N°48 
-10000
-Best Personal: 220.343
-215.201
-
-Particula N°49 
-00010
-Best Personal: 525.56
-528.117
-
-Particula N°50 
-10000
-Best Personal: 277.608
-276.914
-
-Best Global Iteration n°18: 189.895 at the iteration 18
+Best Global Iteration n°18: 232.778 at the iteration 18
 
  Iteracion: 20
 Particula N°1 
-01000
-Best Personal: 364.112
-366.363
-
-Particula N°2 
-00010
-Best Personal: 379.535
-376.209
-
-Particula N°3 
-00010
-Best Personal: 313.874
-322.713
-
-Particula N°4 
-10000
-Best Personal: 261.539
-268.339
-
-Particula N°5 
-10000
-Best Personal: 253.475
-252.374
-
-Particula N°6 
-01000
-Best Personal: 225.344
-213.641
-
-Particula N°7 
-10000
-Best Personal: 313.983
-268.845
-
-Particula N°8 
 00100
-Best Personal: 250.905
-247.655
-
-Particula N°9 
-01000
-Best Personal: 189.895
-189.895
-
-Particula N°10 
-00100
-Best Personal: 294.038
-284.767
-
-Particula N°11 
-00010
-Best Personal: 261.827
-272.102
-
-Particula N°12 
-00100
-Best Personal: 266.251
-268.168
-
-Particula N°13 
-00100
-Best Personal: 228.407
-225.664
-
-Particula N°14 
-10000
-Best Personal: 237.018
-224.827
-
-Particula N°15 
-10000
-Best Personal: 209.284
-204.533
-
-Particula N°16 
-10000
-Best Personal: 315.577
-317.741
-
-Particula N°17 
-00010
-Best Personal: 225.231
-216.781
-
-Particula N°18 
-00010
-Best Personal: 229.038
-227.673
-
-Particula N°19 
-00001
-Best Personal: 389.312
-255.459
-
-Particula N°20 
-00001
-Best Personal: 701.091
-667.437
-
-Particula N°21 
-00010
-Best Personal: 258.009
-264.095
-
-Particula N°22 
-00001
-Best Personal: 361.351
-270.55
-
-Particula N°23 
-10000
-Best Personal: 380.002
-354.941
-
-Particula N°24 
-10000
-Best Personal: 295.855
-282.997
-
-Particula N°25 
-00100
-Best Personal: 231.631
-230.036
-
-Particula N°26 
-10000
-Best Personal: 257.117
-255.821
-
-Particula N°27 
-00100
-Best Personal: 320.173
-309.299
-
-Particula N°28 
-00001
-Best Personal: 246.828
-218.167
-
-Particula N°29 
-10000
-Best Personal: 329.905
-328.202
-
-Particula N°30 
-00100
-Best Personal: 212.766
-218.812
-
-Particula N°31 
-01000
-Best Personal: 214.985
-212.929
-
-Particula N°32 
-10000
-Best Personal: 318.84
-315.955
-
-Particula N°33 
-10000
-Best Personal: 239.578
-233.594
-
-Particula N°34 
-00010
-Best Personal: 259.14
-260.823
-
-Particula N°35 
-00001
-Best Personal: 277.485
-239.5
-
-Particula N°36 
-00100
-Best Personal: 236.488
-230.626
-
-Particula N°37 
-00001
-Best Personal: 287.937
-236.635
-
-Particula N°38 
-00001
-Best Personal: 491.178
-338.305
-
-Particula N°39 
-10000
-Best Personal: 400.762
-396.575
-
-Particula N°40 
-00010
-Best Personal: 253.812
-256.695
-
-Particula N°41 
-00010
-Best Personal: 308.547
-300.985
-
-Particula N°42 
-00100
-Best Personal: 387.035
-374.437
-
-Particula N°43 
-00010
-Best Personal: 326.651
-314.314
-
-Particula N°44 
-00001
-Best Personal: 387.098
-373.94
-
-Particula N°45 
-10000
-Best Personal: 278.002
-276.464
-
-Particula N°46 
-00010
-Best Personal: 248.871
-247.385
-
-Particula N°47 
-01000
-Best Personal: 384.548
-384.727
-
-Particula N°48 
-00001
-Best Personal: 215.201
-198.22
-
-Particula N°49 
-00100
-Best Personal: 525.56
-523.62
-
-Particula N°50 
-00100
-Best Personal: 276.914
-274.558
-
-Best Global Iteration n°19: 189.895 at the iteration 18
-
- Iteracion: 21
-Particula N°1 
-00010
-Best Personal: 364.112
-366.363
-
-Particula N°2 
-00010
-Best Personal: 376.209
-374.207
-
-Particula N°3 
-00001
-Best Personal: 313.874
-274.49
-
-Particula N°4 
-00001
-Best Personal: 261.539
-242.175
-
-Particula N°5 
-00001
-Best Personal: 252.374
-215.304
-
-Particula N°6 
-01000
-Best Personal: 213.641
-212.228
-
-Particula N°7 
-01000
-Best Personal: 268.845
-217.764
-
-Particula N°8 
-00010
-Best Personal: 247.655
-247.012
-
-Particula N°9 
-10000
-Best Personal: 189.895
-189.783
-
-Particula N°10 
-00001
-Best Personal: 284.767
-270.74
-
-Particula N°11 
-00100
-Best Personal: 261.827
-272.909
-
-Particula N°12 
-00100
-Best Personal: 266.251
-263.455
-
-Particula N°13 
-00001
-Best Personal: 225.664
-204.598
-
-Particula N°14 
-00010
-Best Personal: 224.827
-225.904
-
-Particula N°15 
-00001
-Best Personal: 204.533
-182.487
-
-Particula N°16 
-01000
-Best Personal: 315.577
-310.381
-
-Particula N°17 
-10000
-Best Personal: 216.781
-219.243
-
-Particula N°18 
-00001
-Best Personal: 227.673
-202.28
-
-Particula N°19 
-00001
-Best Personal: 255.459
-229.087
-
-Particula N°20 
-10000
-Best Personal: 667.437
-601.562
-
-Particula N°21 
-00100
-Best Personal: 258.009
-253.009
-
-Particula N°22 
-10000
-Best Personal: 270.55
-260.872
-
-Particula N°23 
-01000
-Best Personal: 354.941
-352.915
-
-Particula N°24 
-10000
-Best Personal: 282.997
-298.258
-
-Particula N°25 
-00100
-Best Personal: 230.036
-216.176
-
-Particula N°26 
-00010
-Best Personal: 255.821
-254.542
-
-Particula N°27 
-01000
-Best Personal: 309.299
-309.315
-
-Particula N°28 
-01000
-Best Personal: 218.167
-216.889
-
-Particula N°29 
-00010
-Best Personal: 328.202
-329.05
-
-Particula N°30 
-00010
-Best Personal: 212.766
-218.409
-
-Particula N°31 
-10000
-Best Personal: 212.929
-204.777
-
-Particula N°32 
-00010
-Best Personal: 315.955
-314.129
-
-Particula N°33 
-00001
-Best Personal: 233.594
-215.869
-
-Particula N°34 
-01000
-Best Personal: 259.14
-257.545
-
-Particula N°35 
-01000
-Best Personal: 239.5
-231.258
-
-Particula N°36 
-00010
-Best Personal: 230.626
-234.703
-
-Particula N°37 
-10000
-Best Personal: 236.635
-250.814
-
-Particula N°38 
-00010
-Best Personal: 338.305
-214.056
-
-Particula N°39 
-00010
-Best Personal: 396.575
-397.433
-
-Particula N°40 
-00001
-Best Personal: 253.812
-247.505
-
-Particula N°41 
-00010
-Best Personal: 300.985
-299.992
-
-Particula N°42 
-01000
-Best Personal: 374.437
-363.02
-
-Particula N°43 
-00001
-Best Personal: 314.314
-288.745
-
-Particula N°44 
-00010
-Best Personal: 373.94
-366.352
-
-Particula N°45 
-10000
-Best Personal: 276.464
-255.936
-
-Particula N°46 
-00010
-Best Personal: 247.385
-247.896
-
-Particula N°47 
-01000
-Best Personal: 384.548
-387.046
-
-Particula N°48 
-01000
-Best Personal: 198.22
-193.153
-
-Particula N°49 
-00100
-Best Personal: 523.62
-519.276
-
-Particula N°50 
-00010
-Best Personal: 274.558
-274.299
-
-Best Global Iteration n°20: 182.487 at the iteration 20
-
- Iteracion: 22
-Particula N°1 
-00100
-Best Personal: 364.112
-300.84
+Best Personal: 516.596
+558.426
 
 Particula N°2 
 01000
-Best Personal: 374.207
-327.352
-
-Particula N°3 
-00001
-Best Personal: 274.49
-212.395
-
-Particula N°4 
-01000
-Best Personal: 242.175
-198.714
-
-Particula N°5 
-10000
-Best Personal: 215.304
-215.642
-
-Particula N°6 
-01000
-Best Personal: 212.228
-214.354
-
-Particula N°7 
-00100
-Best Personal: 217.764
-218.701
-
-Particula N°8 
-01000
-Best Personal: 247.012
-223.04
-
-Particula N°9 
-00100
-Best Personal: 189.783
-189.783
-
-Particula N°10 
-00100
-Best Personal: 270.74
-265.614
-
-Particula N°11 
-00100
-Best Personal: 261.827
-272.08
-
-Particula N°12 
-00010
-Best Personal: 263.455
-228.221
-
-Particula N°13 
-01000
-Best Personal: 204.598
-194.606
-
-Particula N°14 
-00100
-Best Personal: 224.827
-227.797
-
-Particula N°15 
-00100
-Best Personal: 182.487
-182.487
-
-Particula N°16 
-01000
-Best Personal: 310.381
-309.559
-
-Particula N°17 
-10000
-Best Personal: 216.781
-219.33
-
-Particula N°18 
-00001
-Best Personal: 202.28
-194.739
-
-Particula N°19 
-00010
-Best Personal: 229.087
-188.554
-
-Particula N°20 
-10000
-Best Personal: 601.562
-572.51
-
-Particula N°21 
-10000
-Best Personal: 253.009
-246.167
-
-Particula N°22 
-00010
-Best Personal: 260.872
-254.037
-
-Particula N°23 
-01000
-Best Personal: 352.915
-351.338
-
-Particula N°24 
-00100
-Best Personal: 282.997
-301.794
-
-Particula N°25 
-00100
-Best Personal: 216.176
-215.865
-
-Particula N°26 
-01000
-Best Personal: 254.542
-237.816
-
-Particula N°27 
-00100
-Best Personal: 309.299
-311.782
-
-Particula N°28 
-00010
-Best Personal: 216.889
-206.089
-
-Particula N°29 
-00100
-Best Personal: 328.202
-325.038
-
-Particula N°30 
-00010
-Best Personal: 212.766
-217.609
-
-Particula N°31 
-00001
-Best Personal: 204.777
-186.269
-
-Particula N°32 
-01000
-Best Personal: 314.129
-312.716
-
-Particula N°33 
-01000
-Best Personal: 215.869
-200.893
-
-Particula N°34 
-00001
-Best Personal: 257.545
-213.547
-
-Particula N°35 
-00001
-Best Personal: 231.258
-202.105
-
-Particula N°36 
-10000
-Best Personal: 230.626
-214.739
-
-Particula N°37 
-00010
-Best Personal: 236.635
-248.328
-
-Particula N°38 
-00001
-Best Personal: 214.056
-202.064
-
-Particula N°39 
-00010
-Best Personal: 396.575
-397.031
-
-Particula N°40 
-00010
-Best Personal: 247.505
-245.479
-
-Particula N°41 
-10000
-Best Personal: 299.992
-292.091
-
-Particula N°42 
-01000
-Best Personal: 363.02
-359.232
-
-Particula N°43 
-00100
-Best Personal: 288.745
-283.167
-
-Particula N°44 
-00100
-Best Personal: 366.352
-360.832
-
-Particula N°45 
-00010
-Best Personal: 255.936
-256.87
-
-Particula N°46 
-00100
-Best Personal: 247.385
-248.634
-
-Particula N°47 
-10000
-Best Personal: 384.548
-286.336
-
-Particula N°48 
-01000
-Best Personal: 193.153
-187.752
-
-Particula N°49 
-00100
-Best Personal: 519.276
-515.588
-
-Particula N°50 
-00010
-Best Personal: 274.299
-275.111
-
-Best Global Iteration n°21: 182.487 at the iteration 20
-
- Iteracion: 23
-Particula N°1 
-00100
-Best Personal: 300.84
-279.581
-
-Particula N°2 
-00010
-Best Personal: 327.352
-313.604
-
-Particula N°3 
-00010
-Best Personal: 212.395
-210.463
-
-Particula N°4 
-10000
-Best Personal: 198.714
-197.613
-
-Particula N°5 
-10000
-Best Personal: 215.304
-217.346
-
-Particula N°6 
-00100
-Best Personal: 212.228
-214.975
-
-Particula N°7 
-00010
-Best Personal: 217.764
-219.298
-
-Particula N°8 
-00100
-Best Personal: 223.04
-224.142
-
-Particula N°9 
-00001
-Best Personal: 189.783
-182.126
-
-Particula N°10 
-00100
-Best Personal: 265.614
-264.58
-
-Particula N°11 
-00010
-Best Personal: 261.827
-254.997
-
-Particula N°12 
-10000
-Best Personal: 228.221
-229.177
-
-Particula N°13 
-00001
-Best Personal: 194.606
-191.071
-
-Particula N°14 
-01000
-Best Personal: 224.827
-195.17
-
-Particula N°15 
-00100
-Best Personal: 182.487
-182.487
-
-Particula N°16 
-00010
-Best Personal: 309.559
-306.698
-
-Particula N°17 
-00001
-Best Personal: 216.781
-214.942
-
-Particula N°18 
-00001
-Best Personal: 194.739
-190.23
-
-Particula N°19 
-10000
-Best Personal: 188.554
-186.561
-
-Particula N°20 
-01000
-Best Personal: 572.51
-579.745
-
-Particula N°21 
-00100
-Best Personal: 246.167
-243.864
-
-Particula N°22 
-00010
-Best Personal: 254.037
-250.518
-
-Particula N°23 
-10000
-Best Personal: 351.338
-343.497
-
-Particula N°24 
-01000
-Best Personal: 282.997
-298.793
-
-Particula N°25 
-01000
-Best Personal: 215.865
-210.543
-
-Particula N°26 
-10000
-Best Personal: 237.816
-233.249
-
-Particula N°27 
-10000
-Best Personal: 309.299
-299.178
-
-Particula N°28 
-00001
-Best Personal: 206.089
-198.051
-
-Particula N°29 
-00100
-Best Personal: 325.038
-322.308
-
-Particula N°30 
-10000
-Best Personal: 212.766
-217.609
-
-Particula N°31 
-00001
-Best Personal: 186.269
-183.123
-
-Particula N°32 
-10000
-Best Personal: 312.716
-311.105
-
-Particula N°33 
-00010
-Best Personal: 200.893
-198.65
-
-Particula N°34 
-01000
-Best Personal: 213.547
-213.308
-
-Particula N°35 
-00100
-Best Personal: 202.105
-200.484
-
-Particula N°36 
-00010
-Best Personal: 214.739
-213.247
-
-Particula N°37 
-00010
-Best Personal: 236.635
-248.477
-
-Particula N°38 
-10000
-Best Personal: 202.064
-192.841
-
-Particula N°39 
-00010
-Best Personal: 396.575
-383.633
-
-Particula N°40 
-00010
-Best Personal: 245.479
-243.782
-
-Particula N°41 
-01000
-Best Personal: 292.091
-291.758
-
-Particula N°42 
-01000
-Best Personal: 359.232
-357.246
-
-Particula N°43 
-10000
-Best Personal: 283.167
-277.142
-
-Particula N°44 
-00001
-Best Personal: 360.832
-246.471
-
-Particula N°45 
-00100
-Best Personal: 255.936
-251.908
-
-Particula N°46 
-00010
-Best Personal: 247.385
-245.895
-
-Particula N°47 
-00001
-Best Personal: 286.336
-267.155
-
-Particula N°48 
-01000
-Best Personal: 187.752
-186.197
-
-Particula N°49 
-10000
-Best Personal: 515.588
-285.88
-
-Particula N°50 
-00001
-Best Personal: 274.299
-221.238
-
-Best Global Iteration n°22: 182.126 at the iteration 22
-
- Iteracion: 24
-Particula N°1 
-00100
-Best Personal: 279.581
-275.358
-
-Particula N°2 
-00100
-Best Personal: 313.604
-309.171
+Best Personal: 360.673
+662.658
 
 Particula N°3 
 01000
-Best Personal: 210.463
-212.911
+Best Personal: 320.241
+380.455
 
 Particula N°4 
 01000
-Best Personal: 197.613
-189.734
+Best Personal: 289.958
+251.552
 
 Particula N°5 
-01000
-Best Personal: 215.304
-208.316
-
-Particula N°6 
-00100
-Best Personal: 212.228
-212.477
-
-Particula N°7 
-00010
-Best Personal: 217.764
-220.724
-
-Particula N°8 
 00001
-Best Personal: 223.04
-210.73
-
-Particula N°9 
-00010
-Best Personal: 182.126
-183.908
-
-Particula N°10 
-00100
-Best Personal: 264.58
-264.826
-
-Particula N°11 
-00001
-Best Personal: 254.997
-234.552
-
-Particula N°12 
-01000
-Best Personal: 228.221
-197.245
-
-Particula N°13 
-00010
-Best Personal: 191.071
-190.737
-
-Particula N°14 
-10000
-Best Personal: 195.17
-190.534
-
-Particula N°15 
-00010
-Best Personal: 182.487
-181.777
-
-Particula N°16 
-00100
-Best Personal: 306.698
-296.402
-
-Particula N°17 
-00001
-Best Personal: 214.942
-187.895
-
-Particula N°18 
-00001
-Best Personal: 190.23
-190.526
-
-Particula N°19 
-01000
-Best Personal: 186.561
-178.149
-
-Particula N°20 
-01000
-Best Personal: 572.51
-578.017
-
-Particula N°21 
-00001
-Best Personal: 243.864
-228.372
-
-Particula N°22 
-00100
-Best Personal: 250.518
-231.27
-
-Particula N°23 
-00010
-Best Personal: 343.497
-344.149
-
-Particula N°24 
-00010
-Best Personal: 282.997
-304.435
-
-Particula N°25 
-00001
-Best Personal: 210.543
-191.249
-
-Particula N°26 
-01000
-Best Personal: 233.249
-228.733
-
-Particula N°27 
-00100
-Best Personal: 299.178
-299.081
-
-Particula N°28 
-10000
-Best Personal: 198.051
-181.107
-
-Particula N°29 
-00010
-Best Personal: 322.308
-322.744
-
-Particula N°30 
-00010
-Best Personal: 212.766
-217.356
-
-Particula N°31 
-10000
-Best Personal: 183.123
-183.067
-
-Particula N°32 
-00010
-Best Personal: 311.105
-308.161
-
-Particula N°33 
-00100
-Best Personal: 198.65
-198.515
-
-Particula N°34 
-01000
-Best Personal: 213.308
-211.795
-
-Particula N°35 
-00001
-Best Personal: 200.484
-196.532
-
-Particula N°36 
-10000
-Best Personal: 213.247
-209.939
-
-Particula N°37 
-01000
-Best Personal: 236.635
-240.028
-
-Particula N°38 
-10000
-Best Personal: 192.841
-191.713
-
-Particula N°39 
-01000
-Best Personal: 383.633
-338.056
-
-Particula N°40 
-01000
-Best Personal: 243.782
-238.911
-
-Particula N°41 
-01000
-Best Personal: 291.758
-289.003
-
-Particula N°42 
-00001
-Best Personal: 357.246
-325.438
-
-Particula N°43 
-00010
-Best Personal: 277.142
-274.616
-
-Particula N°44 
-01000
-Best Personal: 246.471
-238.412
-
-Particula N°45 
-00010
-Best Personal: 251.908
-253.605
-
-Particula N°46 
-00001
-Best Personal: 245.895
-236.979
-
-Particula N°47 
-00010
-Best Personal: 267.155
-237.942
-
-Particula N°48 
-10000
-Best Personal: 186.197
-185.677
-
-Particula N°49 
-00001
-Best Personal: 285.88
-236.404
-
-Particula N°50 
-00100
-Best Personal: 221.238
-219.403
-
-Best Global Iteration n°23: 178.149 at the iteration 23
-
- Iteracion: 25
-Particula N°1 
-00100
-Best Personal: 275.358
-281.073
-
-Particula N°2 
-00001
-Best Personal: 309.171
-231.966
-
-Particula N°3 
-00100
-Best Personal: 210.463
-218.817
-
-Particula N°4 
-01000
-Best Personal: 189.734
-186.576
-
-Particula N°5 
-00010
-Best Personal: 208.316
-208.279
-
-Particula N°6 
-00001
-Best Personal: 212.228
-199.55
-
-Particula N°7 
-00010
-Best Personal: 217.764
-221.483
-
-Particula N°8 
-00100
-Best Personal: 210.73
-211.226
-
-Particula N°9 
-00001
-Best Personal: 182.126
-180.834
-
-Particula N°10 
-00100
-Best Personal: 264.58
-267.108
-
-Particula N°11 
-00001
-Best Personal: 234.552
-181.505
-
-Particula N°12 
-00001
-Best Personal: 197.245
-187.817
-
-Particula N°13 
-01000
-Best Personal: 190.737
-190.377
-
-Particula N°14 
-00001
-Best Personal: 190.534
-184.163
-
-Particula N°15 
-00010
-Best Personal: 181.777
-179.83
-
-Particula N°16 
-00010
-Best Personal: 296.402
-297.104
-
-Particula N°17 
-00001
-Best Personal: 187.895
-177.838
-
-Particula N°18 
-10000
-Best Personal: 190.23
-188.385
-
-Particula N°19 
-10000
-Best Personal: 178.149
-178.328
-
-Particula N°20 
-01000
-Best Personal: 572.51
-581.912
-
-Particula N°21 
-10000
-Best Personal: 228.372
-222.561
-
-Particula N°22 
-00100
-Best Personal: 231.27
-217.97
-
-Particula N°23 
-10000
-Best Personal: 343.497
-342.888
-
-Particula N°24 
-01000
-Best Personal: 282.997
-306.113
-
-Particula N°25 
-00010
-Best Personal: 191.249
-187.902
-
-Particula N°26 
-10000
-Best Personal: 228.733
-227.047
-
-Particula N°27 
-00100
-Best Personal: 299.081
-301.177
-
-Particula N°28 
-00100
-Best Personal: 181.107
-180.358
-
-Particula N°29 
-01000
-Best Personal: 322.308
-284.741
-
-Particula N°30 
-00100
-Best Personal: 212.766
-216.103
-
-Particula N°31 
-01000
-Best Personal: 183.067
-181.264
-
-Particula N°32 
-00010
-Best Personal: 308.161
-308.536
-
-Particula N°33 
-00100
-Best Personal: 198.515
-197.646
-
-Particula N°34 
-01000
-Best Personal: 211.795
-209.778
-
-Particula N°35 
-00100
-Best Personal: 196.532
-198.129
-
-Particula N°36 
-00100
-Best Personal: 209.939
-211.563
-
-Particula N°37 
-00010
-Best Personal: 236.635
-247.215
-
-Particula N°38 
-00100
-Best Personal: 191.713
-191.35
-
-Particula N°39 
-01000
-Best Personal: 338.056
-254
-
-Particula N°40 
-00001
-Best Personal: 238.911
-238.052
-
-Particula N°41 
-10000
-Best Personal: 289.003
-279.026
-
-Particula N°42 
-01000
-Best Personal: 325.438
-325.491
-
-Particula N°43 
-10000
-Best Personal: 274.616
-270.253
-
-Particula N°44 
-10000
-Best Personal: 238.412
-235.286
-
-Particula N°45 
-10000
-Best Personal: 251.908
-244.454
-
-Particula N°46 
-10000
-Best Personal: 236.979
-236.801
-
-Particula N°47 
-00100
-Best Personal: 237.942
-235.797
-
-Particula N°48 
-01000
-Best Personal: 185.677
-184.158
-
-Particula N°49 
-00100
-Best Personal: 236.404
-235.134
-
-Particula N°50 
-01000
-Best Personal: 219.403
-190.587
-
-Best Global Iteration n°24: 177.838 at the iteration 24
-
- Iteracion: 26
-Particula N°1 
-10000
-Best Personal: 275.358
-277.699
-
-Particula N°2 
-00010
-Best Personal: 231.966
-237.444
-
-Particula N°3 
-10000
-Best Personal: 210.463
-192.502
-
-Particula N°4 
-00100
-Best Personal: 186.576
-185.223
-
-Particula N°5 
-10000
-Best Personal: 208.279
-208.411
-
-Particula N°6 
-00010
-Best Personal: 199.55
-201.933
-
-Particula N°7 
-00100
-Best Personal: 217.764
-219.926
-
-Particula N°8 
-00001
-Best Personal: 210.73
-171.895
-
-Particula N°9 
-01000
-Best Personal: 180.834
-179.831
-
-Particula N°10 
-01000
-Best Personal: 264.58
-263.777
-
-Particula N°11 
-01000
-Best Personal: 181.505
-182.682
-
-Particula N°12 
-00001
-Best Personal: 187.817
-188.573
-
-Particula N°13 
-00100
-Best Personal: 190.377
-192.123
-
-Particula N°14 
-01000
-Best Personal: 184.163
-176.815
-
-Particula N°15 
-01000
-Best Personal: 179.83
-177.594
-
-Particula N°16 
-00100
-Best Personal: 296.402
-298.666
-
-Particula N°17 
-01000
-Best Personal: 177.838
-176.529
-
-Particula N°18 
-00100
-Best Personal: 188.385
-192.183
-
-Particula N°19 
-00001
-Best Personal: 178.149
-175.689
-
-Particula N°20 
-00001
-Best Personal: 572.51
-522.638
-
-Particula N°21 
-10000
-Best Personal: 222.561
-223.635
-
-Particula N°22 
-00010
-Best Personal: 217.97
-220.335
-
-Particula N°23 
-00100
-Best Personal: 342.888
-341.079
-
-Particula N°24 
-00001
-Best Personal: 282.997
-257.395
-
-Particula N°25 
-00100
-Best Personal: 187.902
-189.95
-
-Particula N°26 
-00010
-Best Personal: 227.047
-231.051
-
-Particula N°27 
-00100
-Best Personal: 299.081
-303.165
-
-Particula N°28 
-00001
-Best Personal: 180.358
-179.551
-
-Particula N°29 
-10000
-Best Personal: 284.741
-285.69
-
-Particula N°30 
-10000
-Best Personal: 212.766
-213.769
-
-Particula N°31 
-00100
-Best Personal: 181.264
-182.646
-
-Particula N°32 
-00100
-Best Personal: 308.161
-303.979
-
-Particula N°33 
-00100
-Best Personal: 197.646
-200.329
-
-Particula N°34 
-00001
-Best Personal: 209.778
-201.046
-
-Particula N°35 
-00100
-Best Personal: 196.532
-198.677
-
-Particula N°36 
-00100
-Best Personal: 209.939
-214.399
-
-Particula N°37 
-00010
-Best Personal: 236.635
-244.597
-
-Particula N°38 
-10000
-Best Personal: 191.35
-190.846
-
-Particula N°39 
-00010
-Best Personal: 254
-259.762
-
-Particula N°40 
-10000
-Best Personal: 238.052
-232.359
-
-Particula N°41 
-00001
-Best Personal: 279.026
-268.992
-
-Particula N°42 
-00100
-Best Personal: 325.438
-328.031
-
-Particula N°43 
-00001
-Best Personal: 270.253
-244.953
-
-Particula N°44 
-01000
-Best Personal: 235.286
-218.91
-
-Particula N°45 
-00100
-Best Personal: 244.454
-236.356
-
-Particula N°46 
-00100
-Best Personal: 236.801
-236.888
-
-Particula N°47 
-00100
-Best Personal: 235.797
-236.913
-
-Particula N°48 
-00010
-Best Personal: 184.158
-182.962
-
-Particula N°49 
-00010
-Best Personal: 235.134
-237.543
-
-Particula N°50 
-00010
-Best Personal: 190.587
-192.402
-
-Best Global Iteration n°25: 171.895 at the iteration 25
-
- Iteracion: 27
-Particula N°1 
-00001
-Best Personal: 275.358
-249.998
-
-Particula N°2 
-00100
-Best Personal: 231.966
-238.002
-
-Particula N°3 
-01000
-Best Personal: 192.502
-185.04
-
-Particula N°4 
-01000
-Best Personal: 185.223
-183.55
-
-Particula N°5 
-01000
-Best Personal: 208.279
-198.761
-
-Particula N°6 
-01000
-Best Personal: 199.55
-201.349
-
-Particula N°7 
-00100
-Best Personal: 217.764
-217.351
-
-Particula N°8 
-10000
-Best Personal: 171.895
-172.033
-
-Particula N°9 
-00100
-Best Personal: 179.831
-180.703
-
-Particula N°10 
-10000
-Best Personal: 263.777
-241.552
-
-Particula N°11 
-10000
-Best Personal: 181.505
-180.988
-
-Particula N°12 
-10000
-Best Personal: 187.817
-190.365
-
-Particula N°13 
-00001
-Best Personal: 190.377
-192.423
-
-Particula N°14 
-00100
-Best Personal: 176.815
-176.123
-
-Particula N°15 
-10000
-Best Personal: 177.594
-176.852
-
-Particula N°16 
-00001
-Best Personal: 296.402
-259.987
-
-Particula N°17 
-00001
-Best Personal: 176.529
-174.219
-
-Particula N°18 
-00100
-Best Personal: 188.385
-190.51
-
-Particula N°19 
-00001
-Best Personal: 175.689
-174.579
-
-Particula N°20 
-00100
-Best Personal: 522.638
-498.39
-
-Particula N°21 
-00100
-Best Personal: 222.561
-223.012
-
-Particula N°22 
-00010
-Best Personal: 217.97
-224.651
-
-Particula N°23 
-00001
-Best Personal: 341.079
-280.818
-
-Particula N°24 
-10000
-Best Personal: 257.395
-260.546
-
-Particula N°25 
-00010
-Best Personal: 187.902
-189.861
-
-Particula N°26 
-00100
-Best Personal: 227.047
-228.688
-
-Particula N°27 
-00100
-Best Personal: 299.081
-298.627
-
-Particula N°28 
-00001
-Best Personal: 179.551
-178.307
-
-Particula N°29 
-10000
-Best Personal: 284.741
-283.75
-
-Particula N°30 
-00010
-Best Personal: 212.766
-215.748
-
-Particula N°31 
-00010
-Best Personal: 181.264
-181.439
-
-Particula N°32 
-00100
-Best Personal: 303.979
-302.937
-
-Particula N°33 
-00100
-Best Personal: 197.646
-200.178
-
-Particula N°34 
-00100
-Best Personal: 201.046
-190.451
-
-Particula N°35 
-00001
-Best Personal: 196.532
-198.168
-
-Particula N°36 
-01000
-Best Personal: 209.939
-196.509
-
-Particula N°37 
-01000
-Best Personal: 236.635
-235.301
-
-Particula N°38 
-10000
-Best Personal: 190.846
-190.596
-
-Particula N°39 
-00010
-Best Personal: 254
-265.617
-
-Particula N°40 
-01000
-Best Personal: 232.359
-194.688
-
-Particula N°41 
-10000
-Best Personal: 268.992
-260.265
-
-Particula N°42 
-00001
-Best Personal: 325.438
-230.557
-
-Particula N°43 
-00100
-Best Personal: 244.953
-244.831
-
-Particula N°44 
-10000
-Best Personal: 218.91
-216.234
-
-Particula N°45 
-00001
-Best Personal: 236.356
-228.559
-
-Particula N°46 
-00100
-Best Personal: 236.801
-238.029
-
-Particula N°47 
-10000
-Best Personal: 235.797
-192.51
-
-Particula N°48 
-00001
-Best Personal: 182.962
-171.84
-
-Particula N°49 
-00100
-Best Personal: 235.134
-237.543
-
-Particula N°50 
-10000
-Best Personal: 190.587
-189.609
-
-Best Global Iteration n°26: 171.84 at the iteration 26
-
- Iteracion: 28
-Particula N°1 
-10000
-Best Personal: 249.998
-248.31
-
-Particula N°2 
-00100
-Best Personal: 231.966
-244.485
-
-Particula N°3 
-10000
-Best Personal: 185.04
-181.537
-
-Particula N°4 
-00010
-Best Personal: 183.55
-180.247
-
-Particula N°5 
-00001
-Best Personal: 198.761
-173.138
+Best Personal: 485.721
+502.994
 
 Particula N°6 
 10000
-Best Personal: 199.55
-187.378
+Best Personal: 341.993
+352.203
 
 Particula N°7 
 00001
-Best Personal: 217.351
-210.786
-
-Particula N°8 
-10000
-Best Personal: 171.895
-171.891
-
-Particula N°9 
-01000
-Best Personal: 179.831
-180.5
-
-Particula N°10 
-00001
-Best Personal: 241.552
-229.231
-
-Particula N°11 
-00001
-Best Personal: 180.988
-176.574
-
-Particula N°12 
-00001
-Best Personal: 187.817
-190.878
-
-Particula N°13 
-00100
-Best Personal: 190.377
-191.13
-
-Particula N°14 
-00010
-Best Personal: 176.123
-173.9
-
-Particula N°15 
-01000
-Best Personal: 176.852
-178.107
-
-Particula N°16 
-00010
-Best Personal: 259.987
-267.375
-
-Particula N°17 
-00001
-Best Personal: 174.219
-175.346
-
-Particula N°18 
-10000
-Best Personal: 188.385
-189.164
-
-Particula N°19 
-00010
-Best Personal: 174.579
-177.805
-
-Particula N°20 
-00001
-Best Personal: 498.39
-313.091
-
-Particula N°21 
-00100
-Best Personal: 222.561
-223.94
-
-Particula N°22 
-10000
-Best Personal: 217.97
-212.104
-
-Particula N°23 
-00001
-Best Personal: 280.818
-235.703
-
-Particula N°24 
-00010
-Best Personal: 257.395
-263.063
-
-Particula N°25 
-00010
-Best Personal: 187.902
-191.3
-
-Particula N°26 
-01000
-Best Personal: 227.047
-229.169
-
-Particula N°27 
-00010
-Best Personal: 298.627
-293.071
-
-Particula N°28 
-10000
-Best Personal: 178.307
-177.567
-
-Particula N°29 
-00001
-Best Personal: 283.75
-201.069
-
-Particula N°30 
-00100
-Best Personal: 212.766
-223.842
-
-Particula N°31 
-00001
-Best Personal: 181.264
-174.886
-
-Particula N°32 
-10000
-Best Personal: 302.937
-298.216
-
-Particula N°33 
-00001
-Best Personal: 197.646
-193.667
-
-Particula N°34 
-00010
-Best Personal: 190.451
-189.986
-
-Particula N°35 
-00001
-Best Personal: 196.532
-198.755
-
-Particula N°36 
-00001
-Best Personal: 196.509
-186.401
-
-Particula N°37 
-10000
-Best Personal: 235.301
-236.739
-
-Particula N°38 
-00010
-Best Personal: 190.596
-191.311
-
-Particula N°39 
-10000
-Best Personal: 254
-250.655
-
-Particula N°40 
-01000
-Best Personal: 194.688
-186.239
-
-Particula N°41 
-10000
-Best Personal: 260.265
-259.463
-
-Particula N°42 
-00010
-Best Personal: 230.557
-232.743
-
-Particula N°43 
-00001
-Best Personal: 244.831
-217.605
-
-Particula N°44 
-00001
-Best Personal: 216.234
-203.048
-
-Particula N°45 
-00010
-Best Personal: 228.559
-226.094
-
-Particula N°46 
-10000
-Best Personal: 236.801
-233.32
-
-Particula N°47 
-00010
-Best Personal: 192.51
-187.363
-
-Particula N°48 
-01000
-Best Personal: 171.84
-172.192
-
-Particula N°49 
-00100
-Best Personal: 235.134
-240.861
-
-Particula N°50 
-00010
-Best Personal: 189.609
-189.491
-
-Best Global Iteration n°27: 171.84 at the iteration 26
-
- Iteracion: 29
-Particula N°1 
-01000
-Best Personal: 248.31
-247.623
-
-Particula N°2 
-00010
-Best Personal: 231.966
-249.861
-
-Particula N°3 
-10000
-Best Personal: 181.537
-178.661
-
-Particula N°4 
-00001
-Best Personal: 180.247
-177.089
-
-Particula N°5 
-00010
-Best Personal: 173.138
-172.565
-
-Particula N°6 
-10000
-Best Personal: 187.378
-187.334
-
-Particula N°7 
-10000
-Best Personal: 210.786
-202.25
+Best Personal: 361.765
+360.651
 
 Particula N°8 
 00100
-Best Personal: 171.891
-171.702
-
-Particula N°9 
-00100
-Best Personal: 179.831
-183.734
-
-Particula N°10 
-01000
-Best Personal: 229.231
-229.232
-
-Particula N°11 
-00010
-Best Personal: 176.574
-171.256
-
-Particula N°12 
-10000
-Best Personal: 187.817
-191.05
-
-Particula N°13 
-00010
-Best Personal: 190.377
-192.703
-
-Particula N°14 
-10000
-Best Personal: 173.9
-174.53
-
-Particula N°15 
-00001
-Best Personal: 176.852
-174.284
-
-Particula N°16 
-10000
-Best Personal: 259.987
-265.454
-
-Particula N°17 
-01000
-Best Personal: 174.219
-176.792
-
-Particula N°18 
-01000
-Best Personal: 188.385
-185.667
-
-Particula N°19 
-10000
-Best Personal: 174.579
-176.705
-
-Particula N°20 
-00010
-Best Personal: 313.091
-326.47
-
-Particula N°21 
-01000
-Best Personal: 222.561
-222.043
-
-Particula N°22 
-01000
-Best Personal: 212.104
-207.933
-
-Particula N°23 
-01000
-Best Personal: 235.703
-235.783
-
-Particula N°24 
-00010
-Best Personal: 257.395
-264.367
-
-Particula N°25 
-00100
-Best Personal: 187.902
-190.473
-
-Particula N°26 
-00100
-Best Personal: 227.047
-238.176
-
-Particula N°27 
-00100
-Best Personal: 293.071
-290.395
-
-Particula N°28 
-00100
-Best Personal: 177.567
-177.303
-
-Particula N°29 
-00010
-Best Personal: 201.069
-201.598
-
-Particula N°30 
-00010
-Best Personal: 212.766
-224.666
-
-Particula N°31 
-00010
-Best Personal: 174.886
-175.85
-
-Particula N°32 
-00001
-Best Personal: 298.216
-218.307
-
-Particula N°33 
-00001
-Best Personal: 193.667
-192.978
-
-Particula N°34 
-00001
-Best Personal: 189.986
-188.459
-
-Particula N°35 
-00100
-Best Personal: 196.532
-199.709
-
-Particula N°36 
-00010
-Best Personal: 186.401
-184.363
-
-Particula N°37 
-10000
-Best Personal: 235.301
-237.021
-
-Particula N°38 
-10000
-Best Personal: 190.596
-190.563
-
-Particula N°39 
-00010
-Best Personal: 250.655
-250.612
-
-Particula N°40 
-00010
-Best Personal: 186.239
-185.929
-
-Particula N°41 
-00001
-Best Personal: 259.463
-220.914
-
-Particula N°42 
-01000
-Best Personal: 230.557
-231.869
-
-Particula N°43 
-00001
-Best Personal: 217.605
-215.288
-
-Particula N°44 
-00001
-Best Personal: 203.048
-196.453
-
-Particula N°45 
-00010
-Best Personal: 226.094
-227.125
-
-Particula N°46 
-10000
-Best Personal: 233.32
-235.942
-
-Particula N°47 
-01000
-Best Personal: 187.363
-182.798
-
-Particula N°48 
-00100
-Best Personal: 171.84
-171.727
-
-Particula N°49 
-00001
-Best Personal: 235.134
-231.311
-
-Particula N°50 
-00001
-Best Personal: 189.491
-178.267
-
-Best Global Iteration n°28: 171.256 at the iteration 28
-
- Iteracion: 30
-Particula N°1 
-10000
-Best Personal: 247.623
-253.549
-
-Particula N°2 
-00001
-Best Personal: 231.966
-191.49
-
-Particula N°3 
-00010
-Best Personal: 178.661
-178.392
-
-Particula N°4 
-00100
-Best Personal: 177.089
-177.949
-
-Particula N°5 
-00100
-Best Personal: 172.565
-171.119
-
-Particula N°6 
-00001
-Best Personal: 187.334
-187.295
-
-Particula N°7 
-01000
-Best Personal: 202.25
-193.039
-
-Particula N°8 
-00010
-Best Personal: 171.702
-170.67
+Best Personal: 257.213
+335.898
 
 Particula N°9 
 01000
-Best Personal: 179.831
-183.546
+Best Personal: 241.577
+225.862
 
 Particula N°10 
-01000
-Best Personal: 229.231
-229.232
-
-Particula N°11 
-01000
-Best Personal: 171.256
-171.589
-
-Particula N°12 
-01000
-Best Personal: 187.817
-185.406
-
-Particula N°13 
-00001
-Best Personal: 190.377
-191.365
-
-Particula N°14 
 00010
-Best Personal: 173.9
-173.848
-
-Particula N°15 
-00100
-Best Personal: 174.284
-174.083
-
-Particula N°16 
-01000
-Best Personal: 259.987
-259.332
-
-Particula N°17 
-00001
-Best Personal: 174.219
-175.615
-
-Particula N°18 
-10000
-Best Personal: 185.667
-188.364
-
-Particula N°19 
-10000
-Best Personal: 174.579
-178.719
-
-Particula N°20 
-00010
-Best Personal: 313.091
-314.636
-
-Particula N°21 
-00010
-Best Personal: 222.043
-218.293
-
-Particula N°22 
-00010
-Best Personal: 207.933
-208.003
-
-Particula N°23 
-00001
-Best Personal: 235.703
-227.862
-
-Particula N°24 
-10000
-Best Personal: 257.395
-261.148
-
-Particula N°25 
-00001
-Best Personal: 187.902
-180.599
-
-Particula N°26 
-01000
-Best Personal: 227.047
-239.695
-
-Particula N°27 
-01000
-Best Personal: 290.395
-280.913
-
-Particula N°28 
-01000
-Best Personal: 177.303
-171.726
-
-Particula N°29 
-00001
-Best Personal: 201.069
-174.153
-
-Particula N°30 
-00100
-Best Personal: 212.766
-224.115
-
-Particula N°31 
-00001
-Best Personal: 174.886
-175.774
-
-Particula N°32 
-00100
-Best Personal: 218.307
-215.551
-
-Particula N°33 
-01000
-Best Personal: 192.978
-190.822
-
-Particula N°34 
-01000
-Best Personal: 188.459
-187.189
-
-Particula N°35 
-00001
-Best Personal: 196.532
-195.871
-
-Particula N°36 
-00010
-Best Personal: 184.363
-182.804
-
-Particula N°37 
-10000
-Best Personal: 235.301
-237.495
-
-Particula N°38 
-00010
-Best Personal: 190.563
-189.429
-
-Particula N°39 
-01000
-Best Personal: 250.612
-225.272
-
-Particula N°40 
-10000
-Best Personal: 185.929
-185.974
-
-Particula N°41 
-00001
-Best Personal: 220.914
-185.08
-
-Particula N°42 
-00010
-Best Personal: 230.557
-229.415
-
-Particula N°43 
-01000
-Best Personal: 215.288
-195.897
-
-Particula N°44 
-00001
-Best Personal: 196.453
-192.956
-
-Particula N°45 
-00001
-Best Personal: 226.094
-204.062
-
-Particula N°46 
-00100
-Best Personal: 233.32
-236.056
-
-Particula N°47 
-10000
-Best Personal: 182.798
-179.538
-
-Particula N°48 
-00100
-Best Personal: 171.727
-171.243
-
-Particula N°49 
-00010
-Best Personal: 231.311
-230.661
-
-Particula N°50 
-10000
-Best Personal: 178.267
-183.633
-
-Best Global Iteration n°29: 170.67 at the iteration 29
-
- Iteracion: 31
-Particula N°1 
-10000
-Best Personal: 247.623
-247.798
-
-Particula N°2 
-00010
-Best Personal: 191.49
-191.686
-
-Particula N°3 
-01000
-Best Personal: 178.392
-176.93
-
-Particula N°4 
-00100
-Best Personal: 177.089
-175.677
-
-Particula N°5 
-00001
-Best Personal: 171.119
-171.196
-
-Particula N°6 
-01000
-Best Personal: 187.295
-184.389
-
-Particula N°7 
-01000
-Best Personal: 193.039
-190.375
-
-Particula N°8 
-01000
-Best Personal: 170.67
-169.626
-
-Particula N°9 
-01000
-Best Personal: 179.831
-178.553
-
-Particula N°10 
-00001
-Best Personal: 229.231
-201.76
-
-Particula N°11 
-01000
-Best Personal: 171.256
-166.426
-
-Particula N°12 
-01000
-Best Personal: 185.406
-178.363
-
-Particula N°13 
-00100
-Best Personal: 190.377
-191.569
-
-Particula N°14 
-00100
-Best Personal: 173.848
-173.794
-
-Particula N°15 
-00001
-Best Personal: 174.083
-172.005
-
-Particula N°16 
-01000
-Best Personal: 259.332
-258.817
-
-Particula N°17 
-00100
-Best Personal: 174.219
-174.26
-
-Particula N°18 
-01000
-Best Personal: 185.667
-182.636
-
-Particula N°19 
-00010
-Best Personal: 174.579
-178.183
-
-Particula N°20 
-10000
-Best Personal: 313.091
-283.466
-
-Particula N°21 
-01000
-Best Personal: 218.293
-208.792
-
-Particula N°22 
-01000
-Best Personal: 207.933
-209.964
-
-Particula N°23 
-10000
-Best Personal: 227.862
-224.523
-
-Particula N°24 
-00001
-Best Personal: 257.395
-241.861
-
-Particula N°25 
-00010
-Best Personal: 180.599
-179.635
-
-Particula N°26 
-00010
-Best Personal: 227.047
-235.04
-
-Particula N°27 
-00010
-Best Personal: 280.913
-246.773
-
-Particula N°28 
-00001
-Best Personal: 171.726
-173.638
-
-Particula N°29 
-00100
-Best Personal: 174.153
-174.771
-
-Particula N°30 
-00001
-Best Personal: 212.766
-224.115
-
-Particula N°31 
-01000
-Best Personal: 174.886
-172.451
-
-Particula N°32 
-10000
-Best Personal: 215.551
-214.908
-
-Particula N°33 
-00001
-Best Personal: 190.822
-180.586
-
-Particula N°34 
-00001
-Best Personal: 187.189
-182.418
-
-Particula N°35 
-10000
-Best Personal: 195.871
-192.545
-
-Particula N°36 
-10000
-Best Personal: 182.804
-183.126
-
-Particula N°37 
-00001
-Best Personal: 235.301
-182.927
-
-Particula N°38 
-00001
-Best Personal: 189.429
-181.592
-
-Particula N°39 
-01000
-Best Personal: 225.272
-204.581
-
-Particula N°40 
-00010
-Best Personal: 185.929
-186.507
-
-Particula N°41 
-01000
-Best Personal: 185.08
-183.161
-
-Particula N°42 
-00010
-Best Personal: 229.415
-229.152
-
-Particula N°43 
-00010
-Best Personal: 195.897
-192.128
-
-Particula N°44 
-10000
-Best Personal: 192.956
-193.132
-
-Particula N°45 
-10000
-Best Personal: 204.062
-205.677
-
-Particula N°46 
-01000
-Best Personal: 233.32
-215.468
-
-Particula N°47 
-00100
-Best Personal: 179.538
-178.36
-
-Particula N°48 
-01000
-Best Personal: 171.243
-169.397
-
-Particula N°49 
-10000
-Best Personal: 230.661
-204.941
-
-Particula N°50 
-00010
-Best Personal: 178.267
-181.564
-
-Best Global Iteration n°30: 166.426 at the iteration 30
-
- Iteracion: 32
-Particula N°1 
-10000
-Best Personal: 247.623
-253.392
-
-Particula N°2 
-10000
-Best Personal: 191.49
-192.514
-
-Particula N°3 
-00100
-Best Personal: 176.93
-179.726
-
-Particula N°4 
-00100
-Best Personal: 175.677
-173.555
-
-Particula N°5 
-10000
-Best Personal: 171.119
-170.87
-
-Particula N°6 
-01000
-Best Personal: 184.389
-183.865
-
-Particula N°7 
-01000
-Best Personal: 190.375
-188.304
-
-Particula N°8 
-00100
-Best Personal: 169.626
-169.594
-
-Particula N°9 
-00010
-Best Personal: 178.553
-173.817
-
-Particula N°10 
-10000
-Best Personal: 201.76
-200.631
-
-Particula N°11 
-10000
-Best Personal: 166.426
-166.24
-
-Particula N°12 
-00010
-Best Personal: 178.363
-176.699
-
-Particula N°13 
-00001
-Best Personal: 190.377
-191.529
-
-Particula N°14 
-00001
-Best Personal: 173.794
-169.692
-
-Particula N°15 
-00010
-Best Personal: 172.005
-170.674
-
-Particula N°16 
-10000
-Best Personal: 258.817
-259.856
-
-Particula N°17 
-00001
-Best Personal: 174.219
-171.758
-
-Particula N°18 
-10000
-Best Personal: 182.636
-183.146
-
-Particula N°19 
-00010
-Best Personal: 174.579
-178.103
-
-Particula N°20 
-00010
-Best Personal: 283.466
-281.852
-
-Particula N°21 
-01000
-Best Personal: 208.792
-202.024
-
-Particula N°22 
-00001
-Best Personal: 207.933
-164.309
-
-Particula N°23 
-00100
-Best Personal: 224.523
-223.401
-
-Particula N°24 
-00001
-Best Personal: 241.861
-221.672
-
-Particula N°25 
-00100
-Best Personal: 179.635
-179.899
-
-Particula N°26 
-01000
-Best Personal: 227.047
-234.726
-
-Particula N°27 
-00100
-Best Personal: 246.773
-248.768
-
-Particula N°28 
-00001
-Best Personal: 171.726
-172
-
-Particula N°29 
-01000
-Best Personal: 174.153
-166.625
-
-Particula N°30 
-00010
-Best Personal: 212.766
-223.957
-
-Particula N°31 
-00100
-Best Personal: 172.451
-172.196
-
-Particula N°32 
-10000
-Best Personal: 214.908
-220.829
-
-Particula N°33 
-10000
-Best Personal: 180.586
-181.504
-
-Particula N°34 
-00100
-Best Personal: 182.418
-174.808
-
-Particula N°35 
-10000
-Best Personal: 192.545
-193.15
-
-Particula N°36 
-10000
-Best Personal: 182.804
-184.377
-
-Particula N°37 
-00010
-Best Personal: 182.927
-184.426
-
-Particula N°38 
-10000
-Best Personal: 181.592
-185.577
-
-Particula N°39 
-00001
-Best Personal: 204.581
-173.776
-
-Particula N°40 
-00001
-Best Personal: 185.929
-173.237
-
-Particula N°41 
-00100
-Best Personal: 183.161
-184.153
-
-Particula N°42 
-01000
-Best Personal: 229.152
-222.993
-
-Particula N°43 
-00100
-Best Personal: 192.128
-190.53
-
-Particula N°44 
-00100
-Best Personal: 192.956
-186.405
-
-Particula N°45 
-00010
-Best Personal: 204.062
-205.401
-
-Particula N°46 
-00010
-Best Personal: 215.468
-215.175
-
-Particula N°47 
-01000
-Best Personal: 178.36
-174.458
-
-Particula N°48 
-00010
-Best Personal: 169.397
-169.539
-
-Particula N°49 
-00100
-Best Personal: 204.941
-205.02
-
-Particula N°50 
-00001
-Best Personal: 178.267
-179.388
-
-Best Global Iteration n°31: 164.309 at the iteration 31
-
- Iteracion: 33
-Particula N°1 
-10000
-Best Personal: 247.623
-242.444
-
-Particula N°2 
-01000
-Best Personal: 191.49
-192.179
-
-Particula N°3 
-00010
-Best Personal: 176.93
-179.864
-
-Particula N°4 
-00100
-Best Personal: 173.555
-175.123
-
-Particula N°5 
-00100
-Best Personal: 170.87
-172.515
-
-Particula N°6 
-01000
-Best Personal: 183.865
-183.495
-
-Particula N°7 
-01000
-Best Personal: 188.304
-187.959
-
-Particula N°8 
-01000
-Best Personal: 169.594
-168.522
-
-Particula N°9 
-01000
-Best Personal: 173.817
-172.318
-
-Particula N°10 
-00001
-Best Personal: 200.631
-182.415
-
-Particula N°11 
-00001
-Best Personal: 166.24
-164.25
-
-Particula N°12 
-00010
-Best Personal: 176.699
-173.52
-
-Particula N°13 
-01000
-Best Personal: 190.377
-177.191
-
-Particula N°14 
-00001
-Best Personal: 169.692
-165.705
-
-Particula N°15 
-00001
-Best Personal: 170.674
-168.556
-
-Particula N°16 
-00010
-Best Personal: 258.817
-256.767
-
-Particula N°17 
-00010
-Best Personal: 171.758
-174.771
-
-Particula N°18 
-01000
-Best Personal: 182.636
-178.928
-
-Particula N°19 
-01000
-Best Personal: 174.579
-176.531
-
-Particula N°20 
-10000
-Best Personal: 281.852
-249.01
-
-Particula N°21 
-00100
-Best Personal: 202.024
-201.557
-
-Particula N°22 
-10000
-Best Personal: 164.309
-164.684
-
-Particula N°23 
-00100
-Best Personal: 223.401
-221.247
-
-Particula N°24 
-01000
-Best Personal: 221.672
-213.587
-
-Particula N°25 
-00010
-Best Personal: 179.635
-180.78
-
-Particula N°26 
-01000
-Best Personal: 227.047
-232.931
-
-Particula N°27 
-01000
-Best Personal: 246.773
-241.475
-
-Particula N°28 
-00001
-Best Personal: 171.726
-170.117
-
-Particula N°29 
-00100
-Best Personal: 166.625
-165.94
-
-Particula N°30 
-00010
-Best Personal: 212.766
-222.572
-
-Particula N°31 
-01000
-Best Personal: 172.196
-170.615
-
-Particula N°32 
-00001
-Best Personal: 214.908
-193.61
-
-Particula N°33 
-10000
-Best Personal: 180.586
-181.618
-
-Particula N°34 
-01000
-Best Personal: 174.808
-170.33
-
-Particula N°35 
-00100
-Best Personal: 192.545
-191.2
-
-Particula N°36 
-01000
-Best Personal: 182.804
-181.633
-
-Particula N°37 
-10000
-Best Personal: 182.927
-184.214
-
-Particula N°38 
-00100
-Best Personal: 181.592
-185.088
-
-Particula N°39 
-00001
-Best Personal: 173.776
-166.628
-
-Particula N°40 
-01000
-Best Personal: 173.237
-170.527
-
-Particula N°41 
-00010
-Best Personal: 183.161
-184.216
-
-Particula N°42 
-01000
-Best Personal: 222.993
-219.353
-
-Particula N°43 
-01000
-Best Personal: 190.53
-189.564
-
-Particula N°44 
-00001
-Best Personal: 186.405
-180.707
-
-Particula N°45 
-00001
-Best Personal: 204.062
-203.686
-
-Particula N°46 
-00010
-Best Personal: 215.175
-214.193
-
-Particula N°47 
-00010
-Best Personal: 174.458
-174.501
-
-Particula N°48 
-01000
-Best Personal: 169.397
-167.923
-
-Particula N°49 
-10000
-Best Personal: 204.941
-201.956
-
-Particula N°50 
-10000
-Best Personal: 178.267
-174.762
-
-Best Global Iteration n°32: 164.25 at the iteration 32
-
- Iteracion: 34
-Particula N°1 
-00010
-Best Personal: 242.444
-241.13
-
-Particula N°2 
-00010
-Best Personal: 191.49
-190.029
-
-Particula N°3 
-01000
-Best Personal: 176.93
-180.125
-
-Particula N°4 
-00001
-Best Personal: 173.555
-168.928
-
-Particula N°5 
-01000
-Best Personal: 170.87
-166.929
-
-Particula N°6 
-00010
-Best Personal: 183.495
-182.272
-
-Particula N°7 
-00001
-Best Personal: 187.959
-167.819
-
-Particula N°8 
-10000
-Best Personal: 168.522
-168.074
-
-Particula N°9 
-10000
-Best Personal: 172.318
-173.033
-
-Particula N°10 
-00001
-Best Personal: 182.415
-180.428
-
-Particula N°11 
-00100
-Best Personal: 164.25
-164.946
-
-Particula N°12 
-00100
-Best Personal: 173.52
-174.755
-
-Particula N°13 
-00100
-Best Personal: 177.191
-176.067
-
-Particula N°14 
-00100
-Best Personal: 165.705
-164.987
-
-Particula N°15 
-01000
-Best Personal: 168.556
-166.432
-
-Particula N°16 
-00001
-Best Personal: 256.767
-212.712
-
-Particula N°17 
-00100
-Best Personal: 171.758
-172.327
-
-Particula N°18 
-01000
-Best Personal: 178.928
-180.027
-
-Particula N°19 
-00100
-Best Personal: 174.579
-175.582
-
-Particula N°20 
-00001
-Best Personal: 249.01
-218.761
-
-Particula N°21 
-00100
-Best Personal: 201.557
-201.152
-
-Particula N°22 
-00010
-Best Personal: 164.309
-164.732
-
-Particula N°23 
-00001
-Best Personal: 221.247
-177.614
-
-Particula N°24 
-00010
-Best Personal: 213.587
-213.363
-
-Particula N°25 
-00100
-Best Personal: 179.635
-181.823
-
-Particula N°26 
-10000
-Best Personal: 227.047
-242.866
-
-Particula N°27 
-00100
-Best Personal: 241.475
-241.623
-
-Particula N°28 
-00010
-Best Personal: 170.117
-168.454
-
-Particula N°29 
-00001
-Best Personal: 165.94
-160.967
-
-Particula N°30 
-00100
-Best Personal: 212.766
-218.357
-
-Particula N°31 
-00010
-Best Personal: 170.615
-170.529
-
-Particula N°32 
-01000
-Best Personal: 193.61
-181.944
-
-Particula N°33 
-01000
-Best Personal: 180.586
-182.045
-
-Particula N°34 
-01000
-Best Personal: 170.33
-170.124
-
-Particula N°35 
-00100
-Best Personal: 191.2
-192.423
-
-Particula N°36 
-01000
-Best Personal: 181.633
-180.385
-
-Particula N°37 
-01000
-Best Personal: 182.927
-182.975
-
-Particula N°38 
-00001
-Best Personal: 181.592
-180.1
-
-Particula N°39 
-10000
-Best Personal: 166.628
-166.534
-
-Particula N°40 
-01000
-Best Personal: 170.527
-166.73
-
-Particula N°41 
-01000
-Best Personal: 183.161
-181.372
-
-Particula N°42 
-01000
-Best Personal: 219.353
-218.157
-
-Particula N°43 
-10000
-Best Personal: 189.564
-190.413
-
-Particula N°44 
-01000
-Best Personal: 180.707
-176.375
-
-Particula N°45 
-00100
-Best Personal: 203.686
-198.076
-
-Particula N°46 
-00100
-Best Personal: 214.193
-211.86
-
-Particula N°47 
-00001
-Best Personal: 174.458
-164.907
-
-Particula N°48 
-01000
-Best Personal: 167.923
-167.324
-
-Particula N°49 
-00010
-Best Personal: 201.956
-202.406
-
-Particula N°50 
-00001
-Best Personal: 174.762
-170.085
-
-Best Global Iteration n°33: 160.967 at the iteration 33
-
- Iteracion: 35
-Particula N°1 
-10000
-Best Personal: 241.13
-233.703
-
-Particula N°2 
-01000
-Best Personal: 190.029
-193.876
-
-Particula N°3 
-00010
-Best Personal: 176.93
-179.995
-
-Particula N°4 
-01000
-Best Personal: 168.928
-166.64
-
-Particula N°5 
-01000
-Best Personal: 166.929
-166.799
-
-Particula N°6 
-00100
-Best Personal: 182.272
-183.11
-
-Particula N°7 
-01000
-Best Personal: 167.819
-167.737
-
-Particula N°8 
-01000
-Best Personal: 168.074
-167.239
-
-Particula N°9 
-00100
-Best Personal: 172.318
-173.516
-
-Particula N°10 
-00010
-Best Personal: 180.428
-166.734
-
-Particula N°11 
-10000
-Best Personal: 164.25
-163.561
-
-Particula N°12 
-01000
-Best Personal: 173.52
-173.038
-
-Particula N°13 
-00001
-Best Personal: 176.067
-172.88
-
-Particula N°14 
-00010
-Best Personal: 164.987
-167.109
-
-Particula N°15 
-10000
-Best Personal: 166.432
-163.01
-
-Particula N°16 
-00100
-Best Personal: 212.712
-211.366
-
-Particula N°17 
-00001
-Best Personal: 171.758
-171.026
-
-Particula N°18 
-00010
-Best Personal: 178.928
-178.202
-
-Particula N°19 
-00001
-Best Personal: 174.579
-172.052
-
-Particula N°20 
-10000
-Best Personal: 218.761
-171.239
-
-Particula N°21 
-01000
-Best Personal: 201.152
-198.627
-
-Particula N°22 
-00001
-Best Personal: 164.309
-162.52
-
-Particula N°23 
-00010
-Best Personal: 177.614
-177.699
-
-Particula N°24 
-00010
-Best Personal: 213.363
-213.755
-
-Particula N°25 
-10000
-Best Personal: 179.635
-182.284
-
-Particula N°26 
-01000
-Best Personal: 227.047
-242.752
-
-Particula N°27 
-01000
-Best Personal: 241.475
-239.094
-
-Particula N°28 
-00001
-Best Personal: 168.454
-168.65
-
-Particula N°29 
-00100
-Best Personal: 160.967
-160.816
-
-Particula N°30 
-00010
-Best Personal: 212.766
-219.039
-
-Particula N°31 
-00001
-Best Personal: 170.529
-168.193
-
-Particula N°32 
-01000
-Best Personal: 181.944
-179.954
-
-Particula N°33 
-00100
-Best Personal: 180.586
-179.851
-
-Particula N°34 
-00001
-Best Personal: 170.124
-167.28
-
-Particula N°35 
-10000
-Best Personal: 191.2
-190.09
-
-Particula N°36 
-10000
-Best Personal: 180.385
-180.639
-
-Particula N°37 
-00001
-Best Personal: 182.927
-163.515
-
-Particula N°38 
-01000
-Best Personal: 180.1
-170.765
-
-Particula N°39 
-01000
-Best Personal: 166.534
-165.897
-
-Particula N°40 
-01000
-Best Personal: 166.73
-165.513
-
-Particula N°41 
-10000
-Best Personal: 181.372
-179.116
-
-Particula N°42 
-00100
-Best Personal: 218.157
-221.237
-
-Particula N°43 
-00100
-Best Personal: 189.564
-190.202
-
-Particula N°44 
-00010
-Best Personal: 176.375
-177.078
-
-Particula N°45 
-00100
-Best Personal: 198.076
-198.427
-
-Particula N°46 
-00010
-Best Personal: 211.86
-210.237
-
-Particula N°47 
-00100
-Best Personal: 164.907
-165.183
-
-Particula N°48 
-00001
-Best Personal: 167.324
-161.64
-
-Particula N°49 
-00010
-Best Personal: 201.956
-202.596
-
-Particula N°50 
-00100
-Best Personal: 170.085
-170.433
-
-Best Global Iteration n°34: 160.816 at the iteration 34
-
- Iteracion: 36
-Particula N°1 
-00010
-Best Personal: 233.703
-232.338
-
-Particula N°2 
-01000
-Best Personal: 190.029
-197.078
-
-Particula N°3 
-01000
-Best Personal: 176.93
-179.992
-
-Particula N°4 
-01000
-Best Personal: 166.64
-166.685
-
-Particula N°5 
-00001
-Best Personal: 166.799
-163.562
-
-Particula N°6 
-01000
-Best Personal: 182.272
-181.555
-
-Particula N°7 
-01000
-Best Personal: 167.737
-167.261
-
-Particula N°8 
-01000
-Best Personal: 167.239
-167.026
-
-Particula N°9 
-00010
-Best Personal: 172.318
-175.408
-
-Particula N°10 
-00100
-Best Personal: 166.734
-166.784
-
-Particula N°11 
-00001
-Best Personal: 163.561
-163.747
-
-Particula N°12 
-00100
-Best Personal: 173.038
-173.498
-
-Particula N°13 
-00100
-Best Personal: 172.88
-172.689
-
-Particula N°14 
-01000
-Best Personal: 164.987
-161.83
-
-Particula N°15 
-00010
-Best Personal: 163.01
-163.265
-
-Particula N°16 
-01000
-Best Personal: 211.366
-210.725
-
-Particula N°17 
-00100
-Best Personal: 171.026
-169.628
-
-Particula N°18 
-00100
-Best Personal: 178.202
-179.43
-
-Particula N°19 
-00001
-Best Personal: 172.052
-167.07
-
-Particula N°20 
-00100
-Best Personal: 171.239
-173.395
-
-Particula N°21 
-01000
-Best Personal: 198.627
-197.524
-
-Particula N°22 
-10000
-Best Personal: 162.52
-160.118
-
-Particula N°23 
-00100
-Best Personal: 177.614
-178.37
-
-Particula N°24 
-00010
-Best Personal: 213.363
-214.391
-
-Particula N°25 
-00010
-Best Personal: 179.635
-181.451
-
-Particula N°26 
-00100
-Best Personal: 227.047
-240.548
-
-Particula N°27 
-10000
-Best Personal: 239.094
-228.548
-
-Particula N°28 
-10000
-Best Personal: 168.454
-169.678
-
-Particula N°29 
-10000
-Best Personal: 160.816
-160.816
-
-Particula N°30 
-10000
-Best Personal: 212.766
-217.829
-
-Particula N°31 
-00010
-Best Personal: 168.193
-168.839
-
-Particula N°32 
-00010
-Best Personal: 179.954
-179.231
-
-Particula N°33 
-10000
-Best Personal: 179.851
-174.129
-
-Particula N°34 
-10000
-Best Personal: 167.28
-166.463
-
-Particula N°35 
-01000
-Best Personal: 190.09
-173.493
-
-Particula N°36 
-00010
-Best Personal: 180.385
-182.225
-
-Particula N°37 
-00010
-Best Personal: 163.515
-161.262
-
-Particula N°38 
-00100
-Best Personal: 170.765
-170.197
-
-Particula N°39 
-01000
-Best Personal: 165.897
-164.846
-
-Particula N°40 
-10000
-Best Personal: 165.513
-162.627
-
-Particula N°41 
-10000
-Best Personal: 179.116
-177.459
-
-Particula N°42 
-10000
-Best Personal: 218.157
-211.081
-
-Particula N°43 
-00010
-Best Personal: 189.564
-189.066
-
-Particula N°44 
-10000
-Best Personal: 176.375
-174.192
-
-Particula N°45 
-00100
-Best Personal: 198.076
-200.512
-
-Particula N°46 
-01000
-Best Personal: 210.237
-192.98
-
-Particula N°47 
-00010
-Best Personal: 164.907
-166.34
-
-Particula N°48 
-00100
-Best Personal: 161.64
-162.325
-
-Particula N°49 
-00100
-Best Personal: 201.956
-203.063
-
-Particula N°50 
-00001
-Best Personal: 170.085
-166.601
-
-Best Global Iteration n°35: 160.118 at the iteration 35
-
- Iteracion: 37
-Particula N°1 
-00010
-Best Personal: 232.338
-232.075
-
-Particula N°2 
-00001
-Best Personal: 190.029
-159.405
-
-Particula N°3 
-01000
-Best Personal: 176.93
-180.341
-
-Particula N°4 
-00010
-Best Personal: 166.64
-165.73
-
-Particula N°5 
-10000
-Best Personal: 163.562
-162.003
-
-Particula N°6 
-10000
-Best Personal: 181.555
-178.159
-
-Particula N°7 
-00010
-Best Personal: 167.261
-165.55
-
-Particula N°8 
-00001
-Best Personal: 167.026
-160.957
-
-Particula N°9 
-00001
-Best Personal: 172.318
-160.722
-
-Particula N°10 
-00010
-Best Personal: 166.734
-169.512
-
-Particula N°11 
-00001
-Best Personal: 163.561
-164.06
-
-Particula N°12 
-00010
-Best Personal: 173.038
-171.528
-
-Particula N°13 
-01000
-Best Personal: 172.689
-165.062
-
-Particula N°14 
-10000
-Best Personal: 161.83
-161.218
-
-Particula N°15 
-00010
-Best Personal: 163.01
-162.846
-
-Particula N°16 
-10000
-Best Personal: 210.725
-201.945
-
-Particula N°17 
-00100
-Best Personal: 169.628
-170.425
-
-Particula N°18 
-00001
-Best Personal: 178.202
-175.227
-
-Particula N°19 
-00001
-Best Personal: 167.07
-162.954
-
-Particula N°20 
-10000
-Best Personal: 171.239
-173.803
-
-Particula N°21 
-01000
-Best Personal: 197.524
-195.632
-
-Particula N°22 
-00100
-Best Personal: 160.118
-160.245
-
-Particula N°23 
-00100
-Best Personal: 177.614
-178.507
-
-Particula N°24 
-00100
-Best Personal: 213.363
-218.358
-
-Particula N°25 
-00001
-Best Personal: 179.635
-171.019
-
-Particula N°26 
-10000
-Best Personal: 227.047
-224.463
-
-Particula N°27 
-00010
-Best Personal: 228.548
-222.053
-
-Particula N°28 
-01000
-Best Personal: 168.454
-171.033
-
-Particula N°29 
-00001
-Best Personal: 160.816
-159.645
-
-Particula N°30 
-01000
-Best Personal: 212.766
-208.117
-
-Particula N°31 
-00001
-Best Personal: 168.193
-162.492
-
-Particula N°32 
-10000
-Best Personal: 179.231
-178.015
-
-Particula N°33 
-00100
-Best Personal: 174.129
-174.343
-
-Particula N°34 
-00100
-Best Personal: 166.463
-166.444
-
-Particula N°35 
-00001
-Best Personal: 173.493
-170.899
-
-Particula N°36 
-10000
-Best Personal: 180.385
-179.003
-
-Particula N°37 
-00001
-Best Personal: 161.262
-161.088
-
-Particula N°38 
-00100
-Best Personal: 170.197
-169.526
-
-Particula N°39 
-00010
-Best Personal: 164.846
-164.847
-
-Particula N°40 
-10000
-Best Personal: 162.627
-161.954
-
-Particula N°41 
-00100
-Best Personal: 177.459
-177.134
-
-Particula N°42 
-00010
-Best Personal: 211.081
-213.378
-
-Particula N°43 
-01000
-Best Personal: 189.066
-171.962
-
-Particula N°44 
-01000
-Best Personal: 174.192
-170.285
-
-Particula N°45 
-00010
-Best Personal: 198.076
-201.079
-
-Particula N°46 
-00010
-Best Personal: 192.98
-194.011
-
-Particula N°47 
-10000
-Best Personal: 164.907
-163.874
-
-Particula N°48 
-00001
-Best Personal: 161.64
-162.635
-
-Particula N°49 
-00001
-Best Personal: 201.956
-203.09
-
-Particula N°50 
-00100
-Best Personal: 166.601
-164.636
-
-Best Global Iteration n°36: 159.405 at the iteration 36
-
- Iteracion: 38
-Particula N°1 
-01000
-Best Personal: 232.075
-229.656
-
-Particula N°2 
-01000
-Best Personal: 159.405
-159.405
-
-Particula N°3 
-10000
-Best Personal: 176.93
-185.893
-
-Particula N°4 
-00001
-Best Personal: 165.73
-162.797
-
-Particula N°5 
-00100
-Best Personal: 162.003
-160.916
-
-Particula N°6 
-01000
-Best Personal: 178.159
-178.893
-
-Particula N°7 
-00010
-Best Personal: 165.55
-164.213
-
-Particula N°8 
-00010
-Best Personal: 160.957
-160.773
-
-Particula N°9 
-10000
-Best Personal: 160.722
-160.676
-
-Particula N°10 
-00001
-Best Personal: 166.734
-168.861
-
-Particula N°11 
-01000
-Best Personal: 163.561
-162.986
-
-Particula N°12 
-00001
-Best Personal: 171.528
-165.738
-
-Particula N°13 
-00100
-Best Personal: 165.062
-165.179
-
-Particula N°14 
-01000
-Best Personal: 161.218
-161.079
-
-Particula N°15 
-01000
-Best Personal: 162.846
-160.466
-
-Particula N°16 
-00100
-Best Personal: 201.945
-203.339
-
-Particula N°17 
-00100
-Best Personal: 169.628
-171.293
-
-Particula N°18 
-00010
-Best Personal: 175.227
-173.697
-
-Particula N°19 
-00001
-Best Personal: 162.954
-162.903
-
-Particula N°20 
-00100
-Best Personal: 171.239
-170.051
-
-Particula N°21 
-10000
-Best Personal: 195.632
-200.38
-
-Particula N°22 
-00100
-Best Personal: 160.118
-159.55
-
-Particula N°23 
-01000
-Best Personal: 177.614
-178.369
-
-Particula N°24 
-00100
-Best Personal: 213.363
-215.544
-
-Particula N°25 
-00001
-Best Personal: 171.019
-167.764
-
-Particula N°26 
-00100
-Best Personal: 224.463
-225.172
-
-Particula N°27 
-01000
-Best Personal: 222.053
-222.821
-
-Particula N°28 
-00100
-Best Personal: 168.454
-172.598
-
-Particula N°29 
-00010
-Best Personal: 159.645
-159.17
-
-Particula N°30 
-00100
-Best Personal: 208.117
-206.898
-
-Particula N°31 
-10000
-Best Personal: 162.492
-162.909
-
-Particula N°32 
-10000
-Best Personal: 178.015
-178.963
-
-Particula N°33 
-00001
-Best Personal: 174.129
-174.143
-
-Particula N°34 
-10000
-Best Personal: 166.444
-163.546
-
-Particula N°35 
-00100
-Best Personal: 170.899
-170.299
-
-Particula N°36 
-10000
-Best Personal: 179.003
-179.003
-
-Particula N°37 
-00010
-Best Personal: 161.088
-161.055
-
-Particula N°38 
-10000
-Best Personal: 169.526
-169.906
-
-Particula N°39 
-00001
-Best Personal: 164.846
-160.756
-
-Particula N°40 
-00100
-Best Personal: 161.954
-161.741
-
-Particula N°41 
-10000
-Best Personal: 177.134
-181.118
-
-Particula N°42 
-01000
-Best Personal: 211.081
-214.024
-
-Particula N°43 
-00001
-Best Personal: 171.962
-169.62
-
-Particula N°44 
-00010
-Best Personal: 170.285
-166.076
-
-Particula N°45 
-10000
-Best Personal: 198.076
-200.662
-
-Particula N°46 
-00010
-Best Personal: 192.98
-192.357
-
-Particula N°47 
-00001
-Best Personal: 163.874
-163.758
-
-Particula N°48 
-00001
-Best Personal: 161.64
-162.61
-
-Particula N°49 
-01000
-Best Personal: 201.956
-174.477
-
-Particula N°50 
-01000
-Best Personal: 164.636
-162.219
-
-Best Global Iteration n°37: 159.17 at the iteration 37
-
- Iteracion: 39
-Particula N°1 
-00010
-Best Personal: 229.656
-229.788
-
-Particula N°2 
-01000
-Best Personal: 159.405
-159.815
-
-Particula N°3 
-01000
-Best Personal: 176.93
-185.714
-
-Particula N°4 
-00010
-Best Personal: 162.797
-162.15
-
-Particula N°5 
-00010
-Best Personal: 160.916
-161.151
-
-Particula N°6 
-01000
-Best Personal: 178.159
-178.341
-
-Particula N°7 
-00001
-Best Personal: 164.213
-161.867
-
-Particula N°8 
-01000
-Best Personal: 160.773
-162.556
-
-Particula N°9 
-10000
-Best Personal: 160.676
-160.414
-
-Particula N°10 
-00001
-Best Personal: 166.734
-168.93
-
-Particula N°11 
-10000
-Best Personal: 162.986
-162.533
-
-Particula N°12 
-10000
-Best Personal: 165.738
-165.743
-
-Particula N°13 
-00100
-Best Personal: 165.062
-166.215
-
-Particula N°14 
-01000
-Best Personal: 161.079
-161.584
-
-Particula N°15 
-00010
-Best Personal: 160.466
-160.463
-
-Particula N°16 
-00100
-Best Personal: 201.945
-204.379
-
-Particula N°17 
-01000
-Best Personal: 169.628
-166.729
-
-Particula N°18 
-00001
-Best Personal: 173.697
-168.246
-
-Particula N°19 
-00100
-Best Personal: 162.903
-163.404
-
-Particula N°20 
-00100
-Best Personal: 170.051
-169.614
-
-Particula N°21 
-00010
-Best Personal: 195.632
-200.24
-
-Particula N°22 
-00001
-Best Personal: 159.55
-160.308
-
-Particula N°23 
-00010
-Best Personal: 177.614
-176.128
-
-Particula N°24 
-00010
-Best Personal: 213.363
-212.936
-
-Particula N°25 
-01000
-Best Personal: 167.764
-165.171
-
-Particula N°26 
-01000
-Best Personal: 224.463
-225.338
-
-Particula N°27 
-00010
-Best Personal: 222.053
-222.925
-
-Particula N°28 
-00001
-Best Personal: 168.454
-174.014
-
-Particula N°29 
-00100
-Best Personal: 159.17
-159.17
-
-Particula N°30 
-00100
-Best Personal: 206.898
-207.963
-
-Particula N°31 
-10000
-Best Personal: 162.492
-162.011
-
-Particula N°32 
-00100
-Best Personal: 178.015
-180.356
-
-Particula N°33 
-10000
-Best Personal: 174.129
-174.33
-
-Particula N°34 
-10000
-Best Personal: 163.546
-163.21
-
-Particula N°35 
-00100
-Best Personal: 170.299
-170.975
-
-Particula N°36 
-00001
-Best Personal: 179.003
-165.256
-
-Particula N°37 
-00001
-Best Personal: 161.055
-160.851
-
-Particula N°38 
-10000
-Best Personal: 169.526
-169.201
-
-Particula N°39 
-10000
-Best Personal: 160.756
-160.196
-
-Particula N°40 
-10000
-Best Personal: 161.741
-161.783
-
-Particula N°41 
-00100
-Best Personal: 177.134
-182.573
-
-Particula N°42 
-00010
-Best Personal: 211.081
-212.469
-
-Particula N°43 
-00010
-Best Personal: 169.62
-169.454
-
-Particula N°44 
-00100
-Best Personal: 166.076
-161.605
-
-Particula N°45 
-00001
-Best Personal: 198.076
-200.443
-
-Particula N°46 
-00001
-Best Personal: 192.357
-176.205
-
-Particula N°47 
-00100
-Best Personal: 163.758
-162.295
-
-Particula N°48 
-00010
-Best Personal: 161.64
-162.808
-
-Particula N°49 
-00001
-Best Personal: 174.477
-175.786
-
-Particula N°50 
-00001
-Best Personal: 162.219
-159.416
-
-Best Global Iteration n°38: 159.17 at the iteration 37
-
- Iteracion: 40
-Particula N°1 
-00100
-Best Personal: 229.656
-231.538
-
-Particula N°2 
-00010
-Best Personal: 159.405
-159.841
-
-Particula N°3 
-00001
-Best Personal: 176.93
-164.244
-
-Particula N°4 
-00001
-Best Personal: 162.15
-159.417
-
-Particula N°5 
-00001
-Best Personal: 160.916
-159.274
-
-Particula N°6 
-00100
-Best Personal: 178.159
-177.871
-
-Particula N°7 
-10000
-Best Personal: 161.867
-162.771
-
-Particula N°8 
-00100
-Best Personal: 160.773
-163.736
-
-Particula N°9 
-00001
-Best Personal: 160.414
-161.439
-
-Particula N°10 
-00100
-Best Personal: 166.734
-170.636
-
-Particula N°11 
-10000
-Best Personal: 162.533
-161.897
-
-Particula N°12 
-00010
-Best Personal: 165.738
-166.052
-
-Particula N°13 
-10000
-Best Personal: 165.062
-164.3
-
-Particula N°14 
-00001
-Best Personal: 161.079
-160.998
-
-Particula N°15 
-00001
-Best Personal: 160.463
-162.896
-
-Particula N°16 
-00010
-Best Personal: 201.945
-203.212
-
-Particula N°17 
-00100
-Best Personal: 166.729
-167.629
-
-Particula N°18 
-10000
-Best Personal: 168.246
-166.763
-
-Particula N°19 
-00001
-Best Personal: 162.903
-163.404
-
-Particula N°20 
-10000
-Best Personal: 169.614
-168.142
-
-Particula N°21 
-10000
-Best Personal: 195.632
-193.799
-
-Particula N°22 
-00100
-Best Personal: 159.55
-162.863
-
-Particula N°23 
-01000
-Best Personal: 176.128
-171.228
-
-Particula N°24 
-00100
-Best Personal: 212.936
-213.36
-
-Particula N°25 
-00100
-Best Personal: 165.171
-164.322
-
-Particula N°26 
-00001
-Best Personal: 224.463
-203.749
-
-Particula N°27 
-00100
-Best Personal: 222.053
-226.977
-
-Particula N°28 
-00010
-Best Personal: 168.454
-163.756
-
-Particula N°29 
-00100
-Best Personal: 159.17
-159.17
-
-Particula N°30 
-00010
-Best Personal: 206.898
-206.245
-
-Particula N°31 
-00100
-Best Personal: 162.011
-159.047
-
-Particula N°32 
-00010
-Best Personal: 178.015
-180.834
-
-Particula N°33 
-00100
-Best Personal: 174.129
-175.05
-
-Particula N°34 
-00010
-Best Personal: 163.21
-162.949
-
-Particula N°35 
-00010
-Best Personal: 170.299
-170.878
-
-Particula N°36 
-00010
-Best Personal: 165.256
-164.721
-
-Particula N°37 
-00001
-Best Personal: 160.851
-160.113
-
-Particula N°38 
-00010
-Best Personal: 169.201
-166.929
-
-Particula N°39 
-00001
-Best Personal: 160.196
-157.748
-
-Particula N°40 
-00010
-Best Personal: 161.741
-158.72
-
-Particula N°41 
-00010
-Best Personal: 177.134
-180.665
-
-Particula N°42 
-00010
-Best Personal: 211.081
-212.441
-
-Particula N°43 
-10000
-Best Personal: 169.454
-169.454
-
-Particula N°44 
-10000
-Best Personal: 161.605
-161.542
-
-Particula N°45 
-01000
-Best Personal: 198.076
-162.521
-
-Particula N°46 
-10000
-Best Personal: 176.205
-176.956
-
-Particula N°47 
-00010
-Best Personal: 162.295
-161.162
-
-Particula N°48 
-00100
-Best Personal: 161.64
-163.197
-
-Particula N°49 
-01000
-Best Personal: 174.477
-170.693
-
-Particula N°50 
-10000
-Best Personal: 159.416
-159.613
-
-Best Global Iteration n°39: 157.748 at the iteration 39
-
- Iteracion: 41
-Particula N°1 
-00100
-Best Personal: 229.656
-236.208
-
-Particula N°2 
-00100
-Best Personal: 159.405
-159.398
-
-Particula N°3 
-00001
-Best Personal: 164.244
-158.338
-
-Particula N°4 
-01000
-Best Personal: 159.417
-159.132
-
-Particula N°5 
-00010
-Best Personal: 159.274
-158.943
-
-Particula N°6 
-00001
-Best Personal: 177.871
-166.819
-
-Particula N°7 
-10000
-Best Personal: 161.867
-163.511
-
-Particula N°8 
-00010
-Best Personal: 160.773
-164.469
-
-Particula N°9 
-00001
-Best Personal: 160.414
-160.529
-
-Particula N°10 
-01000
-Best Personal: 166.734
-165.872
-
-Particula N°11 
-00100
-Best Personal: 161.897
-161.054
-
-Particula N°12 
-00100
-Best Personal: 165.738
-162.342
-
-Particula N°13 
-00100
-Best Personal: 164.3
-162.465
-
-Particula N°14 
-01000
-Best Personal: 160.998
-163.074
-
-Particula N°15 
-00001
-Best Personal: 160.463
-162.131
-
-Particula N°16 
-00010
-Best Personal: 201.945
-203.96
-
-Particula N°17 
-00100
-Best Personal: 166.729
-165.801
-
-Particula N°18 
-00001
-Best Personal: 166.763
-166.323
-
-Particula N°19 
-00001
-Best Personal: 162.903
-163.13
-
-Particula N°20 
-00010
-Best Personal: 168.142
-164.415
-
-Particula N°21 
-00100
-Best Personal: 193.799
-195.358
-
-Particula N°22 
-00010
-Best Personal: 159.55
-161.598
-
-Particula N°23 
-00010
-Best Personal: 171.228
-170.553
-
-Particula N°24 
-00100
-Best Personal: 212.936
-216.093
-
-Particula N°25 
-00010
-Best Personal: 164.322
-163.923
-
-Particula N°26 
-00010
-Best Personal: 203.749
-202.805
-
-Particula N°27 
-00100
-Best Personal: 222.053
-223.455
-
-Particula N°28 
-00010
-Best Personal: 163.756
-161.886
-
-Particula N°29 
-10000
-Best Personal: 159.17
-159.535
-
-Particula N°30 
-00010
-Best Personal: 206.245
-206.553
-
-Particula N°31 
-01000
-Best Personal: 159.047
-158.481
-
-Particula N°32 
-00100
-Best Personal: 178.015
-180.637
-
-Particula N°33 
-10000
-Best Personal: 174.129
-177.714
-
-Particula N°34 
-10000
-Best Personal: 162.949
-164.297
-
-Particula N°35 
-10000
-Best Personal: 170.299
-171.925
-
-Particula N°36 
-10000
-Best Personal: 164.721
-164.794
-
-Particula N°37 
-00100
-Best Personal: 160.113
-158.658
-
-Particula N°38 
-00001
-Best Personal: 166.929
-160.214
-
-Particula N°39 
-00100
-Best Personal: 157.748
-157.136
-
-Particula N°40 
-00001
-Best Personal: 158.72
-156.008
-
-Particula N°41 
-00010
-Best Personal: 177.134
-181.519
-
-Particula N°42 
-10000
-Best Personal: 211.081
-203.128
-
-Particula N°43 
-01000
-Best Personal: 169.454
-163.35
-
-Particula N°44 
-01000
-Best Personal: 161.542
-158.868
-
-Particula N°45 
-00001
-Best Personal: 162.521
-160.888
-
-Particula N°46 
-10000
-Best Personal: 176.205
-177.502
-
-Particula N°47 
-01000
-Best Personal: 161.162
-157.828
-
-Particula N°48 
-01000
-Best Personal: 161.64
-162.778
-
-Particula N°49 
-00010
-Best Personal: 170.693
-169.658
-
-Particula N°50 
-00010
-Best Personal: 159.416
-161.287
-
-Best Global Iteration n°40: 156.008 at the iteration 40
-
- Iteracion: 42
-Particula N°1 
-10000
-Best Personal: 229.656
-234.787
-
-Particula N°2 
-00010
-Best Personal: 159.398
-159.404
-
-Particula N°3 
-00100
-Best Personal: 158.338
-159.192
-
-Particula N°4 
-00001
-Best Personal: 159.132
-157.435
-
-Particula N°5 
-00010
-Best Personal: 158.943
-158.804
-
-Particula N°6 
-01000
-Best Personal: 166.819
-167.176
-
-Particula N°7 
-10000
-Best Personal: 161.867
-161.587
-
-Particula N°8 
-00001
-Best Personal: 160.773
-163.113
-
-Particula N°9 
-00100
-Best Personal: 160.414
-159.151
-
-Particula N°10 
-00010
-Best Personal: 165.872
-167.628
-
-Particula N°11 
-00100
-Best Personal: 161.054
-159.858
-
-Particula N°12 
-10000
-Best Personal: 162.342
-158.966
-
-Particula N°13 
-00001
-Best Personal: 162.465
-161.864
-
-Particula N°14 
-00100
-Best Personal: 160.998
-162.383
-
-Particula N°15 
-00100
-Best Personal: 160.463
-159.526
-
-Particula N°16 
-00001
-Best Personal: 201.945
-175.247
-
-Particula N°17 
-00010
-Best Personal: 165.801
-165.968
-
-Particula N°18 
-00100
-Best Personal: 166.323
-165.67
-
-Particula N°19 
-00001
-Best Personal: 162.903
-163.212
-
-Particula N°20 
-10000
-Best Personal: 164.415
-166.362
-
-Particula N°21 
-10000
-Best Personal: 193.799
-195.485
-
-Particula N°22 
-00010
-Best Personal: 159.55
-161.001
-
-Particula N°23 
-00100
-Best Personal: 170.553
-170.572
-
-Particula N°24 
-00001
-Best Personal: 212.936
-162.531
-
-Particula N°25 
-10000
-Best Personal: 163.923
-161.734
-
-Particula N°26 
-00001
-Best Personal: 202.805
-176.553
-
-Particula N°27 
-00001
-Best Personal: 222.053
-170.498
-
-Particula N°28 
-01000
-Best Personal: 161.886
-161.064
-
-Particula N°29 
-00010
-Best Personal: 159.17
-159.849
-
-Particula N°30 
-00001
-Best Personal: 206.245
-179.25
-
-Particula N°31 
-10000
-Best Personal: 158.481
-158.483
-
-Particula N°32 
-00010
-Best Personal: 178.015
-179.771
-
-Particula N°33 
-00100
-Best Personal: 174.129
-178.451
-
-Particula N°34 
-01000
-Best Personal: 162.949
-163.644
-
-Particula N°35 
-00100
-Best Personal: 170.299
-171.607
-
-Particula N°36 
-01000
-Best Personal: 164.721
-163.359
-
-Particula N°37 
-00001
-Best Personal: 158.658
-158.312
-
-Particula N°38 
-00100
-Best Personal: 160.214
-160.683
-
-Particula N°39 
-00001
-Best Personal: 157.136
-157.304
-
-Particula N°40 
-00010
-Best Personal: 156.008
-156.132
-
-Particula N°41 
-01000
-Best Personal: 177.134
-178.27
-
-Particula N°42 
-00100
-Best Personal: 203.128
-202.324
-
-Particula N°43 
-01000
-Best Personal: 163.35
-163.8
-
-Particula N°44 
-00010
-Best Personal: 158.868
-159.149
-
-Particula N°45 
-00100
-Best Personal: 160.888
-159.713
-
-Particula N°46 
-01000
-Best Personal: 176.205
-167.966
-
-Particula N°47 
-01000
-Best Personal: 157.828
-158.014
-
-Particula N°48 
-00100
-Best Personal: 161.64
-161.072
-
-Particula N°49 
-01000
-Best Personal: 169.658
-166.73
-
-Particula N°50 
-10000
-Best Personal: 159.416
-159.539
-
-Best Global Iteration n°41: 156.008 at the iteration 40
-
- Iteracion: 43
-Particula N°1 
-01000
-Best Personal: 229.656
-232.694
-
-Particula N°2 
-01000
-Best Personal: 159.398
-159.273
-
-Particula N°3 
-01000
-Best Personal: 158.338
-159.201
-
-Particula N°4 
-01000
-Best Personal: 157.435
-157.373
-
-Particula N°5 
-01000
-Best Personal: 158.804
-158.305
-
-Particula N°6 
-01000
-Best Personal: 166.819
-166.729
-
-Particula N°7 
-10000
-Best Personal: 161.587
-161.627
-
-Particula N°8 
-00001
-Best Personal: 160.773
-162.799
-
-Particula N°9 
-00001
-Best Personal: 159.151
-159.338
-
-Particula N°10 
-10000
-Best Personal: 165.872
-166.349
-
-Particula N°11 
-00001
-Best Personal: 159.858
-157.305
-
-Particula N°12 
-10000
-Best Personal: 158.966
-158.751
-
-Particula N°13 
-00010
-Best Personal: 161.864
-160.157
-
-Particula N°14 
-10000
-Best Personal: 160.998
-161.73
-
-Particula N°15 
-00001
-Best Personal: 159.526
-159.759
-
-Particula N°16 
-00001
-Best Personal: 175.247
-169.977
-
-Particula N°17 
-00100
-Best Personal: 165.801
-166.023
-
-Particula N°18 
-00010
-Best Personal: 165.67
-164.899
-
-Particula N°19 
-00001
-Best Personal: 162.903
-164.683
-
-Particula N°20 
-00100
-Best Personal: 164.415
-167.084
-
-Particula N°21 
-00001
-Best Personal: 193.799
-159.32
-
-Particula N°22 
-00010
-Best Personal: 159.55
-161.168
-
-Particula N°23 
-01000
-Best Personal: 170.553
-169.364
-
-Particula N°24 
-00010
-Best Personal: 162.531
-162.332
-
-Particula N°25 
-00001
-Best Personal: 161.734
-161.521
-
-Particula N°26 
-00100
-Best Personal: 176.553
-176.691
-
-Particula N°27 
-01000
-Best Personal: 170.498
-170.592
-
-Particula N°28 
-10000
-Best Personal: 161.064
-159.369
-
-Particula N°29 
-00100
-Best Personal: 159.17
-159.807
-
-Particula N°30 
-00100
-Best Personal: 179.25
-177.528
-
-Particula N°31 
-00001
-Best Personal: 158.481
-159.789
-
-Particula N°32 
-01000
-Best Personal: 178.015
-179.771
-
-Particula N°33 
-00010
-Best Personal: 174.129
-178.289
-
-Particula N°34 
-00010
-Best Personal: 162.949
-163.976
-
-Particula N°35 
-00010
-Best Personal: 170.299
-169.427
-
-Particula N°36 
-00001
-Best Personal: 163.359
-163.214
-
-Particula N°37 
-00001
-Best Personal: 158.312
-157.977
-
-Particula N°38 
-00100
-Best Personal: 160.214
-161.792
-
-Particula N°39 
-01000
-Best Personal: 157.136
-157.304
-
-Particula N°40 
-01000
-Best Personal: 156.008
-155.992
-
-Particula N°41 
-00010
-Best Personal: 177.134
-177.918
-
-Particula N°42 
-00100
-Best Personal: 202.324
-202.144
-
-Particula N°43 
-01000
-Best Personal: 163.35
-163.331
-
-Particula N°44 
-01000
-Best Personal: 158.868
-159.101
-
-Particula N°45 
-10000
-Best Personal: 159.713
-159.002
-
-Particula N°46 
-01000
-Best Personal: 167.966
-167.799
-
-Particula N°47 
-00100
-Best Personal: 157.828
-155.417
-
-Particula N°48 
-10000
-Best Personal: 161.072
-161.073
-
-Particula N°49 
-10000
-Best Personal: 166.73
-165.703
-
-Particula N°50 
-01000
-Best Personal: 159.416
-155.967
-
-Best Global Iteration n°42: 155.417 at the iteration 42
-
- Iteracion: 44
-Particula N°1 
-00001
-Best Personal: 229.656
-161.551
-
-Particula N°2 
-00010
-Best Personal: 159.273
-159.014
-
-Particula N°3 
-01000
-Best Personal: 158.338
-159.201
-
-Particula N°4 
-00100
-Best Personal: 157.373
-154.909
-
-Particula N°5 
-00001
-Best Personal: 158.305
-159.104
-
-Particula N°6 
-00001
-Best Personal: 166.729
-164.887
-
-Particula N°7 
-00001
-Best Personal: 161.587
-162.012
-
-Particula N°8 
-10000
-Best Personal: 160.773
-163.05
-
-Particula N°9 
-00100
-Best Personal: 159.151
-158.057
-
-Particula N°10 
-00010
-Best Personal: 165.872
-164.299
-
-Particula N°11 
-00100
-Best Personal: 157.305
-155.418
-
-Particula N°12 
-01000
-Best Personal: 158.751
-157.823
-
-Particula N°13 
-00010
-Best Personal: 160.157
-158.656
-
-Particula N°14 
-00001
-Best Personal: 160.998
-160.76
-
-Particula N°15 
-01000
-Best Personal: 159.526
-159.773
-
-Particula N°16 
-01000
-Best Personal: 169.977
-166.523
-
-Particula N°17 
-01000
-Best Personal: 165.801
-163.244
-
-Particula N°18 
-10000
-Best Personal: 164.899
-164.766
-
-Particula N°19 
-01000
-Best Personal: 162.903
-161.342
-
-Particula N°20 
-00001
-Best Personal: 164.415
-164.516
-
-Particula N°21 
-00100
-Best Personal: 159.32
-157.408
-
-Particula N°22 
-00010
-Best Personal: 159.55
-161.117
-
-Particula N°23 
-00001
-Best Personal: 169.364
-159.17
-
-Particula N°24 
-10000
-Best Personal: 162.332
-163.107
-
-Particula N°25 
-00100
-Best Personal: 161.521
-160.991
-
-Particula N°26 
-00100
-Best Personal: 176.553
-176.581
-
-Particula N°27 
-00001
-Best Personal: 170.498
-163.894
-
-Particula N°28 
-00100
-Best Personal: 159.369
-158.551
-
-Particula N°29 
-10000
-Best Personal: 159.17
-159.704
-
-Particula N°30 
-00001
-Best Personal: 177.528
-178.553
-
-Particula N°31 
-00100
-Best Personal: 158.481
-156.716
-
-Particula N°32 
-00100
-Best Personal: 178.015
-181.425
-
-Particula N°33 
-10000
-Best Personal: 174.129
-176.709
-
-Particula N°34 
-10000
-Best Personal: 162.949
-164.328
-
-Particula N°35 
-10000
-Best Personal: 169.427
-169.733
-
-Particula N°36 
-01000
-Best Personal: 163.214
-161.088
-
-Particula N°37 
-10000
-Best Personal: 157.977
-159.952
-
-Particula N°38 
-00001
-Best Personal: 160.214
-159.997
-
-Particula N°39 
-01000
-Best Personal: 157.136
-157.981
-
-Particula N°40 
-01000
-Best Personal: 155.992
-155.18
-
-Particula N°41 
-01000
-Best Personal: 177.134
-177.471
-
-Particula N°42 
-00010
-Best Personal: 202.144
-204.452
-
-Particula N°43 
-10000
-Best Personal: 163.331
-163.075
-
-Particula N°44 
-10000
-Best Personal: 158.868
-159.734
-
-Particula N°45 
-00010
-Best Personal: 159.002
-157.655
-
-Particula N°46 
-10000
-Best Personal: 167.799
-166.086
-
-Particula N°47 
-00100
-Best Personal: 155.417
-156.201
-
-Particula N°48 
-10000
-Best Personal: 161.072
-159.516
-
-Particula N°49 
-00100
-Best Personal: 165.703
-165.612
-
-Particula N°50 
-10000
-Best Personal: 155.967
-155.903
-
-Best Global Iteration n°43: 154.909 at the iteration 43
-
- Iteracion: 45
-Particula N°1 
-01000
-Best Personal: 161.551
-157.844
-
-Particula N°2 
-00100
-Best Personal: 159.014
-156.696
-
-Particula N°3 
-00001
-Best Personal: 158.338
-158.941
-
-Particula N°4 
-00010
-Best Personal: 154.909
-155.139
-
-Particula N°5 
-00001
-Best Personal: 158.305
-158.153
-
-Particula N°6 
-10000
-Best Personal: 164.887
-164.765
-
-Particula N°7 
-00010
-Best Personal: 161.587
-161.594
-
-Particula N°8 
-01000
-Best Personal: 160.773
-162.809
-
-Particula N°9 
-01000
-Best Personal: 158.057
-156.829
-
-Particula N°10 
-01000
-Best Personal: 164.299
-161.08
-
-Particula N°11 
-00001
-Best Personal: 155.418
-156.363
-
-Particula N°12 
-00100
-Best Personal: 157.823
-158.169
-
-Particula N°13 
-00100
-Best Personal: 158.656
-158.688
-
-Particula N°14 
-00010
-Best Personal: 160.76
-160.59
-
-Particula N°15 
-00010
-Best Personal: 159.526
-159.596
-
-Particula N°16 
-01000
-Best Personal: 166.523
-165.486
-
-Particula N°17 
-00100
-Best Personal: 163.244
-162.938
-
-Particula N°18 
-00001
-Best Personal: 164.766
-162.586
-
-Particula N°19 
-01000
-Best Personal: 161.342
-160.868
-
-Particula N°20 
-10000
-Best Personal: 164.415
-164.304
-
-Particula N°21 
-00100
-Best Personal: 157.408
-157.443
-
-Particula N°22 
-00001
-Best Personal: 159.55
-160.155
-
-Particula N°23 
-00010
-Best Personal: 159.17
-158.622
-
-Particula N°24 
-10000
-Best Personal: 162.332
-162.69
-
-Particula N°25 
-01000
-Best Personal: 160.991
-160.577
-
-Particula N°26 
-01000
-Best Personal: 176.553
-176.099
-
-Particula N°27 
-00001
-Best Personal: 163.894
-163.411
-
-Particula N°28 
-10000
-Best Personal: 158.551
-156.852
-
-Particula N°29 
-00010
-Best Personal: 159.17
-159.284
-
-Particula N°30 
-10000
-Best Personal: 177.528
-177.136
-
-Particula N°31 
-00001
-Best Personal: 156.716
-156.307
-
-Particula N°32 
-00100
-Best Personal: 178.015
-180.237
-
-Particula N°33 
-00100
-Best Personal: 174.129
-175.79
-
-Particula N°34 
-10000
-Best Personal: 162.949
-162.341
-
-Particula N°35 
-01000
-Best Personal: 169.427
-164.224
-
-Particula N°36 
-00100
-Best Personal: 161.088
-162.132
-
-Particula N°37 
-10000
-Best Personal: 157.977
-159.043
-
-Particula N°38 
-10000
-Best Personal: 159.997
-158.869
-
-Particula N°39 
-00010
-Best Personal: 157.136
-157.749
-
-Particula N°40 
-00100
-Best Personal: 155.18
-154.646
-
-Particula N°41 
-00010
-Best Personal: 177.134
-175.439
-
-Particula N°42 
-00010
-Best Personal: 202.144
-201.675
-
-Particula N°43 
-00010
-Best Personal: 163.075
-163.139
-
-Particula N°44 
-00100
-Best Personal: 158.868
-159.835
-
-Particula N°45 
-00100
-Best Personal: 157.655
-155.753
-
-Particula N°46 
-00010
-Best Personal: 166.086
-166.587
-
-Particula N°47 
-00001
-Best Personal: 155.417
-155.53
-
-Particula N°48 
-00001
-Best Personal: 159.516
-158.928
-
-Particula N°49 
-00100
-Best Personal: 165.612
-165.244
-
-Particula N°50 
-00100
-Best Personal: 155.903
-154.513
-
-Best Global Iteration n°44: 154.513 at the iteration 44
-
- Iteracion: 46
-Particula N°1 
-10000
-Best Personal: 157.844
-157.46
-
-Particula N°2 
-00100
-Best Personal: 156.696
-159.024
-
-Particula N°3 
-00010
-Best Personal: 158.338
-156.811
-
-Particula N°4 
-00010
-Best Personal: 154.909
-155.79
-
-Particula N°5 
-10000
-Best Personal: 158.153
-157.495
-
-Particula N°6 
-10000
-Best Personal: 164.765
-163.876
-
-Particula N°7 
-00100
-Best Personal: 161.587
-161.368
-
-Particula N°8 
-00010
-Best Personal: 160.773
-162.22
-
-Particula N°9 
-00001
-Best Personal: 156.829
-156.64
-
-Particula N°10 
-10000
-Best Personal: 161.08
-160.575
-
-Particula N°11 
-00001
-Best Personal: 155.418
-155.764
-
-Particula N°12 
-00001
-Best Personal: 157.823
-157.833
-
-Particula N°13 
-01000
-Best Personal: 158.656
-158.679
-
-Particula N°14 
-00001
-Best Personal: 160.59
-161.236
-
-Particula N°15 
-00010
-Best Personal: 159.526
-160.053
-
-Particula N°16 
-00001
-Best Personal: 165.486
-161.086
-
-Particula N°17 
-00001
-Best Personal: 162.938
-159.183
-
-Particula N°18 
-01000
-Best Personal: 162.586
-161.929
-
-Particula N°19 
-01000
-Best Personal: 160.868
-160.946
-
-Particula N°20 
-10000
-Best Personal: 164.304
-164.379
-
-Particula N°21 
-00100
-Best Personal: 157.408
-157.568
-
-Particula N°22 
-00100
-Best Personal: 159.55
-158.461
-
-Particula N°23 
-10000
-Best Personal: 158.622
-159.72
-
-Particula N°24 
-00010
-Best Personal: 162.332
-163.527
-
-Particula N°25 
-01000
-Best Personal: 160.577
-160.543
-
-Particula N°26 
-01000
-Best Personal: 176.099
-176.518
-
-Particula N°27 
-10000
-Best Personal: 163.411
-162.857
-
-Particula N°28 
-01000
-Best Personal: 156.852
-156.246
-
-Particula N°29 
-00100
-Best Personal: 159.17
-159.328
-
-Particula N°30 
-00001
-Best Personal: 177.136
-175.963
-
-Particula N°31 
-00100
-Best Personal: 156.307
-158.094
-
-Particula N°32 
-01000
-Best Personal: 178.015
-181.392
-
-Particula N°33 
-00010
-Best Personal: 174.129
-173.135
-
-Particula N°34 
-00100
-Best Personal: 162.341
-162.446
-
-Particula N°35 
-00100
-Best Personal: 164.224
-163.928
-
-Particula N°36 
-01000
-Best Personal: 161.088
-161.239
-
-Particula N°37 
-00001
-Best Personal: 157.977
-160.219
-
-Particula N°38 
-00010
-Best Personal: 158.869
-158.847
-
-Particula N°39 
-00001
-Best Personal: 157.136
-158.29
-
-Particula N°40 
-00100
-Best Personal: 154.646
-154.88
-
-Particula N°41 
-00001
-Best Personal: 175.439
-159.28
-
-Particula N°42 
-01000
-Best Personal: 201.675
-202.894
-
-Particula N°43 
-00001
-Best Personal: 163.075
-162.722
-
-Particula N°44 
-00010
-Best Personal: 158.868
-160.284
-
-Particula N°45 
-00100
-Best Personal: 155.753
-155.88
-
-Particula N°46 
-00010
-Best Personal: 166.086
-165.709
-
-Particula N°47 
-00100
-Best Personal: 155.417
-155.138
-
-Particula N°48 
-01000
-Best Personal: 158.928
-156.643
-
-Particula N°49 
-00100
-Best Personal: 165.244
-165.19
-
-Particula N°50 
-00001
-Best Personal: 154.513
-153.556
-
-Best Global Iteration n°45: 153.556 at the iteration 45
-
- Iteracion: 47
-Particula N°1 
-01000
-Best Personal: 157.46
-156.954
-
-Particula N°2 
-10000
-Best Personal: 156.696
-157.936
-
-Particula N°3 
-01000
-Best Personal: 156.811
-157.379
-
-Particula N°4 
-10000
-Best Personal: 154.909
-155.617
-
-Particula N°5 
-10000
-Best Personal: 157.495
-157.675
-
-Particula N°6 
-10000
-Best Personal: 163.876
-163.813
-
-Particula N°7 
-00100
-Best Personal: 161.368
-159.362
-
-Particula N°8 
-01000
-Best Personal: 160.773
-161.64
-
-Particula N°9 
-10000
-Best Personal: 156.64
-156.324
-
-Particula N°10 
-00100
-Best Personal: 160.575
-160.169
+Best Personal: 308.127
+408.633
 
 Particula N°11 
 00010
-Best Personal: 155.418
-153.855
+Best Personal: 811.197
+918.54
 
 Particula N°12 
 00100
-Best Personal: 157.823
-157.982
-
-Particula N°13 
-00100
-Best Personal: 158.656
-158.679
-
-Particula N°14 
-00100
-Best Personal: 160.59
-161.792
-
-Particula N°15 
-00100
-Best Personal: 159.526
-159.959
-
-Particula N°16 
-01000
-Best Personal: 161.086
-159.809
-
-Particula N°17 
-10000
-Best Personal: 159.183
-159.457
-
-Particula N°18 
-01000
-Best Personal: 161.929
-160.636
-
-Particula N°19 
-01000
-Best Personal: 160.868
-160.577
-
-Particula N°20 
-01000
-Best Personal: 164.304
-158.543
-
-Particula N°21 
-00100
-Best Personal: 157.408
-157.672
-
-Particula N°22 
-01000
-Best Personal: 158.461
-157.362
-
-Particula N°23 
-01000
-Best Personal: 158.622
-159.72
-
-Particula N°24 
-01000
-Best Personal: 162.332
-161.648
-
-Particula N°25 
-00001
-Best Personal: 160.543
-160.598
-
-Particula N°26 
-00010
-Best Personal: 176.099
-177.62
-
-Particula N°27 
-00100
-Best Personal: 162.857
-163.073
-
-Particula N°28 
-00100
-Best Personal: 156.246
-155.805
-
-Particula N°29 
-00010
-Best Personal: 159.17
-159.928
-
-Particula N°30 
-00001
-Best Personal: 175.963
-176.295
-
-Particula N°31 
-10000
-Best Personal: 156.307
-158.885
-
-Particula N°32 
-00001
-Best Personal: 178.015
-160.758
-
-Particula N°33 
-00100
-Best Personal: 173.135
-173.009
-
-Particula N°34 
-01000
-Best Personal: 162.341
-161.168
-
-Particula N°35 
-10000
-Best Personal: 163.928
-163.615
-
-Particula N°36 
-01000
-Best Personal: 161.088
-161.007
-
-Particula N°37 
-00100
-Best Personal: 157.977
-160.228
-
-Particula N°38 
-00010
-Best Personal: 158.847
-159.074
-
-Particula N°39 
-01000
-Best Personal: 157.136
-156.62
-
-Particula N°40 
-00100
-Best Personal: 154.646
-154.985
-
-Particula N°41 
-00001
-Best Personal: 159.28
-160.732
-
-Particula N°42 
-00010
-Best Personal: 201.675
-206.978
-
-Particula N°43 
-00001
-Best Personal: 162.722
-163.096
-
-Particula N°44 
-01000
-Best Personal: 158.868
-160.12
-
-Particula N°45 
-00100
-Best Personal: 155.753
-155.883
-
-Particula N°46 
-00001
-Best Personal: 165.709
-159.272
-
-Particula N°47 
-10000
-Best Personal: 155.138
-154.886
-
-Particula N°48 
-00010
-Best Personal: 156.643
-156.435
-
-Particula N°49 
-01000
-Best Personal: 165.19
-164.156
-
-Particula N°50 
-00001
-Best Personal: 153.556
-154.254
-
-Best Global Iteration n°46: 153.556 at the iteration 45
-
- Iteracion: 48
-Particula N°1 
-01000
-Best Personal: 156.954
-156.671
-
-Particula N°2 
-00001
-Best Personal: 156.696
-155.287
-
-Particula N°3 
-00001
-Best Personal: 156.811
-156.489
-
-Particula N°4 
-00001
-Best Personal: 154.909
-156.901
-
-Particula N°5 
-10000
-Best Personal: 157.495
-157.08
-
-Particula N°6 
-10000
-Best Personal: 163.813
-164.639
-
-Particula N°7 
-00001
-Best Personal: 159.362
-158.637
-
-Particula N°8 
-01000
-Best Personal: 160.773
-161.51
-
-Particula N°9 
-00001
-Best Personal: 156.324
-157.442
-
-Particula N°10 
-00001
-Best Personal: 160.169
-158.983
-
-Particula N°11 
-00001
-Best Personal: 153.855
-154.594
-
-Particula N°12 
-01000
-Best Personal: 157.823
-157.532
+Best Personal: 281.794
+309.746
 
 Particula N°13 
 00001
-Best Personal: 158.656
-156.713
+Best Personal: 255.874
+301.613
 
 Particula N°14 
-01000
-Best Personal: 160.59
-158.848
+00010
+Best Personal: 338.262
+330.3
 
 Particula N°15 
-00001
-Best Personal: 159.526
-159.388
-
-Particula N°16 
-00010
-Best Personal: 159.809
-159.528
-
-Particula N°17 
-00100
-Best Personal: 159.183
-159.621
-
-Particula N°18 
-00100
-Best Personal: 160.636
-160.006
-
-Particula N°19 
 10000
-Best Personal: 160.577
-160.892
-
-Particula N°20 
-00100
-Best Personal: 158.543
-158.655
-
-Particula N°21 
-00010
-Best Personal: 157.408
-157.468
-
-Particula N°22 
-00010
-Best Personal: 157.362
-155.994
-
-Particula N°23 
-00100
-Best Personal: 158.622
-160.189
-
-Particula N°24 
-00100
-Best Personal: 161.648
-161.348
-
-Particula N°25 
-01000
-Best Personal: 160.543
-161.088
-
-Particula N°26 
-01000
-Best Personal: 176.099
-177.62
-
-Particula N°27 
-00001
-Best Personal: 162.857
-160.882
-
-Particula N°28 
-00100
-Best Personal: 155.805
-155.18
-
-Particula N°29 
-01000
-Best Personal: 159.17
-158.567
-
-Particula N°30 
-00100
-Best Personal: 175.963
-175.545
-
-Particula N°31 
-01000
-Best Personal: 156.307
-158.032
-
-Particula N°32 
-10000
-Best Personal: 160.758
-160.159
-
-Particula N°33 
-01000
-Best Personal: 173.009
-169.547
-
-Particula N°34 
-00010
-Best Personal: 161.168
-161.563
-
-Particula N°35 
-00001
-Best Personal: 163.615
-163.2
-
-Particula N°36 
-00001
-Best Personal: 161.007
-161.125
-
-Particula N°37 
-01000
-Best Personal: 157.977
-160.337
-
-Particula N°38 
-10000
-Best Personal: 158.847
-158.833
-
-Particula N°39 
-10000
-Best Personal: 156.62
-156.563
-
-Particula N°40 
-00100
-Best Personal: 154.646
-154.985
-
-Particula N°41 
-00010
-Best Personal: 159.28
-159.832
-
-Particula N°42 
-10000
-Best Personal: 201.675
-182.061
-
-Particula N°43 
-00100
-Best Personal: 162.722
-162.158
-
-Particula N°44 
-00010
-Best Personal: 158.868
-159.559
-
-Particula N°45 
-10000
-Best Personal: 155.753
-154.488
-
-Particula N°46 
-10000
-Best Personal: 159.272
-157.567
-
-Particula N°47 
-10000
-Best Personal: 154.886
-154.389
-
-Particula N°48 
-01000
-Best Personal: 156.435
-156.265
-
-Particula N°49 
-01000
-Best Personal: 164.156
-160.659
-
-Particula N°50 
-10000
-Best Personal: 153.556
-153.964
-
-Best Global Iteration n°47: 153.556 at the iteration 45
-
- Iteracion: 49
-Particula N°1 
-10000
-Best Personal: 156.671
-156.671
-
-Particula N°2 
-00100
-Best Personal: 155.287
-155.477
-
-Particula N°3 
-00100
-Best Personal: 156.489
-156.053
-
-Particula N°4 
-10000
-Best Personal: 154.909
-156.924
-
-Particula N°5 
-01000
-Best Personal: 157.08
-157.232
-
-Particula N°6 
-01000
-Best Personal: 163.813
-164.639
-
-Particula N°7 
-00100
-Best Personal: 158.637
-158.074
-
-Particula N°8 
-10000
-Best Personal: 160.773
-160.295
-
-Particula N°9 
-00100
-Best Personal: 156.324
-156.691
-
-Particula N°10 
-00100
-Best Personal: 158.983
-156.032
-
-Particula N°11 
-01000
-Best Personal: 153.855
-153.741
-
-Particula N°12 
-00010
-Best Personal: 157.532
-156.148
-
-Particula N°13 
-00010
-Best Personal: 156.713
-156.687
-
-Particula N°14 
-00001
-Best Personal: 158.848
-158.723
-
-Particula N°15 
-00010
-Best Personal: 159.388
-159.37
+Best Personal: 508.463
+663.39
 
 Particula N°16 
 00100
-Best Personal: 159.528
-159.481
+Best Personal: 301.476
+301.253
 
 Particula N°17 
-00001
-Best Personal: 159.183
-159.4
+00010
+Best Personal: 232.778
+232.81
 
 Particula N°18 
-00100
-Best Personal: 160.006
-159.68
-
-Particula N°19 
-00001
-Best Personal: 160.577
-159.847
-
-Particula N°20 
 00010
-Best Personal: 158.543
-157.269
-
-Particula N°21 
-00100
-Best Personal: 157.408
-157.952
-
-Particula N°22 
-00001
-Best Personal: 155.994
-156.168
-
-Particula N°23 
-00001
-Best Personal: 158.622
-160.03
-
-Particula N°24 
-00100
-Best Personal: 161.348
-161.174
-
-Particula N°25 
-00100
-Best Personal: 160.543
-158.923
-
-Particula N°26 
-10000
-Best Personal: 176.099
-175.247
-
-Particula N°27 
-01000
-Best Personal: 160.882
-159.953
-
-Particula N°28 
-00001
-Best Personal: 155.18
-155.281
-
-Particula N°29 
-00010
-Best Personal: 158.567
-157.849
-
-Particula N°30 
-00010
-Best Personal: 175.545
-174.625
-
-Particula N°31 
-10000
-Best Personal: 156.307
-157.828
-
-Particula N°32 
-10000
-Best Personal: 160.159
-159.295
-
-Particula N°33 
-00010
-Best Personal: 169.547
-167.831
-
-Particula N°34 
-00010
-Best Personal: 161.168
-161.563
-
-Particula N°35 
-00100
-Best Personal: 163.2
-162.491
-
-Particula N°36 
-01000
-Best Personal: 161.007
-162.179
-
-Particula N°37 
-01000
-Best Personal: 157.977
-160.337
-
-Particula N°38 
-01000
-Best Personal: 158.833
-158.4
-
-Particula N°39 
-00010
-Best Personal: 156.563
-156.131
-
-Particula N°40 
-00100
-Best Personal: 154.646
-154.714
-
-Particula N°41 
-01000
-Best Personal: 159.28
-158.733
-
-Particula N°42 
-00001
-Best Personal: 182.061
-162.331
-
-Particula N°43 
-00001
-Best Personal: 162.158
-162.239
-
-Particula N°44 
-00100
-Best Personal: 158.868
-160.105
-
-Particula N°45 
-10000
-Best Personal: 154.488
-155.401
-
-Particula N°46 
-10000
-Best Personal: 157.567
-156.643
-
-Particula N°47 
-10000
-Best Personal: 154.389
-154.389
-
-Particula N°48 
-00010
-Best Personal: 156.265
-156.237
-
-Particula N°49 
-00100
-Best Personal: 160.659
-159.677
-
-Particula N°50 
-00100
-Best Personal: 153.556
-153.964
-
-Best Global Iteration n°48: 153.556 at the iteration 45
-
- Iteracion: 50
-Particula N°1 
-10000
-Best Personal: 156.671
-156.671
-
-Particula N°2 
-01000
-Best Personal: 155.287
-156.126
-
-Particula N°3 
-10000
-Best Personal: 156.053
-155.551
-
-Particula N°4 
-01000
-Best Personal: 154.909
-158.132
-
-Particula N°5 
-00001
-Best Personal: 157.08
-157.932
-
-Particula N°6 
-10000
-Best Personal: 163.813
-164.067
-
-Particula N°7 
-00001
-Best Personal: 158.074
-158.261
-
-Particula N°8 
-01000
-Best Personal: 160.295
-159.925
-
-Particula N°9 
-00010
-Best Personal: 156.324
-156.623
-
-Particula N°10 
-10000
-Best Personal: 156.032
-154.974
-
-Particula N°11 
-00010
-Best Personal: 153.741
-154.068
-
-Particula N°12 
-00001
-Best Personal: 156.148
-155.347
-
-Particula N°13 
-00100
-Best Personal: 156.687
-156.664
-
-Particula N°14 
-10000
-Best Personal: 158.723
-158.723
-
-Particula N°15 
-00001
-Best Personal: 159.37
-157.61
-
-Particula N°16 
-00001
-Best Personal: 159.481
-159.831
-
-Particula N°17 
-10000
-Best Personal: 159.183
-158.536
-
-Particula N°18 
-10000
-Best Personal: 159.68
-160.061
+Best Personal: 250.591
+351.908
 
 Particula N°19 
 00010
-Best Personal: 159.847
-158.388
+Best Personal: 496.876
+518.036
 
 Particula N°20 
-00001
-Best Personal: 157.269
-156.29
-
-Particula N°21 
-00100
-Best Personal: 157.408
-157.297
-
-Particula N°22 
-00001
-Best Personal: 155.994
-156.607
-
-Particula N°23 
-10000
-Best Personal: 158.622
-158.586
-
-Particula N°24 
-00001
-Best Personal: 161.174
-155.858
-
-Particula N°25 
-00001
-Best Personal: 158.923
-158.452
-
-Particula N°26 
-00100
-Best Personal: 175.247
-175.391
-
-Particula N°27 
-10000
-Best Personal: 159.953
-159.772
-
-Particula N°28 
 00010
-Best Personal: 155.18
-155.171
+Best Personal: 245.072
+266.922
 
-Particula N°29 
-01000
-Best Personal: 157.849
-157.97
-
-Particula N°30 
-00100
-Best Personal: 174.625
-174.756
-
-Particula N°31 
-00001
-Best Personal: 156.307
-158.29
-
-Particula N°32 
-00010
-Best Personal: 159.295
-159.508
-
-Particula N°33 
-00010
-Best Personal: 167.831
-168.373
-
-Particula N°34 
-00010
-Best Personal: 161.168
-161.017
-
-Particula N°35 
-00100
-Best Personal: 162.491
-163.146
-
-Particula N°36 
-01000
-Best Personal: 161.007
-161.278
-
-Particula N°37 
-10000
-Best Personal: 157.977
-159.385
-
-Particula N°38 
-00010
-Best Personal: 158.4
-158.4
-
-Particula N°39 
-00010
-Best Personal: 156.131
-155.55
-
-Particula N°40 
-00010
-Best Personal: 154.646
-154.751
-
-Particula N°41 
-00010
-Best Personal: 158.733
-158.024
-
-Particula N°42 
-00100
-Best Personal: 162.331
-162.875
-
-Particula N°43 
-10000
-Best Personal: 162.158
-161.17
-
-Particula N°44 
-10000
-Best Personal: 158.868
-159.623
-
-Particula N°45 
-01000
-Best Personal: 154.488
-152.995
-
-Particula N°46 
-10000
-Best Personal: 156.643
-156.643
-
-Particula N°47 
-00001
-Best Personal: 154.389
-154.175
-
-Particula N°48 
-10000
-Best Personal: 156.237
-156.24
-
-Particula N°49 
-10000
-Best Personal: 159.677
-158.647
-
-Particula N°50 
-00001
-Best Personal: 153.556
-153.121
-
-Best Global Iteration n°49: 152.995 at the iteration 49
+Best Global Iteration n°19: 225.862 at the iteration 19
 ##**************************************************************************
 ##******************************* RESULTS **********************************
 ##**************************************************************************
 ##
-## Best solution found: 152.995
+## Best solution found: 225.862
