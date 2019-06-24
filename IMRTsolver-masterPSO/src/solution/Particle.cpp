@@ -69,5 +69,4 @@ namespace imrt{
 	{
 		Pcurrent.printVelocities();
 	}
-
 }

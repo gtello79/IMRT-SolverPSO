@@ -1,2 +1,0 @@
-PSO Iteracion 0
-PSO --max_iter 20 --size 20 --iner 0.9 --c1 0.3 --c2 0.7 --seed 0 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1

@@ -212,7 +212,7 @@ int main(int argc, char** argv){
   vector<Volume> volumes= createVolumes (file, collimator);
 
 	Plan *BGlobal;
-	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
+	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 0);
   actual_global = BGlobal->getEvaluation();
 	//Formation of the particle set
 	Plan *Opc;
@@ -246,15 +246,15 @@ int main(int argc, char** argv){
 		//We calculate the Intensity and the Velocity using PSO
     for(int i = 0; i < size ; i++)
 		{	
-      cout << "Particula N°" << i+1 <<" " ;
+      cout << "Particula N°" << i+1 <<" " <<endl;
       solution[i].Velocityupdate(*BGlobal, changes_beam);
-	solution[i].updatePosition(max_intensity);
+      solution[i].updatePosition(max_intensity);
       solution[i].calculateFitness();
       if(solution[i].getFitness()<solution[i].getBfitness())
       {
         solution[i].updatePbest();
       }
-      cout << solution[i].getFitness() <<"\n"<<endl;
+      cout <<"Actual Value: "<<solution[i].getFitness() <<"\n"<<endl;
 		};
    
   //Calculate the new Best Global of the particle

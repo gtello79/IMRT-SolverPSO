@@ -183,7 +183,6 @@ namespace imrt {
   
   void Plan::updatePosition(int max_intensity)
   { 
-    cout<<endl;
     Station *auxCurrent;
     for (int i = 0; i < getStationSize() ; i++) 
     {
@@ -193,7 +192,6 @@ namespace imrt {
         auxCurrent->calculateNewPosition(max_intensity);
         //cout<<"Se mueve el Beam "<<i<<endl;
       }
-      cout<<accept_value[i];
     };
     cout<<endl;
     for(int i = 0; i < getStationSize(); i++) accept_value[i]=0;
@@ -228,6 +226,13 @@ namespace imrt {
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
         auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
+        Matrix *aux;
+        Matrix *printer;
+        aux = &get_station(i)->get_Velocity();
+        printer = &get_station(i)->get_Intensity();
+        cout << *aux << endl;
+        cout << endl;
+        cout << *printer << endl;
       }
     } 
   }

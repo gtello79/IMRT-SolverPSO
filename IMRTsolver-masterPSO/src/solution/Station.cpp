@@ -38,7 +38,7 @@ namespace imrt {
     veloc = Matrix (collimator.getXdim(), collimator.getYdim());
     for (int i=0; i<collimator.getXdim(); i++) {
       for (int j=0; j<collimator.getYdim(); j++) {
-          veloc(i,j)=0;
+          veloc(i,j)=1;
       }
     }
 
@@ -663,11 +663,12 @@ namespace imrt {
     Matrix Bpm = BestP.get_Intensity();
     for(int i = 0; i < collimator.getXdim() ; i++){  
       pair <int,int> aux = collimator.getActiveRange(i,angle);
-      if(aux.first<0) continue;
+      if(aux.first>0) continue;
       for (int j=aux.first; j<=aux.second; j++) {
-        veloc(i,j) = w*veloc(i,j) + r1*c1*(Bpm(i,j) - I(i,j)) + r2*c2*(Bgm(i,j)-I(i,j));
+	veloc(i,j) = w*veloc(i,j) + r1*c1*(Bpm(i,j) - I(i,j)) + r2*c2*(Bgm(i,j)-I(i,j));
       }
     }
+	//cout << r1 << " " << r2 << endl;
   };
 
   void Station::calculateNewPosition(int max_intensity)
