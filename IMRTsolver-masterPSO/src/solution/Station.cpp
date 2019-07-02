@@ -49,7 +49,7 @@ namespace imrt {
   }
 
   Station::Station(const Station &s): collimator(s.collimator){
-    collimator=s.collimator;
+    //collimator=s.collimator;
     angle=s.angle;
     max_apertures=s.max_apertures;
     max_intensity=s.max_intensity;
@@ -661,7 +661,7 @@ namespace imrt {
     double r2 = ((double)rand()/(RAND_MAX));
     Matrix Bgm = BestG.get_Intensity();
     Matrix Bpm = BestP.get_Intensity();
-    for(int i = 0; i < collimator.getXdim() ; i++){  
+    for(int i = 0; i < collimator.getXdim() ; i++){
       pair <int,int> aux = collimator.getActiveRange(i,angle);
       if(aux.first>0) continue;
       for (int j=aux.first; j<=aux.second; j++) {
@@ -677,14 +677,14 @@ namespace imrt {
     {
       pair <int,int> aux = collimator.getActiveRange(i,angle);
       if(aux.first<0) continue;
-      
+
       for (int j=aux.first; j<=aux.second; j++) {
         I(i,j)=I(i,j)+veloc(i,j);
         if(I(i,j)<0) {
             I(i,j) = 0;
         }else if(I(i,j)>max_intensity) {
             I(i,j) = max_intensity;
-        }     
+        }
       }
     }
   };
