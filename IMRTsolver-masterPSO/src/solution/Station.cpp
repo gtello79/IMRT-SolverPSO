@@ -49,7 +49,7 @@ namespace imrt {
   }
 
   Station::Station(const Station &s): collimator(s.collimator){
-    //collimator=s.collimator;
+    collimator=s.collimator;
     angle=s.angle;
     max_apertures=s.max_apertures;
     max_intensity=s.max_intensity;

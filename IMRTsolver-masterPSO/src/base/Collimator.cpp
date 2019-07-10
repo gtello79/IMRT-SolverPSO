@@ -126,6 +126,8 @@ namespace imrt {
     angles=c.angles;
     n_angles=c.n_angles;
     coord_files=c.coord_files;
+
+    return(*this);
   }
 
   // There is a coordinate file per angle per angle

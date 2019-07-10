@@ -28,17 +28,17 @@ namespace imrt {
       add_station(*station);
       //station->printIntensity();
     }
-    
+
     cout << "##  Created " << stations.size() << " stations."<< endl;
     eval();
     cout << "##  Initial evaluation: " << evaluation_fx << "."<< endl;
-    last_changed=NULL;   
+    last_changed=NULL;
   };
 
   Plan::Plan(const Plan &p): ev(p.ev), w(p.w), Zmin(p.Zmin), Zmax(p.Zmax), last_changed(NULL) {
     //EvaluationFunction aux_ev(p.ev);
     //ev=aux_ev;
-    
+
     for (list<Station*>::const_iterator it=p.stations.begin();it!=p.stations.end();it++) {
       Station* aux = new Station(**it);
       if (p.last_changed && p.last_changed->getAngle()==aux->getAngle()) last_changed=aux;
@@ -46,7 +46,7 @@ namespace imrt {
       //real_stations.push_back(*aux);
     }
     evaluation_fx=p.evaluation_fx;
-    
+
   }
 
   void Plan::newCopy(Plan& p) {
@@ -70,7 +70,7 @@ namespace imrt {
     stations.push_back(&s);
     accept_value.push_back(0);
   }
-  
+
   double Plan::eval(vector<double>& w, vector<double>& Zmin, vector<double>& Zmax) {
     double eval=ev.eval(*this,w,Zmin,Zmax);
     ev.generate_voxel_dose_functions ();
@@ -147,7 +147,7 @@ namespace imrt {
 
   set < pair< pair<double,bool>, pair<Station*, int> >,
         std::greater < pair< pair<double,bool>, pair<Station*, int> > > >
-    Plan::best_beamlets(int n, int nv, int mode) 
+    Plan::best_beamlets(int n, int nv, int mode)
   {
 
     return(ev.best_beamlets(*this, n, nv));
@@ -180,11 +180,11 @@ namespace imrt {
   	}
 
   }
-  
+
   void Plan::updatePosition(int max_intensity)
-  { 
+  {
     Station *auxCurrent;
-    for (int i = 0; i < getStationSize() ; i++) 
+    for (int i = 0; i < getStationSize() ; i++)
     {
       //cout << accept_value[i]<<endl;
       if(accept_value[i]!=0){
@@ -203,20 +203,20 @@ namespace imrt {
     int random = (rand())%(getStationSize());
     bool access = false;
     if(change == getStationSize()) access = true;
-    
+
     //Here we find the able beam to change in the next iteration
     for(int j = 0; j < change ; j++){
       while(accept_value[random] == 1){
         random = (rand())%(getStationSize());
       }
-      accept_value[random] = 1;  
+      accept_value[random] = 1;
     }
-    
+
     //Giving access to all the beam for the change
     if(access){
       for(int i = 0; i < getStationSize(); i++) accept_value[1]=1;
     }
-     
+
     //Calculate the value of the new evaluation
     for (int i = 0 ; i < getStationSize() ; i++)
     {
@@ -226,17 +226,17 @@ namespace imrt {
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
         auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
-        Matrix *aux;
+        /*Matrix *aux;
         Matrix *printer;
         aux = &get_station(i)->get_Velocity();
         printer = &get_station(i)->get_Intensity();
         cout << *aux << endl;
         cout << endl;
-        cout << *printer << endl;
+        cout << *printer << endl;*/
       }
-    } 
+    }
   }
-  
+
   void Plan::printVelocities()
   {
     Matrix *aux;
@@ -252,10 +252,10 @@ namespace imrt {
       printIntensity(i);
     }
   };
-	
+
 	int Plan::getStationSize() {
 	  return(stations.size());
-	  
+
 	};
    //In this vector we can see how get the best STATIONS
   void Plan::initializeVectorStations(){
@@ -263,6 +263,6 @@ namespace imrt {
       accept_value[i] = 0;
     }
   };
-  
-  
+
+
 }
