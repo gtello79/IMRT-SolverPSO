@@ -40,6 +40,9 @@ private:
   // Per angle coordinates
   map<int, vector<pair<double,double> > >  angle_coord;
 
+  //value of the velocity in a beamlets
+  map<int, vector<pair<double,double> > > veloc;
+
   // Ordered coordinates
   vector<double> xcoord;
   vector<double> ycoord;
@@ -108,6 +111,8 @@ public:
   int getAngle(int i);
 
   int getNbAngles();
+
+  void initializeVelocity();
 
   static string delimiter;
 };

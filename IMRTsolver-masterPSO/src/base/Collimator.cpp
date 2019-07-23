@@ -43,9 +43,7 @@ namespace imrt {
     stringstream ss;
     double x, y;
     bool flag;
-
     //nb_angles=coord_files.size();
-
     for (int i=0 ; i < coord_files.size(); i++) {
       // Open file
       int angle = coord_files[i].first;
@@ -53,7 +51,6 @@ namespace imrt {
       myfile.open(coord_files[i].second);
       if (!myfile.is_open())
         throw runtime_error("error reading file.");
-
       // Read lines of the file
       while (getline (myfile,line)) {
         flag=false;
@@ -63,10 +60,7 @@ namespace imrt {
         x = atof(linec.c_str());
         getline (ss,linec,'\t');
         y = atof(linec.c_str());
-
-
         angle_coord[angle].push_back(make_pair(x,y));
-
         if (beam_coord.find(x) == beam_coord.end()) {
           // New x coordinate
           beam_coord[x].push_back(y);
@@ -333,4 +327,11 @@ namespace imrt {
     return(n_angles);
   }
 
+  void Collimator::initializeVelocity(){
+    for(int i = 0; i < getYdim(); i++){
+      pair<double,double> row;
+      row.first = 0;
+      row.second = 0;
+    }
+  }
 }

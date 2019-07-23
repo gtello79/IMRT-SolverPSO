@@ -68,7 +68,7 @@ namespace imrt {
 
   void Plan::add_station(Station& s){
     stations.push_back(&s);
-    accept_value.push_back(0);
+    //accept_value.push_back(0);
   }
 
   double Plan::eval(vector<double>& w, vector<double>& Zmin, vector<double>& Zmax) {
@@ -113,8 +113,7 @@ namespace imrt {
     return stations;
   }
 
-  void Plan::write_open_beamlets()
-  {
+  void Plan::write_open_beamlets(){
     ofstream myfile;
     myfile.open ("openbeamlets.txt");
 
@@ -181,8 +180,7 @@ namespace imrt {
 
   }
 
-  void Plan::updatePosition(int max_intensity)
-  {
+  void Plan::updatePosition(int max_intensity, vector <int> accept_value){
     Station *auxCurrent;
     for (int i = 0; i < getStationSize() ; i++)
     {
@@ -194,29 +192,10 @@ namespace imrt {
       }
     };
     cout<<endl;
-    for(int i = 0; i < getStationSize(); i++) accept_value[i]=0;
   }
 
-  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, int change)
-  {
+  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, vector <int> accept_value){
     Station *auxCurrent, *auxGlobal, *auxBest;
-    int random = (rand())%(getStationSize());
-    bool access = false;
-    if(change == getStationSize()) access = true;
-
-    //Here we find the able beam to change in the next iteration
-    for(int j = 0; j < change ; j++){
-      while(accept_value[random] == 1){
-        random = (rand())%(getStationSize());
-      }
-      accept_value[random] = 1;
-    }
-
-    //Giving access to all the beam for the change
-    if(access){
-      for(int i = 0; i < getStationSize(); i++) accept_value[1]=1;
-    }
-
     //Calculate the value of the new evaluation
     for (int i = 0 ; i < getStationSize() ; i++)
     {
@@ -226,19 +205,11 @@ namespace imrt {
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
         auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
-        /*Matrix *aux;
-        Matrix *printer;
-        aux = &get_station(i)->get_Velocity();
-        printer = &get_station(i)->get_Intensity();
-        cout << *aux << endl;
-        cout << endl;
-        cout << *printer << endl;*/
       }
     }
   }
 
-  void Plan::printVelocities()
-  {
+  void Plan::printVelocities(){
     Matrix *aux;
     for(int i = 0; i < getStationSize(); i++){
       aux = &get_station(i)->get_Velocity();
@@ -246,8 +217,7 @@ namespace imrt {
     }
   };
 
-	void Plan::printIntensities()
-  {
+	void Plan::printIntensities(){
     for(int i = 0;i < getStationSize(); i++){
       printIntensity(i);
     }
@@ -257,12 +227,6 @@ namespace imrt {
 	  return(stations.size());
 
 	};
-   //In this vector we can see how get the best STATIONS
-  void Plan::initializeVectorStations(){
-    for(int i = 0; i < 5; i++){
-      accept_value[i] = 0;
-    }
-  };
 
 
 }

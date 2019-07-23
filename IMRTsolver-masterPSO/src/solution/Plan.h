@@ -81,17 +81,17 @@ public:
 	    return *s;
 	}
 
-	void updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, int change);
+	void updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, vector <int> accept_value);
 
-	void updatePosition(int max_intensity);
-	
+	void updatePosition(int max_intensity, vector<int> accept_value);
+
 	void printVelocities();
-	
+
 	void printIntensities();
- 
+
   void initializeVectorStations();
-	
-	int getStationSize(); 
+
+	int getStationSize();
 
 
 
@@ -110,7 +110,7 @@ private:
 	vector<double> w;
 	vector<double> Zmin;
 	vector<double> Zmax;
-  vector<int> accept_value;
+  //vector<int> accept_value;
 	double evaluation_fx;
 };
 

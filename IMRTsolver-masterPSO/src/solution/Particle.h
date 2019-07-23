@@ -19,14 +19,15 @@ namespace imrt{
   class Particle{ //Swarm
 
     private:
+      double deltafitness;
       float w;
       float c1; //FACTOR PERSONAL POR AHORA FIJO, DESPUES POR PARAMETRO
-      float c2; //FACTOR GLOBAL, POR AHORA FIJO LUEGO POR PARAMETRO      
+      float c2; //FACTOR GLOBAL, POR AHORA FIJO LUEGO POR PARAMETRO
       double fitness; //EVALUATION OF PCURRENT
       double bfitness; //EVALUATION OF PBEST;
       Plan PBest; //BEST GLOBAL VALUE
       Plan Pcurrent; //BEST PERSONAL VALUE
-      
+      vector<int> accept_value;
 
     public:
   	    //Builder of Particle class
@@ -51,10 +52,12 @@ namespace imrt{
         double getBfitness();
 
         void setbfitness();
-        
+
         void printVelocities();
-        
+
         void printIntensities();
+
+        void calculateDeltaFitness();
 
   };
 }

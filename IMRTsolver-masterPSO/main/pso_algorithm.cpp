@@ -73,19 +73,19 @@ vector<Volume> createVolumes (string organ_filename, Collimator& collimator){
 
 int main(int argc, char** argv){
   //Belong to the PSO-ALGORITHM
-	int i,j; 
+	int i,j;
 	int size  = 10;
 	int max_iter = 100;
 	int initial_setup = 5;
   //Best parametres values
   float iner=1, c1=1 ,c2 = 1;
-  
+
   //Marks of Best Global
   double actual_global = 0;
   int Best_iteration = 0;
 
 //Belong to the other algorithms.
-	int bsize=20;  
+	int bsize=20;
  	int vsize=50;
   double maxdelta=5.0;
   double maxratio=3.0;
@@ -99,17 +99,17 @@ int main(int argc, char** argv){
   int max_intensity=28;
   int step_intensity=2;
   int changes_beam = 1; //number of beam to change
-  
+
   bool search_aperture=false;
   bool search_intensity=false;
-  
+
   // ls params
   double prob_intensity=0.2;
   double temperature, initial_temperature=10;
   double min_temperature=0;
   double alphaT=0.95;
   int perturbation=2;
-  
+
   int seed=time(NULL);
   srand(seed);
 
@@ -118,10 +118,10 @@ int main(int argc, char** argv){
   string file2="data/test_instance_coordinates.txt";
   string path=".";
 
-	
+
   args::ArgumentParser parser("********* IMRT-Solver (PSO-Algorithm) *********", "Example.\n./PSO  --maxiter=400 --maxdelta=8 --maxratio=6 --alpha=0.999 --beta=0.999 --bsize=5 --vsize=20 --max-apertures=4 --seed=0 --open-apertures=1 --initial-intensity=4 --step-intensity=1 --file-dep=data/Equidistantes/equidist00.txt --file-coord=data/Equidistantes/equidist-coord.txt");
 	args::HelpFlag help(parser, "help", "Display this help menu", {'h', "help"});
-  
+
   args::ValueFlag<int> _size(parser, "int", "Number of particles for the swarm("+to_string(size)+")", {"size"});
   args::ValueFlag<int> _max_iter(parser, "int", "Number of iterations that the program will run ("+to_string(max_iter)+")", {"max_iter"});
   args::ValueFlag<int> _initial_setup(parser, "int", "Type of creation for the particles ("+to_string(initial_setup)+")", {"initial_setup"});
@@ -129,7 +129,7 @@ int main(int argc, char** argv){
   args::ValueFlag<float> _c1(parser, "int", "Social Factor Parameter ("+to_string(c1)+")", {"c1"});
   args::ValueFlag<float> _c2(parser, "int", "Personal Factor Parameter ("+to_string(c2)+")", {"c2"});
   args::ValueFlag<int> _changes_beam(parser, "int","Size of beam to change("+to_string(changes_beam)+")",{"changes_beam"});
-  
+
   args::ValueFlag<int> _bsize(parser, "int", "Number of considered beamlets for selection ("+to_string(bsize)+")", {"bsize"});
 	args::ValueFlag<int> _vsize(parser, "int", "Number of considered worst voxels ("+to_string(vsize)+")", {"vsize"});
   args::ValueFlag<int> _maxdelta(parser, "int", "Max delta  ("+to_string(maxdelta)+")", {"maxdelta"});
@@ -144,7 +144,7 @@ int main(int argc, char** argv){
   args::ValueFlag<int> _initial_intensity(parser, "int", "Initial value aperture intensity  ("+to_string(initial_intensity)+")", {"initial_intensity"});
   args::ValueFlag<int> _max_intensity(parser, "int", "Max value aperture intensity  ("+to_string(max_intensity)+")", {"max_intensity"});
   args::ValueFlag<int> _step_intensity(parser, "int", "Step size for aperture intensity  ("+to_string(step_intensity)+")", {"step_intensity"});
-  
+
   args::Group setup (parser, "Initial solution setup (these override all provided configurations):", args::Group::Validators::DontCare);
   args::Flag open_max(setup, "open_max", "Open aperture setup with max intensity", {"open-max-setup"});
   args::Flag open_min(setup, "open_min", "Open aperture setup with min intensity", {"open-min-setup"});
@@ -184,10 +184,10 @@ int main(int argc, char** argv){
 
   if(_size)  size = _size.Get();
   if(_max_iter) max_iter = _max_iter.Get();
-  if(_initial_setup) initial_setup =_initial_setup.Get(); 
-  if(_iner) iner =_iner.Get(); 
-  if(_c1) c1 =_c1.Get(); 
-  if(_c2) c2 =_c2.Get(); 
+  if(_initial_setup) initial_setup =_initial_setup.Get();
+  if(_iner) iner =_iner.Get();
+  if(_c1) c1 =_c1.Get();
+  if(_c2) c2 =_c2.Get();
   if(_changes_beam) changes_beam = _changes_beam.Get();
   if(_bsize) bsize=_bsize.Get();
   if(_vsize) vsize=_vsize.Get();
@@ -218,7 +218,7 @@ int main(int argc, char** argv){
 	Plan *Opc;
 	cout<<"\n "<<endl;
 	for(i = 0; i < size; i++)
-	{	
+	{
     cout << "Particula N° " << i+1 << endl;
 		Opc = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
 		solution.push_back(Particle(*Opc,c1,c2,iner));
@@ -226,11 +226,11 @@ int main(int argc, char** argv){
       solution[i].updatePbest();
     }
 	}
-  
+
   for(int k = 0; k < size ; k++)
   {
     if(solution[k].getFitness() < actual_global )
-    {  
+    {
       BGlobal->newCopy(solution[k].GetPCurrent());
       actual_global = BGlobal->eval();
     }
@@ -241,11 +241,11 @@ int main(int argc, char** argv){
 	cout << "###############################################################################" << endl;
 	//The Begining of PSO using max_iter how the total of iterations
   for(j = 0; j < max_iter ; j++)
-	{	
+	{
 		cout << "\n Iteracion: "<< j+1 <<endl;
 		//We calculate the Intensity and the Velocity using PSO
     for(int i = 0; i < size ; i++)
-		{	
+		{
       cout << "Particula N°" << i+1 <<" " <<endl;
       solution[i].Velocityupdate(*BGlobal, changes_beam);
       solution[i].updatePosition(max_intensity);
@@ -256,7 +256,7 @@ int main(int argc, char** argv){
       }
       cout <<"Actual Value: "<<solution[i].getFitness() <<"\n"<<endl;
 		};
-   
+
   //Calculate the new Best Global of the particle
     for(int k = 0; k < size ; k++)
     {

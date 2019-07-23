@@ -33,7 +33,6 @@ namespace imrt {
         }
       }
     }
-
     // Initialize empty matrix of velocity
     veloc = Matrix (collimator.getXdim(), collimator.getYdim());
     for (int i=0; i<collimator.getXdim(); i++) {
@@ -41,10 +40,8 @@ namespace imrt {
           veloc(i,j)=1;
       }
     }
-
     // Iniatialize apertures (alternative representation)
     initializeStation(setup, open_apertures);
-
     last_mem= make_pair(make_pair(-1,-1), make_pair(-1,-1));
   }
 
