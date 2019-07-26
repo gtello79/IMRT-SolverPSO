@@ -68,7 +68,7 @@ namespace imrt {
 
   void Plan::add_station(Station& s){
     stations.push_back(&s);
-    //accept_value.push_back(0);
+    accept_value.push_back(0);
   }
 
   double Plan::eval(vector<double>& w, vector<double>& Zmin, vector<double>& Zmax) {
@@ -180,31 +180,44 @@ namespace imrt {
 
   }
 
-  void Plan::updatePosition(int max_intensity, vector <int> accept_value){
+  void Plan::updatePosition(int max_intensity){
     Station *auxCurrent;
     for (int i = 0; i < getStationSize() ; i++)
     {
-      //cout << accept_value[i]<<endl;
       if(accept_value[i]!=0){
         auxCurrent = get_station(i);
-        auxCurrent->calculateNewPosition(max_intensity);
+        //auxCurrent->calculateNewPosition(max_intensity);
+        auxCurrent->position_aperture();
         //cout<<"Se mueve el Beam "<<i<<endl;
       }
     };
     cout<<endl;
   }
 
-  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, vector <int> accept_value){
-    Station *auxCurrent, *auxGlobal, *auxBest;
-    //Calculate the value of the new evaluation
-    for (int i = 0 ; i < getStationSize() ; i++)
+  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, int change){
+    int stationCount = getStationSize();
+    int random = (rand())%(stationCount);
+    Station *auxCurrent;
+    Station *auxGlobal;
+    Station *auxBest;
+    for(int i = 0; i < stationCount; i++) accept_value[i]=0; //Se setea el vector que acepta valores
+    if(change == stationCount){
+      for(int i = 0; i < stationCount; i++) accept_value[i]=1;
+    }else{
+			for(int j = 0; j < change ; j++){
+				while(accept_value[random] == 1) random = (rand())%(stationCount);
+		  	accept_value[random] = 1;
+		  }
+		};
+		for (int i = 0; i < stationCount ; i++)
     {
       if(accept_value[i]!=0)
       {
         auxCurrent = get_station(i);
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
-        auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
+        //auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
+        auxCurrent->velocity_aperture(*auxGlobal,*auxBest,w,c1,c2);
       }
     }
   }
@@ -218,15 +231,23 @@ namespace imrt {
   };
 
 	void Plan::printIntensities(){
-    for(int i = 0;i < getStationSize(); i++){
+    for(int i = 0; i < getStationSize(); i++){
       printIntensity(i);
     }
   };
 
 	int Plan::getStationSize() {
 	  return(stations.size());
-
 	};
+
+  double Plan::calculateDeltaFitness(){
+    for(int i = 0; i < getStationSize(); i++){
+      /*if(accept_value[i] == 1){
+        Station *evaluate;
+        evaluate = get_station(i);
+      }*/
+    }
+  };
 
 
 }

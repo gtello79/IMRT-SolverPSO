@@ -37,19 +37,12 @@ namespace imrt {
  * A Station consists of an angle and a set of apertures with intensities
  * The apertures+intensities are mapped to an intensity matrix (I)
  */
-
 class Station {
 private:
-
   Collimator& collimator;
-
   int angle;
-
-  // Dose deposition matrices for each volume
-  map<int, const Matrix*> D;
-
-  // Maximum number of apertures
-  int max_apertures;
+  map<int, const Matrix*> D; // Dose deposition matrices for each volume
+  int max_apertures;  // Maximum number of apertures
   int max_intensity;
   int min_intensity;
   int initial_intensity;
@@ -63,6 +56,8 @@ private:
 
    // Range open (x_ini, x_fin) of row "r" for aperture d: A[d][r](x_ini, x_fin)
    vector<vector<pair<int,int> > > A;
+
+   vector<vector<pair<int,int> > > Veloc_Aperture;
 
    //  Apertures (representation 2):
    // Intensity for each beam of the collimator
@@ -153,8 +148,6 @@ public:
 
   void printAperture(int aperture);
 
-
-
   const Matrix& getDepositionMatrix(int o) const;
 
   int getAngle(){ return angle;}
@@ -222,6 +215,9 @@ public:
   void set_Intensity(Matrix& newInten);
   void calculateNewPosition(int max_intensity);
   void calculateNewVelocity(Station &BestG, Station &BestP,float w,float c1,float c2);
+  void velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2);
+  void position_aperture();
+  vector<vector<pair<int,int>>> &get_Aper();
 
   };
 }

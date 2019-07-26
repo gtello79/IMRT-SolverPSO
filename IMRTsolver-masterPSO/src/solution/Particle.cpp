@@ -13,30 +13,21 @@ namespace imrt{
 		PBest.newCopy(Pcurrent);
 		fitness = Pcurrent.eval();
 		bfitness = Pcurrent.eval();
-		for(int i = 0; i < Pcurrent.getStationSize(); i++){
+		/*for(int i = 0; i < Pcurrent.getStationSize(); i++){
 			accept_value.push_back(0);
-		}
+		}*/
+
   };
 
 	void Particle::Velocityupdate(Plan &GBest, int change){
-		for(int i = 0; i < Pcurrent.getStationSize(); i++) accept_value[i]=0;
-		int stationCount =  Pcurrent.getStationSize();
-		int random = (rand())%(stationCount);
 
 		//Giving access to all the beam for the change
-    if(change == stationCount){
-      for(int i = 0; i < stationCount; i++) accept_value[i]=1;
-    }else{
-			for(int j = 0; j < change ; j++){
-				while(accept_value[random] == 1) random = (rand())%(stationCount);
-		  	accept_value[random] = 1;
-		  }
-		}
-    Pcurrent.updateVelocity(GBest, PBest, Pcurrent, w, c1, c2, accept_value);
+    Pcurrent.updateVelocity(GBest, PBest, Pcurrent, w, c1, c2,change);
 	};
 
 	void Particle::updatePbest()
 	{
+		mejora++;
 		bfitness = Pcurrent.getEvaluation();
 		PBest.newCopy(Pcurrent);
 	};
@@ -44,10 +35,10 @@ namespace imrt{
 	void Particle::calculateFitness()
 	{
 		fitness = Pcurrent.eval();
-		calculateDeltaFitness();
+		//calculateDeltaFitness();
 
 	};
-
+/*
 	void Particle::calculateDeltaFitness(){
 		for(int i = 0; i < Pcurrent.getStationSize(); i++){
 			if(accept_value[i] == 1){
@@ -60,14 +51,15 @@ namespace imrt{
 				stationRandom = Pcurrent.get_station(i);
 				cout << fitness <<" "<<Pcurrent.incremental_eval(*stationRandom, lista)<<endl;
 				//return Pcurrent.incremental_eval(*stationRandom, lista);
+			deltafitness = Pcurrent.calculateDeltaFitness(accept_value);
 			}
 		}
-	};
+	};*/
 
 	void Particle::updatePosition(int max_intensity)
 	{
-		Pcurrent.updatePosition(max_intensity, accept_value);
-		cout << "Best Personal: " << bfitness<<endl;
+		Pcurrent.updatePosition(max_intensity);
+		cout << "Best Personal " << mejora <<": "<< bfitness<<endl;
 	}
 
 	Plan& Particle::GetPCurrent()

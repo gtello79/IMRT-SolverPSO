@@ -327,11 +327,4 @@ namespace imrt {
     return(n_angles);
   }
 
-  void Collimator::initializeVelocity(){
-    for(int i = 0; i < getYdim(); i++){
-      pair<double,double> row;
-      row.first = 0;
-      row.second = 0;
-    }
-  }
 }
