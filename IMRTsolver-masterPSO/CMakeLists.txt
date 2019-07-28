@@ -17,10 +17,10 @@ src/base
 src/solution
 src/ils
 )
-
+set(CMAKE_BUILD_TYPE Debug)
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3")
 
-# ADD_DEFINITION(-g -pg)
+#ADD_DEFINITION(-g -pg)
 
 ADD_LIBRARY(imrt ${SOURCES})
 

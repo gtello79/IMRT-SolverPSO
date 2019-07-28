@@ -48,6 +48,7 @@ private:
   int initial_intensity;
   int step_intensity;
   int n_volumes;
+
   /** Apertures (representation 1):
    * Each aperture is represented by a vector of pairs A[i] = (x_ini, x_fin)
    * and an intensity
@@ -218,6 +219,7 @@ public:
   void velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2);
   void position_aperture();
   vector<vector<pair<int,int>>> &get_Aper();
+  list<pair<int,double>> makeDiff(Station &lastChange);
 
   };
 }

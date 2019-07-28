@@ -718,7 +718,6 @@ namespace imrt {
   }
 
   void Station::position_aperture(){
-
     for(int j = 0; j < max_apertures; j++){
       for(int k = 0; k < collimator.getYdim(); k++){
         pair<int, int> activeRange = collimator.getActiveRange(j,angle);
@@ -740,5 +739,19 @@ namespace imrt {
         cout << (Veloc_Aperture[j])[k].first << " " << (Veloc_Aperture[j])[k].second << endl;
       }
     }*/
+  }
+  list<pair<int,double>> Station::makeDiff(Station &lastChange){
+    Matrix calculate = lastChange.get_Intensity();
+    list<pair<int,double>> diff;
+    for(int i = 0; i < collimator.getXdim() ; i++){
+      pair<int,int>aux = collimator.getActiveRange(i,angle);
+      if(aux.first<0) continue;
+      for(int j = aux.first; j <= aux.second; j++){
+        int id = pos2beam[make_pair(i,j)];
+        double value = calculate(i,j) - I(i,j);
+        diff.push_back(make_pair(id,value));
+      }
+    }
+    return diff;
   }
 }

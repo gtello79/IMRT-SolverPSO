@@ -52,13 +52,15 @@ namespace imrt{
 
         double getBfitness();
 
+        double getDeltaFitness();
+
         void setbfitness();
 
         void printVelocities();
 
         void printIntensities();
 
-      //  double calculateDeltaFitness();
+        void calculateDeltaFitness();
 
   };
 }

@@ -9,18 +9,13 @@ namespace imrt{
 		w = iner;
 		c1 = c_1;
 		c2 = c_2;
-		//calculateFitness();
 		PBest.newCopy(Pcurrent);
 		fitness = Pcurrent.eval();
 		bfitness = Pcurrent.eval();
-		/*for(int i = 0; i < Pcurrent.getStationSize(); i++){
-			accept_value.push_back(0);
-		}*/
-
+		deltafitness = 0;
   };
 
 	void Particle::Velocityupdate(Plan &GBest, int change){
-
 		//Giving access to all the beam for the change
     Pcurrent.updateVelocity(GBest, PBest, Pcurrent, w, c1, c2,change);
 	};
@@ -35,26 +30,14 @@ namespace imrt{
 	void Particle::calculateFitness()
 	{
 		fitness = Pcurrent.eval();
+		//fitness = Pcurrent.calculateDeltaFitness();
 		//calculateDeltaFitness();
 
 	};
-/*
+
 	void Particle::calculateDeltaFitness(){
-		for(int i = 0; i < Pcurrent.getStationSize(); i++){
-			if(accept_value[i] == 1){
-				pair<int,double> pivote;
-				pivote.first = 0;
-				pivote.second = 0.0;
-				list<pair<int,double>> lista;
-				lista.push_back(pivote);
-				Station *stationRandom;
-				stationRandom = Pcurrent.get_station(i);
-				cout << fitness <<" "<<Pcurrent.incremental_eval(*stationRandom, lista)<<endl;
-				//return Pcurrent.incremental_eval(*stationRandom, lista);
-			deltafitness = Pcurrent.calculateDeltaFitness(accept_value);
-			}
-		}
-	};*/
+		deltafitness = Pcurrent.calculateDeltaFitness();
+	};
 
 	void Particle::updatePosition(int max_intensity)
 	{
@@ -81,7 +64,9 @@ namespace imrt{
 	{
 		return bfitness;
 	}
-
+	double Particle::getDeltaFitness(){
+		return deltafitness;
+	}
 	void Particle::setbfitness()
 	{
 		bfitness = PBest.eval();

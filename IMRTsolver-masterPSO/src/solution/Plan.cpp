@@ -186,6 +186,7 @@ namespace imrt {
     {
       if(accept_value[i]!=0){
         auxCurrent = get_station(i);
+        last_changed = get_station(i);
         //auxCurrent->calculateNewPosition(max_intensity);
         auxCurrent->position_aperture();
         //cout<<"Se mueve el Beam "<<i<<endl;
@@ -193,6 +194,7 @@ namespace imrt {
     };
     cout<<endl;
   }
+
 
   void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, int change){
     int stationCount = getStationSize();
@@ -241,12 +243,18 @@ namespace imrt {
 	};
 
   double Plan::calculateDeltaFitness(){
+    Station *auxCurrent;
+    list<pair<int,double>> new_diff;
+    double val = 0;
     for(int i = 0; i < getStationSize(); i++){
-      /*if(accept_value[i] == 1){
-        Station *evaluate;
-        evaluate = get_station(i);
-      }*/
-    }
+        if(accept_value[i] == 1){
+          auxCurrent = get_station(i);
+          new_diff = auxCurrent->makeDiff(*last_changed);
+          val = incremental_eval(*auxCurrent, new_diff);
+        }
+    };
+    last_changed = NULL;
+    return val;
   };
 
 
