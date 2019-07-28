@@ -718,26 +718,27 @@ namespace imrt {
   }
 
   void Station::position_aperture(){
+
     for(int j = 0; j < max_apertures; j++){
       for(int k = 0; k < collimator.getYdim(); k++){
+        pair<int, int> activeRange = collimator.getActiveRange(j,angle);
         if (A[j][k].first<0) continue;
 
         A[j][k].first = Veloc_Aperture[j][k].first + A[j][k].first;
-        if(A[j][k].first < 0) A[j][k].first = 0;
+        if(A[j][k].first < activeRange.first) A[j][k].first = activeRange.first;
         //if(A[j][k].first > 0.5*collimator.getXdim()) A[j][k].first = 0.5*collimator.getXdim();
 
         A[j][k].second = Veloc_Aperture[j][k].second + A[j][k].second;
-        if(A[j][k].second > collimator.getXdim()) A[j][k].second = collimator.getXdim();
-        if(A[j][k].second <= A[j][k].first) A[j][k].second = A[j][k].first+1 ;
+        if(A[j][k].second > activeRange.second) A[j][k].second = collimator.getXdim();
+        if(A[j][k].second <= A[j][k].first) A[j][k].second = activeRange.second;
       }
       generateIntensity();
     }
     /*for(int j = 0; j < max_apertures ; j++){
       cout << "Apertura " << j << endl;
       for(int k = 0; k < collimator.getYdim(); k++){
-        cout << (A[j])[k].first << " " << (A[j])[k].second << endl;
+        cout << (Veloc_Aperture[j])[k].first << " " << (Veloc_Aperture[j])[k].second << endl;
       }
-    }
-    */
+    }*/
   }
 }
