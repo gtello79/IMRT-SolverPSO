@@ -30,9 +30,6 @@ namespace imrt{
 	void Particle::calculateFitness()
 	{
 		fitness = Pcurrent.eval();
-		//fitness = Pcurrent.calculateDeltaFitness();
-		//calculateDeltaFitness();
-
 	};
 
 	void Particle::calculateDeltaFitness(){
