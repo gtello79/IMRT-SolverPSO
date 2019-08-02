@@ -63,7 +63,7 @@ private:
    //  Apertures (representation 2):
    // Intensity for each beam of the collimator
    Matrix I;
-
+   Matrix last_iteration;
    Matrix veloc;
 
    void change_intensity(int i, int j, double intensity, list< pair< int, double > >* diff=NULL );
@@ -219,7 +219,7 @@ public:
   void velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2);
   void position_aperture();
   vector<vector<pair<int,int>>> &get_Aper();
-  list<pair<int,double>> makeDiff(Station &lastChange);
+  list<pair<int,double>> makeDiff();
 
   };
 }

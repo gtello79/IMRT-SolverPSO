@@ -250,13 +250,13 @@ int main(int argc, char** argv){
       solution[i].Velocityupdate(*BGlobal, changes_beam);
       solution[i].updatePosition(max_intensity);
       solution[i].calculateFitness();
-      solution[i].calculateDeltaFitness();
-      if(solution[i].getDeltaFitness()<solution[i].getBfitness())
+      //solution[i].calculateDeltaFitness();
+      if(solution[i].getFitness()<solution[i].getBfitness())
       {
         solution[i].updatePbest();
       }
-      //cout <<"Actual Value: "<<solution[i].getFitness() <<endl;
-      cout <<"Delta Value: " <<solution[i].getDeltaFitness() << endl;
+      cout <<"Actual Value: "<<solution[i].getFitness() <<endl;
+      //cout <<"Delta Value: " <<solution[i].getDeltaFitness() << endl;
       cout << endl;
 		};
 

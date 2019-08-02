@@ -249,7 +249,7 @@ namespace imrt {
     for(int i = 0; i < getStationSize(); i++){
         if(accept_value[i] == 1){
           auxCurrent = get_station(i);
-          new_diff = auxCurrent->makeDiff(*last_changed);
+          new_diff = auxCurrent->makeDiff();
           val = incremental_eval(*auxCurrent, new_diff);
         }
     };

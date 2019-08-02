@@ -24,12 +24,15 @@ namespace imrt {
 
     // Initialize empty matrix of intensity
     I = Matrix (collimator.getXdim(), collimator.getYdim());
+    last_iteration = Matrix(collimator.getXdim(), collimator.getYdim());
     for (int i=0; i<collimator.getXdim(); i++) {
       for (int j=0; j<collimator.getYdim(); j++) {
         if (collimator.isActiveBeamAngle(i,j,angle)) {
           I(i,j)=0;
+          last_iteration(i,j)=0;
         } else {
           I(i,j)=-1;
+          last_iteration(i,j)=0;
         }
       }
     }
@@ -72,6 +75,7 @@ namespace imrt {
     }
     //I=s.I;
     I= Matrix (s.I);
+    last_iteration = Matrix(s.last_iteration);
     veloc = Matrix (s.veloc);
     Veloc_Aperture = s.Veloc_Aperture;
     intensity=s.intensity;
@@ -96,9 +100,10 @@ namespace imrt {
       D[i]=aux;
     }
     I= Matrix (s.I);
+    last_iteration = Matrix(s.last_iteration);
+    veloc = Matrix (s.veloc);
     //I= s.I;
     intensity=s.intensity;
-    veloc = Matrix (s.veloc);
     Veloc_Aperture = s.Veloc_Aperture;
     A=s.A;
     last_mem=s.last_mem;
@@ -113,7 +118,6 @@ namespace imrt {
   //only for ILS
   void Station::generate_random_intensities(){
     clearIntensity();
-
     vector<int> values(max_apertures+1);
     values[0]=0;
     for(int i=1; i<max_apertures+1;i++){
@@ -683,6 +687,7 @@ namespace imrt {
 	};
 
   void Station::calculateNewPosition(int max_intensity){
+    last_iteration = I;
     for(int i = 0; i < collimator.getXdim() ; i++){
       pair <int,int> aux = collimator.getActiveRange(i,angle);
       if(aux.first>0) continue;
@@ -718,6 +723,7 @@ namespace imrt {
   }
 
   void Station::position_aperture(){
+    last_iteration = I;
     for(int j = 0; j < max_apertures; j++){
       for(int k = 0; k < collimator.getYdim(); k++){
         pair<int, int> activeRange = collimator.getActiveRange(j,angle);
@@ -729,7 +735,11 @@ namespace imrt {
 
         A[j][k].second = Veloc_Aperture[j][k].second + A[j][k].second;
         if(A[j][k].second > activeRange.second) A[j][k].second = collimator.getXdim();
-        if(A[j][k].second <= A[j][k].first) A[j][k].second = activeRange.second;
+        if(A[j][k].second <= A[j][k].first){
+          int n = (activeRange.first+activeRange.second)/2;
+          A[j][k].second = n;
+          A[j][k].first = n-1;
+        }
       }
       generateIntensity();
     }
@@ -740,16 +750,16 @@ namespace imrt {
       }
     }*/
   }
-  list<pair<int,double>> Station::makeDiff(Station &lastChange){
-    Matrix calculate = lastChange.get_Intensity();
+  list<pair<int,double>> Station::makeDiff(){
     list<pair<int,double>> diff;
     for(int i = 0; i < collimator.getXdim() ; i++){
       pair<int,int>aux = collimator.getActiveRange(i,angle);
       if(aux.first<0) continue;
       for(int j = aux.first; j <= aux.second; j++){
         int id = pos2beam[make_pair(i,j)];
-        double value = calculate(i,j) - I(i,j);
+        double value = last_iteration(i,j) - I(i,j);
         diff.push_back(make_pair(id,value));
+        //cout << last_iteration(i,j) <<" "<< I(i,j) <<" " << value << endl;
       }
     }
     return diff;
