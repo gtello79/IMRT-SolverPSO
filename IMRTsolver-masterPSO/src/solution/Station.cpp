@@ -694,7 +694,7 @@ namespace imrt {
         //if(A[j][k].first > 0.5*collimator.getXdim()) A[j][k].first = 0.5*collimator.getXdim();
 
         A[j][k].second = Veloc_Aperture[j][k].second + A[j][k].second;
-        if(A[j][k].second > activeRange.second) A[j][k].second = collimator.getXdim();
+        if(A[j][k].second > activeRange.second) A[j][k].second = activeRange.second;
 
         if(A[j][k].second <= A[j][k].first){
           int n = (activeRange.first+activeRange.second)/2;

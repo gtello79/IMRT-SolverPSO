@@ -1,6 +1,5 @@
 # encoding: utf-8
 import matplotlib.pyplot as plt
-matplotlib.use('Agg')
 import sys
 import argparse
 import os.path
