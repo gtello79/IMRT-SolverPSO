@@ -11,8 +11,8 @@ namespace imrt{
 		c2 = c_2;
 		PBest.newCopy(Pcurrent);
 		fitness = Pcurrent.eval();
-		bfitness = Pcurrent.eval();
-		deltafitness = 0;
+		bfitness = fitness;
+		deltafitness = fitness;
   };
 
 	void Particle::Velocityupdate(Plan &GBest, int change){
@@ -32,7 +32,8 @@ namespace imrt{
 		fitness = Pcurrent.eval();
 	};
 
-	void Particle::calculateDeltaFitness(){
+	void Particle::calculateDeltaFitness()
+	{
 		deltafitness = Pcurrent.calculateDeltaFitness();
 	};
 
@@ -40,7 +41,7 @@ namespace imrt{
 	{
 		Pcurrent.updatePosition(max_intensity);
 		cout << "Best Personal " << mejora <<": "<< bfitness<<endl;
-	}
+	};
 
 	Plan& Particle::GetPCurrent()
 	{
@@ -60,10 +61,13 @@ namespace imrt{
 	double Particle::getBfitness()
 	{
 		return bfitness;
-	}
-	double Particle::getDeltaFitness(){
+	};
+
+	double Particle::getDeltaFitness()
+	{
 		return deltafitness;
 	}
+
 	void Particle::setbfitness()
 	{
 		bfitness = PBest.eval();
@@ -77,5 +81,5 @@ namespace imrt{
 	void Particle::printVelocities()
 	{
 		Pcurrent.printVelocities();
-	}
+	};
 }

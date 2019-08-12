@@ -224,24 +224,6 @@ namespace imrt {
     }
   }
 
-  void Plan::printVelocities(){
-    Matrix *aux;
-    for(int i = 0; i < getStationSize(); i++){
-      aux = &get_station(i)->get_Velocity();
-      cout << *aux << endl;
-    }
-  };
-
-	void Plan::printIntensities(){
-    for(int i = 0; i < getStationSize(); i++){
-      printIntensity(i);
-    }
-  };
-
-	int Plan::getStationSize() {
-	  return(stations.size());
-	};
-
   double Plan::calculateDeltaFitness(){
     Station *auxCurrent;
     list<pair<int,double>> new_diff;
@@ -253,9 +235,24 @@ namespace imrt {
           val = incremental_eval(*auxCurrent, new_diff);
         }
     };
-    last_changed = NULL;
     return val;
   };
 
+    void Plan::printVelocities(){
+      Matrix *aux;
+      for(int i = 0; i < getStationSize(); i++){
+        aux = &get_station(i)->get_Velocity();
+        cout << *aux << endl;
+      }
+    };
 
+  	void Plan::printIntensities(){
+      for(int i = 0; i < getStationSize(); i++){
+        printIntensity(i);
+      }
+    };
+
+  	int Plan::getStationSize() {
+  	  return(stations.size());
+  	};
 }

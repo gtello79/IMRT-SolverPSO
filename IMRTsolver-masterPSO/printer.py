@@ -110,7 +110,7 @@ for i in range(pso_iter):
 	for linea in archivo:
 		reading = linea.strip().split(" ")
 		if(reading[0] == "##"):
-            if(len(reading) > 1):
+           		if(len(reading) > 1):
 			    if(reading[1]=="Best"):
 				    print(linea)
  				    Best.write(linea+"\n")
