@@ -89,13 +89,15 @@ public:
 
 	void printIntensities();
 
+	void printLastIteration();
+
   void initializeVectorStations();
 
 	int getStationSize();
 
 	double calculateDeltaFitness();
 
-
+	void incrementalTest();
 
 private:
 	//The list of stations
@@ -114,6 +116,7 @@ private:
 	vector<double> Zmax;
   vector<int> accept_value;
 	double evaluation_fx;
+
 
 
 };

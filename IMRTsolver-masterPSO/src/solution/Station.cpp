@@ -36,7 +36,6 @@ namespace imrt {
         }
       }
     }
-
     // Initialize empty matrix of velocity
     veloc = Matrix (collimator.getXdim(), collimator.getYdim());
     for (int i=0; i<collimator.getXdim(); i++) {
@@ -124,7 +123,6 @@ namespace imrt {
       int in=rand()%(max_intensity+1)/2.0;
       values[i]=in;
     }
-
     for (int i=0; i < collimator.getXdim(); i++) {
       list<int> in;
       pair <int,int> aux = collimator.getActiveRange(i,angle);
@@ -674,7 +672,7 @@ namespace imrt {
     vector<vector<pair<int,int>>> Bgm = BestG.get_Aper();
     vector<vector<pair<int,int>>> Bpm = BestP.get_Aper();
     for(int j = 0; j < max_apertures; j++){
-      for(int k = 0; k < collimator.getYdim(); k++){
+      for(int k = 0; k < collimator.getXdim(); k++){
         if (A[j][k].first<0) continue;
         Veloc_Aperture[j][k].first = w*Veloc_Aperture[j][k].first + c1*r1*(A[j][k].first - Bpm[j][k].first) + c2*r2*(A[j][k].first - Bgm[j][k].first);
         Veloc_Aperture[j][k].second = w*Veloc_Aperture[j][k].second + c1*r1*(A[j][k].second - Bpm[j][k].second) + c2*r2*(A[j][k].second - Bgm[j][k].second);
@@ -686,16 +684,16 @@ namespace imrt {
   void Station::position_aperture(){
     last_iteration = I;
     for(int j = 0; j < max_apertures; j++){
-      for(int k = 0; k < collimator.getYdim(); k++){
-        pair<int, int> activeRange = collimator.getActiveRange(j,angle);
-        if (A[j][k].first<0) continue;
+      for(int k = 0; k < collimator.getXdim(); k++){
+        pair<int, int> activeRange = collimator.getActiveRange(k,angle);
+
+        if (A[j][k].first<0 || activeRange.first<0) continue;
+
         A[j][k].first = Veloc_Aperture[j][k].first + A[j][k].first;
-        if(A[j][k].first < activeRange.first) A[j][k].first = activeRange.first;
-        //if(A[j][k].first > 0.5*collimator.getXdim()) A[j][k].first = 0.5*collimator.getXdim();
-
         A[j][k].second = Veloc_Aperture[j][k].second + A[j][k].second;
-        if(A[j][k].second > activeRange.second) A[j][k].second = activeRange.second;
 
+        if(A[j][k].first < activeRange.first) A[j][k].first = activeRange.first;
+        if(A[j][k].second > activeRange.second) A[j][k].second = activeRange.second;
         if(A[j][k].second <= A[j][k].first){
           int n = (activeRange.first+activeRange.second)/2;
           A[j][k].second = n;
@@ -703,6 +701,7 @@ namespace imrt {
         }
       }
     }
+    //cout << I << endl;
     generateIntensity();
   }
 
@@ -725,23 +724,34 @@ namespace imrt {
 
   list<pair<int,double>> Station::makeDiff(){
     list<pair<int,double>> diff;
-    for(int i = 0; i < collimator.getYdim() ; i++){
+    for(int i = 0; i < collimator.getXdim() ; i++){
       pair<int,int> aux = collimator.getActiveRange(i,angle);
       if(aux.first<0) continue;
       for(int j = aux.first; j <= aux.second; j++){
         int id = pos2beam[make_pair(i,j)];
-        double value = last_iteration(i,j) - I(i,j);
+        double value = -(last_iteration(i,j) - I(i,j));
         diff.push_back(make_pair(id,value));
-        //cout << last_iteration(i,j) <<" "<< I(i,j) <<" " << value << endl;
       }
     }
     return diff;
+  }
+  void Station::incrementalTest(){
+    last_iteration = I;
+    for(int i = 0; i < collimator.getXdim() ; i++){
+      pair <int,int> aux = collimator.getActiveRange(i,angle);
+      if(aux.first<0) continue;
+      for (int j=aux.first; j<=aux.second; j++) {
+	       I(i,j) += 1;
+      }
+    }
   }
 
   Matrix& Station::get_Velocity(){
     return veloc;
   }
-
+  Matrix& Station::get_Last(){
+    return last_iteration;
+  }
   Matrix& Station::get_Intensity(){
     return I;
   };

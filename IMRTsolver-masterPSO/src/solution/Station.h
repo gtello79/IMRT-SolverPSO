@@ -212,6 +212,7 @@ public:
 
   Matrix& get_Velocity();
   Matrix& get_Intensity();
+  Matrix& get_Last();
   void set_Velocity(Matrix& newV);
   void set_Intensity(Matrix& newInten);
   void calculateNewPosition(int max_intensity);
@@ -220,6 +221,7 @@ public:
   void position_aperture();
   vector<vector<pair<int,int>>> &get_Aper();
   list<pair<int,double>> makeDiff();
+  void incrementalTest();
 
   };
 }

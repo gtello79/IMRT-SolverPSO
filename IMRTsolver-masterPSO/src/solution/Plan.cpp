@@ -187,8 +187,8 @@ namespace imrt {
       if(accept_value[i]!=0){
         auxCurrent = get_station(i);
         last_changed = get_station(i);
-        //auxCurrent->calculateNewPosition(max_intensity);
-        auxCurrent->position_aperture();
+        auxCurrent->calculateNewPosition(max_intensity);
+        //auxCurrent->position_aperture();
         //cout<<"Se mueve el Beam "<<i<<endl;
       }
     };
@@ -218,8 +218,8 @@ namespace imrt {
         auxCurrent = get_station(i);
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
-        //auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
-        auxCurrent->velocity_aperture(*auxGlobal,*auxBest,w,c1,c2);
+        auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
+        //auxCurrent->velocity_aperture(*auxGlobal,*auxBest,w,c1,c2);
       }
     }
   }
@@ -252,7 +252,45 @@ namespace imrt {
       }
     };
 
+    void Plan::printLastIteration(){
+      Matrix *aux;
+      for(int i = 0; i < getStationSize(); i++){
+        if(accept_value[i] == 1){
+          aux = &get_station(i)->get_Last();
+          cout << *aux << endl;
+        }
+      }
+    };
+
+    void Plan::incrementalTest(){
+      Matrix *printer;
+      int stationCount = getStationSize();
+      int random = (rand())%(stationCount);
+      int change= 1;
+      Station *auxCurrent;
+      for(int i = 0; i < stationCount; i++) accept_value[i]=0; //Se setea el vector que acepta valores
+      if(change == stationCount){
+        for(int i = 0; i < stationCount; i++) accept_value[i]=1;
+      }else{
+  			for(int j = 0; j < change ; j++){
+  				while(accept_value[random] == 1) random = (rand())%(stationCount);
+  		  	accept_value[random] = 1;
+  		  }
+  		};
+      for(int i = 0; i < getStationSize() ; i++){
+        if(accept_value[i] == 1){
+          auxCurrent = get_station(i);
+          cout << auxCurrent->get_Intensity() << endl;
+          auxCurrent->incrementalTest();
+          cout << "###########################DESPUES###############"<<endl;
+          cout << auxCurrent->get_Intensity() << endl;
+        }
+      }
+    }
+
   	int Plan::getStationSize() {
   	  return(stations.size());
   	};
+
+
 }
