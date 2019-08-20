@@ -72,10 +72,11 @@ namespace imrt {
       const Matrix * aux= s.D.find(i)->second;
       D[i]=aux;
     }
-    //I=s.I;
-    I= Matrix (s.I);
+
+    I = Matrix (s.I);
     last_iteration = Matrix(s.last_iteration);
     veloc = Matrix (s.veloc);
+
     Veloc_Aperture = s.Veloc_Aperture;
     intensity=s.intensity;
     A=s.A;
@@ -98,7 +99,7 @@ namespace imrt {
       const Matrix * aux= s.D.find(i)->second;
       D[i]=aux;
     }
-    I= Matrix (s.I);
+    I = Matrix (s.I);
     last_iteration = Matrix(s.last_iteration);
     veloc = Matrix (s.veloc);
     //I= s.I;
@@ -683,21 +684,33 @@ namespace imrt {
 //Calculate the Position of the aperture Matrix
   void Station::position_aperture(){
     last_iteration = I;
-    for(int j = 0; j < max_apertures; j++){
-      for(int k = 0; k < collimator.getXdim(); k++){
-        pair<int, int> activeRange = collimator.getActiveRange(k,angle);
+    for(int a = 0; a < max_apertures; a++){
+      for(int i = 0; i < collimator.getXdim(); i++){
+        pair<int, int> activeRange = collimator.getActiveRange(i,angle);
 
-        if (A[j][k].first<0 || activeRange.first<0) continue;
+        if (A[a][i].first<0 && activeRange.first<0) continue;
+        /*//cout << activeRange.first << " " << activeRange.second << endl;
+        if(Veloc_Aperture[a][i].first + A[a][i].first > activeRange.first && Veloc_Aperture[a][i].first + A[a][i].first < activeRange.second){
+            A[a][i].first = Veloc_Aperture[a][i].first + A[a][i].first;
+        }
+        cout << A[a][i].first << endl;
+        if(Veloc_Aperture[a][i].second + A[a][i].second < activeRange.second && Veloc_Aperture[a][i].first + A[a][i].first){
+            A[a][i].second = Veloc_Aperture[a][i].second + A[a][i].second;
+        }
+        cout << A[a][i].second << endl;
+*/
+        //A[a][i].second = activeRange.second;
+        //A[a][i].first = activeRange.first;
 
-        A[j][k].first = Veloc_Aperture[j][k].first + A[j][k].first;
-        A[j][k].second = Veloc_Aperture[j][k].second + A[j][k].second;
+        A[a][i].first = Veloc_Aperture[a][i].first + A[a][i].first;
+        A[a][i].second = Veloc_Aperture[a][i].second + A[a][i].second;
 
-        if(A[j][k].first < activeRange.first) A[j][k].first = activeRange.first;
-        if(A[j][k].second > activeRange.second) A[j][k].second = activeRange.second;
-        if(A[j][k].second <= A[j][k].first){
+        if(A[a][i].first < activeRange.first || A[a][i].first > activeRange.second) A[a][i].first = activeRange.first;
+        if(A[a][i].second < activeRange.first || A[a][i].second > activeRange.second) A[a][i].second = activeRange.second;
+        if(A[a][i].second <= A[a][i].first){
           int n = (activeRange.first+activeRange.second)/2;
-          A[j][k].second = n;
-          A[j][k].first = n-1;
+          A[a][i].second = n;
+          A[a][i].first = n-1;
         }
       }
     }
@@ -729,7 +742,7 @@ namespace imrt {
       if(aux.first<0) continue;
       for(int j = aux.first; j <= aux.second; j++){
         int id = pos2beam[make_pair(i,j)];
-        double value = -(last_iteration(i,j) - I(i,j));
+        double value = I(i,j)-last_iteration(i,j);
         diff.push_back(make_pair(id,value));
       }
     }

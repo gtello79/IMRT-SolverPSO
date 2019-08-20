@@ -186,9 +186,8 @@ namespace imrt {
     {
       if(accept_value[i]!=0){
         auxCurrent = get_station(i);
-        last_changed = get_station(i);
-        auxCurrent->calculateNewPosition(max_intensity);
-        //auxCurrent->position_aperture();
+        //auxCurrent->calculateNewPosition(max_intensity);
+        auxCurrent->position_aperture();
         //cout<<"Se mueve el Beam "<<i<<endl;
       }
     };
@@ -218,8 +217,8 @@ namespace imrt {
         auxCurrent = get_station(i);
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
-        auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
-        //auxCurrent->velocity_aperture(*auxGlobal,*auxBest,w,c1,c2);
+        //auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
+        auxCurrent->velocity_aperture(*auxGlobal,*auxBest,w,c1,c2);
       }
     }
   }
