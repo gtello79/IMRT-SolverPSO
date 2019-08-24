@@ -262,7 +262,7 @@ int main(int argc, char** argv){
       cout << endl;
 		};
 
-  //Calculate the new Best Global of the particle
+//Calculate the new Best Global of the particle
     for(int k = 0; k < size ; k++)
     {
       if(solution[k].getDeltaFitness() < actual_global)
@@ -279,7 +279,7 @@ int main(int argc, char** argv){
   cout << "##**************************************************************************"<< endl;
 
   cout << "##"<<endl;
-  cout << "## Best solution found: " <<  actual_global << endl;
+  cout << "## Best Global Iteration n°"<<j<<": " << actual_global << " at the iteration " <<Best_iteration <<endl;
   // BGlobal->printIntensities();
   return 0;
 }

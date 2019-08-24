@@ -29,10 +29,10 @@ args = parser.parse_args()
 size = 10
 max_iter = 100
 initial_setup = 5
-iner=1.0 
+iner=1.0
 c1=1.0
 c2 = 1.0
-bsize=20  
+bsize=20
 vsize=50
 maxdelta=5
 maxratio=3
@@ -89,7 +89,7 @@ if args.changes_beam:
 	changes_beam = args.changes_beam
 if args.pso_iter:
     pso_iter = args.pso_iter
- 
+
 ##Erasing the files of the last iteration
 os.system("rm -r Values")
 os.system("mkdir Values")
@@ -98,21 +98,33 @@ detalles = open("Values/Descripcion.txt","w")
 for i in range(0,pso_iter):
 	descripcion = "PSO --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)
 	detalles.write("PSO Iteracion "+str(i)+"\n")
-	detalles.write(descripcion+"\n")	
-	os.system("./PSO --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)+" >> Values/resultado"+str(i)+".txt")  
+	detalles.write(descripcion+"\n")
+	os.system("./PSO --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)+" >> Values/resultado"+str(i)+".txt")
 	seed = seed + 1
 detalles.close()
 
 ##Now we try to show only the final line with the best solution of the iteration
 Best = open("Values/BestSolutions.txt",'w')
+final_line=""
+#for i in range(pso_iter):
+#	archivo=open("Values/resultado"+str(i)+".txt",'r')
+#	for linea in archivo:
+#        reading = linea.strip().split(" ")
+#	    if(reading[0]=="Best"):
+#            if(reading[1]=="Global"):
+#                final_line = linea
+#    print(final_line)
+#    Best.write(final_line+"\n")
+ #	archivo.close()
 for i in range(pso_iter):
-	archivo = open("Values/resultado"+str(i)+".txt",'r')
+	archivo = file("Values/resultado"+str(i)+".txt",'r')
 	for linea in archivo:
 		reading = linea.strip().split(" ")
-		if(reading[0] == "##"):
-           		if(len(reading) > 1):
-			    if(reading[1]=="Best"):
-				    print(linea)
- 				    Best.write(linea+"\n")
- 	archivo.close()
+      		if(reading[0] == "##"):
+			if(len(reading) > 1):
+				if(reading[1]=="Best"):
+					print(linea)
+   	archivo.close()
+
+
 Best.close()
