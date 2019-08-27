@@ -19,9 +19,8 @@ if os.path.exists(archivo):
                 #par = (int(nuevo[-1]),float(nuevo[4]))
                 NewX = int(nuevo[-1])
                 NewY = float(nuevo[4])
-                if(not(NewX in x)):
-                  x.append(int(nuevo[-1]))
-                  y.append(float(nuevo[4]))
+                x.append(int(nuevo[-1]))
+                y.append(float(nuevo[4]))
     #for i in best_values:
     #  x.append(i[0])
     #  y.append(i[1])

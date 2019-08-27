@@ -77,6 +77,7 @@ int main(int argc, char** argv){
 	int size  = 10;
 	int max_iter = 100;
 	int initial_setup = 5;
+  int diff_setup = 5; //this params use a particle to guide the rest of the particles
   //Best parametres values
   float iner=1, c1=1 ,c2 = 1;
 
@@ -126,6 +127,8 @@ int main(int argc, char** argv){
   args::ValueFlag<int> _size(parser, "int", "Number of particles for the swarm("+to_string(size)+")", {"size"});
   args::ValueFlag<int> _max_iter(parser, "int", "Number of iterations that the program will run ("+to_string(max_iter)+")", {"max_iter"});
   args::ValueFlag<int> _initial_setup(parser, "int", "Type of creation for the particles ("+to_string(initial_setup)+")", {"initial_setup"});
+  args::ValueFlag<int> _diff_setup(parser, "int", "Type of creation for a particle ("+to_string(diff_setup)+")", {"diff_setup"});
+
   args::ValueFlag<float> _iner(parser, "int", "Inertia Parameter ("+to_string(iner)+")", {"iner"});
   args::ValueFlag<float> _c1(parser, "int", "Social Factor Parameter ("+to_string(c1)+")", {"c1"});
   args::ValueFlag<float> _c2(parser, "int", "Personal Factor Parameter ("+to_string(c2)+")", {"c2"});
@@ -186,6 +189,7 @@ int main(int argc, char** argv){
   if(_size)  size = _size.Get();
   if(_max_iter) max_iter = _max_iter.Get();
   if(_initial_setup) initial_setup =_initial_setup.Get();
+  if(_diff_setup) diff_setup = _diff_setup.Get();
   if(_iner) iner =_iner.Get();
   if(_c1) c1 =_c1.Get();
   if(_c2) c2 =_c2.Get();
@@ -214,7 +218,7 @@ int main(int argc, char** argv){
 
 	Plan *BGlobal;
   cout << "Particula N° " << 1 << endl;
-	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, 0);
+	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, diff_setup);
   actual_global = BGlobal->getEvaluation();
   solution.push_back(Particle(*BGlobal,c1,c2,iner));
 
