@@ -238,7 +238,7 @@ int main(int argc, char** argv){
     if(solution[k].getFitness() < actual_global)
     {
       BGlobal->newCopy(solution[k].GetPCurrent());
-      actual_global = BGlobal->eval();
+      actual_global = BGlobal->getEvaluation();
     }
   }
 
@@ -255,21 +255,21 @@ int main(int argc, char** argv){
       cout << "Particula N°" << i+1 <<" " <<endl;
       solution[i].Velocityupdate(*BGlobal, changes_beam);
       solution[i].updatePosition(max_intensity);
-      solution[i].calculateDeltaFitness();
-      //solution[i].calculateFitness();
-      if(solution[i].getDeltaFitness()<solution[i].getBfitness())
+      //solution[i].calculateDeltaFitness();
+      solution[i].calculateFitness();
+      if(solution[i].getFitness()<solution[i].getBfitness())
       {
         solution[i].updatePbest();
       }
-      //cout <<"Actual Value: "<<solution[i].getFitness() <<endl;
-      cout <<"Delta Value: " <<solution[i].getDeltaFitness() << endl;
+      cout <<"Actual Value: "<<solution[i].getFitness() <<endl;
+      //cout <<"Delta Value: " <<solution[i].getDeltaFitness() << endl;
       cout << endl;
 		};
 
 //Calculate the new Best Global of the particle
     for(int k = 0; k < size ; k++)
     {
-      if(solution[k].getDeltaFitness() < actual_global)
+      if(solution[i].getFitness() < actual_global)
       {
         BGlobal->newCopy(solution[k].GetPCurrent());
         actual_global = BGlobal->eval();

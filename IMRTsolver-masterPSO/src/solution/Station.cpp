@@ -675,7 +675,7 @@ namespace imrt {
     for(int j = 0; j < max_apertures; j++){
       for(int k = 0; k < collimator.getXdim(); k++){
         pair<int, int> activeRange = collimator.getActiveRange(k,angle);
-        if (A[j][k].first<0 || activeRange.first<0) continue;
+        if (activeRange.first<0) continue;
         Veloc_Aperture[j][k].first = w*Veloc_Aperture[j][k].first + c1*r1*(A[j][k].first - Bpm[j][k].first) + c2*r2*(A[j][k].first - Bgm[j][k].first);
         Veloc_Aperture[j][k].second = w*Veloc_Aperture[j][k].second + c1*r1*(A[j][k].second - Bpm[j][k].second) + c2*r2*(A[j][k].second - Bgm[j][k].second);
       }
@@ -689,7 +689,7 @@ namespace imrt {
       for(int i = 0; i < collimator.getXdim(); i++){
         pair<int, int> activeRange = collimator.getActiveRange(i,angle);
 
-        if (A[a][i].first<0 || activeRange.first<0) continue;
+        if (activeRange.first<0) continue;
 
         A[a][i].first = Veloc_Aperture[a][i].first + A[a][i].first;
         A[a][i].second = Veloc_Aperture[a][i].second + A[a][i].second;
@@ -697,11 +697,11 @@ namespace imrt {
         if(A[a][i].first < activeRange.first || A[a][i].first > activeRange.second) A[a][i].first = activeRange.first;
         if(A[a][i].second < activeRange.first || A[a][i].second > activeRange.second) A[a][i].second = activeRange.second;
         if(A[a][i].second <= A[a][i].first){
-          int n = (activeRange.first+activeRange.second)/2;
-          A[a][i].second = n;
-          A[a][i].first = n-1;
+          double n = (activeRange.first+activeRange.second)/2;
+          A[a][i].second = ceil(n);
+          A[a][i].first = floor(n);
         }
-        cout << A[a][i].first << " " << A[a][i].second << endl;
+        //cout << A[a][i].first << " " << A[a][i].second << endl;
       }
     }
     //cout << I << endl;
