@@ -1,10 +1,10 @@
 PSO Iteracion 0
-PSO --diff_setup 5 --max_iter 20 --size 30 --iner 1.0 --c1 1.0 --c2 1.0 --seed 0 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1
+PSO --diff_setup 5 --max_iter 20 --size 70 --iner 1.0 --c1 1.0 --c2 1.0 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1
 PSO Iteracion 1
-PSO --diff_setup 5 --max_iter 20 --size 30 --iner 1.0 --c1 1.0 --c2 1.0 --seed 1 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1
+PSO --diff_setup 5 --max_iter 20 --size 70 --iner 1.0 --c1 1.0 --c2 1.0 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1
 PSO Iteracion 2
-PSO --diff_setup 5 --max_iter 20 --size 30 --iner 1.0 --c1 1.0 --c2 1.0 --seed 2 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1
+PSO --diff_setup 5 --max_iter 20 --size 70 --iner 1.0 --c1 1.0 --c2 1.0 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1
 PSO Iteracion 3
-PSO --diff_setup 5 --max_iter 20 --size 30 --iner 1.0 --c1 1.0 --c2 1.0 --seed 3 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1
+PSO --diff_setup 5 --max_iter 20 --size 70 --iner 1.0 --c1 1.0 --c2 1.0 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1
 PSO Iteracion 4
-PSO --diff_setup 5 --max_iter 20 --size 30 --iner 1.0 --c1 1.0 --c2 1.0 --seed 4 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1
+PSO --diff_setup 5 --max_iter 20 --size 70 --iner 1.0 --c1 1.0 --c2 1.0 --initial_setup 5 --bsize 20 --vsize 50 --maxdelta 5 --maxtime 0 --maxratio 3 --alpha 1.0 --beta 1.0 --max_apertures 5 --open_apertures -1 --initial_intensity 2 --max_intensity 28 --changes_beam 1

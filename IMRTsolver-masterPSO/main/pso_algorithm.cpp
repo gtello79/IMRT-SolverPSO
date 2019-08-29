@@ -112,8 +112,8 @@ int main(int argc, char** argv){
   int perturbation=2;
 
   int seed=time(NULL);
-  //int seed =1567018062;
-  srand(seed);
+ // int seed =1567056199; 
+ srand(seed);
   cout << endl;
   cout << seed << endl;
 	string strategy="dao_ls";
@@ -273,13 +273,13 @@ int main(int argc, char** argv){
       //cout << solution[i].getDeltaFitness() << " -- " << actual_global << endl;
       if(solution[k].getDeltaFitness() < actual_global)
       {
-        cout << solution[k].getDeltaFitness() << " -------- " << actual_global  << endl;
+        //cout << solution[k].getDeltaFitness() << " -------- " << actual_global  << endl;
         BGlobal->newCopy(solution[k].GetPCurrent());
         actual_global = solution[k].getDeltaFitness();
         Best_iteration = j;
       }
     }
-		cout<<"Best Global Iteration n°"<<j<<": " << actual_global << " at the iteration " <<Best_iteration <<endl ;
+	cout<<"Best Global Iteration n° "<<j<<" : " << actual_global << " at the iteration " <<Best_iteration <<endl ;
 	};
 	cout << "##**************************************************************************"<< endl;
   cout << "##******************************* RESULTS **********************************"<< endl;

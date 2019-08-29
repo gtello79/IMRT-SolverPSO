@@ -1,3 +1,5 @@
+
+1567057064
 ##Reading collimator coordinates info.
 ##  data/CERR_Prostate/CoordinatesBeam_0.txt a:0
 ##  data/CERR_Prostate/CoordinatesBeam_70.txt a:70
@@ -13,123 +15,283 @@
 Particula N° 1
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1373.47.
+##  Initial evaluation: 1345.47.
 Particula N° 2
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 819.858.
+##  Initial evaluation: 913.554.
 Particula N° 3
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 894.337.
+##  Initial evaluation: 617.861.
 Particula N° 4
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1404.89.
+##  Initial evaluation: 628.923.
 Particula N° 5
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 943.06.
+##  Initial evaluation: 1534.97.
 Particula N° 6
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 791.307.
+##  Initial evaluation: 829.985.
 Particula N° 7
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1205.03.
+##  Initial evaluation: 1160.05.
 Particula N° 8
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1418.94.
+##  Initial evaluation: 1284.11.
 Particula N° 9
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 877.417.
+##  Initial evaluation: 1310.68.
 Particula N° 10
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1202.33.
+##  Initial evaluation: 800.63.
 Particula N° 11
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1186.17.
+##  Initial evaluation: 754.313.
 Particula N° 12
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1057.1.
+##  Initial evaluation: 1098.81.
 Particula N° 13
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1172.45.
+##  Initial evaluation: 1312.78.
 Particula N° 14
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1055.3.
+##  Initial evaluation: 1442.12.
 Particula N° 15
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 928.237.
+##  Initial evaluation: 1425.81.
 Particula N° 16
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1217.47.
+##  Initial evaluation: 1907.16.
 Particula N° 17
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 605.625.
+##  Initial evaluation: 1088.36.
 Particula N° 18
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 901.314.
+##  Initial evaluation: 1002.61.
 Particula N° 19
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1308.45.
+##  Initial evaluation: 467.801.
 Particula N° 20
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1075.64.
+##  Initial evaluation: 717.714.
 Particula N° 21
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 858.177.
+##  Initial evaluation: 2132.53.
 Particula N° 22
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 932.72.
+##  Initial evaluation: 1417.33.
 Particula N° 23
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 769.308.
+##  Initial evaluation: 799.437.
 Particula N° 24
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 800.554.
+##  Initial evaluation: 835.984.
 Particula N° 25
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 905.08.
+##  Initial evaluation: 1487.56.
 Particula N° 26
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 550.684.
+##  Initial evaluation: 971.816.
 Particula N° 27
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1603.34.
+##  Initial evaluation: 1588.76.
 Particula N° 28
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 1312.29.
+##  Initial evaluation: 1635.47.
 Particula N° 29
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 671.218.
+##  Initial evaluation: 1127.78.
 Particula N° 30
 ##Initilizing plan.
 ##  Created 5 stations.
-##  Initial evaluation: 682.902.
+##  Initial evaluation: 1489.44.
+Particula N° 31
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1251.77.
+Particula N° 32
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1103.44.
+Particula N° 33
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1111.54.
+Particula N° 34
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 731.586.
+Particula N° 35
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 923.243.
+Particula N° 36
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 994.471.
+Particula N° 37
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 877.575.
+Particula N° 38
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1204.84.
+Particula N° 39
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 456.566.
+Particula N° 40
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1143.13.
+Particula N° 41
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1221.52.
+Particula N° 42
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 726.704.
+Particula N° 43
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 630.136.
+Particula N° 44
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 587.184.
+Particula N° 45
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 978.41.
+Particula N° 46
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1175.15.
+Particula N° 47
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 858.382.
+Particula N° 48
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 926.845.
+Particula N° 49
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1472.34.
+Particula N° 50
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 553.128.
+Particula N° 51
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1532.3.
+Particula N° 52
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 955.239.
+Particula N° 53
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 907.815.
+Particula N° 54
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1420.86.
+Particula N° 55
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1287.38.
+Particula N° 56
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 966.002.
+Particula N° 57
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 792.56.
+Particula N° 58
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1071.9.
+Particula N° 59
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1107.06.
+Particula N° 60
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 810.969.
+Particula N° 61
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 489.519.
+Particula N° 62
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1436.66.
+Particula N° 63
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1717.97.
+Particula N° 64
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 879.615.
+Particula N° 65
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1361.44.
+Particula N° 66
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1193.79.
+Particula N° 67
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 893.236.
+Particula N° 68
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 840.994.
+Particula N° 69
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1045.24.
+Particula N° 70
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1360.98.
 ###############################################################################
 #########################Particles Created#####################################
 ###############################################################################
@@ -137,2752 +299,7079 @@ Particula N° 30
  Iteracion: 1
 Particula N°1 
 
-Best Personal 0: 1373.47
-Actual Value: 871.766
+Best Personal 0: 1345.47
+Delta Value: 1282.55
 
 Particula N°2 
 
-Best Personal 0: 819.858
-Actual Value: 715.535
+Best Personal 0: 913.554
+Delta Value: 685.228
 
 Particula N°3 
 
-Best Personal 0: 894.337
-Actual Value: 576.065
+Best Personal 0: 617.861
+Delta Value: 612.71
 
 Particula N°4 
 
-Best Personal 0: 1404.89
-Actual Value: 717.467
+Best Personal 0: 628.923
+Delta Value: 308.164
 
 Particula N°5 
 
-Best Personal 0: 943.06
-Actual Value: 816.545
+Best Personal 0: 1534.97
+Delta Value: 997.692
 
 Particula N°6 
 
-Best Personal 0: 791.307
-Actual Value: 559.808
+Best Personal 0: 829.985
+Delta Value: 882.033
 
 Particula N°7 
 
-Best Personal 0: 1205.03
-Actual Value: 1085.34
+Best Personal 0: 1160.05
+Delta Value: 836.754
 
 Particula N°8 
 
-Best Personal 0: 1418.94
-Actual Value: 836.518
+Best Personal 0: 1284.11
+Delta Value: 1035.91
 
 Particula N°9 
 
-Best Personal 0: 877.417
-Actual Value: 667.205
+Best Personal 0: 1310.68
+Delta Value: 848.203
 
 Particula N°10 
 
-Best Personal 0: 1202.33
-Actual Value: 789.851
+Best Personal 0: 800.63
+Delta Value: 594.285
 
 Particula N°11 
 
-Best Personal 0: 1186.17
-Actual Value: 730.776
+Best Personal 0: 754.313
+Delta Value: 713.403
 
 Particula N°12 
 
-Best Personal 0: 1057.1
-Actual Value: 724.326
+Best Personal 0: 1098.81
+Delta Value: 785.539
 
 Particula N°13 
 
-Best Personal 0: 1172.45
-Actual Value: 1043.49
+Best Personal 0: 1312.78
+Delta Value: 839.378
 
 Particula N°14 
 
-Best Personal 0: 1055.3
-Actual Value: 936.489
+Best Personal 0: 1442.12
+Delta Value: 897.986
 
 Particula N°15 
 
-Best Personal 0: 928.237
-Actual Value: 702.815
+Best Personal 0: 1425.81
+Delta Value: 974.513
 
 Particula N°16 
 
-Best Personal 0: 1217.47
-Actual Value: 1007.46
+Best Personal 0: 1907.16
+Delta Value: 1847.49
 
 Particula N°17 
 
-Best Personal 0: 605.625
-Actual Value: 584.406
+Best Personal 0: 1088.36
+Delta Value: 700.697
 
 Particula N°18 
 
-Best Personal 0: 901.314
-Actual Value: 776.12
+Best Personal 0: 1002.61
+Delta Value: 672.734
 
 Particula N°19 
 
-Best Personal 0: 1308.45
-Actual Value: 975.553
+Best Personal 0: 467.801
+Delta Value: 406.961
 
 Particula N°20 
 
-Best Personal 0: 1075.64
-Actual Value: 772.861
+Best Personal 0: 717.714
+Delta Value: 573.601
 
 Particula N°21 
 
-Best Personal 0: 858.177
-Actual Value: 697.294
+Best Personal 0: 2132.53
+Delta Value: 1550.88
 
 Particula N°22 
 
-Best Personal 0: 932.72
-Actual Value: 558.157
+Best Personal 0: 1417.33
+Delta Value: 986.755
 
 Particula N°23 
 
-Best Personal 0: 769.308
-Actual Value: 553.71
+Best Personal 0: 799.437
+Delta Value: 557.322
 
 Particula N°24 
 
-Best Personal 0: 800.554
-Actual Value: 479.168
+Best Personal 0: 835.984
+Delta Value: 704.713
 
 Particula N°25 
 
-Best Personal 0: 905.08
-Actual Value: 657.832
+Best Personal 0: 1487.56
+Delta Value: 1121.38
 
 Particula N°26 
 
-Best Personal 0: 550.684
-Actual Value: 463.633
+Best Personal 0: 971.816
+Delta Value: 613.873
 
 Particula N°27 
 
-Best Personal 0: 1603.34
-Actual Value: 933.538
+Best Personal 0: 1588.76
+Delta Value: 1294.48
 
 Particula N°28 
 
-Best Personal 0: 1312.29
-Actual Value: 1166.78
+Best Personal 0: 1635.47
+Delta Value: 1486.02
 
 Particula N°29 
 
-Best Personal 0: 671.218
-Actual Value: 466.618
+Best Personal 0: 1127.78
+Delta Value: 1224.97
 
 Particula N°30 
 
-Best Personal 0: 682.902
-Actual Value: 527.751
+Best Personal 0: 1489.44
+Delta Value: 904.225
 
-Best Global Iteration n°0: 527.751 at the iteration 0
+Particula N°31 
+
+Best Personal 0: 1251.77
+Delta Value: 1049.66
+
+Particula N°32 
+
+Best Personal 0: 1103.44
+Delta Value: 1000.63
+
+Particula N°33 
+
+Best Personal 0: 1111.54
+Delta Value: 705.75
+
+Particula N°34 
+
+Best Personal 0: 731.586
+Delta Value: 584.057
+
+Particula N°35 
+
+Best Personal 0: 923.243
+Delta Value: 711.601
+
+Particula N°36 
+
+Best Personal 0: 994.471
+Delta Value: 849.611
+
+Particula N°37 
+
+Best Personal 0: 877.575
+Delta Value: 776.367
+
+Particula N°38 
+
+Best Personal 0: 1204.84
+Delta Value: 1068.69
+
+Particula N°39 
+
+Best Personal 0: 456.566
+Delta Value: 409.651
+
+Particula N°40 
+
+Best Personal 0: 1143.13
+Delta Value: 767.165
+
+Particula N°41 
+
+Best Personal 0: 1221.52
+Delta Value: 1103.92
+
+Particula N°42 
+
+Best Personal 0: 726.704
+Delta Value: 542.527
+
+Particula N°43 
+
+Best Personal 0: 630.136
+Delta Value: 552.505
+
+Particula N°44 
+
+Best Personal 0: 587.184
+Delta Value: 494.272
+
+Particula N°45 
+
+Best Personal 0: 978.41
+Delta Value: 809.635
+
+Particula N°46 
+
+Best Personal 0: 1175.15
+Delta Value: 812.849
+
+Particula N°47 
+
+Best Personal 0: 858.382
+Delta Value: 739.296
+
+Particula N°48 
+
+Best Personal 0: 926.845
+Delta Value: 867.366
+
+Particula N°49 
+
+Best Personal 0: 1472.34
+Delta Value: 1141
+
+Particula N°50 
+
+Best Personal 0: 553.128
+Delta Value: 398.736
+
+Particula N°51 
+
+Best Personal 0: 1532.3
+Delta Value: 1517.35
+
+Particula N°52 
+
+Best Personal 0: 955.239
+Delta Value: 829.026
+
+Particula N°53 
+
+Best Personal 0: 907.815
+Delta Value: 597.614
+
+Particula N°54 
+
+Best Personal 0: 1420.86
+Delta Value: 1360.69
+
+Particula N°55 
+
+Best Personal 0: 1287.38
+Delta Value: 869.574
+
+Particula N°56 
+
+Best Personal 0: 966.002
+Delta Value: 986.222
+
+Particula N°57 
+
+Best Personal 0: 792.56
+Delta Value: 406.104
+
+Particula N°58 
+
+Best Personal 0: 1071.9
+Delta Value: 576.328
+
+Particula N°59 
+
+Best Personal 0: 1107.06
+Delta Value: 1207.28
+
+Particula N°60 
+
+Best Personal 0: 810.969
+Delta Value: 694.086
+
+Particula N°61 
+
+Best Personal 0: 489.519
+Delta Value: 324.532
+
+Particula N°62 
+
+Best Personal 0: 1436.66
+Delta Value: 1009.83
+
+Particula N°63 
+
+Best Personal 0: 1717.97
+Delta Value: 1201.76
+
+Particula N°64 
+
+Best Personal 0: 879.615
+Delta Value: 795.208
+
+Particula N°65 
+
+Best Personal 0: 1361.44
+Delta Value: 1193.08
+
+Particula N°66 
+
+Best Personal 0: 1193.79
+Delta Value: 678.994
+
+Particula N°67 
+
+Best Personal 0: 893.236
+Delta Value: 619.633
+
+Particula N°68 
+
+Best Personal 0: 840.994
+Delta Value: 529.519
+
+Particula N°69 
+
+Best Personal 0: 1045.24
+Delta Value: 626.672
+
+Particula N°70 
+
+Best Personal 0: 1360.98
+Delta Value: 800.005
+
+1282.55 -------- 1345.47
+685.228 -------- 1282.55
+612.71 -------- 685.228
+308.164 -------- 612.71
+Best Global Iteration n°0: 308.164 at the iteration 0
 
  Iteracion: 2
 Particula N°1 
 
-Best Personal 1: 1373.47
-Actual Value: 564.964
+Best Personal 1: 1282.55
+Delta Value: 753.853
 
 Particula N°2 
 
-Best Personal 1: 819.858
-Actual Value: 447.165
+Best Personal 1: 685.228
+Delta Value: 485.729
 
 Particula N°3 
 
-Best Personal 1: 894.337
-Actual Value: 247.859
+Best Personal 1: 612.71
+Delta Value: 612.71
 
 Particula N°4 
 
-Best Personal 1: 1404.89
-Actual Value: 551.299
+Best Personal 1: 308.164
+Delta Value: 317.746
 
 Particula N°5 
 
-Best Personal 1: 943.06
-Actual Value: 551.29
+Best Personal 1: 997.692
+Delta Value: 617.143
 
 Particula N°6 
 
-Best Personal 1: 791.307
-Actual Value: 559.808
+Best Personal 0: 829.985
+Delta Value: 882.033
 
 Particula N°7 
 
-Best Personal 1: 1205.03
-Actual Value: 635.369
+Best Personal 1: 836.754
+Delta Value: 836.754
 
 Particula N°8 
 
-Best Personal 1: 1418.94
-Actual Value: 429.997
+Best Personal 1: 1035.91
+Delta Value: 602.524
 
 Particula N°9 
 
-Best Personal 1: 877.417
-Actual Value: 667.205
+Best Personal 1: 848.203
+Delta Value: 652.989
 
 Particula N°10 
 
-Best Personal 1: 1202.33
-Actual Value: 345.415
+Best Personal 1: 594.285
+Delta Value: 319.295
 
 Particula N°11 
 
-Best Personal 1: 1186.17
-Actual Value: 730.776
+Best Personal 1: 713.403
+Delta Value: 485.143
 
 Particula N°12 
 
-Best Personal 1: 1057.1
-Actual Value: 318.976
+Best Personal 1: 785.539
+Delta Value: 599.039
 
 Particula N°13 
 
-Best Personal 1: 1172.45
-Actual Value: 566.335
+Best Personal 1: 839.378
+Delta Value: 839.378
 
 Particula N°14 
 
-Best Personal 1: 1055.3
-Actual Value: 444.39
+Best Personal 1: 897.986
+Delta Value: 571.142
 
 Particula N°15 
 
-Best Personal 1: 928.237
-Actual Value: 624.722
+Best Personal 1: 974.513
+Delta Value: 711.529
 
 Particula N°16 
 
-Best Personal 1: 1217.47
-Actual Value: 661.853
+Best Personal 1: 1847.49
+Delta Value: 1127.02
 
 Particula N°17 
 
-Best Personal 1: 605.625
-Actual Value: 478.757
+Best Personal 1: 700.697
+Delta Value: 478.551
 
 Particula N°18 
 
-Best Personal 1: 901.314
-Actual Value: 577.412
+Best Personal 1: 672.734
+Delta Value: 436.184
 
 Particula N°19 
 
-Best Personal 1: 1308.45
-Actual Value: 975.553
+Best Personal 1: 406.961
+Delta Value: 406.961
 
 Particula N°20 
 
-Best Personal 1: 1075.64
-Actual Value: 531.813
+Best Personal 1: 573.601
+Delta Value: 573.601
 
 Particula N°21 
 
-Best Personal 1: 858.177
-Actual Value: 429.047
+Best Personal 1: 1550.88
+Delta Value: 1097.68
 
 Particula N°22 
 
-Best Personal 1: 932.72
-Actual Value: 400.282
+Best Personal 1: 986.755
+Delta Value: 544.071
 
 Particula N°23 
 
-Best Personal 1: 769.308
-Actual Value: 551.721
+Best Personal 1: 557.322
+Delta Value: 428.238
 
 Particula N°24 
 
-Best Personal 1: 800.554
-Actual Value: 217.618
+Best Personal 1: 704.713
+Delta Value: 470.103
 
 Particula N°25 
 
-Best Personal 1: 905.08
-Actual Value: 526.969
+Best Personal 1: 1121.38
+Delta Value: 864.651
 
 Particula N°26 
 
-Best Personal 1: 550.684
-Actual Value: 404.337
+Best Personal 1: 613.873
+Delta Value: 491.068
 
 Particula N°27 
 
-Best Personal 1: 1603.34
-Actual Value: 687.255
+Best Personal 1: 1294.48
+Delta Value: 905.418
 
 Particula N°28 
 
-Best Personal 1: 1312.29
-Actual Value: 730.737
+Best Personal 1: 1486.02
+Delta Value: 1062.57
 
 Particula N°29 
 
-Best Personal 1: 671.218
-Actual Value: 259.219
+Best Personal 0: 1127.78
+Delta Value: 666.372
 
 Particula N°30 
 
-Best Personal 1: 682.902
-Actual Value: 307.355
+Best Personal 1: 904.225
+Delta Value: 611.871
 
-Best Global Iteration n°1: 307.355 at the iteration 1
+Particula N°31 
+
+Best Personal 1: 1049.66
+Delta Value: 719.863
+
+Particula N°32 
+
+Best Personal 1: 1000.63
+Delta Value: 666.202
+
+Particula N°33 
+
+Best Personal 1: 705.75
+Delta Value: 437.811
+
+Particula N°34 
+
+Best Personal 1: 584.057
+Delta Value: 411.996
+
+Particula N°35 
+
+Best Personal 1: 711.601
+Delta Value: 711.601
+
+Particula N°36 
+
+Best Personal 1: 849.611
+Delta Value: 526.865
+
+Particula N°37 
+
+Best Personal 1: 776.367
+Delta Value: 631.176
+
+Particula N°38 
+
+Best Personal 1: 1068.69
+Delta Value: 900.653
+
+Particula N°39 
+
+Best Personal 1: 409.651
+Delta Value: 275.64
+
+Particula N°40 
+
+Best Personal 1: 767.165
+Delta Value: 715.843
+
+Particula N°41 
+
+Best Personal 1: 1103.92
+Delta Value: 927.052
+
+Particula N°42 
+
+Best Personal 1: 542.527
+Delta Value: 542.527
+
+Particula N°43 
+
+Best Personal 1: 552.505
+Delta Value: 453.822
+
+Particula N°44 
+
+Best Personal 1: 494.272
+Delta Value: 249.705
+
+Particula N°45 
+
+Best Personal 1: 809.635
+Delta Value: 539.102
+
+Particula N°46 
+
+Best Personal 1: 812.849
+Delta Value: 812.849
+
+Particula N°47 
+
+Best Personal 1: 739.296
+Delta Value: 553.867
+
+Particula N°48 
+
+Best Personal 1: 867.366
+Delta Value: 560.851
+
+Particula N°49 
+
+Best Personal 1: 1141
+Delta Value: 894.33
+
+Particula N°50 
+
+Best Personal 1: 398.736
+Delta Value: 326.851
+
+Particula N°51 
+
+Best Personal 1: 1517.35
+Delta Value: 719.557
+
+Particula N°52 
+
+Best Personal 1: 829.026
+Delta Value: 656.153
+
+Particula N°53 
+
+Best Personal 1: 597.614
+Delta Value: 568.422
+
+Particula N°54 
+
+Best Personal 1: 1360.69
+Delta Value: 758.401
+
+Particula N°55 
+
+Best Personal 1: 869.574
+Delta Value: 648.68
+
+Particula N°56 
+
+Best Personal 0: 966.002
+Delta Value: 784.019
+
+Particula N°57 
+
+Best Personal 1: 406.104
+Delta Value: 315.701
+
+Particula N°58 
+
+Best Personal 1: 576.328
+Delta Value: 364.33
+
+Particula N°59 
+
+Best Personal 0: 1107.06
+Delta Value: 801.105
+
+Particula N°60 
+
+Best Personal 1: 694.086
+Delta Value: 650.032
+
+Particula N°61 
+
+Best Personal 1: 324.532
+Delta Value: 216.92
+
+Particula N°62 
+
+Best Personal 1: 1009.83
+Delta Value: 1009.83
+
+Particula N°63 
+
+Best Personal 1: 1201.76
+Delta Value: 878.445
+
+Particula N°64 
+
+Best Personal 1: 795.208
+Delta Value: 507.893
+
+Particula N°65 
+
+Best Personal 1: 1193.08
+Delta Value: 555.497
+
+Particula N°66 
+
+Best Personal 1: 678.994
+Delta Value: 678.994
+
+Particula N°67 
+
+Best Personal 1: 619.633
+Delta Value: 619.633
+
+Particula N°68 
+
+Best Personal 1: 529.519
+Delta Value: 434.109
+
+Particula N°69 
+
+Best Personal 1: 626.672
+Delta Value: 482.128
+
+Particula N°70 
+
+Best Personal 1: 800.005
+Delta Value: 741.523
+
+275.64 -------- 308.164
+249.705 -------- 275.64
+216.92 -------- 249.705
+Best Global Iteration n°1: 216.92 at the iteration 1
 
  Iteracion: 3
 Particula N°1 
 
-Best Personal 2: 1373.47
-Actual Value: 330.102
+Best Personal 2: 753.853
+Delta Value: 753.853
 
 Particula N°2 
 
-Best Personal 2: 819.858
-Actual Value: 163.304
+Best Personal 2: 485.729
+Delta Value: 272.017
 
 Particula N°3 
 
-Best Personal 2: 894.337
-Actual Value: 229.978
+Best Personal 1: 612.71
+Delta Value: 440.006
 
 Particula N°4 
 
-Best Personal 2: 1404.89
-Actual Value: 400.52
+Best Personal 1: 308.164
+Delta Value: 259.569
 
 Particula N°5 
 
-Best Personal 2: 943.06
-Actual Value: 377.901
+Best Personal 2: 617.143
+Delta Value: 391.116
 
 Particula N°6 
 
-Best Personal 2: 791.307
-Actual Value: 458.632
+Best Personal 0: 829.985
+Delta Value: 648.523
 
 Particula N°7 
 
-Best Personal 2: 1205.03
-Actual Value: 635.369
+Best Personal 1: 836.754
+Delta Value: 581.968
 
 Particula N°8 
 
-Best Personal 2: 1418.94
-Actual Value: 323.459
+Best Personal 2: 602.524
+Delta Value: 602.524
 
 Particula N°9 
 
-Best Personal 2: 877.417
-Actual Value: 442.834
+Best Personal 2: 652.989
+Delta Value: 309.113
 
 Particula N°10 
 
-Best Personal 2: 1202.33
-Actual Value: 345.415
+Best Personal 2: 319.295
+Delta Value: 243.111
 
 Particula N°11 
 
-Best Personal 2: 1186.17
-Actual Value: 456.321
+Best Personal 2: 485.143
+Delta Value: 431.44
 
 Particula N°12 
 
-Best Personal 2: 1057.1
-Actual Value: 318.976
+Best Personal 2: 599.039
+Delta Value: 426.598
 
 Particula N°13 
 
-Best Personal 2: 1172.45
-Actual Value: 566.335
+Best Personal 1: 839.378
+Delta Value: 839.378
 
 Particula N°14 
 
-Best Personal 2: 1055.3
-Actual Value: 444.392
+Best Personal 2: 571.142
+Delta Value: 571.142
 
 Particula N°15 
 
-Best Personal 2: 928.237
-Actual Value: 624.722
+Best Personal 2: 711.529
+Delta Value: 711.529
 
 Particula N°16 
 
-Best Personal 2: 1217.47
-Actual Value: 661.853
+Best Personal 2: 1127.02
+Delta Value: 1127.02
 
 Particula N°17 
 
-Best Personal 2: 605.625
-Actual Value: 478.757
+Best Personal 2: 478.551
+Delta Value: 478.551
 
 Particula N°18 
 
-Best Personal 2: 901.314
-Actual Value: 305.66
+Best Personal 2: 436.184
+Delta Value: 436.184
 
 Particula N°19 
 
-Best Personal 2: 1308.45
-Actual Value: 827.775
+Best Personal 1: 406.961
+Delta Value: 406.961
 
 Particula N°20 
 
-Best Personal 2: 1075.64
-Actual Value: 338.284
+Best Personal 1: 573.601
+Delta Value: 400.198
 
 Particula N°21 
 
-Best Personal 2: 858.177
-Actual Value: 290.974
+Best Personal 2: 1097.68
+Delta Value: 695.768
 
 Particula N°22 
 
-Best Personal 2: 932.72
-Actual Value: 157.64
+Best Personal 2: 544.071
+Delta Value: 351.013
 
 Particula N°23 
 
-Best Personal 2: 769.308
-Actual Value: 497.634
+Best Personal 2: 428.238
+Delta Value: 428.238
 
 Particula N°24 
 
-Best Personal 2: 800.554
-Actual Value: 202.78
+Best Personal 2: 470.103
+Delta Value: 293.917
 
 Particula N°25 
 
-Best Personal 2: 905.08
-Actual Value: 526.969
+Best Personal 2: 864.651
+Delta Value: 482.696
 
 Particula N°26 
 
-Best Personal 2: 550.684
-Actual Value: 404.337
+Best Personal 2: 491.068
+Delta Value: 243.009
 
 Particula N°27 
 
-Best Personal 2: 1603.34
-Actual Value: 247.073
+Best Personal 2: 905.418
+Delta Value: 905.418
 
 Particula N°28 
 
-Best Personal 2: 1312.29
-Actual Value: 435.835
+Best Personal 2: 1062.57
+Delta Value: 687.2
 
 Particula N°29 
 
-Best Personal 2: 671.218
-Actual Value: 233.858
+Best Personal 1: 666.372
+Delta Value: 666.372
 
 Particula N°30 
 
-Best Personal 2: 682.902
-Actual Value: 285.524
+Best Personal 2: 611.871
+Delta Value: 611.871
 
-Best Global Iteration n°2: 285.524 at the iteration 2
+Particula N°31 
+
+Best Personal 2: 719.863
+Delta Value: 719.863
+
+Particula N°32 
+
+Best Personal 2: 666.202
+Delta Value: 348.22
+
+Particula N°33 
+
+Best Personal 2: 437.811
+Delta Value: 237.824
+
+Particula N°34 
+
+Best Personal 2: 411.996
+Delta Value: 339.259
+
+Particula N°35 
+
+Best Personal 1: 711.601
+Delta Value: 474.137
+
+Particula N°36 
+
+Best Personal 2: 526.865
+Delta Value: 429.335
+
+Particula N°37 
+
+Best Personal 2: 631.176
+Delta Value: 360.966
+
+Particula N°38 
+
+Best Personal 2: 900.653
+Delta Value: 900.653
+
+Particula N°39 
+
+Best Personal 2: 275.64
+Delta Value: 157.777
+
+Particula N°40 
+
+Best Personal 2: 715.843
+Delta Value: 525.91
+
+Particula N°41 
+
+Best Personal 2: 927.052
+Delta Value: 927.052
+
+Particula N°42 
+
+Best Personal 1: 542.527
+Delta Value: 518.815
+
+Particula N°43 
+
+Best Personal 2: 453.822
+Delta Value: 177.931
+
+Particula N°44 
+
+Best Personal 2: 249.705
+Delta Value: 249.705
+
+Particula N°45 
+
+Best Personal 2: 539.102
+Delta Value: 539.102
+
+Particula N°46 
+
+Best Personal 1: 812.849
+Delta Value: 812.849
+
+Particula N°47 
+
+Best Personal 2: 553.867
+Delta Value: 553.867
+
+Particula N°48 
+
+Best Personal 2: 560.851
+Delta Value: 500.317
+
+Particula N°49 
+
+Best Personal 2: 894.33
+Delta Value: 451.363
+
+Particula N°50 
+
+Best Personal 2: 326.851
+Delta Value: 326.851
+
+Particula N°51 
+
+Best Personal 2: 719.557
+Delta Value: 719.557
+
+Particula N°52 
+
+Best Personal 2: 656.153
+Delta Value: 656.153
+
+Particula N°53 
+
+Best Personal 2: 568.422
+Delta Value: 287.629
+
+Particula N°54 
+
+Best Personal 2: 758.401
+Delta Value: 442.151
+
+Particula N°55 
+
+Best Personal 2: 648.68
+Delta Value: 338.603
+
+Particula N°56 
+
+Best Personal 1: 784.019
+Delta Value: 409.643
+
+Particula N°57 
+
+Best Personal 2: 315.701
+Delta Value: 206.32
+
+Particula N°58 
+
+Best Personal 2: 364.33
+Delta Value: 266.03
+
+Particula N°59 
+
+Best Personal 1: 801.105
+Delta Value: 801.105
+
+Particula N°60 
+
+Best Personal 2: 650.032
+Delta Value: 650.032
+
+Particula N°61 
+
+Best Personal 2: 216.92
+Delta Value: 216.92
+
+Particula N°62 
+
+Best Personal 1: 1009.83
+Delta Value: 792.84
+
+Particula N°63 
+
+Best Personal 2: 878.445
+Delta Value: 878.445
+
+Particula N°64 
+
+Best Personal 2: 507.893
+Delta Value: 367.129
+
+Particula N°65 
+
+Best Personal 2: 555.497
+Delta Value: 555.497
+
+Particula N°66 
+
+Best Personal 1: 678.994
+Delta Value: 678.994
+
+Particula N°67 
+
+Best Personal 1: 619.633
+Delta Value: 492.172
+
+Particula N°68 
+
+Best Personal 2: 434.109
+Delta Value: 263.328
+
+Particula N°69 
+
+Best Personal 2: 482.128
+Delta Value: 320.679
+
+Particula N°70 
+
+Best Personal 2: 741.523
+Delta Value: 502.02
+
+157.777 -------- 216.92
+Best Global Iteration n°2: 157.777 at the iteration 2
 
  Iteracion: 4
 Particula N°1 
 
-Best Personal 3: 1373.47
-Actual Value: 209.651
+Best Personal 2: 753.853
+Delta Value: 537.611
 
 Particula N°2 
 
-Best Personal 3: 819.858
-Actual Value: 163.304
+Best Personal 3: 272.017
+Delta Value: 272.017
 
 Particula N°3 
 
-Best Personal 3: 894.337
-Actual Value: 122.795
+Best Personal 2: 440.006
+Delta Value: 311.172
 
 Particula N°4 
 
-Best Personal 3: 1404.89
-Actual Value: 400.52
+Best Personal 2: 259.569
+Delta Value: 259.569
 
 Particula N°5 
 
-Best Personal 3: 943.06
-Actual Value: 208.021
+Best Personal 3: 391.116
+Delta Value: 391.116
 
 Particula N°6 
 
-Best Personal 3: 791.307
-Actual Value: 458.632
+Best Personal 1: 648.523
+Delta Value: 415.013
 
 Particula N°7 
 
-Best Personal 3: 1205.03
-Actual Value: 317.333
+Best Personal 2: 581.968
+Delta Value: 581.968
 
 Particula N°8 
 
-Best Personal 3: 1418.94
-Actual Value: 323.459
+Best Personal 2: 602.524
+Delta Value: 602.524
 
 Particula N°9 
 
-Best Personal 3: 877.417
-Actual Value: 282.22
+Best Personal 3: 309.113
+Delta Value: 309.113
 
 Particula N°10 
 
-Best Personal 3: 1202.33
-Actual Value: 260.152
+Best Personal 3: 243.111
+Delta Value: 243.111
 
 Particula N°11 
 
-Best Personal 3: 1186.17
-Actual Value: 456.321
+Best Personal 3: 431.44
+Delta Value: 163.422
 
 Particula N°12 
 
-Best Personal 3: 1057.1
-Actual Value: 318.976
+Best Personal 3: 426.598
+Delta Value: 426.598
 
 Particula N°13 
 
-Best Personal 3: 1172.45
-Actual Value: 566.335
+Best Personal 1: 839.378
+Delta Value: 582.181
 
 Particula N°14 
 
-Best Personal 3: 1055.3
-Actual Value: 275.241
+Best Personal 2: 571.142
+Delta Value: 388.336
 
 Particula N°15 
 
-Best Personal 3: 928.237
-Actual Value: 434.943
+Best Personal 2: 711.529
+Delta Value: 269.058
 
 Particula N°16 
 
-Best Personal 3: 1217.47
-Actual Value: 255.828
+Best Personal 2: 1127.02
+Delta Value: 1127.02
 
 Particula N°17 
 
-Best Personal 3: 605.625
-Actual Value: 327.898
+Best Personal 2: 478.551
+Delta Value: 478.551
 
 Particula N°18 
 
-Best Personal 3: 901.314
-Actual Value: 305.66
+Best Personal 2: 436.184
+Delta Value: 381.5
 
 Particula N°19 
 
-Best Personal 3: 1308.45
-Actual Value: 827.775
+Best Personal 1: 406.961
+Delta Value: 315.005
 
 Particula N°20 
 
-Best Personal 3: 1075.64
-Actual Value: 238.302
+Best Personal 2: 400.198
+Delta Value: 400.198
 
 Particula N°21 
 
-Best Personal 3: 858.177
-Actual Value: 248.945
+Best Personal 3: 695.768
+Delta Value: 695.768
 
 Particula N°22 
 
-Best Personal 3: 932.72
-Actual Value: 157.64
+Best Personal 3: 351.013
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 3: 769.308
-Actual Value: 497.634
+Best Personal 2: 428.238
+Delta Value: 397.561
 
 Particula N°24 
 
-Best Personal 3: 800.554
-Actual Value: 202.78
+Best Personal 3: 293.917
+Delta Value: 293.917
 
 Particula N°25 
 
-Best Personal 3: 905.08
-Actual Value: 526.969
+Best Personal 3: 482.696
+Delta Value: 414.564
 
 Particula N°26 
 
-Best Personal 3: 550.684
-Actual Value: 283.915
+Best Personal 3: 243.009
+Delta Value: 164.194
 
 Particula N°27 
 
-Best Personal 3: 1603.34
-Actual Value: 247.073
+Best Personal 2: 905.418
+Delta Value: 689.206
 
 Particula N°28 
 
-Best Personal 3: 1312.29
-Actual Value: 259.59
+Best Personal 3: 687.2
+Delta Value: 687.2
 
 Particula N°29 
 
-Best Personal 3: 671.218
-Actual Value: 233.858
+Best Personal 1: 666.372
+Delta Value: 422.201
 
 Particula N°30 
 
-Best Personal 3: 682.902
-Actual Value: 285.524
+Best Personal 2: 611.871
+Delta Value: 360.733
 
-Best Global Iteration n°3: 285.524 at the iteration 3
+Particula N°31 
+
+Best Personal 2: 719.863
+Delta Value: 638.756
+
+Particula N°32 
+
+Best Personal 3: 348.22
+Delta Value: 348.22
+
+Particula N°33 
+
+Best Personal 3: 237.824
+Delta Value: 237.824
+
+Particula N°34 
+
+Best Personal 3: 339.259
+Delta Value: 213.075
+
+Particula N°35 
+
+Best Personal 2: 474.137
+Delta Value: 297.572
+
+Particula N°36 
+
+Best Personal 3: 429.335
+Delta Value: 429.335
+
+Particula N°37 
+
+Best Personal 3: 360.966
+Delta Value: 139.59
+
+Particula N°38 
+
+Best Personal 2: 900.653
+Delta Value: 900.653
+
+Particula N°39 
+
+Best Personal 3: 157.777
+Delta Value: 170.704
+
+Particula N°40 
+
+Best Personal 3: 525.91
+Delta Value: 525.91
+
+Particula N°41 
+
+Best Personal 2: 927.052
+Delta Value: 608.551
+
+Particula N°42 
+
+Best Personal 2: 518.815
+Delta Value: 292.816
+
+Particula N°43 
+
+Best Personal 3: 177.931
+Delta Value: 130.836
+
+Particula N°44 
+
+Best Personal 2: 249.705
+Delta Value: 240.357
+
+Particula N°45 
+
+Best Personal 2: 539.102
+Delta Value: 243.824
+
+Particula N°46 
+
+Best Personal 1: 812.849
+Delta Value: 513.709
+
+Particula N°47 
+
+Best Personal 2: 553.867
+Delta Value: 300.952
+
+Particula N°48 
+
+Best Personal 3: 500.317
+Delta Value: 500.317
+
+Particula N°49 
+
+Best Personal 3: 451.363
+Delta Value: 175.286
+
+Particula N°50 
+
+Best Personal 2: 326.851
+Delta Value: 326.851
+
+Particula N°51 
+
+Best Personal 2: 719.557
+Delta Value: 719.557
+
+Particula N°52 
+
+Best Personal 2: 656.153
+Delta Value: 415.986
+
+Particula N°53 
+
+Best Personal 3: 287.629
+Delta Value: 287.629
+
+Particula N°54 
+
+Best Personal 3: 442.151
+Delta Value: 194.957
+
+Particula N°55 
+
+Best Personal 3: 338.603
+Delta Value: 338.603
+
+Particula N°56 
+
+Best Personal 2: 409.643
+Delta Value: 409.643
+
+Particula N°57 
+
+Best Personal 3: 206.32
+Delta Value: 206.32
+
+Particula N°58 
+
+Best Personal 3: 266.03
+Delta Value: 266.03
+
+Particula N°59 
+
+Best Personal 1: 801.105
+Delta Value: 801.105
+
+Particula N°60 
+
+Best Personal 2: 650.032
+Delta Value: 650.032
+
+Particula N°61 
+
+Best Personal 2: 216.92
+Delta Value: 216.92
+
+Particula N°62 
+
+Best Personal 2: 792.84
+Delta Value: 622.657
+
+Particula N°63 
+
+Best Personal 2: 878.445
+Delta Value: 584.864
+
+Particula N°64 
+
+Best Personal 3: 367.129
+Delta Value: 367.129
+
+Particula N°65 
+
+Best Personal 2: 555.497
+Delta Value: 555.497
+
+Particula N°66 
+
+Best Personal 1: 678.994
+Delta Value: 616.262
+
+Particula N°67 
+
+Best Personal 2: 492.172
+Delta Value: 345.733
+
+Particula N°68 
+
+Best Personal 3: 263.328
+Delta Value: 263.328
+
+Particula N°69 
+
+Best Personal 3: 320.679
+Delta Value: 320.679
+
+Particula N°70 
+
+Best Personal 3: 502.02
+Delta Value: 502.02
+
+139.59 -------- 157.777
+130.836 -------- 139.59
+Best Global Iteration n°3: 130.836 at the iteration 3
 
  Iteracion: 5
 Particula N°1 
 
-Best Personal 4: 1373.47
-Actual Value: 123.439
+Best Personal 3: 537.611
+Delta Value: 216.413
 
 Particula N°2 
 
-Best Personal 4: 819.858
-Actual Value: 163.304
+Best Personal 3: 272.017
+Delta Value: 272.017
 
 Particula N°3 
 
-Best Personal 4: 894.337
-Actual Value: 123.439
+Best Personal 3: 311.172
+Delta Value: 266.116
 
 Particula N°4 
 
-Best Personal 4: 1404.89
-Actual Value: 400.52
+Best Personal 2: 259.569
+Delta Value: 259.569
 
 Particula N°5 
 
-Best Personal 4: 943.06
-Actual Value: 123.439
+Best Personal 3: 391.116
+Delta Value: 391.116
 
 Particula N°6 
 
-Best Personal 4: 791.307
-Actual Value: 357.098
+Best Personal 2: 415.013
+Delta Value: 415.013
 
 Particula N°7 
 
-Best Personal 4: 1205.03
-Actual Value: 181.653
+Best Personal 2: 581.968
+Delta Value: 581.968
 
 Particula N°8 
 
-Best Personal 4: 1418.94
-Actual Value: 323.459
+Best Personal 2: 602.524
+Delta Value: 327.941
 
 Particula N°9 
 
-Best Personal 4: 877.417
-Actual Value: 282.22
+Best Personal 3: 309.113
+Delta Value: 141.348
 
 Particula N°10 
 
-Best Personal 4: 1202.33
-Actual Value: 260.152
+Best Personal 3: 243.111
+Delta Value: 243.111
 
 Particula N°11 
 
-Best Personal 4: 1186.17
-Actual Value: 373.528
+Best Personal 4: 163.422
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 4: 1057.1
-Actual Value: 229.988
+Best Personal 3: 426.598
+Delta Value: 237.621
 
 Particula N°13 
 
-Best Personal 4: 1172.45
-Actual Value: 330.762
+Best Personal 2: 582.181
+Delta Value: 297.431
 
 Particula N°14 
 
-Best Personal 4: 1055.3
-Actual Value: 275.241
+Best Personal 3: 388.336
+Delta Value: 388.336
 
 Particula N°15 
 
-Best Personal 4: 928.237
-Actual Value: 434.943
+Best Personal 3: 269.058
+Delta Value: 269.058
 
 Particula N°16 
 
-Best Personal 4: 1217.47
-Actual Value: 255.828
+Best Personal 2: 1127.02
+Delta Value: 541.153
 
 Particula N°17 
 
-Best Personal 4: 605.625
-Actual Value: 327.898
+Best Personal 2: 478.551
+Delta Value: 478.551
 
 Particula N°18 
 
-Best Personal 4: 901.314
-Actual Value: 305.66
+Best Personal 3: 381.5
+Delta Value: 243.968
 
 Particula N°19 
 
-Best Personal 4: 1308.45
-Actual Value: 538.525
+Best Personal 2: 315.005
+Delta Value: 199.49
 
 Particula N°20 
 
-Best Personal 4: 1075.64
-Actual Value: 238.302
+Best Personal 2: 400.198
+Delta Value: 234.398
 
 Particula N°21 
 
-Best Personal 4: 858.177
-Actual Value: 248.945
+Best Personal 3: 695.768
+Delta Value: 476.652
 
 Particula N°22 
 
-Best Personal 4: 932.72
-Actual Value: 143.234
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 4: 769.308
-Actual Value: 261.337
+Best Personal 3: 397.561
+Delta Value: 397.561
 
 Particula N°24 
 
-Best Personal 4: 800.554
-Actual Value: 202.78
+Best Personal 3: 293.917
+Delta Value: 293.917
 
 Particula N°25 
 
-Best Personal 4: 905.08
-Actual Value: 409.968
+Best Personal 4: 414.564
+Delta Value: 414.564
 
 Particula N°26 
 
-Best Personal 4: 550.684
-Actual Value: 283.915
+Best Personal 4: 164.194
+Delta Value: 164.194
 
 Particula N°27 
 
-Best Personal 4: 1603.34
-Actual Value: 247.073
+Best Personal 3: 689.206
+Delta Value: 689.206
 
 Particula N°28 
 
-Best Personal 4: 1312.29
-Actual Value: 259.59
+Best Personal 3: 687.2
+Delta Value: 687.2
 
 Particula N°29 
 
-Best Personal 4: 671.218
-Actual Value: 146.528
+Best Personal 2: 422.201
+Delta Value: 422.201
 
 Particula N°30 
 
-Best Personal 4: 682.902
-Actual Value: 285.524
+Best Personal 3: 360.733
+Delta Value: 360.733
 
-Best Global Iteration n°4: 285.524 at the iteration 4
+Particula N°31 
+
+Best Personal 3: 638.756
+Delta Value: 344.828
+
+Particula N°32 
+
+Best Personal 3: 348.22
+Delta Value: 348.22
+
+Particula N°33 
+
+Best Personal 3: 237.824
+Delta Value: 237.824
+
+Particula N°34 
+
+Best Personal 4: 213.075
+Delta Value: 213.075
+
+Particula N°35 
+
+Best Personal 3: 297.572
+Delta Value: 297.572
+
+Particula N°36 
+
+Best Personal 3: 429.335
+Delta Value: 429.335
+
+Particula N°37 
+
+Best Personal 4: 139.59
+Delta Value: 139.59
+
+Particula N°38 
+
+Best Personal 2: 900.653
+Delta Value: 479.552
+
+Particula N°39 
+
+Best Personal 3: 157.777
+Delta Value: 170.704
+
+Particula N°40 
+
+Best Personal 3: 525.91
+Delta Value: 218.642
+
+Particula N°41 
+
+Best Personal 3: 608.551
+Delta Value: 608.551
+
+Particula N°42 
+
+Best Personal 3: 292.816
+Delta Value: 292.816
+
+Particula N°43 
+
+Best Personal 4: 130.836
+Delta Value: 130.836
+
+Particula N°44 
+
+Best Personal 3: 240.357
+Delta Value: 240.357
+
+Particula N°45 
+
+Best Personal 3: 243.824
+Delta Value: 243.824
+
+Particula N°46 
+
+Best Personal 2: 513.709
+Delta Value: 244.619
+
+Particula N°47 
+
+Best Personal 3: 300.952
+Delta Value: 300.952
+
+Particula N°48 
+
+Best Personal 3: 500.317
+Delta Value: 500.317
+
+Particula N°49 
+
+Best Personal 4: 175.286
+Delta Value: 175.286
+
+Particula N°50 
+
+Best Personal 2: 326.851
+Delta Value: 326.851
+
+Particula N°51 
+
+Best Personal 2: 719.557
+Delta Value: 500.119
+
+Particula N°52 
+
+Best Personal 3: 415.986
+Delta Value: 415.986
+
+Particula N°53 
+
+Best Personal 3: 287.629
+Delta Value: 158.59
+
+Particula N°54 
+
+Best Personal 4: 194.957
+Delta Value: 194.957
+
+Particula N°55 
+
+Best Personal 3: 338.603
+Delta Value: 338.603
+
+Particula N°56 
+
+Best Personal 2: 409.643
+Delta Value: 189.842
+
+Particula N°57 
+
+Best Personal 3: 206.32
+Delta Value: 156.695
+
+Particula N°58 
+
+Best Personal 3: 266.03
+Delta Value: 266.03
+
+Particula N°59 
+
+Best Personal 1: 801.105
+Delta Value: 801.105
+
+Particula N°60 
+
+Best Personal 2: 650.032
+Delta Value: 650.032
+
+Particula N°61 
+
+Best Personal 2: 216.92
+Delta Value: 249.633
+
+Particula N°62 
+
+Best Personal 3: 622.657
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 3: 584.864
+Delta Value: 584.864
+
+Particula N°64 
+
+Best Personal 3: 367.129
+Delta Value: 367.129
+
+Particula N°65 
+
+Best Personal 2: 555.497
+Delta Value: 555.497
+
+Particula N°66 
+
+Best Personal 2: 616.262
+Delta Value: 338.751
+
+Particula N°67 
+
+Best Personal 3: 345.733
+Delta Value: 246.803
+
+Particula N°68 
+
+Best Personal 3: 263.328
+Delta Value: 263.328
+
+Particula N°69 
+
+Best Personal 3: 320.679
+Delta Value: 158.925
+
+Particula N°70 
+
+Best Personal 3: 502.02
+Delta Value: 191.796
+
+123.439 -------- 130.836
+Best Global Iteration n°4: 123.439 at the iteration 4
 
  Iteracion: 6
 Particula N°1 
 
-Best Personal 5: 1373.47
-Actual Value: 123.439
+Best Personal 4: 216.413
+Delta Value: 216.413
 
 Particula N°2 
 
-Best Personal 5: 819.858
-Actual Value: 162.299
+Best Personal 3: 272.017
+Delta Value: 272.017
 
 Particula N°3 
 
-Best Personal 5: 894.337
-Actual Value: 123.439
+Best Personal 4: 266.116
+Delta Value: 266.116
 
 Particula N°4 
 
-Best Personal 5: 1404.89
-Actual Value: 400.52
+Best Personal 2: 259.569
+Delta Value: 259.569
 
 Particula N°5 
 
-Best Personal 5: 943.06
-Actual Value: 123.439
+Best Personal 3: 391.116
+Delta Value: 217.771
 
 Particula N°6 
 
-Best Personal 5: 791.307
-Actual Value: 357.098
+Best Personal 2: 415.013
+Delta Value: 415.013
 
 Particula N°7 
 
-Best Personal 5: 1205.03
-Actual Value: 181.653
+Best Personal 2: 581.968
+Delta Value: 471.458
 
 Particula N°8 
 
-Best Personal 5: 1418.94
-Actual Value: 274.859
+Best Personal 3: 327.941
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 5: 877.417
-Actual Value: 282.22
+Best Personal 4: 141.348
+Delta Value: 141.348
 
 Particula N°10 
 
-Best Personal 5: 1202.33
-Actual Value: 260.152
+Best Personal 3: 243.111
+Delta Value: 243.111
 
 Particula N°11 
 
-Best Personal 5: 1186.17
-Actual Value: 185.409
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 5: 1057.1
-Actual Value: 229.988
+Best Personal 4: 237.621
+Delta Value: 237.621
 
 Particula N°13 
 
-Best Personal 5: 1172.45
-Actual Value: 263.662
+Best Personal 3: 297.431
+Delta Value: 170.376
 
 Particula N°14 
 
-Best Personal 5: 1055.3
-Actual Value: 275.254
+Best Personal 3: 388.336
+Delta Value: 388.336
 
 Particula N°15 
 
-Best Personal 5: 928.237
-Actual Value: 434.943
+Best Personal 3: 269.058
+Delta Value: 138.823
 
 Particula N°16 
 
-Best Personal 5: 1217.47
-Actual Value: 187.711
+Best Personal 3: 541.153
+Delta Value: 541.153
 
 Particula N°17 
 
-Best Personal 5: 605.625
-Actual Value: 327.898
+Best Personal 2: 478.551
+Delta Value: 478.551
 
 Particula N°18 
 
-Best Personal 5: 901.314
-Actual Value: 305.66
+Best Personal 4: 243.968
+Delta Value: 243.968
 
 Particula N°19 
 
-Best Personal 5: 1308.45
-Actual Value: 538.525
+Best Personal 3: 199.49
+Delta Value: 199.49
 
 Particula N°20 
 
-Best Personal 5: 1075.64
-Actual Value: 238.302
+Best Personal 3: 234.398
+Delta Value: 145.833
 
 Particula N°21 
 
-Best Personal 5: 858.177
-Actual Value: 248.945
+Best Personal 4: 476.652
+Delta Value: 476.652
 
 Particula N°22 
 
-Best Personal 5: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 5: 769.308
-Actual Value: 261.337
+Best Personal 3: 397.561
+Delta Value: 397.561
 
 Particula N°24 
 
-Best Personal 5: 800.554
-Actual Value: 122.016
+Best Personal 3: 293.917
+Delta Value: 176.231
 
 Particula N°25 
 
-Best Personal 5: 905.08
-Actual Value: 252.155
+Best Personal 4: 414.564
+Delta Value: 414.564
 
 Particula N°26 
 
-Best Personal 5: 550.684
-Actual Value: 155.477
+Best Personal 4: 164.194
+Delta Value: 164.194
 
 Particula N°27 
 
-Best Personal 5: 1603.34
-Actual Value: 247.073
+Best Personal 3: 689.206
+Delta Value: 689.206
 
 Particula N°28 
 
-Best Personal 5: 1312.29
-Actual Value: 259.59
+Best Personal 3: 687.2
+Delta Value: 428.585
 
 Particula N°29 
 
-Best Personal 5: 671.218
-Actual Value: 146.528
+Best Personal 2: 422.201
+Delta Value: 277.884
 
 Particula N°30 
 
-Best Personal 5: 682.902
-Actual Value: 285.524
+Best Personal 3: 360.733
+Delta Value: 360.733
 
-Best Global Iteration n°5: 285.524 at the iteration 5
+Particula N°31 
+
+Best Personal 4: 344.828
+Delta Value: 344.828
+
+Particula N°32 
+
+Best Personal 3: 348.22
+Delta Value: 168.102
+
+Particula N°33 
+
+Best Personal 3: 237.824
+Delta Value: 237.824
+
+Particula N°34 
+
+Best Personal 4: 213.075
+Delta Value: 213.075
+
+Particula N°35 
+
+Best Personal 3: 297.572
+Delta Value: 297.572
+
+Particula N°36 
+
+Best Personal 3: 429.335
+Delta Value: 429.335
+
+Particula N°37 
+
+Best Personal 4: 139.59
+Delta Value: 139.59
+
+Particula N°38 
+
+Best Personal 3: 479.552
+Delta Value: 479.552
+
+Particula N°39 
+
+Best Personal 3: 157.777
+Delta Value: 170.704
+
+Particula N°40 
+
+Best Personal 4: 218.642
+Delta Value: 218.642
+
+Particula N°41 
+
+Best Personal 3: 608.551
+Delta Value: 608.551
+
+Particula N°42 
+
+Best Personal 3: 292.816
+Delta Value: 256.436
+
+Particula N°43 
+
+Best Personal 4: 130.836
+Delta Value: 130.836
+
+Particula N°44 
+
+Best Personal 3: 240.357
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 3: 243.824
+Delta Value: 185.952
+
+Particula N°46 
+
+Best Personal 3: 244.619
+Delta Value: 156.941
+
+Particula N°47 
+
+Best Personal 3: 300.952
+Delta Value: 300.952
+
+Particula N°48 
+
+Best Personal 3: 500.317
+Delta Value: 500.317
+
+Particula N°49 
+
+Best Personal 4: 175.286
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 2: 326.851
+Delta Value: 326.851
+
+Particula N°51 
+
+Best Personal 3: 500.119
+Delta Value: 146.631
+
+Particula N°52 
+
+Best Personal 3: 415.986
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 4: 158.59
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 4: 194.957
+Delta Value: 194.957
+
+Particula N°55 
+
+Best Personal 3: 338.603
+Delta Value: 338.603
+
+Particula N°56 
+
+Best Personal 3: 189.842
+Delta Value: 189.842
+
+Particula N°57 
+
+Best Personal 4: 156.695
+Delta Value: 156.695
+
+Particula N°58 
+
+Best Personal 3: 266.03
+Delta Value: 165.353
+
+Particula N°59 
+
+Best Personal 1: 801.105
+Delta Value: 542.468
+
+Particula N°60 
+
+Best Personal 2: 650.032
+Delta Value: 432.145
+
+Particula N°61 
+
+Best Personal 2: 216.92
+Delta Value: 249.633
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 3: 584.864
+Delta Value: 584.864
+
+Particula N°64 
+
+Best Personal 3: 367.129
+Delta Value: 176.039
+
+Particula N°65 
+
+Best Personal 2: 555.497
+Delta Value: 368.374
+
+Particula N°66 
+
+Best Personal 3: 338.751
+Delta Value: 222.997
+
+Particula N°67 
+
+Best Personal 4: 246.803
+Delta Value: 246.803
+
+Particula N°68 
+
+Best Personal 3: 263.328
+Delta Value: 263.328
+
+Particula N°69 
+
+Best Personal 4: 158.925
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 4: 191.796
+Delta Value: 191.796
+
+123.439 -------- 123.439
+Best Global Iteration n°5: 123.439 at the iteration 5
 
  Iteracion: 7
 Particula N°1 
 
-Best Personal 6: 1373.47
-Actual Value: 123.439
+Best Personal 4: 216.413
+Delta Value: 216.413
 
 Particula N°2 
 
-Best Personal 6: 819.858
-Actual Value: 162.299
+Best Personal 3: 272.017
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 6: 894.337
-Actual Value: 123.439
+Best Personal 4: 266.116
+Delta Value: 266.116
 
 Particula N°4 
 
-Best Personal 6: 1404.89
-Actual Value: 169.775
+Best Personal 2: 259.569
+Delta Value: 225.485
 
 Particula N°5 
 
-Best Personal 6: 943.06
-Actual Value: 123.439
+Best Personal 4: 217.771
+Delta Value: 217.771
 
 Particula N°6 
 
-Best Personal 6: 791.307
-Actual Value: 357.1
+Best Personal 2: 415.013
+Delta Value: 415.013
 
 Particula N°7 
 
-Best Personal 6: 1205.03
-Actual Value: 181.653
+Best Personal 3: 471.458
+Delta Value: 471.458
 
 Particula N°8 
 
-Best Personal 6: 1418.94
-Actual Value: 274.859
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 6: 877.417
-Actual Value: 282.22
+Best Personal 4: 141.348
+Delta Value: 141.348
 
 Particula N°10 
 
-Best Personal 6: 1202.33
-Actual Value: 260.152
+Best Personal 3: 243.111
+Delta Value: 243.111
 
 Particula N°11 
 
-Best Personal 6: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 6: 1057.1
-Actual Value: 196.352
+Best Personal 4: 237.621
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 6: 1172.45
-Actual Value: 263.662
+Best Personal 4: 170.376
+Delta Value: 170.376
 
 Particula N°14 
 
-Best Personal 6: 1055.3
-Actual Value: 275.254
+Best Personal 3: 388.336
+Delta Value: 388.336
 
 Particula N°15 
 
-Best Personal 6: 928.237
-Actual Value: 434.943
+Best Personal 4: 138.823
+Delta Value: 138.823
 
 Particula N°16 
 
-Best Personal 6: 1217.47
-Actual Value: 187.711
+Best Personal 3: 541.153
+Delta Value: 292.036
 
 Particula N°17 
 
-Best Personal 6: 605.625
-Actual Value: 179.319
+Best Personal 2: 478.551
+Delta Value: 478.551
 
 Particula N°18 
 
-Best Personal 6: 901.314
-Actual Value: 264.752
+Best Personal 4: 243.968
+Delta Value: 243.968
 
 Particula N°19 
 
-Best Personal 6: 1308.45
-Actual Value: 538.525
+Best Personal 3: 199.49
+Delta Value: 199.49
 
 Particula N°20 
 
-Best Personal 6: 1075.64
-Actual Value: 123.439
+Best Personal 4: 145.833
+Delta Value: 145.833
 
 Particula N°21 
 
-Best Personal 6: 858.177
-Actual Value: 248.945
+Best Personal 4: 476.652
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 6: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 6: 769.308
-Actual Value: 123.439
+Best Personal 3: 397.561
+Delta Value: 397.561
 
 Particula N°24 
 
-Best Personal 6: 800.554
-Actual Value: 122.016
+Best Personal 4: 176.231
+Delta Value: 176.231
 
 Particula N°25 
 
-Best Personal 6: 905.08
-Actual Value: 252.155
+Best Personal 4: 414.564
+Delta Value: 414.564
 
 Particula N°26 
 
-Best Personal 6: 550.684
-Actual Value: 123.439
+Best Personal 4: 164.194
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 6: 1603.34
-Actual Value: 247.073
+Best Personal 3: 689.206
+Delta Value: 689.206
 
 Particula N°28 
 
-Best Personal 6: 1312.29
-Actual Value: 259.59
+Best Personal 4: 428.585
+Delta Value: 428.585
 
 Particula N°29 
 
-Best Personal 6: 671.218
-Actual Value: 146.528
+Best Personal 3: 277.884
+Delta Value: 277.884
 
 Particula N°30 
 
-Best Personal 6: 682.902
-Actual Value: 152.366
+Best Personal 3: 360.733
+Delta Value: 360.733
 
-Best Global Iteration n°6: 152.366 at the iteration 6
+Particula N°31 
+
+Best Personal 4: 344.828
+Delta Value: 344.828
+
+Particula N°32 
+
+Best Personal 4: 168.102
+Delta Value: 168.102
+
+Particula N°33 
+
+Best Personal 3: 237.824
+Delta Value: 237.824
+
+Particula N°34 
+
+Best Personal 4: 213.075
+Delta Value: 213.075
+
+Particula N°35 
+
+Best Personal 3: 297.572
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 3: 429.335
+Delta Value: 273.995
+
+Particula N°37 
+
+Best Personal 4: 139.59
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 3: 479.552
+Delta Value: 479.552
+
+Particula N°39 
+
+Best Personal 3: 157.777
+Delta Value: 170.704
+
+Particula N°40 
+
+Best Personal 4: 218.642
+Delta Value: 218.642
+
+Particula N°41 
+
+Best Personal 3: 608.551
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 4: 256.436
+Delta Value: 256.436
+
+Particula N°43 
+
+Best Personal 4: 130.836
+Delta Value: 130.836
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 4: 185.952
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 4: 156.941
+Delta Value: 156.941
+
+Particula N°47 
+
+Best Personal 3: 300.952
+Delta Value: 300.952
+
+Particula N°48 
+
+Best Personal 3: 500.317
+Delta Value: 500.317
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 2: 326.851
+Delta Value: 205.899
+
+Particula N°51 
+
+Best Personal 4: 146.631
+Delta Value: 146.631
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 4: 194.957
+Delta Value: 194.957
+
+Particula N°55 
+
+Best Personal 3: 338.603
+Delta Value: 338.603
+
+Particula N°56 
+
+Best Personal 3: 189.842
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 4: 156.695
+Delta Value: 156.695
+
+Particula N°58 
+
+Best Personal 4: 165.353
+Delta Value: 165.353
+
+Particula N°59 
+
+Best Personal 2: 542.468
+Delta Value: 542.468
+
+Particula N°60 
+
+Best Personal 3: 432.145
+Delta Value: 290.967
+
+Particula N°61 
+
+Best Personal 2: 216.92
+Delta Value: 249.633
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 3: 584.864
+Delta Value: 584.864
+
+Particula N°64 
+
+Best Personal 4: 176.039
+Delta Value: 176.039
+
+Particula N°65 
+
+Best Personal 3: 368.374
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 4: 222.997
+Delta Value: 222.997
+
+Particula N°67 
+
+Best Personal 4: 246.803
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 3: 263.328
+Delta Value: 263.328
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 4: 191.796
+Delta Value: 191.796
+
+123.439 -------- 123.439
+Best Global Iteration n°6: 123.439 at the iteration 6
 
  Iteracion: 8
 Particula N°1 
 
-Best Personal 7: 1373.47
-Actual Value: 123.439
+Best Personal 4: 216.413
+Delta Value: 216.413
 
 Particula N°2 
 
-Best Personal 7: 819.858
-Actual Value: 162.299
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 7: 894.337
-Actual Value: 123.439
+Best Personal 4: 266.116
+Delta Value: 266.116
 
 Particula N°4 
 
-Best Personal 7: 1404.89
-Actual Value: 169.775
+Best Personal 3: 225.485
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 7: 943.06
-Actual Value: 123.439
+Best Personal 4: 217.771
+Delta Value: 217.771
 
 Particula N°6 
 
-Best Personal 7: 791.307
-Actual Value: 244.941
+Best Personal 2: 415.013
+Delta Value: 415.013
 
 Particula N°7 
 
-Best Personal 7: 1205.03
-Actual Value: 181.653
+Best Personal 3: 471.458
+Delta Value: 471.458
 
 Particula N°8 
 
-Best Personal 7: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 7: 877.417
-Actual Value: 282.22
+Best Personal 4: 141.348
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 7: 1202.33
-Actual Value: 137.775
+Best Personal 3: 243.111
+Delta Value: 243.111
 
 Particula N°11 
 
-Best Personal 7: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 7: 1057.1
-Actual Value: 196.352
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 7: 1172.45
-Actual Value: 263.662
+Best Personal 4: 170.376
+Delta Value: 170.376
 
 Particula N°14 
 
-Best Personal 7: 1055.3
-Actual Value: 275.254
+Best Personal 3: 388.336
+Delta Value: 195.457
 
 Particula N°15 
 
-Best Personal 7: 928.237
-Actual Value: 204.207
+Best Personal 4: 138.823
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 7: 1217.47
-Actual Value: 187.711
+Best Personal 4: 292.036
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 7: 605.625
-Actual Value: 179.319
+Best Personal 2: 478.551
+Delta Value: 328.109
 
 Particula N°18 
 
-Best Personal 7: 901.314
-Actual Value: 264.752
+Best Personal 4: 243.968
+Delta Value: 243.968
 
 Particula N°19 
 
-Best Personal 7: 1308.45
-Actual Value: 538.525
+Best Personal 3: 199.49
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 7: 1075.64
-Actual Value: 123.439
+Best Personal 4: 145.833
+Delta Value: 145.833
 
 Particula N°21 
 
-Best Personal 7: 858.177
-Actual Value: 248.945
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 7: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 7: 769.308
-Actual Value: 123.439
+Best Personal 3: 397.561
+Delta Value: 397.561
 
 Particula N°24 
 
-Best Personal 7: 800.554
-Actual Value: 122.016
+Best Personal 4: 176.231
+Delta Value: 176.231
 
 Particula N°25 
 
-Best Personal 7: 905.08
-Actual Value: 123.439
+Best Personal 4: 414.564
+Delta Value: 414.564
 
 Particula N°26 
 
-Best Personal 7: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 7: 1603.34
-Actual Value: 247.073
+Best Personal 3: 689.206
+Delta Value: 349.891
 
 Particula N°28 
 
-Best Personal 7: 1312.29
-Actual Value: 259.475
+Best Personal 4: 428.585
+Delta Value: 428.585
 
 Particula N°29 
 
-Best Personal 7: 671.218
-Actual Value: 146.528
+Best Personal 3: 277.884
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 7: 682.902
-Actual Value: 152.366
+Best Personal 3: 360.733
+Delta Value: 360.733
 
-Best Global Iteration n°7: 152.366 at the iteration 7
+Particula N°31 
+
+Best Personal 4: 344.828
+Delta Value: 344.828
+
+Particula N°32 
+
+Best Personal 4: 168.102
+Delta Value: 168.102
+
+Particula N°33 
+
+Best Personal 3: 237.824
+Delta Value: 158.366
+
+Particula N°34 
+
+Best Personal 4: 213.075
+Delta Value: 213.075
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 4: 273.995
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 3: 479.552
+Delta Value: 266.446
+
+Particula N°39 
+
+Best Personal 3: 157.777
+Delta Value: 170.704
+
+Particula N°40 
+
+Best Personal 4: 218.642
+Delta Value: 218.642
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 4: 256.436
+Delta Value: 256.436
+
+Particula N°43 
+
+Best Personal 4: 130.836
+Delta Value: 130.836
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 4: 156.941
+Delta Value: 156.941
+
+Particula N°47 
+
+Best Personal 3: 300.952
+Delta Value: 233.855
+
+Particula N°48 
+
+Best Personal 3: 500.317
+Delta Value: 172.596
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 3: 205.899
+Delta Value: 205.899
+
+Particula N°51 
+
+Best Personal 4: 146.631
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 4: 194.957
+Delta Value: 194.957
+
+Particula N°55 
+
+Best Personal 3: 338.603
+Delta Value: 338.603
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 4: 156.695
+Delta Value: 156.695
+
+Particula N°58 
+
+Best Personal 4: 165.353
+Delta Value: 165.353
+
+Particula N°59 
+
+Best Personal 2: 542.468
+Delta Value: 274.639
+
+Particula N°60 
+
+Best Personal 4: 290.967
+Delta Value: 290.967
+
+Particula N°61 
+
+Best Personal 2: 216.92
+Delta Value: 180.896
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 3: 584.864
+Delta Value: 584.864
+
+Particula N°64 
+
+Best Personal 4: 176.039
+Delta Value: 176.039
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 4: 222.997
+Delta Value: 222.997
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 3: 263.328
+Delta Value: 263.328
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 4: 191.796
+Delta Value: 191.796
+
+123.439 -------- 123.439
+Best Global Iteration n°7: 123.439 at the iteration 7
 
  Iteracion: 9
 Particula N°1 
 
-Best Personal 8: 1373.47
-Actual Value: 123.439
+Best Personal 4: 216.413
+Delta Value: 123.439
 
 Particula N°2 
 
-Best Personal 8: 819.858
-Actual Value: 123.439
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 8: 894.337
-Actual Value: 123.439
+Best Personal 4: 266.116
+Delta Value: 266.116
 
 Particula N°4 
 
-Best Personal 8: 1404.89
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 8: 943.06
-Actual Value: 123.439
+Best Personal 4: 217.771
+Delta Value: 123.439
 
 Particula N°6 
 
-Best Personal 8: 791.307
-Actual Value: 244.941
+Best Personal 2: 415.013
+Delta Value: 349.499
 
 Particula N°7 
 
-Best Personal 8: 1205.03
-Actual Value: 181.653
+Best Personal 3: 471.458
+Delta Value: 471.458
 
 Particula N°8 
 
-Best Personal 8: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 8: 877.417
-Actual Value: 282.22
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 8: 1202.33
-Actual Value: 137.775
+Best Personal 3: 243.111
+Delta Value: 243.111
 
 Particula N°11 
 
-Best Personal 8: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 8: 1057.1
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 8: 1172.45
-Actual Value: 263.662
+Best Personal 4: 170.376
+Delta Value: 123.439
 
 Particula N°14 
 
-Best Personal 8: 1055.3
-Actual Value: 275.254
+Best Personal 4: 195.457
+Delta Value: 195.457
 
 Particula N°15 
 
-Best Personal 8: 928.237
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 8: 1217.47
-Actual Value: 187.711
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 8: 605.625
-Actual Value: 123.439
+Best Personal 3: 328.109
+Delta Value: 328.109
 
 Particula N°18 
 
-Best Personal 8: 901.314
-Actual Value: 264.752
+Best Personal 4: 243.968
+Delta Value: 243.968
 
 Particula N°19 
 
-Best Personal 8: 1308.45
-Actual Value: 538.525
+Best Personal 4: 174.978
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 8: 1075.64
-Actual Value: 123.439
+Best Personal 4: 145.833
+Delta Value: 145.833
 
 Particula N°21 
 
-Best Personal 8: 858.177
-Actual Value: 248.945
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 8: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 8: 769.308
-Actual Value: 123.439
+Best Personal 3: 397.561
+Delta Value: 397.561
 
 Particula N°24 
 
-Best Personal 8: 800.554
-Actual Value: 122.016
+Best Personal 4: 176.231
+Delta Value: 176.231
 
 Particula N°25 
 
-Best Personal 8: 905.08
-Actual Value: 123.439
+Best Personal 4: 414.564
+Delta Value: 414.564
 
 Particula N°26 
 
-Best Personal 8: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 8: 1603.34
-Actual Value: 189.401
+Best Personal 4: 349.891
+Delta Value: 349.891
 
 Particula N°28 
 
-Best Personal 8: 1312.29
-Actual Value: 259.569
+Best Personal 4: 428.585
+Delta Value: 428.585
 
 Particula N°29 
 
-Best Personal 8: 671.218
-Actual Value: 146.528
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 8: 682.902
-Actual Value: 152.366
+Best Personal 3: 360.733
+Delta Value: 360.733
 
-Best Global Iteration n°8: 152.366 at the iteration 8
+Particula N°31 
+
+Best Personal 4: 344.828
+Delta Value: 344.828
+
+Particula N°32 
+
+Best Personal 4: 168.102
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 4: 158.366
+Delta Value: 158.366
+
+Particula N°34 
+
+Best Personal 4: 213.075
+Delta Value: 213.075
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 4: 266.446
+Delta Value: 266.446
+
+Particula N°39 
+
+Best Personal 3: 157.777
+Delta Value: 170.704
+
+Particula N°40 
+
+Best Personal 4: 218.642
+Delta Value: 218.642
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 4: 256.436
+Delta Value: 256.436
+
+Particula N°43 
+
+Best Personal 4: 130.836
+Delta Value: 130.836
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 4: 156.941
+Delta Value: 156.941
+
+Particula N°47 
+
+Best Personal 4: 233.855
+Delta Value: 233.855
+
+Particula N°48 
+
+Best Personal 4: 172.596
+Delta Value: 172.596
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 3: 205.899
+Delta Value: 141.256
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 4: 194.957
+Delta Value: 194.957
+
+Particula N°55 
+
+Best Personal 3: 338.603
+Delta Value: 338.603
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 4: 156.695
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 4: 165.353
+Delta Value: 165.353
+
+Particula N°59 
+
+Best Personal 3: 274.639
+Delta Value: 274.639
+
+Particula N°60 
+
+Best Personal 4: 290.967
+Delta Value: 290.967
+
+Particula N°61 
+
+Best Personal 3: 180.896
+Delta Value: 180.896
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 3: 584.864
+Delta Value: 584.864
+
+Particula N°64 
+
+Best Personal 4: 176.039
+Delta Value: 176.039
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 4: 222.997
+Delta Value: 222.997
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 3: 263.328
+Delta Value: 263.328
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 4: 191.796
+Delta Value: 191.796
+
+Best Global Iteration n°8: 123.439 at the iteration 7
 
  Iteracion: 10
 Particula N°1 
 
-Best Personal 9: 1373.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°2 
 
-Best Personal 9: 819.858
-Actual Value: 123.439
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 9: 894.337
-Actual Value: 123.439
+Best Personal 4: 266.116
+Delta Value: 266.116
 
 Particula N°4 
 
-Best Personal 9: 1404.89
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 9: 943.06
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°6 
 
-Best Personal 9: 791.307
-Actual Value: 123.175
+Best Personal 3: 349.499
+Delta Value: 349.499
 
 Particula N°7 
 
-Best Personal 9: 1205.03
-Actual Value: 181.653
+Best Personal 3: 471.458
+Delta Value: 214.321
 
 Particula N°8 
 
-Best Personal 9: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 9: 877.417
-Actual Value: 282.22
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 9: 1202.33
-Actual Value: 137.775
+Best Personal 3: 243.111
+Delta Value: 152.489
 
 Particula N°11 
 
-Best Personal 9: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 9: 1057.1
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 9: 1172.45
-Actual Value: 263.662
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°14 
 
-Best Personal 9: 1055.3
-Actual Value: 221.55
+Best Personal 4: 195.457
+Delta Value: 123.439
 
 Particula N°15 
 
-Best Personal 9: 928.237
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 9: 1217.47
-Actual Value: 187.711
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 9: 605.625
-Actual Value: 123.439
+Best Personal 3: 328.109
+Delta Value: 184.344
 
 Particula N°18 
 
-Best Personal 9: 901.314
-Actual Value: 264.752
+Best Personal 4: 243.968
+Delta Value: 123.439
 
 Particula N°19 
 
-Best Personal 9: 1308.45
-Actual Value: 538.525
+Best Personal 4: 174.978
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 9: 1075.64
-Actual Value: 123.439
+Best Personal 4: 145.833
+Delta Value: 145.833
 
 Particula N°21 
 
-Best Personal 9: 858.177
-Actual Value: 248.945
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 9: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 9: 769.308
-Actual Value: 123.439
+Best Personal 3: 397.561
+Delta Value: 397.561
 
 Particula N°24 
 
-Best Personal 9: 800.554
-Actual Value: 122.016
+Best Personal 4: 176.231
+Delta Value: 176.231
 
 Particula N°25 
 
-Best Personal 9: 905.08
-Actual Value: 123.439
+Best Personal 4: 414.564
+Delta Value: 414.564
 
 Particula N°26 
 
-Best Personal 9: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 9: 1603.34
-Actual Value: 189.401
+Best Personal 4: 349.891
+Delta Value: 349.891
 
 Particula N°28 
 
-Best Personal 9: 1312.29
-Actual Value: 259.569
+Best Personal 4: 428.585
+Delta Value: 428.585
 
 Particula N°29 
 
-Best Personal 9: 671.218
-Actual Value: 146.528
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 9: 682.902
-Actual Value: 123.439
+Best Personal 3: 360.733
+Delta Value: 360.733
 
-Best Global Iteration n°9: 123.439 at the iteration 9
+Particula N°31 
+
+Best Personal 4: 344.828
+Delta Value: 344.828
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 4: 158.366
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 4: 213.075
+Delta Value: 213.075
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 4: 266.446
+Delta Value: 266.446
+
+Particula N°39 
+
+Best Personal 3: 157.777
+Delta Value: 170.704
+
+Particula N°40 
+
+Best Personal 4: 218.642
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 4: 256.436
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 4: 130.836
+Delta Value: 130.836
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 4: 156.941
+Delta Value: 156.941
+
+Particula N°47 
+
+Best Personal 4: 233.855
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 4: 172.596
+Delta Value: 172.596
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 4: 141.256
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 4: 194.957
+Delta Value: 194.957
+
+Particula N°55 
+
+Best Personal 3: 338.603
+Delta Value: 241.549
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 4: 165.353
+Delta Value: 165.353
+
+Particula N°59 
+
+Best Personal 3: 274.639
+Delta Value: 274.639
+
+Particula N°60 
+
+Best Personal 4: 290.967
+Delta Value: 290.967
+
+Particula N°61 
+
+Best Personal 3: 180.896
+Delta Value: 180.896
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 3: 584.864
+Delta Value: 312.819
+
+Particula N°64 
+
+Best Personal 4: 176.039
+Delta Value: 176.039
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 4: 222.997
+Delta Value: 222.997
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 3: 263.328
+Delta Value: 263.328
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 4: 191.796
+Delta Value: 123.439
+
+Best Global Iteration n°9: 123.439 at the iteration 7
 
  Iteracion: 11
 Particula N°1 
 
-Best Personal 10: 1373.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°2 
 
-Best Personal 10: 819.858
-Actual Value: 123.439
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 10: 894.337
-Actual Value: 123.439
+Best Personal 4: 266.116
+Delta Value: 123.439
 
 Particula N°4 
 
-Best Personal 10: 1404.89
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 10: 943.06
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°6 
 
-Best Personal 10: 791.307
-Actual Value: 123.175
+Best Personal 3: 349.499
+Delta Value: 349.499
 
 Particula N°7 
 
-Best Personal 10: 1205.03
-Actual Value: 181.653
+Best Personal 4: 214.321
+Delta Value: 214.321
 
 Particula N°8 
 
-Best Personal 10: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 10: 877.417
-Actual Value: 282.22
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 10: 1202.33
-Actual Value: 137.775
+Best Personal 4: 152.489
+Delta Value: 152.489
 
 Particula N°11 
 
-Best Personal 10: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 10: 1057.1
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 10: 1172.45
-Actual Value: 263.662
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°14 
 
-Best Personal 10: 1055.3
-Actual Value: 221.542
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°15 
 
-Best Personal 10: 928.237
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 10: 1217.47
-Actual Value: 187.711
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 10: 605.625
-Actual Value: 123.439
+Best Personal 4: 184.344
+Delta Value: 184.344
 
 Particula N°18 
 
-Best Personal 10: 901.314
-Actual Value: 264.752
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°19 
 
-Best Personal 10: 1308.45
-Actual Value: 538.525
+Best Personal 4: 174.978
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 10: 1075.64
-Actual Value: 123.439
+Best Personal 4: 145.833
+Delta Value: 145.833
 
 Particula N°21 
 
-Best Personal 10: 858.177
-Actual Value: 248.945
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 10: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 10: 769.308
-Actual Value: 123.439
+Best Personal 3: 397.561
+Delta Value: 397.561
 
 Particula N°24 
 
-Best Personal 10: 800.554
-Actual Value: 122.016
+Best Personal 4: 176.231
+Delta Value: 123.439
 
 Particula N°25 
 
-Best Personal 10: 905.08
-Actual Value: 123.439
+Best Personal 4: 414.564
+Delta Value: 414.564
 
 Particula N°26 
 
-Best Personal 10: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 10: 1603.34
-Actual Value: 189.401
+Best Personal 4: 349.891
+Delta Value: 349.891
 
 Particula N°28 
 
-Best Personal 10: 1312.29
-Actual Value: 123.108
+Best Personal 4: 428.585
+Delta Value: 428.585
 
 Particula N°29 
 
-Best Personal 10: 671.218
-Actual Value: 146.528
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 10: 682.902
-Actual Value: 123.439
+Best Personal 3: 360.733
+Delta Value: 360.733
 
-Best Global Iteration n°10: 123.439 at the iteration 10
+Particula N°31 
+
+Best Personal 4: 344.828
+Delta Value: 123.439
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 4: 213.075
+Delta Value: 213.075
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 4: 266.446
+Delta Value: 266.446
+
+Particula N°39 
+
+Best Personal 3: 157.777
+Delta Value: 170.704
+
+Particula N°40 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 4: 130.836
+Delta Value: 130.836
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 4: 156.941
+Delta Value: 123.439
+
+Particula N°47 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 4: 172.596
+Delta Value: 172.596
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 4: 194.957
+Delta Value: 123.439
+
+Particula N°55 
+
+Best Personal 4: 241.549
+Delta Value: 123.439
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 4: 165.353
+Delta Value: 123.439
+
+Particula N°59 
+
+Best Personal 3: 274.639
+Delta Value: 123.439
+
+Particula N°60 
+
+Best Personal 4: 290.967
+Delta Value: 123.439
+
+Particula N°61 
+
+Best Personal 3: 180.896
+Delta Value: 180.896
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 4: 312.819
+Delta Value: 312.819
+
+Particula N°64 
+
+Best Personal 4: 176.039
+Delta Value: 176.039
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 4: 222.997
+Delta Value: 222.997
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 3: 263.328
+Delta Value: 190.966
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Best Global Iteration n°10: 123.439 at the iteration 7
 
  Iteracion: 12
 Particula N°1 
 
-Best Personal 11: 1373.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°2 
 
-Best Personal 11: 819.858
-Actual Value: 123.439
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 11: 894.337
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°4 
 
-Best Personal 11: 1404.89
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 11: 943.06
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°6 
 
-Best Personal 11: 791.307
-Actual Value: 123.175
+Best Personal 3: 349.499
+Delta Value: 349.499
 
 Particula N°7 
 
-Best Personal 11: 1205.03
-Actual Value: 181.653
+Best Personal 4: 214.321
+Delta Value: 214.321
 
 Particula N°8 
 
-Best Personal 11: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 11: 877.417
-Actual Value: 173.085
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 11: 1202.33
-Actual Value: 137.775
+Best Personal 4: 152.489
+Delta Value: 152.489
 
 Particula N°11 
 
-Best Personal 11: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 11: 1057.1
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 11: 1172.45
-Actual Value: 263.662
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°14 
 
-Best Personal 11: 1055.3
-Actual Value: 221.542
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°15 
 
-Best Personal 11: 928.237
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 11: 1217.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 11: 605.625
-Actual Value: 123.439
+Best Personal 4: 184.344
+Delta Value: 184.344
 
 Particula N°18 
 
-Best Personal 11: 901.314
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°19 
 
-Best Personal 11: 1308.45
-Actual Value: 538.525
+Best Personal 4: 174.978
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 11: 1075.64
-Actual Value: 123.439
+Best Personal 4: 145.833
+Delta Value: 145.833
 
 Particula N°21 
 
-Best Personal 11: 858.177
-Actual Value: 248.945
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 11: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 11: 769.308
-Actual Value: 123.439
+Best Personal 3: 397.561
+Delta Value: 184.031
 
 Particula N°24 
 
-Best Personal 11: 800.554
-Actual Value: 122.016
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°25 
 
-Best Personal 11: 905.08
-Actual Value: 123.439
+Best Personal 4: 414.564
+Delta Value: 414.564
 
 Particula N°26 
 
-Best Personal 11: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 11: 1603.34
-Actual Value: 123.439
+Best Personal 4: 349.891
+Delta Value: 349.891
 
 Particula N°28 
 
-Best Personal 11: 1312.29
-Actual Value: 123.108
+Best Personal 4: 428.585
+Delta Value: 428.585
 
 Particula N°29 
 
-Best Personal 11: 671.218
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 11: 682.902
-Actual Value: 123.439
+Best Personal 3: 360.733
+Delta Value: 201.839
 
-Best Global Iteration n°11: 123.439 at the iteration 11
+Particula N°31 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 4: 213.075
+Delta Value: 123.439
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 4: 266.446
+Delta Value: 123.439
+
+Particula N°39 
+
+Best Personal 3: 157.777
+Delta Value: 170.704
+
+Particula N°40 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 4: 130.836
+Delta Value: 123.439
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°47 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 4: 172.596
+Delta Value: 172.596
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°55 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°59 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°60 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°61 
+
+Best Personal 3: 180.896
+Delta Value: 180.896
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 4: 312.819
+Delta Value: 312.819
+
+Particula N°64 
+
+Best Personal 4: 176.039
+Delta Value: 176.039
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 4: 222.997
+Delta Value: 222.997
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 4: 190.966
+Delta Value: 123.439
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Best Global Iteration n°11: 123.439 at the iteration 7
 
  Iteracion: 13
 Particula N°1 
 
-Best Personal 12: 1373.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°2 
 
-Best Personal 12: 819.858
-Actual Value: 123.439
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 12: 894.337
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°4 
 
-Best Personal 12: 1404.89
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 12: 943.06
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°6 
 
-Best Personal 12: 791.307
-Actual Value: 123.175
+Best Personal 3: 349.499
+Delta Value: 349.499
 
 Particula N°7 
 
-Best Personal 12: 1205.03
-Actual Value: 181.653
+Best Personal 4: 214.321
+Delta Value: 123.439
 
 Particula N°8 
 
-Best Personal 12: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 12: 877.417
-Actual Value: 173.085
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 12: 1202.33
-Actual Value: 123.439
+Best Personal 4: 152.489
+Delta Value: 152.489
 
 Particula N°11 
 
-Best Personal 12: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 12: 1057.1
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 12: 1172.45
-Actual Value: 263.662
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°14 
 
-Best Personal 12: 1055.3
-Actual Value: 221.542
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°15 
 
-Best Personal 12: 928.237
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 12: 1217.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 12: 605.625
-Actual Value: 123.439
+Best Personal 4: 184.344
+Delta Value: 184.344
 
 Particula N°18 
 
-Best Personal 12: 901.314
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°19 
 
-Best Personal 12: 1308.45
-Actual Value: 538.525
+Best Personal 4: 174.978
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 12: 1075.64
-Actual Value: 123.439
+Best Personal 4: 145.833
+Delta Value: 145.833
 
 Particula N°21 
 
-Best Personal 12: 858.177
-Actual Value: 248.945
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 12: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 12: 769.308
-Actual Value: 123.439
+Best Personal 4: 184.031
+Delta Value: 123.439
 
 Particula N°24 
 
-Best Personal 12: 800.554
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°25 
 
-Best Personal 12: 905.08
-Actual Value: 123.439
+Best Personal 4: 414.564
+Delta Value: 414.564
 
 Particula N°26 
 
-Best Personal 12: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 12: 1603.34
-Actual Value: 123.439
+Best Personal 4: 349.891
+Delta Value: 349.891
 
 Particula N°28 
 
-Best Personal 12: 1312.29
-Actual Value: 123.108
+Best Personal 4: 428.585
+Delta Value: 123.439
 
 Particula N°29 
 
-Best Personal 12: 671.218
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 12: 682.902
-Actual Value: 123.439
+Best Personal 4: 201.839
+Delta Value: 123.439
 
-Best Global Iteration n°12: 123.439 at the iteration 12
+Particula N°31 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°39 
+
+Best Personal 3: 157.777
+Delta Value: 123.439
+
+Particula N°40 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°47 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 4: 172.596
+Delta Value: 172.596
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°55 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°59 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°60 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°61 
+
+Best Personal 3: 180.896
+Delta Value: 180.896
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 4: 312.819
+Delta Value: 312.819
+
+Particula N°64 
+
+Best Personal 4: 176.039
+Delta Value: 176.039
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 4: 222.997
+Delta Value: 222.997
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Best Global Iteration n°12: 123.439 at the iteration 7
 
  Iteracion: 14
 Particula N°1 
 
-Best Personal 13: 1373.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°2 
 
-Best Personal 13: 819.858
-Actual Value: 123.439
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 13: 894.337
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°4 
 
-Best Personal 13: 1404.89
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 13: 943.06
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°6 
 
-Best Personal 13: 791.307
-Actual Value: 123.175
+Best Personal 3: 349.499
+Delta Value: 349.499
 
 Particula N°7 
 
-Best Personal 13: 1205.03
-Actual Value: 181.653
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°8 
 
-Best Personal 13: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 13: 877.417
-Actual Value: 173.085
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 13: 1202.33
-Actual Value: 123.439
+Best Personal 4: 152.489
+Delta Value: 152.489
 
 Particula N°11 
 
-Best Personal 13: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 13: 1057.1
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 13: 1172.45
-Actual Value: 263.662
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°14 
 
-Best Personal 13: 1055.3
-Actual Value: 123.175
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°15 
 
-Best Personal 13: 928.237
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 13: 1217.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 13: 605.625
-Actual Value: 123.439
+Best Personal 4: 184.344
+Delta Value: 123.439
 
 Particula N°18 
 
-Best Personal 13: 901.314
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°19 
 
-Best Personal 13: 1308.45
-Actual Value: 309.364
+Best Personal 4: 174.978
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 13: 1075.64
-Actual Value: 123.439
+Best Personal 4: 145.833
+Delta Value: 123.439
 
 Particula N°21 
 
-Best Personal 13: 858.177
-Actual Value: 248.945
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 13: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 13: 769.308
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°24 
 
-Best Personal 13: 800.554
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°25 
 
-Best Personal 13: 905.08
-Actual Value: 123.439
+Best Personal 4: 414.564
+Delta Value: 123.439
 
 Particula N°26 
 
-Best Personal 13: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 13: 1603.34
-Actual Value: 123.439
+Best Personal 4: 349.891
+Delta Value: 349.891
 
 Particula N°28 
 
-Best Personal 13: 1312.29
-Actual Value: 123.108
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°29 
 
-Best Personal 13: 671.218
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 13: 682.902
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
-Best Global Iteration n°13: 123.439 at the iteration 13
+Particula N°31 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°39 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°40 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°47 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 4: 172.596
+Delta Value: 172.596
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°55 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°59 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°60 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°61 
+
+Best Personal 3: 180.896
+Delta Value: 123.439
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 4: 312.819
+Delta Value: 312.819
+
+Particula N°64 
+
+Best Personal 4: 176.039
+Delta Value: 123.439
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 4: 222.997
+Delta Value: 123.439
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Best Global Iteration n°13: 123.439 at the iteration 7
 
  Iteracion: 15
 Particula N°1 
 
-Best Personal 14: 1373.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°2 
 
-Best Personal 14: 819.858
-Actual Value: 123.439
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 14: 894.337
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°4 
 
-Best Personal 14: 1404.89
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 14: 943.06
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°6 
 
-Best Personal 14: 791.307
-Actual Value: 123.175
+Best Personal 3: 349.499
+Delta Value: 349.499
 
 Particula N°7 
 
-Best Personal 14: 1205.03
-Actual Value: 181.653
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°8 
 
-Best Personal 14: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 14: 877.417
-Actual Value: 173.085
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 14: 1202.33
-Actual Value: 123.439
+Best Personal 4: 152.489
+Delta Value: 123.439
 
 Particula N°11 
 
-Best Personal 14: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 14: 1057.1
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 14: 1172.45
-Actual Value: 263.662
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°14 
 
-Best Personal 14: 1055.3
-Actual Value: 123.175
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°15 
 
-Best Personal 14: 928.237
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 14: 1217.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 14: 605.625
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°18 
 
-Best Personal 14: 901.314
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°19 
 
-Best Personal 14: 1308.45
-Actual Value: 309.364
+Best Personal 4: 174.978
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 14: 1075.64
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°21 
 
-Best Personal 14: 858.177
-Actual Value: 248.945
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 14: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 14: 769.308
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°24 
 
-Best Personal 14: 800.554
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°25 
 
-Best Personal 14: 905.08
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°26 
 
-Best Personal 14: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 14: 1603.34
-Actual Value: 123.439
+Best Personal 4: 349.891
+Delta Value: 123.439
 
 Particula N°28 
 
-Best Personal 14: 1312.29
-Actual Value: 123.108
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°29 
 
-Best Personal 14: 671.218
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 14: 682.902
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
+Particula N°31 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°39 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°40 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°47 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 4: 172.596
+Delta Value: 172.596
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°55 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°59 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°60 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°61 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 4: 312.819
+Delta Value: 312.819
+
+Particula N°64 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+123.439 -------- 123.439
 Best Global Iteration n°14: 123.439 at the iteration 14
 
  Iteracion: 16
 Particula N°1 
 
-Best Personal 15: 1373.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°2 
 
-Best Personal 15: 819.858
-Actual Value: 123.439
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 15: 894.337
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°4 
 
-Best Personal 15: 1404.89
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 15: 943.06
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°6 
 
-Best Personal 15: 791.307
-Actual Value: 123.175
+Best Personal 3: 349.499
+Delta Value: 349.499
 
 Particula N°7 
 
-Best Personal 15: 1205.03
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°8 
 
-Best Personal 15: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 15: 877.417
-Actual Value: 173.085
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 15: 1202.33
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°11 
 
-Best Personal 15: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 15: 1057.1
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 15: 1172.45
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°14 
 
-Best Personal 15: 1055.3
-Actual Value: 123.175
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°15 
 
-Best Personal 15: 928.237
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 15: 1217.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 15: 605.625
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°18 
 
-Best Personal 15: 901.314
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°19 
 
-Best Personal 15: 1308.45
-Actual Value: 309.364
+Best Personal 4: 174.978
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 15: 1075.64
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°21 
 
-Best Personal 15: 858.177
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 15: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 224.351
 
 Particula N°23 
 
-Best Personal 15: 769.308
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°24 
 
-Best Personal 15: 800.554
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°25 
 
-Best Personal 15: 905.08
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°26 
 
-Best Personal 15: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 15: 1603.34
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°28 
 
-Best Personal 15: 1312.29
-Actual Value: 123.175
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°29 
 
-Best Personal 15: 671.218
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 15: 682.902
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
-Best Global Iteration n°15: 123.439 at the iteration 15
+Particula N°31 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°39 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°40 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°47 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 4: 172.596
+Delta Value: 123.439
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 229.243
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°55 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°59 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°60 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°61 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 4: 312.819
+Delta Value: 123.439
+
+Particula N°64 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Best Global Iteration n°15: 123.439 at the iteration 14
 
  Iteracion: 17
 Particula N°1 
 
-Best Personal 16: 1373.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°2 
 
-Best Personal 16: 819.858
-Actual Value: 123.439
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 16: 894.337
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°4 
 
-Best Personal 16: 1404.89
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 16: 943.06
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°6 
 
-Best Personal 16: 791.307
-Actual Value: 123.108
+Best Personal 3: 349.499
+Delta Value: 123.439
 
 Particula N°7 
 
-Best Personal 16: 1205.03
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°8 
 
-Best Personal 16: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 201.133
 
 Particula N°9 
 
-Best Personal 16: 877.417
-Actual Value: 173.085
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 16: 1202.33
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°11 
 
-Best Personal 16: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 16: 1057.1
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 16: 1172.45
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°14 
 
-Best Personal 16: 1055.3
-Actual Value: 123.175
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°15 
 
-Best Personal 16: 928.237
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 16: 1217.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 16: 605.625
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°18 
 
-Best Personal 16: 901.314
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°19 
 
-Best Personal 16: 1308.45
-Actual Value: 309.364
+Best Personal 4: 174.978
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 16: 1075.64
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°21 
 
-Best Personal 16: 858.177
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 16: 932.72
-Actual Value: 123.439
+Best Personal 4: 224.351
+Delta Value: 123.439
 
 Particula N°23 
 
-Best Personal 16: 769.308
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°24 
 
-Best Personal 16: 800.554
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°25 
 
-Best Personal 16: 905.08
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°26 
 
-Best Personal 16: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 16: 1603.34
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°28 
 
-Best Personal 16: 1312.29
-Actual Value: 123.175
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°29 
 
-Best Personal 16: 671.218
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 16: 682.902
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
-Best Global Iteration n°16: 123.439 at the iteration 16
+Particula N°31 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°39 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°40 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 393.667
+
+Particula N°42 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°47 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 4: 229.243
+Delta Value: 123.439
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°55 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°59 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°60 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°61 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 364.225
+
+Particula N°63 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°64 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Best Global Iteration n°16: 123.439 at the iteration 14
 
  Iteracion: 18
 Particula N°1 
 
-Best Personal 17: 1373.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°2 
 
-Best Personal 17: 819.858
-Actual Value: 123.439
+Best Personal 4: 174.619
+Delta Value: 174.619
 
 Particula N°3 
 
-Best Personal 17: 894.337
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°4 
 
-Best Personal 17: 1404.89
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°5 
 
-Best Personal 17: 943.06
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°6 
 
-Best Personal 17: 791.307
-Actual Value: 123.175
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°7 
 
-Best Personal 17: 1205.03
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°8 
 
-Best Personal 17: 1418.94
-Actual Value: 123.439
+Best Personal 4: 201.133
+Delta Value: 123.439
 
 Particula N°9 
 
-Best Personal 17: 877.417
-Actual Value: 173.085
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°10 
 
-Best Personal 17: 1202.33
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°11 
 
-Best Personal 17: 1186.17
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°12 
 
-Best Personal 17: 1057.1
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°13 
 
-Best Personal 17: 1172.45
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°14 
 
-Best Personal 17: 1055.3
-Actual Value: 123.175
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°15 
 
-Best Personal 17: 928.237
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°16 
 
-Best Personal 17: 1217.47
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°17 
 
-Best Personal 17: 605.625
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°18 
 
-Best Personal 17: 901.314
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°19 
 
-Best Personal 17: 1308.45
-Actual Value: 309.364
+Best Personal 4: 174.978
+Delta Value: 174.978
 
 Particula N°20 
 
-Best Personal 17: 1075.64
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°21 
 
-Best Personal 17: 858.177
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°22 
 
-Best Personal 17: 932.72
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°23 
 
-Best Personal 17: 769.308
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°24 
 
-Best Personal 17: 800.554
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°25 
 
-Best Personal 17: 905.08
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°26 
 
-Best Personal 17: 550.684
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°27 
 
-Best Personal 17: 1603.34
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°28 
 
-Best Personal 17: 1312.29
-Actual Value: 123.175
+Best Personal 5: 123.439
+Delta Value: 123.439
 
 Particula N°29 
 
-Best Personal 17: 671.218
-Actual Value: 123.439
+Best Personal 4: 123.439
+Delta Value: 123.439
 
 Particula N°30 
 
-Best Personal 17: 682.902
-Actual Value: 123.439
+Best Personal 5: 123.439
+Delta Value: 123.439
 
+Particula N°31 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°39 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°40 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 4: 393.667
+Delta Value: 123.439
+
+Particula N°42 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 178.134
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°47 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°55 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°59 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°60 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°61 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°62 
+
+Best Personal 4: 364.225
+Delta Value: 123.439
+
+Particula N°63 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°64 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Best Global Iteration n°17: 123.439 at the iteration 14
+
+ Iteracion: 19
+Particula N°1 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°2 
+
+Best Personal 4: 174.619
+Delta Value: 174.619
+
+Particula N°3 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°4 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°5 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°6 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°7 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°8 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°9 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°10 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°11 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°12 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°13 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°14 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°15 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°16 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°17 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°18 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°19 
+
+Best Personal 4: 174.978
+Delta Value: 174.978
+
+Particula N°20 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°21 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°22 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°23 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°24 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°25 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°26 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°27 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°28 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°29 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°30 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°31 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°39 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°40 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°42 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°44 
+
+Best Personal 4: 178.134
+Delta Value: 123.439
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°47 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°55 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°59 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°60 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°61 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°62 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°63 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°64 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 222.878
+
+Particula N°66 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Best Global Iteration n°18: 123.439 at the iteration 14
+
+ Iteracion: 20
+Particula N°1 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°2 
+
+Best Personal 4: 174.619
+Delta Value: 174.619
+
+Particula N°3 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°4 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°5 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°6 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°7 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°8 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°9 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°10 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°11 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°12 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°13 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°14 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°15 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°16 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°17 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°18 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°19 
+
+Best Personal 4: 174.978
+Delta Value: 174.978
+
+Particula N°20 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°21 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°22 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°23 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°24 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°25 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°26 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°27 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°28 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°29 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°30 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°31 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°32 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°33 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°34 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°35 
+
+Best Personal 4: 210.1
+Delta Value: 210.1
+
+Particula N°36 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°37 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°38 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°39 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°40 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°41 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°42 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°43 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°44 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°45 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°46 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°47 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°48 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°49 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°50 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°51 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°52 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°53 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°54 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°55 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°56 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°57 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°58 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°59 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°60 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°61 
+
+Best Personal 4: 123.439
+Delta Value: 123.439
+
+Particula N°62 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°63 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°64 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°65 
+
+Best Personal 4: 222.878
+Delta Value: 123.439
+
+Particula N°66 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°67 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°68 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°69 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Particula N°70 
+
+Best Personal 5: 123.439
+Delta Value: 123.439
+
+Best Global Iteration n°19: 123.439 at the iteration 14
+##**************************************************************************
+##******************************* RESULTS **********************************
+##**************************************************************************
+##
+## Best Global Iteration n°20: 123.439 at the iteration 14
