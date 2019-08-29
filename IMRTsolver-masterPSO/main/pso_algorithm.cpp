@@ -114,7 +114,8 @@ int main(int argc, char** argv){
   int seed=time(NULL);
   //int seed =1567018062;
   srand(seed);
-
+  cout << endl;
+  cout << seed << endl;
 	string strategy="dao_ls";
 	string file="data/testinstance_0_70_140_210_280.txt";
   string file2="data/test_instance_coordinates.txt";
