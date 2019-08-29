@@ -111,8 +111,8 @@ int main(int argc, char** argv){
   double alphaT=0.95;
   int perturbation=2;
 
-  int seed=time(NULL);
-  //int seed =123;
+  //int seed=time(NULL);
+  int seed =1567018062;
   srand(seed);
 
 	string strategy="dao_ls";
@@ -235,7 +235,7 @@ int main(int argc, char** argv){
 
   for(int k = 0; k < size ; k++)
   {
-    if(solution[k].getFitness() < actual_global)
+    if(solution[i].getDeltaFitness() < actual_global)
     {
       BGlobal->newCopy(solution[k].GetPCurrent());
       actual_global = BGlobal->getEvaluation();
@@ -255,24 +255,26 @@ int main(int argc, char** argv){
       cout << "Particula N°" << i+1 <<" " <<endl;
       solution[i].Velocityupdate(*BGlobal, changes_beam);
       solution[i].updatePosition(max_intensity);
-      //solution[i].calculateDeltaFitness();
-      solution[i].calculateFitness();
-      if(solution[i].getFitness()<solution[i].getBfitness())
+      solution[i].calculateDeltaFitness();
+      //solution[i].calculateFitness();
+      if(solution[i].getDeltaFitness()<solution[i].getBfitness())
       {
         solution[i].updatePbest();
       }
-      cout <<"Actual Value: "<<solution[i].getFitness() <<endl;
-      //cout <<"Delta Value: " <<solution[i].getDeltaFitness() << endl;
+      //cout <<"Actual Value: "<<solution[i].getFitness() <<endl;
+      cout <<"Delta Value: " <<solution[i].getDeltaFitness() << endl;
       cout << endl;
 		};
 
 //Calculate the new Best Global of the particle
     for(int k = 0; k < size ; k++)
     {
-      if(solution[i].getFitness() < actual_global)
+      //cout << solution[i].getDeltaFitness() << " -- " << actual_global << endl;
+      if(solution[k].getDeltaFitness() < actual_global)
       {
+        cout << solution[k].getDeltaFitness() << " -------- " << actual_global  << endl;
         BGlobal->newCopy(solution[k].GetPCurrent());
-        actual_global = BGlobal->eval();
+        actual_global = solution[k].getDeltaFitness();
         Best_iteration = j;
       }
     }
