@@ -111,8 +111,8 @@ int main(int argc, char** argv){
   double alphaT=0.95;
   int perturbation=2;
 
-  //int seed=time(NULL);
-  int seed =1567018062;
+  int seed=time(NULL);
+  //int seed =1567018062;
   srand(seed);
 
 	string strategy="dao_ls";
