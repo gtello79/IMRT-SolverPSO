@@ -701,6 +701,8 @@ namespace imrt {
           A[a][i].second = ceil(n);
           A[a][i].first = floor(n);
         }
+        //cout << "###########" << endl;
+        //cout << activeRange.first << " " << activeRange.second << endl;
         //cout << A[a][i].first << " " << A[a][i].second << endl;
       }
     }
