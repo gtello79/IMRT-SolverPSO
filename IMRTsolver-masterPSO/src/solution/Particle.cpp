@@ -4,7 +4,7 @@ using namespace std;
 
 namespace imrt{
 
-	Particle::Particle(Plan& P, float c_1, float c_2, float iner) : Pcurrent(P), PBest(P)
+	Particle::Particle(Plan& P, float c_1, float c_2, float iner, float move_prob) : Pcurrent(P), PBest(P)
 	{
 		w = iner;
 		c1 = c_1;
@@ -13,11 +13,12 @@ namespace imrt{
 		fitness = Pcurrent.eval();
 		bfitness = fitness;
 		deltafitness = fitness;
+		prob_aperture = move_prob;
   };
 
 	void Particle::Velocityupdate(Plan &GBest, int change){
 		//Giving access to all the beam for the change
-    Pcurrent.updateVelocity(GBest, PBest, Pcurrent, w, c1, c2,change);
+    Pcurrent.updateVelocity(GBest, PBest, Pcurrent, w, c1, c2,change, prob_aperture);
 	};
 
 	void Particle::updatePbest()

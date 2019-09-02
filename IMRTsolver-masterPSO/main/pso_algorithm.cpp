@@ -100,6 +100,7 @@ int main(int argc, char** argv){
   int max_intensity=28;
   int step_intensity=2;
   int changes_beam = 1; //number of beam to change
+  float prob_aperture = 1; //Probability to move one aperture respect all the set of max_apertures
 
   bool search_aperture=false;
   bool search_intensity=false;
@@ -112,7 +113,7 @@ int main(int argc, char** argv){
   int perturbation=2;
 
   int seed=time(NULL);
- // int seed =1567056199; 
+ // int seed =1567056199;
  srand(seed);
   cout << endl;
   cout << seed << endl;
@@ -134,6 +135,7 @@ int main(int argc, char** argv){
   args::ValueFlag<float> _c1(parser, "int", "Social Factor Parameter ("+to_string(c1)+")", {"c1"});
   args::ValueFlag<float> _c2(parser, "int", "Personal Factor Parameter ("+to_string(c2)+")", {"c2"});
   args::ValueFlag<int> _changes_beam(parser, "int","Size of beam to change("+to_string(changes_beam)+")",{"changes_beam"});
+  args::ValueFlag<float> _prob_aperture(parser, "int", "Probability to move one aperture respect all the set of max_apertures ("+to_string(prob_aperture)+")", {"prob_aperture"});
 
   args::ValueFlag<int> _bsize(parser, "int", "Number of considered beamlets for selection ("+to_string(bsize)+")", {"bsize"});
 	args::ValueFlag<int> _vsize(parser, "int", "Number of considered worst voxels ("+to_string(vsize)+")", {"vsize"});
@@ -209,6 +211,7 @@ int main(int argc, char** argv){
   if(_initial_intensity) initial_intensity=_initial_intensity.Get();
   if(_max_intensity) max_intensity=_max_intensity.Get();
   if(_step_intensity) step_intensity=_step_intensity.Get();
+  if(_prob_aperture) prob_aperture = _prob_aperture.Get();
 
   vector <Particle> solution ;//inicializar con parametro sizeB
 	vector<double> w={1,1,1};
@@ -221,14 +224,14 @@ int main(int argc, char** argv){
   cout << "Particula N° " << 1 << endl;
 	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, diff_setup);
   actual_global = BGlobal->getEvaluation();
-  solution.push_back(Particle(*BGlobal,c1,c2,iner));
+  solution.push_back(Particle(*BGlobal,c1,c2,iner,prob_aperture));
 
 	Plan *Opc;
 	for(i = 1; i < size; i++)
 	{
     cout << "Particula N° " << i+1 << endl;
 		Opc = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
-		solution.push_back(Particle(*Opc,c1,c2,iner));
+		solution.push_back(Particle(*Opc,c1,c2,iner,prob_aperture));
 		if(solution[i].getFitness() < solution[i].getBfitness()){
       solution[i].updatePbest();
     }

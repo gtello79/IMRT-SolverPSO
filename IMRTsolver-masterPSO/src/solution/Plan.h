@@ -81,7 +81,7 @@ public:
 	    return *s;
 	}
 
-	void updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, int change);
+	void updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, int change, float prob);
 
 	void updatePosition(int max_intensity);
 

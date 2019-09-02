@@ -29,10 +29,11 @@ namespace imrt{
       Plan Pcurrent; //BEST PERSONAL VALUE
       vector<int> accept_value;
       int mejora = 0;
+      float prob_aperture;
 
     public:
   	    //Builder of Particle class
-  	    Particle(Plan& P, float c_1 , float c_2 , float iner);
+  	    Particle(Plan& P, float c_1 , float c_2 , float iner, float prob_aperture);
   	    //Function with the process for calculate the velocity of the particle using the stations
         void Velocityupdate(Plan &GBest, int change);
         //Function for calculate the position of the solution using PSO

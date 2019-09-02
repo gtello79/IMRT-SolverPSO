@@ -195,7 +195,7 @@ namespace imrt {
   }
 
 
-  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, int change){
+  void Plan::updateVelocity(Plan &Bglobal, Plan &Pbest, Plan &current, float w, float c1, float c2, int change, float prob){
     int stationCount = getStationSize();
     int random = (rand())%(stationCount);
     Station *auxCurrent;
@@ -218,7 +218,7 @@ namespace imrt {
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
         //auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
-        auxCurrent->velocity_aperture(*auxGlobal,*auxBest,w,c1,c2);
+        auxCurrent->velocity_aperture(*auxGlobal,*auxBest,w,c1,c2, prob);
       }
     }
   }

@@ -667,44 +667,61 @@ namespace imrt {
 	};
 
 //Calculate the velocity of the aperture Matrix
-  void Station::velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2){
+  void Station::velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2, float prob){
+    int j = 0; //variable de iteracion
+    int move; //indica donde se hará el movimiento de la apertura
     double r1 = ((double)rand()/(RAND_MAX));
     double r2 = ((double)rand()/(RAND_MAX));
+    double r3 = ((double)rand()/(RAND_MAX));
     vector<vector<pair<int,int>>> Bgm = BestG.get_Aper();
     vector<vector<pair<int,int>>> Bpm = BestP.get_Aper();
-    for(int j = 0; j < max_apertures; j++){
+    cout << r3 << endl;
+    if(prob < r3){
+      j = max_apertures-1; //la variable de iteracion nos indica que solo se realizara una vez
+      aperture_change = (rand()%(max_apertures)); //usamos esta variable para saber el index de la apertura a mover
+      move = aperture_change; //Variable usada para saber que movimiento realizar
+      cout << "Se movera la apertura " << move << endl;
+    }else{
+      aperture_change =-1; //El valor -1 nos indica que se moverán todas la aperturas
+      cout << "Se moveran todas las aperturas" << endl;
+    }
+    for(; j < max_apertures; j++){
       for(int k = 0; k < collimator.getXdim(); k++){
+        if(aperture_change == -1) move = j;
         pair<int, int> activeRange = collimator.getActiveRange(k,angle);
         if (activeRange.first<0) continue;
-        Veloc_Aperture[j][k].first = w*Veloc_Aperture[j][k].first + c1*r1*(A[j][k].first - Bpm[j][k].first) + c2*r2*(A[j][k].first - Bgm[j][k].first);
-        Veloc_Aperture[j][k].second = w*Veloc_Aperture[j][k].second + c1*r1*(A[j][k].second - Bpm[j][k].second) + c2*r2*(A[j][k].second - Bgm[j][k].second);
+        Veloc_Aperture[move][k].first = w*Veloc_Aperture[move][k].first + c1*r1*(A[move][k].first - Bpm[move][k].first) + c2*r2*(A[move][k].first - Bgm[move][k].first);
+        Veloc_Aperture[move][k].second = w*Veloc_Aperture[move][k].second + c1*r1*(A[move][k].second - Bpm[move][k].second) + c2*r2*(A[move][k].second - Bgm[move][k].second);
       }
     }
   }
-
 //Calculate the Position of the aperture Matrix
   void Station::position_aperture(){
+    int a = 0;
+    int move = aperture_change;
     last_iteration = I;
-    for(int a = 0; a < max_apertures; a++){
+    if(aperture_change != -1) a = max_apertures-1;
+    for(; a < max_apertures; a++){
       for(int i = 0; i < collimator.getXdim(); i++){
+        if(aperture_change == -1) move = a;
         pair<int, int> activeRange = collimator.getActiveRange(i,angle);
 
         if (activeRange.first<0) continue;
 
-        A[a][i].first = Veloc_Aperture[a][i].first + A[a][i].first;
-        A[a][i].second = Veloc_Aperture[a][i].second + A[a][i].second;
+        A[move][i].first = Veloc_Aperture[move][i].first + A[move][i].first;
+        A[move][i].second = Veloc_Aperture[move][i].second + A[move][i].second;
 
-        if(A[a][i].first < activeRange.first || A[a][i].first > activeRange.second) A[a][i].first = activeRange.first;
-        if(A[a][i].second < activeRange.first || A[a][i].second > activeRange.second) A[a][i].second = activeRange.second;
-        if(A[a][i].second <= A[a][i].first){
+        if(A[move][i].first < activeRange.first || A[move][i].first > activeRange.second) A[move][i].first = activeRange.first;
+        if(A[move][i].second < activeRange.first || A[move][i].second > activeRange.second) A[move][i].second = activeRange.second;
+        if(A[move][i].second <= A[move][i].first){
           double n = (activeRange.first+activeRange.second)/2;
-          A[a][i].second = ceil(n);
-          A[a][i].first = floor(n);
+          A[move][i].second = ceil(n);
+          A[move][i].first = floor(n);
         }
-        //cout << "###########" << endl;
-        //cout << activeRange.first << " " << activeRange.second << endl;
-        //cout << A[a][i].first << " " << A[a][i].second << endl;
       }
+      //cout << "###########" << endl;
+      //cout << activeRange.first << " " << activeRange.second << endl;
+      //cout << A[a][i].first << " " << A[a][i].second << endl;
     }
     //cout << I << endl;
     generateIntensity();

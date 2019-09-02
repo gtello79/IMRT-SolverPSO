@@ -48,6 +48,7 @@ private:
   int initial_intensity;
   int step_intensity;
   int n_volumes;
+  int aperture_change;
 
   /** Apertures (representation 1):
    * Each aperture is represented by a vector of pairs A[i] = (x_ini, x_fin)
@@ -117,14 +118,14 @@ public:
           if(I(i,j)>intens) intens=I(i,j);
       return intens;
     }
-  }
+  };
 
   int get_nb_apertures(string strategy){
     if(strategy=="dao_ls")
        return intensity.size();
     else if(strategy=="ibo_ls")
        return int2nb.size();
-  }
+  };
 
   //revert the last change
   //should be followed by a call to the incremental_eval procedure
@@ -217,11 +218,12 @@ public:
   void set_Intensity(Matrix& newInten);
   void calculateNewPosition(int max_intensity);
   void calculateNewVelocity(Station &BestG, Station &BestP,float w,float c1,float c2);
-  void velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2);
+  void velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2, float prob);
   void position_aperture();
   vector<vector<pair<int,int>>> &get_Aper();
   list<pair<int,double>> makeDiff();
   void incrementalTest();
+
 
   };
 }
