@@ -58,7 +58,6 @@ private:
 
    // Range open (x_ini, x_fin) of row "r" for aperture d: A[d][r](x_ini, x_fin)
    vector<vector<pair<int,int> > > A;
-
    vector<vector<pair<int,int> > > Veloc_Aperture;
 
    //  Apertures (representation 2):
@@ -68,7 +67,6 @@ private:
    Matrix veloc;
 
    void change_intensity(int i, int j, double intensity, list< pair< int, double > >* diff=NULL );
-
    void clearIntensity();
 
    //These auxiliar variables to track last changes
@@ -93,9 +91,9 @@ public:
 
   void generate_random_intensities();
 
- // intensity of an aperture i
+  // intensity of an aperture i
   vector<double> intensity;
-
+  vector<double> veloc_intensity;
   // Function to be used to get the index in the location
   // in the matrix I of the rows of matrix D
   pair<int,int> getPos(int beam) const;
@@ -214,13 +212,19 @@ public:
   Matrix& get_Velocity();
   Matrix& get_Intensity();
   Matrix& get_Last();
+  vector<vector<pair<int,int>>> &get_Aper();
+  vector<double> &getApertureIntensity();
+
   void set_Velocity(Matrix& newV);
   void set_Intensity(Matrix& newInten);
+
   void calculateNewPosition(int max_intensity);
   void calculateNewVelocity(Station &BestG, Station &BestP,float w,float c1,float c2);
+
   void velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2, float prob);
+  void velocity_intensity(Station &BestG, Station &BestP, float w, float c1, float c2, float prob);
   void position_aperture();
-  vector<vector<pair<int,int>>> &get_Aper();
+
   list<pair<int,double>> makeDiff();
   void incrementalTest();
 
