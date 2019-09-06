@@ -55,8 +55,8 @@ namespace imrt {
       for(int r = 0; r < collimator.getXdim(); r++){
         pair <int,int> add;
         pair <int,int> aux = collimator.getActiveRange(r,angle);
-        add.first  = aux.first;
-        add.second = aux.second;
+        add.first  = 0;
+        add.second = 0;
         nuevo.push_back(add);
       }
       Veloc_Aperture.push_back(nuevo);
@@ -708,7 +708,7 @@ namespace imrt {
         Veloc_Aperture[move][k].second = w*Veloc_Aperture[move][k].second + c1*r1*(A[move][k].second - Bpm[move][k].second) + c2*r2*(A[move][k].second - Bgm[move][k].second);
       }
     }
-    //velocity_intensity(BestG, BestP, w , c1 , c2 ,prob);
+    velocity_intensity(BestG, BestP, w , c1 , c2 ,prob);
   }
 //Calculate the Position of the aperture Matrix
   void Station::position_aperture(){
@@ -764,10 +764,13 @@ namespace imrt {
   void Station::velocity_intensity(Station &BestG, Station &BestP, float w, float c1, float c2, float prob){
     double r1 = ((double)rand()/(RAND_MAX));
     double r2 = ((double)rand()/(RAND_MAX));
+    //cout << r1 <<" "<<  r2<<endl;
     vector<double> Bgm = BestG.getApertureIntensity();
     vector<double> Bpm = BestP.getApertureIntensity();
     for(int a = 0; a < max_apertures ; a++){
       veloc_intensity[a] = w*veloc_intensity[a] + r1*c1*(intensity[a]-Bgm[a]) + r2*c2*(intensity[a]-Bpm[a]);
+      cout << intensity[a] << " " <<Bgm[a] << endl;
+      //cout << w*veloc_intensity[a] + r1*c1*(intensity[a]-Bgm[a]) + r2*c2*(intensity[a]-Bpm[a]) << endl;
     }
   }
 
