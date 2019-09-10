@@ -25,6 +25,7 @@ parser.add_argument("-max_intensity","--max_intensity",type=int , help = "Step s
 parser.add_argument("-pso_iter", "--pso_iter", type=int, help = "Number of iteration that the pso will run")
 parser.add_argument("-changes_beam","--changes_beam", type= int, help= "Choose the beam number to operate")
 parser.add_argument("-diff_setup", "--diff_setup", type= int, help = "Add a particle with a different setup")
+parser.add_argument("-prob_aperture", "--prob_aperture", type = float , help = "Add a little condition to the movement of one or all the apertures")
 args = parser.parse_args()
 
 size = 10
@@ -50,6 +51,7 @@ write_report = False
 pso_iter = 1
 changes_beam = 1
 diff_setup = 5
+prob_aperture = 0
 
 # Aqui procesamos lo que se tiene que hacer con cada argumento
 if args.size:
@@ -94,7 +96,8 @@ if args.pso_iter:
     pso_iter = args.pso_iter
 if args.diff_setup:
     diff_setup = args.diff_setup
-
+if args.prob_aperture:
+    prob_aperture = args.prob_aperture
 ##Erasing the files of the last iteration
 os.system("rm -r Values")
 os.system("mkdir Values")
@@ -105,7 +108,7 @@ for i in range(0,pso_iter):
 	descripcion = "PSO --diff_setup "+str(diff_setup)+" --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)
 	detalles.write("PSO Iteracion "+str(i)+"\n")
 	detalles.write(descripcion+"\n")
-	os.system("./PSO --diff_setup "+str(diff_setup)+ " --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)+" >> Values/resultado"+str(i)+".txt")
+	os.system("./PSO --diff_setup "+str(diff_setup)+ " --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --seed "+str(seed)+ " --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)+" --prob_aperture "+str(prob_aperture)+" >> Values/resultado"+str(i)+".txt")
 	seed = seed + 1
 detalles.close()
 
