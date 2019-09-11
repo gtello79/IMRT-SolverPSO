@@ -708,14 +708,14 @@ namespace imrt {
         Veloc_Aperture[move][k].second = w*Veloc_Aperture[move][k].second + c1*r1*(A[move][k].second - Bpm[move][k].second) + c2*r2*(A[move][k].second - Bgm[move][k].second);
       }
     }
-    velocity_intensity(BestG, BestP, w , c1 , c2 ,prob);
-    for(int a = 0; a < max_apertures ;a++) {
-      cout <<"Antes: "<<  intensity[a] << endl;
-      intensity[a] += veloc_intensity[a];
-      if(intensity[a] > 20) intensity[a] = 20;
-      else if(intensity[a] < 0) intensity[a] = 0;
-      cout <<"Despues: " <<intensity[a] << endl;
-    }
+    //velocity_intensity(BestG, BestP, w , c1 , c2 ,prob);
+    //for(int a = 0; a < max_apertures ;a++) {
+    //  cout <<"Antes: "<<  intensity[a] << endl;
+    //  intensity[a] += veloc_intensity[a];
+    //  if(intensity[a] > 20) intensity[a] = 20;
+    //  else if(intensity[a] < 0) intensity[a] = 0;
+    //  cout <<"Despues: " <<intensity[a] << endl;
+    //}
   }
 //Calculate the Position of the aperture Matrix
   void Station::position_aperture(){
