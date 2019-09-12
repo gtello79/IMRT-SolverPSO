@@ -220,12 +220,14 @@ int main(int argc, char** argv){
 	Collimator collimator(file2, get_angles(file, 5));
   vector<Volume> volumes= createVolumes (file, collimator);
 
+  //Se genera una particula especial que puede servir inicialmente de guia para el resto de la poblacion
 	Plan *BGlobal;
   cout << "Particula N° " << 1 << endl;
 	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, diff_setup);
   actual_global = BGlobal->getEvaluation();
   solution.push_back(Particle(*BGlobal,c1,c2,iner,prob_aperture));
 
+  //Se comienza a generar el resto de las soluciones
 	Plan *Opc;
 	for(i = 1; i < size; i++)
 	{
@@ -237,6 +239,8 @@ int main(int argc, char** argv){
     }
 	}
 
+
+  //Se considera un plan como Best Solution
   for(int k = 0; k < size ; k++)
   {
     if(solution[i].getDeltaFitness() < actual_global)
@@ -260,12 +264,10 @@ int main(int argc, char** argv){
       solution[i].Velocityupdate(*BGlobal, changes_beam);
       solution[i].updatePosition(max_intensity);
       solution[i].calculateDeltaFitness();
-      //solution[i].calculateFitness();
       if(solution[i].getDeltaFitness()<solution[i].getBfitness())
       {
         solution[i].updatePbest();
       }
-      //cout <<"Actual Value: "<<solution[i].getFitness() <<endl;
       cout <<"Delta Value: " <<solution[i].getDeltaFitness() << endl;
       cout << endl;
 		};
@@ -273,10 +275,8 @@ int main(int argc, char** argv){
 //Calculate the new Best Global of the particle
     for(int k = 0; k < size ; k++)
     {
-      //cout << solution[i].getDeltaFitness() << " -- " << actual_global << endl;
       if(solution[k].getDeltaFitness() < actual_global)
       {
-        //cout << solution[k].getDeltaFitness() << " -------- " << actual_global  << endl;
         BGlobal->newCopy(solution[k].GetPCurrent());
         actual_global = solution[k].getDeltaFitness();
         Best_iteration = j;
