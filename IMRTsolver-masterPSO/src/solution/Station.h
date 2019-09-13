@@ -222,7 +222,7 @@ public:
   void calculateNewVelocity(Station &BestG, Station &BestP,float w,float c1,float c2);
 
   void velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2, float prob);
-  void velocity_intensity(Station &BestG, Station &BestP, float w, float c1, float c2, float prob);
+  void velocity_intensity(Station &BestG, Station &BestP, float w, float c1, float c2);
   void position_aperture();
 
   list<pair<int,double>> makeDiff();

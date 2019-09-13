@@ -708,14 +708,7 @@ namespace imrt {
         Veloc_Aperture[move][k].second = w*Veloc_Aperture[move][k].second + c1*r1*(A[move][k].second - Bpm[move][k].second) + c2*r2*(A[move][k].second - Bgm[move][k].second);
       }
     }
-    velocity_intensity(BestG, BestP, w , c1 , c2 ,prob);
-    for(int a = 0; a < max_apertures ;a++) {
-      cout <<"Antes: "<<  intensity[a] << endl;
-      intensity[a] = intensity[a]+veloc_intensity[a];
-      if(intensity[a] > max_intensity) intensity[a] = max_intensity;
-      else if(intensity[a] < 0) intensity[a] = 0;
-      cout <<"Despues: " <<intensity[a] << endl;
-    }
+    velocity_intensity(BestG, BestP, w , c1 , c2);
   }
 //Calculate the Position of the aperture Matrix
   void Station::position_aperture(){
@@ -742,8 +735,16 @@ namespace imrt {
           A[move][i].first = floor(n);
         }
       }
+      for(int a = 0; a < max_apertures ;a++) {
+        cout <<"Antes: "<<  intensity[a] << endl;
+        intensity[a] = intensity[a]+veloc_intensity[a];
+        if(intensity[a] > max_intensity) intensity[a] = max_intensity;
+        else if(intensity[a] < 0) intensity[a] = 0;
+        cout <<"Despues: " <<intensity[a] << endl;
+      }
     }
     //cout << I << endl;
+    //velocity_intensity(BestG, BestP, w , c1 , c2);
     generateIntensity();
   }
 
@@ -764,7 +765,7 @@ namespace imrt {
       }
     };
 
-  void Station::velocity_intensity(Station &BestG, Station &BestP, float w, float c1, float c2, float prob){
+  void Station::velocity_intensity(Station &BestG, Station &BestP, float w, float c1, float c2){
     double r1 = ((double)rand()/(RAND_MAX));
     double r2 = ((double)rand()/(RAND_MAX));
     double c_1 = 1;
