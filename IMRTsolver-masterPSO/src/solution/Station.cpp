@@ -768,17 +768,12 @@ namespace imrt {
   void Station::velocity_intensity(Station &BestG, Station &BestP, float w, float c1, float c2){
     double r1 = ((double)rand()/(RAND_MAX));
     double r2 = ((double)rand()/(RAND_MAX));
-    double c_1 = 1;
-    double c_2 = 1;
-	  w =1;
-//cout << r1 <<" "<<  r2<<endl;
     vector<double> Bgm = BestG.getApertureIntensity();
     vector<double> Bpm = BestP.getApertureIntensity();
     for(int a = 0; a < max_apertures ; a++){
-      //cout << veloc_intensity[a] <<" "<< intensity[a] << " " << Bgm[a] << " " << Bpm[a] << endl;
-      veloc_intensity[a] = (w*veloc_intensity[a] + r1*c_1*(intensity[a]-BestG.intensity[a]) + r2*c_2*(intensity[a]-BestP.intensity[a]));
-      cout << veloc_intensity[a] << endl;
-      //cout << w*veloc_intensity[a] + r1*c1*(intensity[a]-Bgm[a]) + r2*c2*(intensity[a]-Bpm[a]) << endl;
+
+      veloc_intensity[a] = w*veloc_intensity[a] + r1*c1*(intensity[a]-BestG.intensity[a]) + r2*c2*(intensity[a]-BestP.intensity[a]);
+      cout << veloc_intensity[a] <<" "<< intensity[a]-BestG.intensity[a] << " " <<intensity[a]-BestP.intensity[a] << endl;
     }
   }
 
