@@ -744,13 +744,14 @@ namespace imrt {
         }
       }
     }
+    /*
     for(int a = 0; a < max_apertures ;a++) {
       cout <<"Antes: "<<  intensity[a] << endl;
       intensity[a] = intensity[a]+veloc_intensity[a];
       if(intensity[a] > max_intensity) intensity[a] = max_intensity;
       else if(intensity[a] < 0) intensity[a] = 0;
       cout <<"Despues: " <<intensity[a] << endl;
-    }
+    }*/
     //cout << I << endl;
     //velocity_intensity(BestG, BestP, w , c1 , c2);
     generateIntensity();
