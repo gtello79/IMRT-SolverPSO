@@ -716,7 +716,7 @@ namespace imrt {
         //if(Veloc_Aperture[move][k].second > 1) Veloc_Aperture[move][k].second = 1;
       }
     }
-    velocity_intensity(BestG, BestP, w , c1 , c2);
+    //velocity_intensity(BestG, BestP, w , c1 , c2);
   }
 //Calculate the Position of the aperture Matrix
   void Station::position_aperture(){
