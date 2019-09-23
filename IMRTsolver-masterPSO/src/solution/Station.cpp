@@ -737,7 +737,7 @@ namespace imrt {
         if(A[move][i].second < activeRange.first || A[move][i].second > activeRange.second) A[move][i].second = activeRange.second;
         if(A[move][i].second <= A[move][i].first){
           //cout << "una hoja encima de otra" << endl;
-          double n = (activeRange.first+activeRange.second)/2;
+          double n = (A[move][i].first+A[move][i].second)/2;
           A[move][i].second = ceil(n);
           A[move][i].first = floor(n);
         }
