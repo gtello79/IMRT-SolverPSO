@@ -119,6 +119,8 @@ int main(int argc, char** argv){
   string file2="data/test_instance_coordinates.txt";
   string path=".";
   int seed=time(NULL);
+  srand(seed);
+  cout << seed << endl;
 
 
   args::ArgumentParser parser("********* IMRT-Solver (PSO-Algorithm) *********", "Example.\n./PSO  --maxiter=400 --maxdelta=8 --maxratio=6 --alpha=0.999 --beta=0.999 --bsize=5 --vsize=20 --max-apertures=4 --seed=0 --open-apertures=1 --initial-intensity=4 --step-intensity=1 --file-dep=data/Equidistantes/equidist00.txt --file-coord=data/Equidistantes/equidist-coord.txt");
@@ -210,9 +212,6 @@ int main(int argc, char** argv){
   if(_step_intensity) step_intensity=_step_intensity.Get();
   if(_prob_aperture) prob_aperture = _prob_aperture.Get();
 
-
-  srand(seed);
-  cout << seed << endl;
   vector <Particle> solution ;
   vector<double> w={1,1,1};
   vector<double> Zmin={0,0,76};

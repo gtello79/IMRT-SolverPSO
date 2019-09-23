@@ -1,0 +1,692 @@
+1569247138
+##Reading collimator coordinates info.
+##  data/CERR_Prostate/CoordinatesBeam_0.txt a:0
+##  data/CERR_Prostate/CoordinatesBeam_70.txt a:70
+##  data/CERR_Prostate/CoordinatesBeam_140.txt a:140
+##  data/CERR_Prostate/CoordinatesBeam_210.txt a:210
+##  data/CERR_Prostate/CoordinatesBeam_280.txt a:280
+##  Read 5 files.
+##Reading volume files.
+##  data/CERR_Prostate/DAO_DDM_BLADDER.dat
+##  data/CERR_Prostate/DAO_DDM_RECTUM.dat
+##  data/CERR_Prostate/DAO_DDM_PTVHD.dat
+##  Read 3 files
+Particula N° 1
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 1827.9.
+Particula N° 2
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 15135.9.
+Particula N° 3
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 24080.5.
+Particula N° 4
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 32829.7.
+Particula N° 5
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 27192.2.
+Particula N° 6
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 18522.8.
+Particula N° 7
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 12946.9.
+Particula N° 8
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 11365.9.
+Particula N° 9
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 14348.8.
+Particula N° 10
+##Initilizing plan.
+##  Created 5 stations.
+##  Initial evaluation: 26410.8.
+###############################################################################
+#########################Particles Created#####################################
+###############################################################################
+Best Global Iteration n° 0 : 1827.9 at the iteration 0
+
+ Iteracion: 1
+Particula N°1 
+Se movera la apertura 0
+
+Best Personal 0: 1827.9
+Delta Value: 1827.9
+
+Particula N°2 
+Se movera la apertura 3
+
+Best Personal 0: 15135.9
+Delta Value: 15786.2
+
+Particula N°3 
+Se movera la apertura 0
+
+Best Personal 0: 24080.5
+Delta Value: 24080.8
+
+Particula N°4 
+Se movera la apertura 4
+
+Best Personal 0: 32829.7
+Delta Value: 33486.4
+
+Particula N°5 
+Se movera la apertura 0
+
+Best Personal 0: 27192.2
+Delta Value: 26480.1
+
+Particula N°6 
+Se movera la apertura 2
+
+Best Personal 0: 18522.8
+Delta Value: 18714.9
+
+Particula N°7 
+Se movera la apertura 0
+
+Best Personal 0: 12946.9
+Delta Value: 12946.9
+
+Particula N°8 
+Se movera la apertura 1
+
+Best Personal 0: 11365.9
+Delta Value: 11783.1
+
+Particula N°9 
+Se movera la apertura 3
+
+Best Personal 0: 14348.8
+Delta Value: 14348.8
+
+Particula N°10 
+Se movera la apertura 3
+
+Best Personal 0: 26410.8
+Delta Value: 26410.8
+
+Best Global Iteration n° 0 : 1827.9 at the iteration 0
+
+ Iteracion: 2
+Particula N°1 
+Se movera la apertura 4
+
+Best Personal 0: 1827.9
+Delta Value: 1827.9
+
+Particula N°2 
+Se movera la apertura 1
+
+Best Personal 0: 15135.9
+Delta Value: 15867.7
+
+Particula N°3 
+Se movera la apertura 4
+
+Best Personal 0: 24080.5
+Delta Value: 23753.2
+
+Particula N°4 
+Se movera la apertura 3
+
+Best Personal 0: 32829.7
+Delta Value: 32257.9
+
+Particula N°5 
+Se movera la apertura 3
+
+Best Personal 1: 26480.1
+Delta Value: 25998.4
+
+Particula N°6 
+Se movera la apertura 3
+
+Best Personal 0: 18522.8
+Delta Value: 18505.2
+
+Particula N°7 
+Se movera la apertura 1
+
+Best Personal 0: 12946.9
+Delta Value: 13118.7
+
+Particula N°8 
+Se movera la apertura 0
+
+Best Personal 0: 11365.9
+Delta Value: 12081.3
+
+Particula N°9 
+Se movera la apertura 4
+
+Best Personal 0: 14348.8
+Delta Value: 14490.5
+
+Particula N°10 
+Se movera la apertura 1
+
+Best Personal 0: 26410.8
+Delta Value: 26410.8
+
+Best Global Iteration n° 1 : 1827.9 at the iteration 0
+
+ Iteracion: 3
+Particula N°1 
+Se movera la apertura 1
+
+Best Personal 0: 1827.9
+Delta Value: 1827.9
+
+Particula N°2 
+Se movera la apertura 1
+
+Best Personal 0: 15135.9
+Delta Value: 15643.4
+
+Particula N°3 
+Se movera la apertura 4
+
+Best Personal 1: 23753.2
+Delta Value: 23403.1
+
+Particula N°4 
+Se movera la apertura 0
+
+Best Personal 1: 32257.9
+Delta Value: 32260.5
+
+Particula N°5 
+Se movera la apertura 2
+
+Best Personal 2: 25998.4
+Delta Value: 25998.4
+
+Particula N°6 
+Se movera la apertura 4
+
+Best Personal 1: 18505.2
+Delta Value: 18021.6
+
+Particula N°7 
+Se movera la apertura 2
+
+Best Personal 0: 12946.9
+Delta Value: 12583.8
+
+Particula N°8 
+Se movera la apertura 1
+
+Best Personal 0: 11365.9
+Delta Value: 12081.3
+
+Particula N°9 
+Se movera la apertura 2
+
+Best Personal 0: 14348.8
+Delta Value: 14490.5
+
+Particula N°10 
+Se movera la apertura 1
+
+Best Personal 0: 26410.8
+Delta Value: 26410.8
+
+Best Global Iteration n° 2 : 1827.9 at the iteration 0
+
+ Iteracion: 4
+Particula N°1 
+Se movera la apertura 0
+
+Best Personal 0: 1827.9
+Delta Value: 1827.9
+
+Particula N°2 
+Se movera la apertura 4
+
+Best Personal 0: 15135.9
+Delta Value: 15531
+
+Particula N°3 
+Se movera la apertura 2
+
+Best Personal 2: 23403.1
+Delta Value: 23403.1
+
+Particula N°4 
+Se movera la apertura 2
+
+Best Personal 1: 32257.9
+Delta Value: 33882.1
+
+Particula N°5 
+Se movera la apertura 3
+
+Best Personal 2: 25998.4
+Delta Value: 25998.4
+
+Particula N°6 
+Se movera la apertura 4
+
+Best Personal 2: 18021.6
+Delta Value: 17920.3
+
+Particula N°7 
+Se movera la apertura 0
+
+Best Personal 1: 12583.8
+Delta Value: 12723.1
+
+Particula N°8 
+Se movera la apertura 0
+
+Best Personal 0: 11365.9
+Delta Value: 11701.4
+
+Particula N°9 
+Se movera la apertura 3
+
+Best Personal 0: 14348.8
+Delta Value: 14490.5
+
+Particula N°10 
+Se movera la apertura 0
+
+Best Personal 0: 26410.8
+Delta Value: 26410.8
+
+Best Global Iteration n° 3 : 1827.9 at the iteration 0
+
+ Iteracion: 5
+Particula N°1 
+Se movera la apertura 3
+
+Best Personal 0: 1827.9
+Delta Value: 1827.9
+
+Particula N°2 
+Se movera la apertura 2
+
+Best Personal 0: 15135.9
+Delta Value: 15772.1
+
+Particula N°3 
+Se movera la apertura 3
+
+Best Personal 2: 23403.1
+Delta Value: 23403.1
+
+Particula N°4 
+Se movera la apertura 3
+
+Best Personal 1: 32257.9
+Delta Value: 33882.1
+
+Particula N°5 
+Se movera la apertura 3
+
+Best Personal 2: 25998.4
+Delta Value: 25998.4
+
+Particula N°6 
+Se movera la apertura 3
+
+Best Personal 3: 17920.3
+Delta Value: 17929.7
+
+Particula N°7 
+Se movera la apertura 1
+
+Best Personal 1: 12583.8
+Delta Value: 12751.4
+
+Particula N°8 
+Se movera la apertura 0
+
+Best Personal 0: 11365.9
+Delta Value: 11766.7
+
+Particula N°9 
+Se movera la apertura 3
+
+Best Personal 0: 14348.8
+Delta Value: 15089.3
+
+Particula N°10 
+Se movera la apertura 0
+
+Best Personal 0: 26410.8
+Delta Value: 26410.8
+
+Best Global Iteration n° 4 : 1827.9 at the iteration 0
+
+ Iteracion: 6
+Particula N°1 
+Se movera la apertura 3
+
+Best Personal 0: 1827.9
+Delta Value: 1827.9
+
+Particula N°2 
+Se movera la apertura 2
+
+Best Personal 0: 15135.9
+Delta Value: 15940.4
+
+Particula N°3 
+Se movera la apertura 4
+
+Best Personal 2: 23403.1
+Delta Value: 23403.1
+
+Particula N°4 
+Se movera la apertura 2
+
+Best Personal 1: 32257.9
+Delta Value: 34877
+
+Particula N°5 
+Se movera la apertura 3
+
+Best Personal 2: 25998.4
+Delta Value: 25422.2
+
+Particula N°6 
+Se movera la apertura 3
+
+Best Personal 3: 17920.3
+Delta Value: 17879.1
+
+Particula N°7 
+Se movera la apertura 0
+
+Best Personal 1: 12583.8
+Delta Value: 13762.3
+
+Particula N°8 
+Se movera la apertura 0
+
+Best Personal 0: 11365.9
+Delta Value: 12103
+
+Particula N°9 
+Se movera la apertura 4
+
+Best Personal 0: 14348.8
+Delta Value: 15089.3
+
+Particula N°10 
+Se movera la apertura 3
+
+Best Personal 0: 26410.8
+Delta Value: 26410.8
+
+Best Global Iteration n° 5 : 1827.9 at the iteration 0
+
+ Iteracion: 7
+Particula N°1 
+Se movera la apertura 1
+
+Best Personal 0: 1827.9
+Delta Value: 1827.9
+
+Particula N°2 
+Se movera la apertura 3
+
+Best Personal 0: 15135.9
+Delta Value: 16059.9
+
+Particula N°3 
+Se movera la apertura 1
+
+Best Personal 2: 23403.1
+Delta Value: 23355.2
+
+Particula N°4 
+Se movera la apertura 3
+
+Best Personal 1: 32257.9
+Delta Value: 39205.1
+
+Particula N°5 
+Se movera la apertura 2
+
+Best Personal 3: 25422.2
+Delta Value: 27208
+
+Particula N°6 
+Se movera la apertura 3
+
+Best Personal 4: 17879.1
+Delta Value: 17592.1
+
+Particula N°7 
+Se movera la apertura 2
+
+Best Personal 1: 12583.8
+Delta Value: 13600.5
+
+Particula N°8 
+Se movera la apertura 4
+
+Best Personal 0: 11365.9
+Delta Value: 12698.3
+
+Particula N°9 
+Se movera la apertura 3
+
+Best Personal 0: 14348.8
+Delta Value: 15080.7
+
+Particula N°10 
+Se movera la apertura 3
+
+Best Personal 0: 26410.8
+Delta Value: 26410.8
+
+Best Global Iteration n° 6 : 1827.9 at the iteration 0
+
+ Iteracion: 8
+Particula N°1 
+Se movera la apertura 1
+
+Best Personal 0: 1827.9
+Delta Value: 1827.9
+
+Particula N°2 
+Se movera la apertura 4
+
+Best Personal 0: 15135.9
+Delta Value: 16016.3
+
+Particula N°3 
+Se movera la apertura 1
+
+Best Personal 3: 23355.2
+Delta Value: 23326
+
+Particula N°4 
+Se movera la apertura 0
+
+Best Personal 1: 32257.9
+Delta Value: 38573.4
+
+Particula N°5 
+Se movera la apertura 0
+
+Best Personal 3: 25422.2
+Delta Value: 27208
+
+Particula N°6 
+Se movera la apertura 1
+
+Best Personal 5: 17592.1
+Delta Value: 17556.2
+
+Particula N°7 
+Se movera la apertura 1
+
+Best Personal 1: 12583.8
+Delta Value: 13900.2
+
+Particula N°8 
+Se movera la apertura 0
+
+Best Personal 0: 11365.9
+Delta Value: 12628.1
+
+Particula N°9 
+Se movera la apertura 3
+
+Best Personal 0: 14348.8
+Delta Value: 15067
+
+Particula N°10 
+Se movera la apertura 0
+
+Best Personal 0: 26410.8
+Delta Value: 26410.8
+
+Best Global Iteration n° 7 : 1827.9 at the iteration 0
+
+ Iteracion: 9
+Particula N°1 
+Se movera la apertura 0
+
+Best Personal 0: 1827.9
+Delta Value: 1827.9
+
+Particula N°2 
+Se movera la apertura 2
+
+Best Personal 0: 15135.9
+Delta Value: 16177.2
+
+Particula N°3 
+Se movera la apertura 1
+
+Best Personal 4: 23326
+Delta Value: 22983.7
+
+Particula N°4 
+Se movera la apertura 1
+
+Best Personal 1: 32257.9
+Delta Value: 38719.2
+
+Particula N°5 
+Se movera la apertura 4
+
+Best Personal 3: 25422.2
+Delta Value: 27208
+
+Particula N°6 
+Se movera la apertura 0
+
+Best Personal 6: 17556.2
+Delta Value: 17791.5
+
+Particula N°7 
+Se movera la apertura 1
+
+Best Personal 1: 12583.8
+Delta Value: 13859.8
+
+Particula N°8 
+Se movera la apertura 1
+
+Best Personal 0: 11365.9
+Delta Value: 12628.1
+
+Particula N°9 
+Se movera la apertura 3
+
+Best Personal 0: 14348.8
+Delta Value: 13850.6
+
+Particula N°10 
+Se movera la apertura 4
+
+Best Personal 0: 26410.8
+Delta Value: 26410.8
+
+Best Global Iteration n° 8 : 1827.9 at the iteration 0
+
+ Iteracion: 10
+Particula N°1 
+Se movera la apertura 0
+
+Best Personal 0: 1827.9
+Delta Value: 1827.9
+
+Particula N°2 
+Se movera la apertura 1
+
+Best Personal 0: 15135.9
+Delta Value: 16472
+
+Particula N°3 
+Se movera la apertura 3
+
+Best Personal 5: 22983.7
+Delta Value: 22983.7
+
+Particula N°4 
+Se movera la apertura 4
+
+Best Personal 1: 32257.9
+Delta Value: 38540.6
+
+Particula N°5 
+Se movera la apertura 2
+
+Best Personal 3: 25422.2
+Delta Value: 27208
+
+Particula N°6 
+Se movera la apertura 2
+
+Best Personal 6: 17556.2
+Delta Value: 17619.5
+
+Particula N°7 
+Se movera la apertura 0
+
+Best Personal 1: 12583.8
+Delta Value: 13846.4
+
+Particula N°8 
+Se movera la apertura 3
+
+Best Personal 0: 11365.9
+Delta Value: 12632.7
+
+Particula N°9 
+Se movera la apertura 1
+
+Best Personal 1: 13850.6
+Delta Value: 14529.9
+
+Particula N°10 
+Se movera la apertura 0
+
+Best Personal 0: 26410.8
+Delta Value: 26410.8
+
+Best Global Iteration n° 9 : 1827.9 at the iteration 0
+##**************************************************************************
+##******************************* RESULTS **********************************
+##**************************************************************************
+##
+## Best Global Iteration n°10: 1827.9 at the iteration 0
