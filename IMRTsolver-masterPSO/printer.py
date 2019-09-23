@@ -31,7 +31,7 @@ args = parser.parse_args()
 
 size = 10
 max_iter = 100
-initial_setup = 5
+initial_setup = 4
 iner=1.0
 c1=1.0
 c2 = 1.0
@@ -51,7 +51,7 @@ seed = random.randint(0, sys.maxint)
 write_report = False
 pso_iter = 1
 changes_beam = 1
-diff_setup = 5
+diff_setup = 0
 prob_aperture = 0
 
 # Aqui procesamos lo que se tiene que hacer con cada argumento

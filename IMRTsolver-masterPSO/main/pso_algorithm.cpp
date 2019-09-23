@@ -76,10 +76,13 @@ int main(int argc, char** argv){
 	int i,j;
 	int size  = 10;
 	int max_iter = 100;
-	int initial_setup = 5;
-  int diff_setup = 5; //this params use a particle to guide the rest of the particles
+	int initial_setup = 4;
+  int diff_setup = 0; //this params use a particle to guide the rest of the particles
+
   //Best parametres values
-  float iner=1, c1=1 ,c2 = 1;
+  float iner=1;
+  float c1 = 1;
+  float c2 = 1;
 
   //Marks of Best Global
   double actual_global = 0;
@@ -111,16 +114,11 @@ int main(int argc, char** argv){
   double min_temperature=0;
   double alphaT=0.95;
   int perturbation=2;
-
-  int seed=time(NULL);
- // int seed =1567056199;
- srand(seed);
-  cout << endl;
-  cout << seed << endl;
 	string strategy="dao_ls";
 	string file="data/testinstance_0_70_140_210_280.txt";
   string file2="data/test_instance_coordinates.txt";
   string path=".";
+  int seed=time(NULL);
 
 
   args::ArgumentParser parser("********* IMRT-Solver (PSO-Algorithm) *********", "Example.\n./PSO  --maxiter=400 --maxdelta=8 --maxratio=6 --alpha=0.999 --beta=0.999 --bsize=5 --vsize=20 --max-apertures=4 --seed=0 --open-apertures=1 --initial-intensity=4 --step-intensity=1 --file-dep=data/Equidistantes/equidist00.txt --file-coord=data/Equidistantes/equidist-coord.txt");
@@ -130,7 +128,6 @@ int main(int argc, char** argv){
   args::ValueFlag<int> _max_iter(parser, "int", "Number of iterations that the program will run ("+to_string(max_iter)+")", {"max_iter"});
   args::ValueFlag<int> _initial_setup(parser, "int", "Type of creation for the particles ("+to_string(initial_setup)+")", {"initial_setup"});
   args::ValueFlag<int> _diff_setup(parser, "int", "Type of creation for a particle ("+to_string(diff_setup)+")", {"diff_setup"});
-
   args::ValueFlag<float> _iner(parser, "int", "Inertia Parameter ("+to_string(iner)+")", {"iner"});
   args::ValueFlag<float> _c1(parser, "int", "Social Factor Parameter ("+to_string(c1)+")", {"c1"});
   args::ValueFlag<float> _c2(parser, "int", "Personal Factor Parameter ("+to_string(c2)+")", {"c2"});
@@ -207,14 +204,17 @@ int main(int argc, char** argv){
   if(_maxtime) maxtime=_maxtime.Get();
   if(_max_apertures) max_apertures=_max_apertures.Get();
   if(_open_apertures) open_apertures=_open_apertures.Get();
-  if(_seed) seed=_seed.Get();
+  if(_seed) seed =_seed.Get();
   if(_initial_intensity) initial_intensity=_initial_intensity.Get();
   if(_max_intensity) max_intensity=_max_intensity.Get();
   if(_step_intensity) step_intensity=_step_intensity.Get();
   if(_prob_aperture) prob_aperture = _prob_aperture.Get();
 
-  vector <Particle> solution ;//inicializar con parametro sizeB
-	vector<double> w={1,1,1};
+
+  srand(seed);
+  cout << seed << endl;
+  vector <Particle> solution ;
+  vector<double> w={1,1,1};
   vector<double> Zmin={0,0,76};
   vector<double> Zmax={65,60,1000};
 	Collimator collimator(file2, get_angles(file, 5));
@@ -239,7 +239,6 @@ int main(int argc, char** argv){
     }
 	}
 
-
   //Se considera un plan como Best Solution
   for(int k = 0; k < size ; k++)
   {
@@ -253,11 +252,14 @@ int main(int argc, char** argv){
   cout << "###############################################################################" << endl;
 	cout << "#########################Particles Created#####################################" << endl;
 	cout << "###############################################################################" << endl;
-	//The Begining of PSO using max_iter how the total of iterations
+
+  cout<<"Best Global Iteration n° "<<j<<" : " << actual_global << " at the iteration " <<Best_iteration <<endl ;
+
+  //The Begining of PSO using max_iter how the total of iterations
   for(j = 0; j < max_iter ; j++)
 	{
 		cout << "\n Iteracion: "<< j+1 <<endl;
-		//We calculate the Intensity and the Velocity using PSO
+		//Calculate the Intensity and the Velocity using PSO
     for(int i = 0; i < size ; i++)
 		{
       cout << "Particula N°" << i+1 <<" " <<endl;
@@ -272,7 +274,7 @@ int main(int argc, char** argv){
       cout << endl;
 		};
 
-//Calculate the new Best Global of the particle
+    //Calculate the new Best Global of the particle
     for(int k = 0; k < size ; k++)
     {
       if(solution[k].getDeltaFitness() < actual_global)

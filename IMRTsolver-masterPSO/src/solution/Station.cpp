@@ -693,7 +693,7 @@ namespace imrt {
     double r3 = ((double)rand()/(RAND_MAX));
     vector<vector<pair<int,int>>> Bgm = BestG.get_Aper();
     vector<vector<pair<int,int>>> Bpm = BestP.get_Aper();
-    cout << r3 << endl;
+    //cout << r3 << endl;
     if(prob < r3){
       j = max_apertures-1; //la variable de iteracion nos indica que solo se realizara una vez
       aperture_change = (rand()%(max_apertures)); //usamos esta variable para saber el index de la apertura a mover
@@ -718,6 +718,7 @@ namespace imrt {
     }
     //velocity_intensity(BestG, BestP, w , c1 , c2);
   }
+
 //Calculate the Position of the aperture Matrix
   void Station::position_aperture(){
     int a = 0;
@@ -728,9 +729,7 @@ namespace imrt {
       for(int i = 0; i < collimator.getXdim(); i++){
         if(aperture_change == -1) move = a;
         pair<int, int> activeRange = collimator.getActiveRange(i,angle);
-
         if (A[move][i].first < 0 || activeRange.first<0) continue;
-
         A[move][i].first = Veloc_Aperture[move][i].first + A[move][i].first;
         A[move][i].second = Veloc_Aperture[move][i].second + A[move][i].second;
 
@@ -753,7 +752,6 @@ namespace imrt {
       cout <<"Despues: " <<intensity[a] << endl;
     }*/
     //cout << I << endl;
-    //velocity_intensity(BestG, BestP, w , c1 , c2);
     generateIntensity();
   }
 
@@ -762,7 +760,7 @@ namespace imrt {
       last_iteration = I;
       for(int i = 0; i < collimator.getYdim() ; i++){
         pair <int,int> aux = collimator.getActiveRange(i,angle);
-        if(aux.first>0) continue;
+        if(aux.first<0) continue;
         for (int j=aux.first; j<=aux.second; j++) {
           I(i,j)=I(i,j)+veloc(i,j);
           if(I(i,j)<0) {
@@ -779,12 +777,11 @@ namespace imrt {
     double r2 = ((double)rand()/(RAND_MAX));
     vector<double> Bgm = BestG.getApertureIntensity();
     vector<double> Bpm = BestP.getApertureIntensity();
-   // w = 0.001;
     for(int a = 0; a < max_apertures ; a++){
       veloc_intensity[a] = w*veloc_intensity[a]+r1*c1*(intensity[a]-BestG.intensity[a]) + r2*c2*(intensity[a]-BestP.intensity[a]);
       //if(veloc_intensity[a] < -1) veloc_intensity[a] = -1;
       //if(veloc_intensity[a] > 1) veloc_intensity[a] = 1;
-      cout << veloc_intensity[a] << " " << intensity[a] <<" "<< BestG.intensity[a] << " " <<BestP.intensity[a] << endl;
+      //cout << veloc_intensity[a] << " " << intensity[a] <<" "<< BestG.intensity[a] << " " <<BestP.intensity[a] << endl;
     }
   }
 
