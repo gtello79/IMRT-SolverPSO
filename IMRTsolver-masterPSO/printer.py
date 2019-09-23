@@ -2,6 +2,7 @@
 import sys
 import argparse
 import os
+import random
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-size", "--size",type=int ,help=" Number of particles for the swarm")
@@ -46,7 +47,7 @@ open_apertures=-1
 initial_intensity=2
 max_intensity=28
 step_intensity=2
-seed = 0
+seed = random.randint(0, sys.maxint)
 write_report = False
 pso_iter = 1
 changes_beam = 1
@@ -108,8 +109,9 @@ for i in range(0,pso_iter):
 	descripcion = "PSO --diff_setup "+str(diff_setup)+" --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)
 	detalles.write("PSO Iteracion "+str(i)+"\n")
 	detalles.write(descripcion+"\n")
-	os.system("./PSO --diff_setup "+str(diff_setup)+ " --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)+" --prob_aperture "+str(prob_aperture)+" >> Values/resultado"+str(i)+".txt")
-	seed = seed + 1
+    print(seed)
+	os.system("./PSO --diff_setup "+str(diff_setup)+" --seed "+str(seed)+ " --max_iter "+str(max_iter)+" --size "+str(size)+" --iner "+str(iner)+" --c1 "+str(c1)+" --c2 "+str(c2)+" --initial_setup "+str(initial_setup)+" --bsize "+str(bsize)+" --vsize "+str(vsize)+" --maxdelta "+str(maxdelta)+" --maxtime "+str(maxtime)+" --maxratio "+str(maxratio)+" --alpha "+str(alpha)+" --beta "+str(beta)+" --max_apertures "+str(max_apertures)+" --open_apertures "+str(open_apertures)+" --initial_intensity "+str(initial_intensity)+" --max_intensity "+str(max_intensity)+" --changes_beam "+str(changes_beam)+" --prob_aperture "+str(prob_aperture)+" >> Values/resultado"+str(i)+".txt")
+	seed = seed+1
 detalles.close()
 
 ##Now we try to show only the final line with the best solution of the iteration
