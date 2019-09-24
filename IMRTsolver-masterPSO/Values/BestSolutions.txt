@@ -1,0 +1,5 @@
+PSO 0: ## Best Global Iteration n°30: 1827.9 at the iteration 0
+PSO 1: ## Best Global Iteration n°30: 1728.48 at the iteration 29
+PSO 2: ## Best Global Iteration n°30: 1827.9 at the iteration 0
+PSO 3: ## Best Global Iteration n°30: 100.416 at the iteration 8
+PSO 4: ## Best Global Iteration n°30: 335.99 at the iteration 29

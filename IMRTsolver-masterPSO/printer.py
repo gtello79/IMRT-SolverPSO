@@ -125,6 +125,7 @@ for i in range(pso_iter):
         if(reading[0] == "##"):
 			if(len(reading) > 1):
 				if(reading[1]=="Best"):
-					print(linea)
+                    			Best.write("PSO "+str(i)+": "+linea)
+                    			print(linea)
     archivo.close()
 Best.close()
