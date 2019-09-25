@@ -712,10 +712,10 @@ namespace imrt {
         Veloc_Aperture[move][k].first = w*Veloc_Aperture[move][k].first + c1*r1*(A[move][k].first - Bpm[move][k].first) + c2*r2*(A[move][k].first - Bgm[move][k].first);
         Veloc_Aperture[move][k].second = w*Veloc_Aperture[move][k].second + c1*r1*(A[move][k].second - Bpm[move][k].second) + c2*r2*(A[move][k].second - Bgm[move][k].second);
 
-        //if(Veloc_Aperture[move][k].first < -1) Veloc_Aperture[move][k].first = -1;
-        //if(Veloc_Aperture[move][k].first > 1) Veloc_Aperture[move][k].first = 1;
-        //if(Veloc_Aperture[move][k].second < -1) Veloc_Aperture[move][k].second = -1;
-        //if(Veloc_Aperture[move][k].second > 1) Veloc_Aperture[move][k].second = 1;
+        if(Veloc_Aperture[move][k].first < -1) Veloc_Aperture[move][k].first = -1;
+        if(Veloc_Aperture[move][k].first > 1) Veloc_Aperture[move][k].first = 1;
+        if(Veloc_Aperture[move][k].second < -1) Veloc_Aperture[move][k].second = -1;
+        if(Veloc_Aperture[move][k].second > 1) Veloc_Aperture[move][k].second = 1;
       }
     }
     velocity_intensity(BestG, BestP, w , c1 , c2);
