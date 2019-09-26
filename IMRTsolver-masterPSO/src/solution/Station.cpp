@@ -712,10 +712,10 @@ namespace imrt {
         Veloc_Aperture[move][k].first = w*Veloc_Aperture[move][k].first + c1*r1*(A[move][k].first - Bpm[move][k].first) + c2*r2*(A[move][k].first - Bgm[move][k].first);
         Veloc_Aperture[move][k].second = w*Veloc_Aperture[move][k].second + c1*r1*(A[move][k].second - Bpm[move][k].second) + c2*r2*(A[move][k].second - Bgm[move][k].second);
 
-        if(Veloc_Aperture[move][k].first < -1) Veloc_Aperture[move][k].first = -1;
+        /*if(Veloc_Aperture[move][k].first < -1) Veloc_Aperture[move][k].first = -1;
         if(Veloc_Aperture[move][k].first > 1) Veloc_Aperture[move][k].first = 1;
         if(Veloc_Aperture[move][k].second < -1) Veloc_Aperture[move][k].second = -1;
-        if(Veloc_Aperture[move][k].second > 1) Veloc_Aperture[move][k].second = 1;
+        if(Veloc_Aperture[move][k].second > 1) Veloc_Aperture[move][k].second = 1;*/
       }
     }
     velocity_intensity(BestG, BestP, w , c1 , c2);
@@ -781,8 +781,8 @@ namespace imrt {
     vector<double> Bpm = BestP.getApertureIntensity();
     for(int a = 0; a < max_apertures ; a++){
       veloc_intensity[a] = w*veloc_intensity[a]+r1*c1*(intensity[a]-BestG.intensity[a]) + r2*c2*(intensity[a]-BestP.intensity[a]);
-      if(veloc_intensity[a] < -1) veloc_intensity[a] = -1;
-      if(veloc_intensity[a] > 1) veloc_intensity[a] = 1;
+      /*if(veloc_intensity[a] < -1) veloc_intensity[a] = -1;
+      if(veloc_intensity[a] > 1) veloc_intensity[a] = 1;*/
       //cout << veloc_intensity[a] << " " << intensity[a] <<" "<< BestG.intensity[a] << " " <<BestP.intensity[a] << endl;
     }
   }
