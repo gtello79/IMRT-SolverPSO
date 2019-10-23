@@ -24,19 +24,14 @@ namespace imrt{
 	void Particle::updatePbest()
 	{
 		mejora++;
-		//bfitness = Pcurrent.getEvaluation();
-		bfitness = getDeltaFitness();
+		bfitness = fitness;
 		PBest.newCopy(Pcurrent);
 	};
 
-	void Particle::calculateFitness()
+	void Particle::calculateFitness(int change)
 	{
-		fitness = Pcurrent.eval();
-	};
-
-	void Particle::calculateDeltaFitness()
-	{
-		deltafitness = Pcurrent.calculateDeltaFitness();
+		if(change > 1) fitness = Pcurrent.eval();
+		else fitness = Pcurrent.calculateDeltaFitness();
 	};
 
 	void Particle::updatePosition(int max_intensity)

@@ -241,7 +241,7 @@ int main(int argc, char** argv){
   //Se considera un plan como Best Solution
   for(int k = 0; k < size ; k++)
   {
-    if(solution[i].getDeltaFitness() < actual_global)
+    if(solution[i].getFitness() < actual_global)
     {
       BGlobal->newCopy(solution[k].GetPCurrent());
       actual_global = BGlobal->getEvaluation();
@@ -264,12 +264,13 @@ int main(int argc, char** argv){
       cout << "Particula N°" << i+1 <<" " <<endl;
       solution[i].Velocityupdate(*BGlobal, changes_beam);
       solution[i].updatePosition(max_intensity);
-      solution[i].calculateDeltaFitness();
-      if(solution[i].getDeltaFitness()<solution[i].getBfitness())
+
+      solution[i].calculateFitness(changes_beam);
+      if(solution[i].getFitness()<solution[i].getBfitness())
       {
         solution[i].updatePbest();
       }
-      cout <<"Delta Value: " <<solution[i].getDeltaFitness() << endl;
+      cout <<"Delta Value: " <<solution[i].getFitness() << endl;
       cout << endl;
 		};
 
