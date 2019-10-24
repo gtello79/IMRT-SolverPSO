@@ -688,31 +688,27 @@ namespace imrt {
   void Station::velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2, float prob){
     int j = 0; //variable de iteracion
     int move; //indica donde se hará el movimiento de la apertura
+    bool aperture_change = true;
     double r1 = ((double)rand()/(RAND_MAX));
     double r2 = ((double)rand()/(RAND_MAX));
     double r3 = ((double)rand()/(RAND_MAX));
     vector<vector<pair<int,int>>> Bgm = BestG.get_Aper();
     vector<vector<pair<int,int>>> Bpm = BestP.get_Aper();
-    //cout << r3 << endl;
     if(prob < r3){
-      j = max_apertures-1; //la variable de iteracion nos indica que solo se realizara una vez
-      aperture_change = (rand()%(max_apertures)); //usamos esta variable para saber el index de la apertura a mover
-      move = aperture_change; //Variable usada para saber que movimiento realizar
-      cout << "Se movera la apertura " << move << endl;
-    }else{
-      aperture_change =-1; //El valor -1 nos indica que se moverán todas la aperturas
-      cout << "Se moveran todas las aperturas" << endl;
+      j = max_apertures-1;                                                      //la variable de iteracion nos indica que solo se realizara una vez
+      aperture_change = false;                               //usamos esta variable para saber el index de la apertura a mover
+      move = (rand()%(max_apertures));                                                     //Variable usada para saber que movimiento realizar
+      //cout << "Se movera la apertura " << move << endl;
     }
     for(; j < max_apertures; j++){
       for(int k = 0; k < collimator.getXdim(); k++){
-        //cout << j << " " << k << endl;
-        if(aperture_change == -1) move = j;
+        if(aperture_change) move = j;
         pair<int, int> activeRange = collimator.getActiveRange(k,angle);
         if (activeRange.first<0) continue;
         Veloc_Aperture[move][k].first = w*Veloc_Aperture[move][k].first + c1*r1*(A[move][k].first - Bpm[move][k].first) + c2*r2*(A[move][k].first - Bgm[move][k].first);
         Veloc_Aperture[move][k].second = w*Veloc_Aperture[move][k].second + c1*r1*(A[move][k].second - Bpm[move][k].second) + c2*r2*(A[move][k].second - Bgm[move][k].second);
 
-       /* if(Veloc_Aperture[move][k].first < -1) Veloc_Aperture[move][k].first = -1;
+       /*if(Veloc_Aperture[move][k].first < -1) Veloc_Aperture[move][k].first = -1;
         if(Veloc_Aperture[move][k].first > 1) Veloc_Aperture[move][k].first = 1;
         if(Veloc_Aperture[move][k].second < -1) Veloc_Aperture[move][k].second = -1;
         if(Veloc_Aperture[move][k].second > 1) Veloc_Aperture[move][k].second = 1;*/
@@ -745,16 +741,11 @@ namespace imrt {
         }
       }
     }
-
     /*for(int a = 0; a < max_apertures ;a++) {
-     //cout <<"Antes: "<<  intensity[a] << endl;
      intensity[a] = intensity[a]+veloc_intensity[a];
      if(intensity[a] > max_intensity) intensity[a] = max_intensity;
      else if(intensity[a] < 0) intensity[a] = 0;
-     //cout<<"Intensidad: " <<intensity[a] << endl;
-    } 
     }*/
-    //cout << I << endl;*/
     generateIntensity();
   }
 
@@ -782,10 +773,8 @@ namespace imrt {
     vector<double> Bpm = BestP.getApertureIntensity();
     for(int a = 0; a < max_apertures ; a++){
       veloc_intensity[a] = w*veloc_intensity[a]+r1*c1*(intensity[a]-BestG.intensity[a]) + r2*c2*(intensity[a]-BestP.intensity[a]);
-      //cout << veloc_intensity[a]<< " " <<r1*c1*(intensity[a]-BestG.intensity[a]) << " " << r2*c2*(intensity[a]-BestP.intensity[a]) << endl;
       /*if(veloc_intensity[a] < -1) veloc_intensity[a] = -1;
       if(veloc_intensity[a] > 1) veloc_intensity[a] = 1;*/
-      //cout << veloc_intensity[a] << endl;
     }
   }
 

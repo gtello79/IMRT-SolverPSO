@@ -188,7 +188,7 @@ int main(int argc, char** argv){
 		return 1;
 	}
 
-  if(_size)  size = _size.Get();
+  if(_size) size = _size.Get();
   if(_max_iter) max_iter = _max_iter.Get();
   if(_initial_setup) initial_setup =_initial_setup.Get();
   if(_diff_setup) diff_setup = _diff_setup.Get();
@@ -219,27 +219,21 @@ int main(int argc, char** argv){
 	Collimator collimator(file2, get_angles(file, 5));
   vector<Volume> volumes= createVolumes (file, collimator);
 
-  //Se genera una particula especial que puede servir inicialmente de guia para el resto de la poblacion
-	Plan *BGlobal;
+	Plan *BGlobal;                                                                //Se genera una particula especial que puede servir inicialmente de guia para el resto de la poblacion
   cout << "Particula N° " << 1 << endl;
 	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, diff_setup);
   actual_global = BGlobal->getEvaluation();
   solution.push_back(Particle(*BGlobal,c1,c2,iner,prob_aperture));
 
-  //Se comienza a generar el resto de las soluciones
-	Plan *Opc;
-	for(i = 1; i < size; i++)
+	Plan *Opc;                                                                    //Se comienza a generar el resto de particulas
+	for(i = 2; i <= size; i++)
 	{
-    cout << "Particula N° " << i+1 << endl;
+    cout << "Particula N° " << i << endl;
 		Opc = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
 		solution.push_back(Particle(*Opc,c1,c2,iner,prob_aperture));
-		if(solution[i].getFitness() < solution[i].getBfitness()){
-      solution[i].updatePbest();
-    }
 	}
 
-  //Se considera un plan como Best Solution
-  for(int k = 0; k < size ; k++)
+  for(int k = 0; k < size ; k++) //Se realiza la busqueda del BestGlobal inicial
   {
     if(solution[i].getFitness() < actual_global)
     {
@@ -252,45 +246,40 @@ int main(int argc, char** argv){
 	cout << "#########################Particles Created#####################################" << endl;
 	cout << "###############################################################################" << endl;
 
-  cout<<"Best Global Iteration n° "<<j<<" : " << actual_global << " at the iteration " <<Best_iteration <<endl ;
+  cout<<"Best Global Iteration n° "<<j<<" : " << actual_global << " at the iteration " << Best_iteration <<endl ;
 
-  //The Begining of PSO using max_iter how the total of iterations
-  for(j = 0; j < max_iter ; j++)
+  for(j = 0; j < max_iter ; j++)                                                //The Begining of PSO using max_iter how the total of iterations
 	{
 		cout << "\n Iteracion: "<< j+1 <<endl;
-		//Calculate the Intensity and the Velocity using PSO
-    for(int i = 0; i < size ; i++)
+    for(int i = 0; i < size ; i++)                                              //Calculate the Intensity and the Velocity using PSO
 		{
       cout << "Particula N°" << i+1 <<" " <<endl;
       solution[i].Velocityupdate(*BGlobal, changes_beam);
       solution[i].updatePosition(max_intensity);
-
       solution[i].calculateFitness(changes_beam);
-      if(solution[i].getFitness()<solution[i].getBfitness())
-      {
-        solution[i].updatePbest();
-      }
-      cout <<"Delta Value: " <<solution[i].getFitness() << endl;
+
+      if(solution[i].getFitness() < solution[i].getBfitness()) solution[i].updatePbest();
+
+      cout <<"Actual Value: " <<solution[i].getFitness() << endl;
       cout << endl;
 		};
 
-    //Calculate the new Best Global of the particle
-    for(int k = 0; k < size ; k++)
+    for(int k = 0; k < size ; k++)                                              //Calculate the new Best Global of the particle
     {
-      if(solution[k].getDeltaFitness() < actual_global)
+      if(solution[k].getFitness() < actual_global)
       {
         BGlobal->newCopy(solution[k].GetPCurrent());
-        actual_global = solution[k].getDeltaFitness();
+        actual_global = solution[k].getFitness();
         Best_iteration = j;
       }
     }
-	cout<<"Best Global Iteration n° "<<j<<" : " << actual_global << " at the iteration " <<Best_iteration <<endl ;
-	};
-	cout << "##**************************************************************************"<< endl;
+	  cout<<"Best Global Iteration n° "<<j<<" : " << actual_global << " at the iteration " <<Best_iteration <<endl ;
+  };
+
+  cout << "##**************************************************************************"<< endl;
   cout << "##******************************* RESULTS **********************************"<< endl;
   cout << "##**************************************************************************"<< endl;
 
-  cout << "##"<<endl;
   cout << "## Best Global Iteration n°"<<j<<": " << actual_global << " at the iteration " <<Best_iteration <<endl;
   // BGlobal->printIntensities();
   return 0;

@@ -12,7 +12,6 @@ namespace imrt{
 		PBest.newCopy(Pcurrent);
 		fitness = Pcurrent.eval();
 		bfitness = fitness;
-		deltafitness = fitness;
 		prob_aperture = move_prob;
   };
 
@@ -24,7 +23,7 @@ namespace imrt{
 	void Particle::updatePbest()
 	{
 		mejora++;
-		bfitness = fitness;
+		bfitness = Pcurrent.getEvaluation();
 		PBest.newCopy(Pcurrent);
 	};
 
