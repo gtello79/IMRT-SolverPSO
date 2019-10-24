@@ -687,8 +687,7 @@ namespace imrt {
 //Calculate the velocity of the aperture Matrix
   void Station::velocity_aperture(Station &BestG, Station &BestP, float w, float c1, float c2, float prob){
     int j = 0; //variable de iteracion
-    int move; //indica donde se hará el movimiento de la apertura
-    bool aperture_change = true;
+    aperture_change=true;
     double r1 = ((double)rand()/(RAND_MAX));
     double r2 = ((double)rand()/(RAND_MAX));
     double r3 = ((double)rand()/(RAND_MAX));
@@ -696,36 +695,34 @@ namespace imrt {
     vector<vector<pair<int,int>>> Bpm = BestP.get_Aper();
     if(prob < r3){
       j = max_apertures-1;                                                      //la variable de iteracion nos indica que solo se realizara una vez
-      aperture_change = false;                               //usamos esta variable para saber el index de la apertura a mover
-      move = (rand()%(max_apertures));                                                     //Variable usada para saber que movimiento realizar
+      aperture_change=false;
+      move = (rand()%(max_apertures));                                          //Variable usada para saber que movimiento realizar
       //cout << "Se movera la apertura " << move << endl;
     }
     for(; j < max_apertures; j++){
       for(int k = 0; k < collimator.getXdim(); k++){
-        if(aperture_change) move = j;
+        if(aperture_change) move = j;                                           //Usado solo cuando se mueven todas las particulas
         pair<int, int> activeRange = collimator.getActiveRange(k,angle);
         if (activeRange.first<0) continue;
         Veloc_Aperture[move][k].first = w*Veloc_Aperture[move][k].first + c1*r1*(A[move][k].first - Bpm[move][k].first) + c2*r2*(A[move][k].first - Bgm[move][k].first);
         Veloc_Aperture[move][k].second = w*Veloc_Aperture[move][k].second + c1*r1*(A[move][k].second - Bpm[move][k].second) + c2*r2*(A[move][k].second - Bgm[move][k].second);
 
-       /*if(Veloc_Aperture[move][k].first < -1) Veloc_Aperture[move][k].first = -1;
+        if(Veloc_Aperture[move][k].first < -1) Veloc_Aperture[move][k].first = -1;
         if(Veloc_Aperture[move][k].first > 1) Veloc_Aperture[move][k].first = 1;
         if(Veloc_Aperture[move][k].second < -1) Veloc_Aperture[move][k].second = -1;
-        if(Veloc_Aperture[move][k].second > 1) Veloc_Aperture[move][k].second = 1;*/
+        if(Veloc_Aperture[move][k].second > 1) Veloc_Aperture[move][k].second = 1;
       }
     }
-    velocity_intensity(BestG, BestP, w , c1 , c2);
   }
 
 //Calculate the Position of the aperture Matrix
   void Station::position_aperture(){
     int a = 0;
-    int move = aperture_change;
     last_iteration = I;
-    if(aperture_change != -1) a = max_apertures-1;
+    if(!aperture_change) a=max_apertures-1;                                     //Se realizara la iteración solo 1 vez
     for(; a < max_apertures; a++){
       for(int i = 0; i < collimator.getXdim(); i++){
-        if(aperture_change == -1) move = a;
+        if(aperture_change) move = a;
         pair<int, int> activeRange = collimator.getActiveRange(i,angle);
         if (A[move][i].first < 0 || activeRange.first<0) continue;
         A[move][i].first = Veloc_Aperture[move][i].first + A[move][i].first;
@@ -741,11 +738,11 @@ namespace imrt {
         }
       }
     }
-    /*for(int a = 0; a < max_apertures ;a++) {
+      for(int a = 0; a < max_apertures ;a++) {
      intensity[a] = intensity[a]+veloc_intensity[a];
      if(intensity[a] > max_intensity) intensity[a] = max_intensity;
      else if(intensity[a] < 0) intensity[a] = 0;
-    }*/
+    }
     generateIntensity();
   }
 
@@ -773,8 +770,8 @@ namespace imrt {
     vector<double> Bpm = BestP.getApertureIntensity();
     for(int a = 0; a < max_apertures ; a++){
       veloc_intensity[a] = w*veloc_intensity[a]+r1*c1*(intensity[a]-BestG.intensity[a]) + r2*c2*(intensity[a]-BestP.intensity[a]);
-      /*if(veloc_intensity[a] < -1) veloc_intensity[a] = -1;
-      if(veloc_intensity[a] > 1) veloc_intensity[a] = 1;*/
+      if(veloc_intensity[a] < -1) veloc_intensity[a] = -1;
+      if(veloc_intensity[a] > 1) veloc_intensity[a] = 1;
     }
   }
 

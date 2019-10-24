@@ -23,7 +23,7 @@ namespace imrt{
 	void Particle::updatePbest()
 	{
 		mejora++;
-		bfitness = Pcurrent.getEvaluation();
+		bfitness = fitness;
 		PBest.newCopy(Pcurrent);
 	};
 

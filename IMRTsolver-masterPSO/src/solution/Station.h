@@ -41,14 +41,15 @@ class Station {
 private:
   Collimator& collimator;
   int angle;
-  map<int, const Matrix*> D; // Dose deposition matrices for each volume
-  int max_apertures;  // Maximum number of apertures
+  map<int, const Matrix*> D;                                                    // Dose deposition matrices for each volume
+  int max_apertures;                                                            //Maximum number of apertures
   int max_intensity;
   int min_intensity;
   int initial_intensity;
   int step_intensity;
   int n_volumes;
-  int aperture_change;
+  bool aperture_change;                                                         //usamos esta variable para saber si se mueven todas las aperturas(true) o solo una (false)  
+  int move;                                                                     //indica donde se hará el movimiento de la apertura
 
   /** Apertures (representation 1):
    * Each aperture is represented by a vector of pairs A[i] = (x_ini, x_fin)

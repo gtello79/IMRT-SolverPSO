@@ -186,9 +186,7 @@ namespace imrt {
     {
       if(accept_value[i]!=0){
         auxCurrent = get_station(i);
-        //auxCurrent->calculateNewPosition(max_intensity);
         auxCurrent->position_aperture();
-        //cout<<"Se mueve el Beam "<<i<<endl;
       }
     };
     cout<<endl;
@@ -201,10 +199,12 @@ namespace imrt {
     Station *auxCurrent;
     Station *auxGlobal;
     Station *auxBest;
-    for(int i = 0; i < stationCount; i++) accept_value[i]=0; //Se setea el vector que acepta valores
-    if(change == stationCount){
+    for(int i = 0; i < stationCount; i++) accept_value[i]=0;                    //Se setea el vector que acepta valores
+    if(change == stationCount)
+    {
       for(int i = 0; i < stationCount; i++) accept_value[i]=1;
-    }else{
+    }else
+    {
 			for(int j = 0; j < change ; j++){
 				while(accept_value[random] == 1) random = (rand())%(stationCount);
 		  	accept_value[random] = 1;
@@ -217,8 +217,8 @@ namespace imrt {
         auxCurrent = get_station(i);
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
-        //auxCurrent->calculateNewVelocity(*auxGlobal,*auxBest,w,c1,c2);
         auxCurrent->velocity_aperture(*auxGlobal,*auxBest,w,c1,c2, prob);
+        auxCurrent->velocity_intensity(*auxGlobal,*auxBest,w,c1,c2);
       }
     }
   }
