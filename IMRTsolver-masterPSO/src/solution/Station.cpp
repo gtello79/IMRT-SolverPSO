@@ -746,27 +746,13 @@ namespace imrt {
       }
     }
 
-    for(int a = 0; a < max_apertures ;a++) {
+    /*for(int a = 0; a < max_apertures ;a++) {
      //cout <<"Antes: "<<  intensity[a] << endl;
      intensity[a] = intensity[a]+veloc_intensity[a];
      if(intensity[a] > max_intensity) intensity[a] = max_intensity;
      else if(intensity[a] < 0) intensity[a] = 0;
      //cout<<"Intensidad: " <<intensity[a] << endl;
-    }
-    /*cout << "APERTURA " << 1 << endl;
-      cout << "INTENSIDAD " << intensity[1] << endl; 
-      for(int i = 0; i < collimator.getXdim(); i++){
-        cout << A[1][i].first << " " << A[1][i].second << endl;
-      }
-      cout << endl;
-    
-   for(int a = 0; a < max_apertures ; a++){
-      cout << "APERTURA " << a << endl;
-      cout << "INTENSIDAD " << intensity[a] << endl; 
-      for(int i = 0; i < collimator.getXdim(); i++){
-        cout << A[a][i].first << " " << A[a][i].second << endl;
-      }
-      cout << endl;        
+    } 
     }*/
     //cout << I << endl;*/
     generateIntensity();
