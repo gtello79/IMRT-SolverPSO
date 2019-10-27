@@ -29,6 +29,7 @@ namespace imrt{
 
 	void Particle::calculateFitness(int change)
 	{
+		//if(change > 1) fitness = Pcurrent.getEvaluation();
 		if(change > 1) fitness = Pcurrent.eval();
 		else fitness = Pcurrent.calculateDeltaFitness();
 	};

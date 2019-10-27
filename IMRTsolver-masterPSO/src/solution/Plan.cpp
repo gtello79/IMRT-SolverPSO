@@ -212,7 +212,7 @@ namespace imrt {
 		};
 		for (int i = 0; i < stationCount ; i++)
     {
-      if(accept_value[i]!=0)
+      if(accept_value[i]==1)
       {
         auxCurrent = get_station(i);
         auxGlobal = Bglobal.get_station(i);
@@ -267,12 +267,12 @@ namespace imrt {
       int random = (rand())%(stationCount);
       int change= 1;
       Station *auxCurrent;
-      for(int i = 0; i < stationCount; i++) accept_value[i]=0; //Se setea el vector que acepta valores
-      if(change == stationCount){
-        for(int i = 0; i < stationCount; i++) accept_value[i]=1;
+      for(int i = 0; i < stationCount; i++) accept_value[i]=0;                  //Se setea el vector que acepta valores
+      if(change == stationCount){                                               //Se rellena el vector solo con los Beam a considerar
+        for(int i = 0; i < stationCount; i++) accept_value[i]=1;                //Se toman todos los beam
       }else{
   			for(int j = 0; j < change ; j++){
-  				while(accept_value[random] == 1) random = (rand())%(stationCount);
+  				while(accept_value[random] == 1) random = (rand())%(stationCount);    //Se escoge de manera random todos los beam
   		  	accept_value[random] = 1;
   		  }
   		};

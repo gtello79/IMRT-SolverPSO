@@ -286,7 +286,7 @@ int main(int argc, char** argv){
   cout << "##******************************* RESULTS **********************************"<< endl;
   cout << "##**************************************************************************"<< endl;
 
-  cout << "## Best Global Iteration n°"<<maxiter<<": " << actual_global << " at the iteration " <<Best_iteration <<endl;
+  cout << "## Best Global Iteration n°"<<max_iter<<": " << actual_global << " at the iteration " <<Best_iteration <<endl;
   // BGlobal->printIntensities();
   return 0;
 }

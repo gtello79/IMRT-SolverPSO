@@ -706,7 +706,6 @@ namespace imrt {
         if (activeRange.first<0) continue;
         Veloc_Aperture[move][k].first = w*Veloc_Aperture[move][k].first + c1*r1*(A[move][k].first - Bpm[move][k].first) + c2*r2*(A[move][k].first - Bgm[move][k].first);
         Veloc_Aperture[move][k].second = w*Veloc_Aperture[move][k].second + c1*r1*(A[move][k].second - Bpm[move][k].second) + c2*r2*(A[move][k].second - Bgm[move][k].second);
-
         if(Veloc_Aperture[move][k].first < -1) Veloc_Aperture[move][k].first = -1;
         if(Veloc_Aperture[move][k].first > 1) Veloc_Aperture[move][k].first = 1;
         if(Veloc_Aperture[move][k].second < -1) Veloc_Aperture[move][k].second = -1;
@@ -728,20 +727,17 @@ namespace imrt {
         A[move][i].first = Veloc_Aperture[move][i].first + A[move][i].first;
         A[move][i].second = Veloc_Aperture[move][i].second + A[move][i].second;
 
-        if(A[move][i].first < activeRange.first || A[move][i].first > activeRange.second) A[move][i].first = activeRange.first;
-        if(A[move][i].second < activeRange.first || A[move][i].second > activeRange.second) A[move][i].second = activeRange.second;
-        if(A[move][i].second <= A[move][i].first){
+        if(A[move][i].second < A[move][i].first){
           //cout << "una hoja encima de otra" << endl;
           double n = (A[move][i].first+A[move][i].second)/2;
           A[move][i].second = ceil(n);
           A[move][i].first = floor(n);
         }
+
+        if(A[move][i].first < activeRange.first || A[move][i].first > activeRange.second) A[move][i].first = activeRange.first;
+        if(A[move][i].second < activeRange.first || A[move][i].second > activeRange.second) A[move][i].second = activeRange.second;
+
       }
-    }
-      for(int a = 0; a < max_apertures ;a++) {
-     intensity[a] = intensity[a]+veloc_intensity[a];
-     if(intensity[a] > max_intensity) intensity[a] = max_intensity;
-     else if(intensity[a] < 0) intensity[a] = 0;
     }
     generateIntensity();
   }
@@ -769,10 +765,16 @@ namespace imrt {
     vector<double> Bgm = BestG.getApertureIntensity();
     vector<double> Bpm = BestP.getApertureIntensity();
     for(int a = 0; a < max_apertures ; a++){
-      veloc_intensity[a] = w*veloc_intensity[a]+r1*c1*(intensity[a]-BestG.intensity[a]) + r2*c2*(intensity[a]-BestP.intensity[a]);
+      veloc_intensity[a] = w*veloc_intensity[a] + r1*c1*(intensity[a]-BestP.intensity[a]) + r2*c2*(intensity[a]-BestG.intensity[a]);
       if(veloc_intensity[a] < -1) veloc_intensity[a] = -1;
       if(veloc_intensity[a] > 1) veloc_intensity[a] = 1;
     }
+    for(int a = 0; a < max_apertures ;a++) {
+     intensity[a] = intensity[a]+veloc_intensity[a];
+     if(intensity[a] > max_intensity) intensity[a] = max_intensity;
+     else if(intensity[a] < 0) intensity[a] = 0;
+    }
+
   }
 
 
