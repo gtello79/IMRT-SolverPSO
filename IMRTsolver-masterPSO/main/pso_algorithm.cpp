@@ -248,7 +248,7 @@ int main(int argc, char** argv){
 	cout << "#########################Particles Created#####################################" << endl;
 	cout << "###############################################################################" << endl;
 
-  cout<<"Best Global Iteration n° "<<0<<" : " << actual_global << " at the iteration " << Best_iteration <<endl ;
+  cout<<"Best Global Iteration n° "<<0<<" : " << actual_global << " at the iteration " << Best_iteration <<"on particle "<< best_particle<<endl ;
 
   for(int j = 0; j < max_iter ; j++)                                                //The Begining of PSO using max_iter how the total of iterations
 	{
@@ -270,23 +270,21 @@ int main(int argc, char** argv){
     {
       if(solution[k].getFitness() < actual_global)
       {
-        cout << "######################cambio############################################" << endl;
         BGlobal->newCopy(solution[k].GetPCurrent());
         actual_global = solution[k].getFitness();
-        cout << "################# " <<actual_global << " " << solution[k].getFitness() << "################# " << endl;
         cout << endl;
-        best_particle = j+1;
+        best_particle = k+1;
         Best_iteration = j;
       }
     }
-	  cout<<"Best Global Iteration n° "<<j<<" : " << actual_global << " at the iteration " <<Best_iteration <<endl ;
+	  cout<<"Best Global Iteration n°"<<j<<": " << actual_global << " at the iteration " <<Best_iteration <<" on particle "<< best_particle<<endl ;
   };
 
   cout << "##**************************************************************************"<< endl;
   cout << "##******************************* RESULTS **********************************"<< endl;
   cout << "##**************************************************************************"<< endl;
 
-  cout << "## Best Global Iteration n°"<<max_iter<<": " << actual_global << " at the iteration " <<Best_iteration <<endl;
+  cout << "## Best Global Iteration n°"<<max_iter<<": " << actual_global << " at the iteration " <<Best_iteration <<"on particle "<< best_particle<<endl;
   // BGlobal->printIntensities();
   return 0;
 }

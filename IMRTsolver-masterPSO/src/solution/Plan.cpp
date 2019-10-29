@@ -218,7 +218,7 @@ namespace imrt {
         auxGlobal = Bglobal.get_station(i);
         auxBest = Pbest.get_station(i);
         auxCurrent->velocity_aperture(*auxGlobal,*auxBest,w,c1,c2, prob);
-        auxCurrent->velocity_intensity(*auxGlobal,*auxBest,w,c1,c2);
+        //auxCurrent->velocity_intensity(*auxGlobal,*auxBest,w,c1,c2);
       }
     }
   }
