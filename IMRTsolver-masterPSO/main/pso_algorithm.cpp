@@ -76,7 +76,7 @@ int main(int argc, char** argv){
 	int size  = 10;
 	int max_iter = 100;
 	int initial_setup = 4;
-  int diff_setup = 0; //this params use a particle to guide the rest of the particles
+  int diff_setup = 0;                   //this params use a particle to guide the rest of the particles
   int best_particle;
 
   //Best parametres values
@@ -102,8 +102,8 @@ int main(int argc, char** argv){
   int initial_intensity=2;
   int max_intensity=28;
   int step_intensity=2;
-  int changes_beam = 1; //number of beam to change
-  float prob_aperture = 1; //Probability to move one aperture respect all the set of max_apertures
+  int changes_beam = 1;                   //number of beam to change
+  float prob_aperture = 1;                //Probability to move one aperture respect all the set of max_apertures
 
   bool search_aperture=false;
   bool search_intensity=false;
@@ -125,7 +125,6 @@ int main(int argc, char** argv){
 
   args::ArgumentParser parser("********* IMRT-Solver (PSO-Algorithm) *********", "Example.\n./PSO  --maxiter=400 --maxdelta=8 --maxratio=6 --alpha=0.999 --beta=0.999 --bsize=5 --vsize=20 --max-apertures=4 --seed=0 --open-apertures=1 --initial-intensity=4 --step-intensity=1 --file-dep=data/Equidistantes/equidist00.txt --file-coord=data/Equidistantes/equidist-coord.txt");
 	args::HelpFlag help(parser, "help", "Display this help menu", {'h', "help"});
-
   args::ValueFlag<int> _size(parser, "int", "Number of particles for the swarm("+to_string(size)+")", {"size"});
   args::ValueFlag<int> _max_iter(parser, "int", "Number of iterations that the program will run ("+to_string(max_iter)+")", {"max_iter"});
   args::ValueFlag<int> _initial_setup(parser, "int", "Type of creation for the particles ("+to_string(initial_setup)+")", {"initial_setup"});
@@ -159,16 +158,13 @@ int main(int argc, char** argv){
   args::Flag all_rand(setup, "all_rand", "Random aperture setup with random intensity", {"rand-setup"});
 
   args::Flag _plot(parser, "bool", "Generate plot and save in file", {"plot"});
-
-	//args::Flag trace(parser, "trace", "Trace", {"trace"});
-  args::ValueFlag<string> _file(parser, "string", "File with the deposition matrix", {"file-dep"});
+args::ValueFlag<string> _file(parser, "string", "File with the deposition matrix", {"file-dep"});
   args::ValueFlag<string> _file2(parser, "string", "File with the beam coordinates", {"file-coord"});
   args::ValueFlag<string> _path(parser, "string", "Absolute path of the executable (if it is executed from other directory)", {"path"});
 
  	try
 	{
 		parser.ParseCLI(argc, argv);
-
 	}
 	catch (args::Help&)
 	{
@@ -217,26 +213,26 @@ int main(int argc, char** argv){
   vector<double> Zmin={0,0,76};
   vector<double> Zmax={65,60,1000};
 	Collimator collimator(file2, get_angles(file, 5));
-  vector<Volume> volumes= createVolumes (file, collimator);
+  vector<Volume> volumes = createVolumes (file, collimator);
 
-	Plan *BGlobal;                                                                //Se genera una particula especial que puede servir inicialmente de guia para el resto de la poblacion
-  cout << "Particula N° " << 1 << endl;
-	BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, diff_setup);
-  actual_global = BGlobal->eval();
-  solution.push_back(Particle(*BGlobal,c1,c2,iner,prob_aperture));
-  best_particle=1;
-
+	Plan *BGlobal;                                                                //Se genera una particula especial que puede servir inicialmente de guia
 	Plan *Opc;                                                                    //Se comienza a generar el resto de particulas
-	for(int i = 1; i < size; i++)
+  for(int i = 0; i < size; i++)                                                 /*Se genera la poblacion total de particulas*/
 	{
-    cout << "Particula N° " << i+1 << endl;
-		Opc = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
-		solution.push_back(Particle(*Opc,c1,c2,iner,prob_aperture));
+    cout << "Particula N " <<i+1 << endl;
+    if(i == 0){
+      BGlobal = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, diff_setup);
+      solution.push_back(Particle(*BGlobal,c1,c2,iner,prob_aperture));
+      best_particle=i+1;
+      actual_global = solution[i].getFitness();
+    }else{
+      Opc = new Plan(w, Zmin, Zmax, collimator, volumes, max_apertures, max_intensity, initial_intensity, step_intensity, open_apertures, initial_setup);
+		  solution.push_back(Particle(*Opc,c1,c2,iner,prob_aperture));
+    }
 	}
-
-  for(int k = 0; k < size ; k++)                                                //Se realiza la busqueda del BestGlobal inicial
+  for(int k = 0; k < size ; k++)                                                /*Se realiza una nueva busqueda para encontrar una nueva solución global*/
   {
-    if(solution[k].getFitness() < actual_global)
+    if(solution[k].getFitness() <= actual_global)
     {
       BGlobal->newCopy(solution[k].GetPCurrent());
       best_particle = k+1;
@@ -244,24 +240,20 @@ int main(int argc, char** argv){
     }
   }
 
-  cout << "###############################################################################" << endl;
 	cout << "#########################Particles Created#####################################" << endl;
-	cout << "###############################################################################" << endl;
+  cout<<"Best Global Iteration n "<<0<<": " << actual_global << " at the iteration " << Best_iteration <<"on particle "<< best_particle<<endl ;
 
-  cout<<"Best Global Iteration n° "<<0<<" : " << actual_global << " at the iteration " << Best_iteration <<"on particle "<< best_particle<<endl ;
-
-  for(int j = 0; j < max_iter ; j++)                                                //The Begining of PSO using max_iter how the total of iterations
+  for(int j = 0; j < max_iter ; j++)                                            //The Begining of PSO using max_iter how the total of iterations
 	{
 		cout << "Iteracion: "<< j+1 <<endl;
-    for(int i = 0; i < size ; i++)                                              //Calculate the Intensity and the Velocity using PSO
+    for(int i = 0; i < size ; i++)
 		{
       cout << "Particula N°" << i+1 <<" " <<endl;
       solution[i].Velocityupdate(*BGlobal, changes_beam);
       solution[i].updatePosition(max_intensity);
       solution[i].calculateFitness(changes_beam);
-
-      if(solution[i].getFitness() < solution[i].getBfitness()) solution[i].updatePbest();
-
+      if(solution[i].getFitness() < solution[i].getBfitness())
+        solution[i].updatePbest();
       cout <<"Actual Value: " <<solution[i].getFitness() << endl;
       cout << endl;
 		};
@@ -277,14 +269,10 @@ int main(int argc, char** argv){
         Best_iteration = j;
       }
     }
-	  cout<<"Best Global Iteration n°"<<j<<": " << actual_global << " at the iteration " <<Best_iteration <<" on particle "<< best_particle<<endl ;
+	  cout<<"Best Global Iteration n "<<j+1<<": " << actual_global << " at the iteration " <<Best_iteration <<" on particle "<< best_particle<<endl ;
   };
 
-  cout << "##**************************************************************************"<< endl;
-  cout << "##******************************* RESULTS **********************************"<< endl;
-  cout << "##**************************************************************************"<< endl;
-
-  cout << "## Best Global Iteration n°"<<max_iter<<": " << actual_global << " at the iteration " <<Best_iteration <<"on particle "<< best_particle<<endl;
-  // BGlobal->printIntensities();
+  cout << "********************************** RESULTS **********************************"<< endl;
+  cout << "## Best Global Iteration n "<<max_iter<<": " << actual_global << " at the iteration " <<Best_iteration <<"on particle "<< best_particle<<endl;
   return 0;
 }

@@ -10,7 +10,7 @@ namespace imrt{
 		c1 = c_1;
 		c2 = c_2;
 		PBest.newCopy(Pcurrent);
-		fitness = Pcurrent.eval();
+		fitness = Pcurrent.getEvaluation();
 		bfitness = fitness;
 		prob_aperture = move_prob;
   };
@@ -79,4 +79,5 @@ namespace imrt{
 	{
 		Pcurrent.printVelocities();
 	};
+
 }

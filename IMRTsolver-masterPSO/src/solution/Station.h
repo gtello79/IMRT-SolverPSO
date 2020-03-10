@@ -48,7 +48,7 @@ private:
   int initial_intensity;
   int step_intensity;
   int n_volumes;
-  bool aperture_change;                                                         //usamos esta variable para saber si se mueven todas las aperturas(true) o solo una (false)  
+  bool aperture_change;                                                         //usamos esta variable para saber si se mueven todas las aperturas(true) o solo una (false)
   int move;                                                                     //indica donde se hará el movimiento de la apertura
 
   /** Apertures (representation 1):
@@ -210,14 +210,14 @@ public:
   static const int RAND_INTENSITIES = 5; //only for ILS
   static const int MANUAL_SETUP=6;
 
-  Matrix& get_Velocity();
-  Matrix& get_Intensity();
+  Matrix& get_VelocityMatrix();
+  Matrix& get_IntensityMatrix();
   Matrix& get_Last();
   vector<vector<pair<int,int>>> &get_Aper();
   vector<double> &getApertureIntensity();
 
-  void set_Velocity(Matrix& newV);
-  void set_Intensity(Matrix& newInten);
+  void set_VelocityMatrix(Matrix& newV);
+  void set_IntensityMatrix(Matrix& newInten);
 
   void calculateNewPosition(int max_intensity);
   void calculateNewVelocity(Station &BestG, Station &BestP,float w,float c1,float c2);
@@ -228,8 +228,7 @@ public:
 
   list<pair<int,double>> makeDiff();
   void incrementalTest();
-
-
+  void IntensityMap();
   };
 }
 

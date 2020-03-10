@@ -230,8 +230,9 @@ namespace imrt {
     for(int i = 0; i < getStationSize(); i++){
         if(accept_value[i] == 1){
           auxCurrent = get_station(i);
-          new_diff = auxCurrent->makeDiff();
+          new_diff = auxCurrent->makeDiff(); //settear new_diff
           val = incremental_eval(*auxCurrent, new_diff);
+          new_diff.clear();
         }
     };
     return val;
@@ -240,7 +241,7 @@ namespace imrt {
     void Plan::printVelocities(){
       Matrix *aux;
       for(int i = 0; i < getStationSize(); i++){
-        aux = &get_station(i)->get_Velocity();
+        aux = &get_station(i)->get_VelocityMatrix();
         cout << *aux << endl;
       }
     };
@@ -279,16 +280,16 @@ namespace imrt {
       for(int i = 0; i < getStationSize() ; i++){
         if(accept_value[i] == 1){
           auxCurrent = get_station(i);
-          cout << auxCurrent->get_Intensity() << endl;
+          cout << auxCurrent->get_IntensityMatrix() << endl;
           auxCurrent->incrementalTest();
           cout << "###########################DESPUES###############"<<endl;
-          cout << auxCurrent->get_Intensity() << endl;
+          cout << auxCurrent->get_IntensityMatrix() << endl;
         }
       }
     }
 
   	int Plan::getStationSize() {
-  	  return(stations.size());
+  	  return (stations.size());
   	};
 
 

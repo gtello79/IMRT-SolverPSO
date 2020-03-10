@@ -1,4 +1,6 @@
-# encoding: utf-8
+#Author: Gonzalo Tello Valenzuela
+#Date: 10-03-2020
+
 import matplotlib.pyplot as plt
 import sys
 import argparse
@@ -6,25 +8,17 @@ import os.path
 
 archivo = sys.argv[1]
 best_values = set()
-par = []
 x = []
 y = []
 if os.path.exists(archivo):
     lectura = open(archivo,"r")
-
+    contador = 0
     for linea in lectura:
-        nuevo = linea.strip().split(" ")
-        if(nuevo[0] == "Best"):
-            if(nuevo[1] == "Global"):
-                #par = (int(nuevo[-1]),float(nuevo[4]))
-                NewX = int(nuevo[-1])
-                NewY = float(nuevo[4])
-                x.append(int(nuevo[-1]))
-                y.append(float(nuevo[4]))
-    #for i in best_values:
-    #  x.append(i[0])
-    #  y.append(i[1])
-    print(x)
+        if (contador !=0):
+            linea_actual = linea.strip()
+            y.append(float(linea_actual))
+            x.append(contador-1)
+        contador = contador+1
     print(y)
     plt.plot(x,y,'o-')
     plt.grid()

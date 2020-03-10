@@ -673,8 +673,8 @@ namespace imrt {
   void Station::calculateNewVelocity(Station &BestG, Station &BestP, float w, float c1, float c2){
     double r1 = ((double)rand()/(RAND_MAX));
     double r2 = ((double)rand()/(RAND_MAX));
-    Matrix Bgm = BestG.get_Intensity();
-    Matrix Bpm = BestP.get_Intensity();
+    Matrix Bgm = BestG.get_IntensityMatrix();
+    Matrix Bpm = BestP.get_IntensityMatrix();
     for(int i = 0; i < collimator.getXdim() ; i++){
       pair <int,int> aux = collimator.getActiveRange(i,angle);
       if(aux.first<0) continue;
@@ -701,29 +701,38 @@ namespace imrt {
     }
     for(; j < max_apertures; j++){
       for(int k = 0; k < collimator.getXdim(); k++){
-        if(aperture_change) move = j;                                           //Usado solo cuando se mueven todas las particulas
+        if(aperture_change)
+          move = j;                                           //Usado solo cuando se mueven todas las particulas
         pair<int, int> activeRange = collimator.getActiveRange(k,angle);
         if (activeRange.first<0) continue;
         Veloc_Aperture[move][k].first = w*Veloc_Aperture[move][k].first + c1*r1*(A[move][k].first - Bpm[move][k].first) + c2*r2*(A[move][k].first - Bgm[move][k].first);
         Veloc_Aperture[move][k].second = w*Veloc_Aperture[move][k].second + c1*r1*(A[move][k].second - Bpm[move][k].second) + c2*r2*(A[move][k].second - Bgm[move][k].second);
-        /*if(Veloc_Aperture[move][k].first < -1) Veloc_Aperture[move][k].first = -1;
-        if(Veloc_Aperture[move][k].first > 1) Veloc_Aperture[move][k].first = 1;
-        if(Veloc_Aperture[move][k].second < -1) Veloc_Aperture[move][k].second = -1;
-        if(Veloc_Aperture[move][k].second > 1) Veloc_Aperture[move][k].second = 1;*/
+        if(Veloc_Aperture[move][k].first < -1)
+          Veloc_Aperture[move][k].first = -1;
+        if(Veloc_Aperture[move][k].first > 1)
+          Veloc_Aperture[move][k].first = 1;
+        if(Veloc_Aperture[move][k].second < -1)
+          Veloc_Aperture[move][k].second = -1;
+        if(Veloc_Aperture[move][k].second > 1)
+          Veloc_Aperture[move][k].second = 1;
       }
     }
-  }
+  };
 
 //Calculate the Position of the aperture Matrix
   void Station::position_aperture(){
-    int a = 0;
+    int ite = 0;
     last_iteration = I;
-    if(!aperture_change) a=max_apertures-1;                                     //Se realizara la iteración solo 1 vez
-    for(; a < max_apertures; a++){
+    if(!aperture_change)
+      ite=max_apertures-1;                                     //Se realizara la iteración solo 1 vez
+    for(; ite < max_apertures; ite++){
       for(int i = 0; i < collimator.getXdim(); i++){
-        if(aperture_change) move = a;
+        if(aperture_change)
+          move = ite;
         pair<int, int> activeRange = collimator.getActiveRange(i,angle);
+
         if (A[move][i].first < 0 || activeRange.first<0) continue;
+
         A[move][i].first = Veloc_Aperture[move][i].first + A[move][i].first;
         A[move][i].second = Veloc_Aperture[move][i].second + A[move][i].second;
 
@@ -733,14 +742,14 @@ namespace imrt {
           A[move][i].second = ceil(n);
           A[move][i].first = floor(n);
         }
-
-        if(A[move][i].first < activeRange.first || A[move][i].first > activeRange.second) A[move][i].first = activeRange.first;
-        if(A[move][i].second < activeRange.first || A[move][i].second > activeRange.second) A[move][i].second = activeRange.second;
-
+        if(A[move][i].first < activeRange.first || A[move][i].first > activeRange.second)
+          A[move][i].first = activeRange.first;
+        if(A[move][i].second < activeRange.first || A[move][i].second > activeRange.second)
+          A[move][i].second = activeRange.second;
       }
     }
     generateIntensity();
-  }
+  };
 
   //Calculate the Position of the Intensity Matrix
     void Station::calculateNewPosition(int max_intensity){
@@ -766,8 +775,8 @@ namespace imrt {
     vector<double> Bpm = BestP.getApertureIntensity();
     for(int a = 0; a < max_apertures ; a++){
       veloc_intensity[a] = w*veloc_intensity[a] + r1*c1*(intensity[a]-BestP.intensity[a]) + r2*c2*(intensity[a]-BestG.intensity[a]);
-    /*  if(veloc_intensity[a] < -1) veloc_intensity[a] = -1;
-      if(veloc_intensity[a] > 1) veloc_intensity[a] = 1; */
+      if(veloc_intensity[a] < -1) veloc_intensity[a] = -1;
+      if(veloc_intensity[a] > 1) veloc_intensity[a] = 1;
     }
     for(int a = 0; a < max_apertures ;a++) {
      intensity[a] = intensity[a]+veloc_intensity[a];
@@ -776,7 +785,6 @@ namespace imrt {
     }
 
   }
-
 
   list<pair<int,double>> Station::makeDiff(){
     list<pair<int,double>> diff;
@@ -792,13 +800,13 @@ namespace imrt {
     return diff;
   }
 
-  Matrix& Station::get_Velocity(){
+  Matrix& Station::get_VelocityMatrix(){
     return veloc;
   }
   Matrix& Station::get_Last(){
     return last_iteration;
   }
-  Matrix& Station::get_Intensity(){
+  Matrix& Station::get_IntensityMatrix(){
     return I;
   };
 
@@ -811,11 +819,11 @@ namespace imrt {
   };
 
 
-  void Station::set_Velocity(Matrix& newV){
+  void Station::set_VelocityMatrix(Matrix& newV){
     veloc = newV;
   };
 
-  void Station::set_Intensity(Matrix& newInten){
+  void Station::set_IntensityMatrix(Matrix& newInten){
     I = newInten;
   };
 
@@ -827,6 +835,20 @@ namespace imrt {
       for (int j=aux.first; j<=aux.second; j++) {
 	       I(i,j) += 1;
       }
+    }
+  }
+
+  void Station::IntensityMap(){
+    cout << "Angle: " << angle << endl;
+    for(int i=0; i<collimator.getXdim(); i++){
+        for(int j=0; j<collimator.getYdim(); j++){
+          if(I(i,j) != 0){
+            if(I(i,j) != -1){
+              int id = pos2beam[make_pair(i,j)];
+              cout << id << "," << I(i,j) << endl;
+            }
+          }
+        }
     }
   }
 

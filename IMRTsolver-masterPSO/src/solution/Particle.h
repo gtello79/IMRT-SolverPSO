@@ -61,6 +61,8 @@ namespace imrt{
 
         void calculateDeltaFitness();
 
+        
+
   };
 }
 #endif /*PARTICLE.H*/
